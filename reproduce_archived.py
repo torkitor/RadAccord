@@ -8,9 +8,6 @@ import sys
 
 ROOT = Path(__file__).resolve().parent
 sys.path.insert(0, str(ROOT/'software'))
-from benchmark import evaluate
-from validation_refinement import evaluate as evaluate_refinement
-from output_mutants import evaluate as evaluate_mutants
 
 
 def sha(path):
@@ -20,7 +17,31 @@ def sha(path):
     return h.hexdigest()
 
 
+def match_archive_newlines(source, target):
+    """Serialize generated line endings like the archive; preserve all other bytes.
+
+    Frozen writers use the host newline. Require a uniform LF or CRLF convention
+    and retain the subsequent literal SHA-256 comparison; do not parse, round,
+    reorder or otherwise normalize JSON content.
+    """
+    def convention(data):
+        crlf = data.count(b'\r\n')
+        if data.count(b'\r') != crlf or (crlf and data.count(b'\n') != crlf):
+            raise ValueError('Mixed or bare-CR line endings in a replay artifact')
+        return b'\r\n' if crlf else b'\n'
+
+    expected = convention(Path(source).read_bytes())
+    generated = Path(target).read_bytes()
+    actual = convention(generated)
+    if actual != expected:
+        Path(target).write_bytes(generated.replace(actual, expected))
+    return actual != expected
+
+
 def main(output):
+    from benchmark import evaluate
+    from validation_refinement import evaluate as evaluate_refinement
+    from output_mutants import evaluate as evaluate_mutants
     output = Path(output)
     output.mkdir(parents=True, exist_ok=False)
     checks = []
@@ -42,6 +63,7 @@ def main(output):
                 evaluate_mutants(target)
                 names += ['output_mutants.jsonl', 'output_mutants_summary.json']
         for name in names:
+            match_archive_newlines(source/name, target/name)
             identical = sha(source/name) == sha(target/name)
             checks.append({'run':run, 'file':name, 'byte_identical':identical})
             if not identical: raise AssertionError('Reproduced decision artifact differs: '+run+'/'+name)

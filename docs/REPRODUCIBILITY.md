@@ -39,7 +39,7 @@ From the repository root, with the core environment active:
 python -B reproduce_archived.py --output reproduced
 ```
 
-The destination must not exist. This verifies both scientific freeze manifests, copies the required archived records and recalculates development, initial and follow-up decisions, including the development output mutations. It compares ten generated files byte for byte and writes `reproduced/validation.json`. No large NIfTI volumes or native engines are required. It does not freshly inspect omitted images.
+The destination must not exist. This verifies both scientific freeze manifests, copies the required archived records and recalculates development, initial and follow-up decisions, including the development output mutations. It restores generated line endings to the archived LF or CRLF convention, then requires exact SHA-256 equality for all ten generated files and writes `reproduced/validation.json`. No numbers, JSON structure, whitespace or final terminators are otherwise changed; mixed line endings are rejected. No large NIfTI volumes or native engines are required. It does not freshly inspect omitted images.
 
 For the separate scalar audit, the following commands explicitly reuse the stored decoded-input audit after case/job-hash checks:
 
