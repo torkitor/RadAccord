@@ -1,0 +1,18 @@
+{
+  "schema_version": "1.0",
+  "frozen_at_utc": "2026-09-06T22:33:25.036Z",
+  "final_heldout_outcomes_read_by_specification_author": false,
+  "scientific_evaluation_executed_by_specification_author": false,
+  "fault_family_count": 8,
+  "files": [
+    {
+      "path": "work/heldout_faults_spec.json",
+      "sha256": "f74f6eb9e91cab3cca0a301546ae7908dd7ced03363a355765b91cfa26f7d452"
+    },
+    {
+      "path": "software/faultinjectors.py",
+      "sha256": "dc39c6d8f5f36c9eedafe12c6ea8e6f9f166ce7b17caf25289b8d3f29d362c94"
+    }
+  ],
+  "amendment_policy": "Keep frozen files unchanged; record later modifications with reasons and outcomes previously inspected."
+}

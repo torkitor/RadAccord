@@ -1,0 +1,64 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1280" height="640" viewBox="0 0 1280 640" role="img" aria-labelledby="title desc">
+<title id="title">RadAccord — physical consistency before feature reuse</title><desc id="desc">Research software identity. Source and candidate grids show a conceptual declared correspondence. Physical correspondence, conditional feature laws and absolute numerical anchors are complementary checks.</desc>
+<rect x="0" y="0" width="1280" height="640" fill="white" stroke="none" stroke-width="1"/>
+<text x="68" y="75" font-family="Arial, sans-serif" font-size="14" font-weight="700" fill="#5F6F9F" text-anchor="start">RESEARCH SOFTWARE</text>
+<text x="63" y="240" font-family="Arial, sans-serif" font-size="105" font-weight="400" fill="#222222" text-anchor="start">Rad</text>
+<text x="255.33333333333334" y="240" font-family="Arial, sans-serif" font-size="105" font-weight="400" fill="#5F6F9F" text-anchor="start">Accord</text>
+<text x="68" y="322" font-family="Arial, sans-serif" font-size="37" font-weight="400" fill="#222222" text-anchor="start">Physical consistency.</text>
+<text x="68" y="370" font-family="Arial, sans-serif" font-size="37" font-weight="400" fill="#222222" text-anchor="start">Before feature reuse.</text>
+<text x="805" y="188" font-family="Arial, sans-serif" font-size="12" font-weight="700" fill="#666A73" text-anchor="start">SOURCE</text>
+<rect x="805" y="210" width="130" height="130" fill="#F5F6F9" stroke="none" stroke-width="1"/>
+<rect x="857" y="288" width="26" height="26" fill="#5F6F9F" stroke="none" stroke-width="1"/>
+<rect x="831" y="262" width="26" height="26" fill="#5F6F9F" stroke="none" stroke-width="1"/>
+<rect x="857" y="236" width="26" height="26" fill="#5F6F9F" stroke="none" stroke-width="1"/>
+<rect x="857" y="262" width="26" height="26" fill="#5F6F9F" stroke="none" stroke-width="1"/>
+<rect x="831" y="236" width="26" height="26" fill="#5F6F9F" stroke="none" stroke-width="1"/>
+<rect x="883" y="262" width="26" height="26" fill="#5F6F9F" stroke="none" stroke-width="1"/>
+<polyline points="805,210 805,340" fill="none" stroke="#D9DDE7" stroke-width="1" stroke-linejoin="miter"/>
+<polyline points="805,210 935,210" fill="none" stroke="#D9DDE7" stroke-width="1" stroke-linejoin="miter"/>
+<polyline points="831,210 831,340" fill="none" stroke="#D9DDE7" stroke-width="1" stroke-linejoin="miter"/>
+<polyline points="805,236 935,236" fill="none" stroke="#D9DDE7" stroke-width="1" stroke-linejoin="miter"/>
+<polyline points="857,210 857,340" fill="none" stroke="#D9DDE7" stroke-width="1" stroke-linejoin="miter"/>
+<polyline points="805,262 935,262" fill="none" stroke="#D9DDE7" stroke-width="1" stroke-linejoin="miter"/>
+<polyline points="883,210 883,340" fill="none" stroke="#D9DDE7" stroke-width="1" stroke-linejoin="miter"/>
+<polyline points="805,288 935,288" fill="none" stroke="#D9DDE7" stroke-width="1" stroke-linejoin="miter"/>
+<polyline points="909,210 909,340" fill="none" stroke="#D9DDE7" stroke-width="1" stroke-linejoin="miter"/>
+<polyline points="805,314 935,314" fill="none" stroke="#D9DDE7" stroke-width="1" stroke-linejoin="miter"/>
+<polyline points="935,210 935,340" fill="none" stroke="#D9DDE7" stroke-width="1" stroke-linejoin="miter"/>
+<polyline points="805,340 935,340" fill="none" stroke="#D9DDE7" stroke-width="1" stroke-linejoin="miter"/>
+<rect x="805" y="210" width="130" height="130" fill="none" stroke="#5F6F9F" stroke-width="1"/>
+<text x="1069" y="188" font-family="Arial, sans-serif" font-size="12" font-weight="700" fill="#666A73" text-anchor="start">CANDIDATE</text>
+<rect x="1069" y="210" width="130" height="130" fill="#F5F6F9" stroke="none" stroke-width="1"/>
+<rect x="1121" y="288" width="26" height="26" fill="#5F6F9F" stroke="none" stroke-width="1"/>
+<rect x="1095" y="262" width="26" height="26" fill="#5F6F9F" stroke="none" stroke-width="1"/>
+<rect x="1121" y="236" width="26" height="26" fill="#5F6F9F" stroke="none" stroke-width="1"/>
+<rect x="1121" y="262" width="26" height="26" fill="#5F6F9F" stroke="none" stroke-width="1"/>
+<rect x="1095" y="236" width="26" height="26" fill="#5F6F9F" stroke="none" stroke-width="1"/>
+<rect x="1147" y="262" width="26" height="26" fill="#5F6F9F" stroke="none" stroke-width="1"/>
+<polyline points="1069,210 1069,340" fill="none" stroke="#D9DDE7" stroke-width="1" stroke-linejoin="miter"/>
+<polyline points="1069,210 1199,210" fill="none" stroke="#D9DDE7" stroke-width="1" stroke-linejoin="miter"/>
+<polyline points="1095,210 1095,340" fill="none" stroke="#D9DDE7" stroke-width="1" stroke-linejoin="miter"/>
+<polyline points="1069,236 1199,236" fill="none" stroke="#D9DDE7" stroke-width="1" stroke-linejoin="miter"/>
+<polyline points="1121,210 1121,340" fill="none" stroke="#D9DDE7" stroke-width="1" stroke-linejoin="miter"/>
+<polyline points="1069,262 1199,262" fill="none" stroke="#D9DDE7" stroke-width="1" stroke-linejoin="miter"/>
+<polyline points="1147,210 1147,340" fill="none" stroke="#D9DDE7" stroke-width="1" stroke-linejoin="miter"/>
+<polyline points="1069,288 1199,288" fill="none" stroke="#D9DDE7" stroke-width="1" stroke-linejoin="miter"/>
+<polyline points="1173,210 1173,340" fill="none" stroke="#D9DDE7" stroke-width="1" stroke-linejoin="miter"/>
+<polyline points="1069,314 1199,314" fill="none" stroke="#D9DDE7" stroke-width="1" stroke-linejoin="miter"/>
+<polyline points="1199,210 1199,340" fill="none" stroke="#D9DDE7" stroke-width="1" stroke-linejoin="miter"/>
+<polyline points="1069,340 1199,340" fill="none" stroke="#D9DDE7" stroke-width="1" stroke-linejoin="miter"/>
+<rect x="1069" y="210" width="130" height="130" fill="none" stroke="#5F6F9F" stroke-width="1"/>
+<polyline points="805,361 805,370 1069,370 1069,361" fill="none" stroke="#EE7F6D" stroke-width="1.5" stroke-linejoin="miter"/>
+<polyline points="1066,367 1069,361 1072,367" fill="none" stroke="#EE7F6D" stroke-width="1.5" stroke-linejoin="miter"/>
+<text x="1002.0" y="402" font-family="Arial, sans-serif" font-size="14" font-weight="400" fill="#666A73" text-anchor="middle">Declared correspondence</text>
+<polyline points="68,486 1212,486" fill="none" stroke="#D9DDE7" stroke-width="1" stroke-linejoin="miter"/>
+<text x="68" y="528" font-family="Arial, sans-serif" font-size="13" font-weight="700" fill="#5F6F9F" text-anchor="start">01</text>
+<text x="107" y="529" font-family="Arial, sans-serif" font-size="21" font-weight="400" fill="#222222" text-anchor="start">Physical</text>
+<text x="107" y="558" font-family="Arial, sans-serif" font-size="21" font-weight="400" fill="#222222" text-anchor="start">correspondence</text>
+<text x="466" y="528" font-family="Arial, sans-serif" font-size="13" font-weight="700" fill="#5F6F9F" text-anchor="start">02</text>
+<text x="505" y="529" font-family="Arial, sans-serif" font-size="21" font-weight="400" fill="#222222" text-anchor="start">Conditional</text>
+<text x="505" y="558" font-family="Arial, sans-serif" font-size="21" font-weight="400" fill="#222222" text-anchor="start">feature laws</text>
+<text x="864" y="528" font-family="Arial, sans-serif" font-size="13" font-weight="700" fill="#5F6F9F" text-anchor="start">03</text>
+<text x="903" y="529" font-family="Arial, sans-serif" font-size="21" font-weight="400" fill="#222222" text-anchor="start">Absolute</text>
+<text x="903" y="558" font-family="Arial, sans-serif" font-size="21" font-weight="400" fill="#222222" text-anchor="start">numerical anchors</text>
+</svg>

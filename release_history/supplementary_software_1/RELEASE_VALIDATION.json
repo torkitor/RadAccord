@@ -1,0 +1,139 @@
+{
+  "release": "1.0.0",
+  "archived_reproduction": {
+    "all_byte_identical": true,
+    "checks": [
+      {
+        "run": "development_final",
+        "file": "decisions.jsonl",
+        "byte_identical": true
+      },
+      {
+        "run": "development_final",
+        "file": "feature_diagnostics.jsonl",
+        "byte_identical": true
+      },
+      {
+        "run": "development_final",
+        "file": "summary.json",
+        "byte_identical": true
+      },
+      {
+        "run": "development_final",
+        "file": "output_mutants.jsonl",
+        "byte_identical": true
+      },
+      {
+        "run": "development_final",
+        "file": "output_mutants_summary.json",
+        "byte_identical": true
+      },
+      {
+        "run": "heldout",
+        "file": "decisions.jsonl",
+        "byte_identical": true
+      },
+      {
+        "run": "heldout",
+        "file": "feature_diagnostics.jsonl",
+        "byte_identical": true
+      },
+      {
+        "run": "heldout",
+        "file": "summary.json",
+        "byte_identical": true
+      },
+      {
+        "run": "refinement",
+        "file": "pyradiomics_refined_decisions.jsonl",
+        "byte_identical": true
+      },
+      {
+        "run": "refinement",
+        "file": "pyradiomics_refined_summary.json",
+        "byte_identical": true
+      }
+    ],
+    "scope": "Archived comparison arithmetic only. No input image regeneration, native extraction or fresh physical witness validation is performed."
+  },
+  "packaged_unit_tests": {
+    "run_from_packaged_software": true,
+    "tests_run": 25,
+    "failures": 0,
+    "errors": 0,
+    "seconds": 30.247
+  },
+  "packaged_native_cli_examples": {
+    "valid_reindex_exit_code": 0,
+    "origin_fault_exit_code": 1,
+    "withheld_initial_obligations_retained": 4,
+    "native_feature_values_match_archived_examples": true,
+    "origin_fault_relations_and_anchors_satisfied_while_witness_violated": true
+  },
+  "both_frozen_hash_manifests_match": true,
+  "packaged_software_identical_to_source": true,
+  "archive_result_files_byte_identical_to_originals": [
+    "work/development_final/cases.jsonl",
+    "work/development_final/decisions.jsonl",
+    "work/development_final/feature_diagnostics.jsonl",
+    "work/development_final/input_manifest.json",
+    "work/development_final/jobs.jsonl",
+    "work/development_final/mirp.jsonl",
+    "work/development_final/mirp_environment.json",
+    "work/development_final/mirp_run.json",
+    "work/development_final/output_mutants.jsonl",
+    "work/development_final/output_mutants_summary.json",
+    "work/development_final/pyradiomics.jsonl",
+    "work/development_final/pyradiomics_environment.json",
+    "work/development_final/pyradiomics_run.json",
+    "work/development_final/summary.json",
+    "work/heldout/cases.jsonl",
+    "work/heldout/decisions.jsonl",
+    "work/heldout/feature_diagnostics.jsonl",
+    "work/heldout/input_manifest.json",
+    "work/heldout/jobs.jsonl",
+    "work/heldout/mirp.jsonl",
+    "work/heldout/mirp_environment.json",
+    "work/heldout/mirp_run.json",
+    "work/heldout/pyradiomics.jsonl",
+    "work/heldout/pyradiomics_environment.json",
+    "work/heldout/pyradiomics_run.json",
+    "work/heldout/summary.json",
+    "work/refinement/cases.jsonl",
+    "work/refinement/input_manifest.json",
+    "work/refinement/jobs.jsonl",
+    "work/refinement/pyradiomics.jsonl",
+    "work/refinement/pyradiomics_environment.json",
+    "work/refinement/pyradiomics_refined_decisions.jsonl",
+    "work/refinement/pyradiomics_refined_summary.json",
+    "work/refinement/pyradiomics_run.json"
+  ],
+  "python_files_parse": 20,
+  "large_input_regeneration_not_repeated_during_packaging": true,
+  "six_small_example_nifti_headers": [
+    {
+      "file": "software/examples/origin_fault_image.nii.gz",
+      "text_header_fields_empty": true
+    },
+    {
+      "file": "software/examples/origin_fault_mask.nii.gz",
+      "text_header_fields_empty": true
+    },
+    {
+      "file": "software/examples/source_image.nii.gz",
+      "text_header_fields_empty": true
+    },
+    {
+      "file": "software/examples/source_mask.nii.gz",
+      "text_header_fields_empty": true
+    },
+    {
+      "file": "software/examples/valid_reindex_image.nii.gz",
+      "text_header_fields_empty": true
+    },
+    {
+      "file": "software/examples/valid_reindex_mask.nii.gz",
+      "text_header_fields_empty": true
+    }
+  ]
+}

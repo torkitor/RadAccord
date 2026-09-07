@@ -1,0 +1,10 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="640" height="160" viewBox="0 0 640 160" role="img" aria-labelledby="title desc">
+<title id="title">RadAccord wordmark</title><desc id="desc">RadAccord, with a paired-coordinate-frame symbol.</desc>
+<rect x="27.671875" y="44.515625" width="77.0" height="77.0" fill="none" stroke="#5F6F9F" stroke-width="6.015625"/>
+<rect x="49.328125" y="22.859375" width="77.0" height="77.0" fill="none" stroke="#EE7F6D" stroke-width="6.015625"/>
+<polyline points="66.171875,83.015625 87.828125,61.359375" fill="none" stroke="#222222" stroke-width="2.40625" stroke-linejoin="miter"/>
+<circle cx="66.171875" cy="83.015625" r="4.8125" fill="#5F6F9F"/>
+<circle cx="87.828125" cy="61.359375" r="4.8125" fill="#EE7F6D"/>
+<text x="178" y="113" font-family="Arial, sans-serif" font-size="85" font-weight="400" fill="#222222" text-anchor="start">Rad</text>
+<text x="334.0" y="113" font-family="Arial, sans-serif" font-size="85" font-weight="400" fill="#5F6F9F" text-anchor="start">Accord</text>
+</svg>

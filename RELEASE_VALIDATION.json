@@ -1,0 +1,187 @@
+{
+  "software": "RadAccord",
+  "version": "1.0.0",
+  "date": "2026-09-07",
+  "distribution": "GitHub repository preparation",
+  "publication_status": "Prepared locally; remote repository and release not published by this preparation.",
+  "intended_repository": "https://github.com/torkitor/RadAccord",
+  "scientific_archive": {
+    "file": "data/RadAccord-1.0.0.zip",
+    "sha256": "43ff30b546e1904b1f119c6349747d3e6289b273f2b4ee18c80dc57d0b2970bd",
+    "preserved_byte_for_byte": true,
+    "original_file_count": 113
+  },
+  "scientific_freezes": [
+    {
+      "manifest": "software/protocol/final_freeze.json",
+      "files_verified": 16
+    },
+    {
+      "manifest": "software/protocol/refinement_freeze.json",
+      "files_verified": 19
+    }
+  ],
+  "scientific_results": "All 59 original study JSON/JSONL records remain byte-identical in the bundled scientific archive. Twenty large JSONL records are restored on demand; all other JSON records remain browsable.",
+  "frozen_scientific_code_modified": false,
+  "original_files_with_presentation_or_documentation_changes": [
+    "CITATION.cff",
+    "README.md",
+    "software/REPRODUCIBILITY.md",
+    "USAGE.md"
+  ],
+  "historical_root_validation": "release_history/radaccord_1_0_0",
+  "local_environment": {
+    "system": "Windows",
+    "python": "3.11.9",
+    "packages": {
+      "numpy": "2.2.6",
+      "nibabel": "5.3.3",
+      "SimpleITK": "2.5.3",
+      "packaging": "26.3",
+      "typing_extensions": "4.16.0",
+      "importlib_resources": "7.1.0"
+    }
+  },
+  "local_checks": {
+    "scientific_tests": {
+      "passed": 25,
+      "failed": 0,
+      "skipped": 0,
+      "seconds": 33.918,
+      "command": "python -B -m unittest discover -s tests -v",
+      "working_directory": "software"
+    },
+    "release_tool_tests": {
+      "passed": 12,
+      "failed": 0,
+      "skipped": 0,
+      "seconds": 0.138,
+      "command": "python -B -m unittest discover -s scripts/tests -v"
+    },
+    "demo": {
+      "passed": true,
+      "command": "python -B scripts/demo.py",
+      "valid_reindex": {
+        "status": "satisfied",
+        "max_corner_error_mm": 4.2700602780316664e-06,
+        "max_intensity_error": 0.0,
+        "position": true,
+        "intensity": true,
+        "roi": true
+      },
+      "origin_fault": {
+        "status": "violated",
+        "max_corner_error_mm": 1.4668418158925047,
+        "max_intensity_error": 0.0,
+        "position": false,
+        "intensity": true,
+        "roi": true
+      },
+      "native_extraction_performed": false
+    },
+    "record_restoration": {
+      "verified_records": 20,
+      "first_restored": 20,
+      "first_already_present": 0,
+      "second_restored": 0,
+      "second_already_present": 20,
+      "archive_sha256": "43ff30b546e1904b1f119c6349747d3e6289b273f2b4ee18c80dc57d0b2970bd"
+    },
+    "reproduction": {
+      "all_byte_identical": true,
+      "checks": [
+        {
+          "run": "development_final",
+          "file": "decisions.jsonl",
+          "byte_identical": true
+        },
+        {
+          "run": "development_final",
+          "file": "feature_diagnostics.jsonl",
+          "byte_identical": true
+        },
+        {
+          "run": "development_final",
+          "file": "summary.json",
+          "byte_identical": true
+        },
+        {
+          "run": "development_final",
+          "file": "output_mutants.jsonl",
+          "byte_identical": true
+        },
+        {
+          "run": "development_final",
+          "file": "output_mutants_summary.json",
+          "byte_identical": true
+        },
+        {
+          "run": "heldout",
+          "file": "decisions.jsonl",
+          "byte_identical": true
+        },
+        {
+          "run": "heldout",
+          "file": "feature_diagnostics.jsonl",
+          "byte_identical": true
+        },
+        {
+          "run": "heldout",
+          "file": "summary.json",
+          "byte_identical": true
+        },
+        {
+          "run": "refinement",
+          "file": "pyradiomics_refined_decisions.jsonl",
+          "byte_identical": true
+        },
+        {
+          "run": "refinement",
+          "file": "pyradiomics_refined_summary.json",
+          "byte_identical": true
+        }
+      ],
+      "scope": "Archived comparison arithmetic only. No input image regeneration, native extraction or fresh physical witness validation is performed."
+    }
+  },
+  "workflow_configuration": {
+    "yaml_parsed": true,
+    "matrix": [
+      "ubuntu-latest",
+      "windows-latest"
+    ],
+    "python": "3.11",
+    "permissions": {
+      "contents": "read"
+    },
+    "triggers": [
+      "push",
+      "pull_request",
+      "workflow_dispatch"
+    ],
+    "full_sha_pins_verified_against_official_repositories": true,
+    "actions": {
+      "actions/checkout": {
+        "version": "v7.0.1",
+        "sha": "3d3c42e5aac5ba805825da76410c181273ba90b1",
+        "source": "https://github.com/actions/checkout/releases/tag/v7.0.1"
+      },
+      "actions/setup-python": {
+        "version": "v7.0.0",
+        "sha": "5fda3b95a4ea91299a34e894583c3862153e4b97",
+        "source": "https://github.com/actions/setup-python/releases/tag/v7.0.0"
+      }
+    }
+  },
+  "not_executed": [
+    "Linux runner",
+    "GitHub Actions remote workflow"
+  ],
+  "citation_schema": "CFF 1.2.0; validated against the official schema.",
+  "visual_review": "Hero, social preview and checks diagram inspected; README rendered locally with pending-state preview tokens for remote widgets.",
+  "privacy_review": {
+    "findings": [],
+    "scope": "Public repository text patterns and image metadata; the bundled scientific archive is byte-identical to the previously reviewed archive. Academic author identity and AI-assistance disclosure are intentionally retained."
+  },
+  "integrity": "MANIFEST.sha256 binds this repository snapshot, excluding itself. Run python -B scripts/check_release.py. Local verification records are not remote CI results or proof of clinical validity."
+}

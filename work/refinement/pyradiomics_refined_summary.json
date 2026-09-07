@@ -1,0 +1,52 @@
+{
+  "covariant": {
+    "attempted": 128,
+    "analysable": 128,
+    "unavailable": 0,
+    "initial_relation_violations": 0,
+    "revised_relation_violations": 0,
+    "witness_violations": 0,
+    "anchor_violations": 0,
+    "full_violations": 0
+  },
+  "equivalent": {
+    "attempted": 1600,
+    "analysable": 1598,
+    "unavailable": 2,
+    "initial_relation_violations": 384,
+    "revised_relation_violations": 0,
+    "witness_violations": 0,
+    "anchor_violations": 0,
+    "full_violations": 0
+  },
+  "fault": {
+    "attempted": 256,
+    "analysable": 256,
+    "unavailable": 0,
+    "initial_relation_violations": 192,
+    "revised_relation_violations": 192,
+    "witness_violations": 256,
+    "anchor_violations": 160,
+    "full_violations": 256
+  },
+  "not_applicable": {
+    "attempted": 32,
+    "analysable": 32,
+    "unavailable": 0,
+    "initial_relation_violations": 0,
+    "revised_relation_violations": 0,
+    "witness_violations": 0,
+    "anchor_violations": 0,
+    "full_violations": 0
+  },
+  "reference": {
+    "attempted": 32,
+    "analysable": 32,
+    "unavailable": 0,
+    "initial_relation_violations": 0,
+    "revised_relation_violations": 0,
+    "witness_violations": 0,
+    "anchor_violations": 0,
+    "full_violations": 0
+  }
+}

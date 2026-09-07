@@ -1,0 +1,20 @@
+{
+  "seeds": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7,
+    8,
+    9,
+    10,
+    11
+  ],
+  "heldout": false,
+  "cases": 672,
+  "jobs_per_engine": 672,
+  "cases_sha256": "52aaf83326a9087a4927c10918759d96058019aee99bc22d8f2bd9a9139c77e0"
+}

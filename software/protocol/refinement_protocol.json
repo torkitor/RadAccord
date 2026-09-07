@@ -1,0 +1,15 @@
+{
+  "title": "Targeted follow-up of a revised reindexing acceptance profile",
+  "context": "The initial 64-phantom challenge yielded36 PyRadiomics reindexing alerts in one correctly transported phantom. Original frozen software, thresholds, outputs and decisions remain unchanged.",
+  "revision": "For reindexing only, PyRadiomics MeshVolume, SurfaceArea, SurfaceVolumeRatio and Sphericity are not assigned in the revised acceptance profile. Initial diagnostic comparisons and values remain visible. Their geometric definitions are invariant; this scope restriction does not claim mathematical non-invariance or establish an upstream defect.",
+  "unchanged": ["physical witness", "six independent anchors", "all numerical tolerances", "spatial scaling laws", "intensity laws", "MIRP profile", "original raw measurements"],
+  "new_seeds": {"first": 2000, "last": 2031, "count": 32},
+  "fixtures": "Even seeds use the original generator. Odd seeds add two diagonal selected voxels at[1,1,1]and[2,2,1]in a verified background2x2x2patch to enrich the sample with an alternating binary face. This mutation is the intended source of those follow-up phantoms, not an injected transport error.",
+  "engine": "PyRadiomics3.0.1, the implementation whose acceptance profile was revised",
+  "per_seed_design": "The same50equivalent representations,4physicalchanges,1changed-bin control,8known input faults and one extra repeat per fault, plus source reference",
+  "planned_cases": 2048,
+  "planned_native_jobs": 2304,
+  "analysis": "Report original and revised relation decisions side by side, with retained aborts and inactive cases; report natural and enriched fixtures separately. This is a new-input follow-up after revision. The eight mechanisms and the profile restriction are already known; it is not validation against unseen fault families.",
+  "claims": "Evaluate control-alert burden, retained transport-fault detection and explicit abstention; do not infer clinical sensitivity, universal mesh invariance or validation of the withheld features.",
+  "freeze": "Timestamp and SHA256 must be recorded before generating or reading the follow-up outcomes. The initial frozen checksums must remain valid."
+}

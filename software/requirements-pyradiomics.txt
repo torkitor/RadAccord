@@ -1,0 +1,4 @@
+# Tested with Python 3.10.11 in a separate environment.
+numpy==1.23.5
+SimpleITK==2.2.1
+pyradiomics==3.0.1

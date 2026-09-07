@@ -1,0 +1,8 @@
+# Preserve the exact bytes bound by the scientific freeze manifests.
+* -text
+*.png binary
+*.zip binary
+*.nii.gz binary
+work/**/*.json linguist-generated=true
+release_history/** linguist-generated=true
+docs/assets/*.svg linguist-generated=true

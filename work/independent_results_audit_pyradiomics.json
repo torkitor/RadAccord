@@ -1,0 +1,1092 @@
+{
+  "engine": "pyradiomics",
+  "checks_passed": true,
+  "cases": 4096,
+  "native_jobs": 4608,
+  "duplicate_or_missing_case_job_output_ids": false,
+  "frozen_hashes_unchanged": true,
+  "case_manifest_hash_matches": true,
+  "input_audit_reused": true,
+  "activation_not_applicable": 0,
+  "boundary_errors": 0,
+  "groups": {
+    "reference": {
+      "cases": 64,
+      "native_failure": 0,
+      "schema_failure": 0,
+      "geometry_violation": 0,
+      "witness_violation": 0,
+      "conditional_violation": 0,
+      "anchor_violation": 0,
+      "naive_invariance_violation": 0,
+      "full_violation": 0,
+      "conditional_assessed_features": 4416,
+      "conditional_abstained_features": 192
+    },
+    "equivalent": {
+      "cases": 3200,
+      "native_failure": 0,
+      "schema_failure": 0,
+      "geometry_violation": 0,
+      "witness_violation": 0,
+      "conditional_violation": 36,
+      "anchor_violation": 0,
+      "naive_invariance_violation": 36,
+      "full_violation": 36,
+      "conditional_assessed_features": 220800,
+      "conditional_abstained_features": 9600
+    },
+    "covariant": {
+      "cases": 256,
+      "native_failure": 0,
+      "schema_failure": 0,
+      "geometry_violation": 0,
+      "witness_violation": 0,
+      "conditional_violation": 0,
+      "anchor_violation": 0,
+      "naive_invariance_violation": 256,
+      "full_violation": 0,
+      "conditional_assessed_features": 2560,
+      "conditional_abstained_features": 15872
+    },
+    "not_applicable": {
+      "cases": 64,
+      "native_failure": 0,
+      "schema_failure": 0,
+      "geometry_violation": 0,
+      "witness_violation": 0,
+      "conditional_violation": 0,
+      "anchor_violation": 0,
+      "naive_invariance_violation": 64,
+      "full_violation": 0,
+      "conditional_assessed_features": 0,
+      "conditional_abstained_features": 4608
+    },
+    "fault": {
+      "cases": 512,
+      "native_failure": 0,
+      "schema_failure": 0,
+      "geometry_violation": 0,
+      "witness_violation": 512,
+      "conditional_violation": 384,
+      "anchor_violation": 320,
+      "naive_invariance_violation": 384,
+      "repeat_violation": 0,
+      "repeat_numeric_identity": 512,
+      "full_violation": 512,
+      "conditional_assessed_features": 35328,
+      "conditional_abstained_features": 1536
+    }
+  },
+  "fault_families": {
+    "H01_reverse_image_slice_stack": {
+      "cases": 64,
+      "native_failure": 0,
+      "schema_failure": 0,
+      "geometry_violation": 0,
+      "witness_violation": 64,
+      "conditional_violation": 64,
+      "anchor_violation": 64,
+      "naive_invariance_violation": 64,
+      "repeat_violation": 0,
+      "repeat_numeric_identity": 64,
+      "full_violation": 64,
+      "conditional_assessed_features": 4416,
+      "conditional_abstained_features": 192
+    },
+    "H02_misread_contiguous_order": {
+      "cases": 64,
+      "native_failure": 0,
+      "schema_failure": 0,
+      "geometry_violation": 0,
+      "witness_violation": 64,
+      "conditional_violation": 64,
+      "anchor_violation": 0,
+      "naive_invariance_violation": 64,
+      "repeat_violation": 0,
+      "repeat_numeric_identity": 64,
+      "full_violation": 64,
+      "conditional_assessed_features": 4416,
+      "conditional_abstained_features": 192
+    },
+    "H03_roi_index_off_by_one": {
+      "cases": 64,
+      "native_failure": 0,
+      "schema_failure": 0,
+      "geometry_violation": 0,
+      "witness_violation": 64,
+      "conditional_violation": 64,
+      "anchor_violation": 64,
+      "naive_invariance_violation": 64,
+      "repeat_violation": 0,
+      "repeat_numeric_identity": 64,
+      "full_violation": 64,
+      "conditional_assessed_features": 4416,
+      "conditional_abstained_features": 192
+    },
+    "H04_linear_mask_then_integer_cast": {
+      "cases": 64,
+      "native_failure": 0,
+      "schema_failure": 0,
+      "geometry_violation": 0,
+      "witness_violation": 64,
+      "conditional_violation": 64,
+      "anchor_violation": 64,
+      "naive_invariance_violation": 64,
+      "repeat_violation": 0,
+      "repeat_numeric_identity": 64,
+      "full_violation": 64,
+      "conditional_assessed_features": 4416,
+      "conditional_abstained_features": 192
+    },
+    "H05_transpose_direction_matrix": {
+      "cases": 64,
+      "native_failure": 0,
+      "schema_failure": 0,
+      "geometry_violation": 0,
+      "witness_violation": 64,
+      "conditional_violation": 0,
+      "anchor_violation": 0,
+      "naive_invariance_violation": 0,
+      "repeat_violation": 0,
+      "repeat_numeric_identity": 64,
+      "full_violation": 64,
+      "conditional_assessed_features": 4416,
+      "conditional_abstained_features": 192
+    },
+    "H06_corner_centre_origin_confusion": {
+      "cases": 64,
+      "native_failure": 0,
+      "schema_failure": 0,
+      "geometry_violation": 0,
+      "witness_violation": 64,
+      "conditional_violation": 0,
+      "anchor_violation": 0,
+      "naive_invariance_violation": 0,
+      "repeat_violation": 0,
+      "repeat_numeric_identity": 64,
+      "full_violation": 64,
+      "conditional_assessed_features": 4416,
+      "conditional_abstained_features": 192
+    },
+    "H07_intercept_before_slope": {
+      "cases": 64,
+      "native_failure": 0,
+      "schema_failure": 0,
+      "geometry_violation": 0,
+      "witness_violation": 64,
+      "conditional_violation": 64,
+      "anchor_violation": 64,
+      "naive_invariance_violation": 64,
+      "repeat_violation": 0,
+      "repeat_numeric_identity": 64,
+      "full_violation": 64,
+      "conditional_assessed_features": 4416,
+      "conditional_abstained_features": 192
+    },
+    "H08_premature_integer_buffer": {
+      "cases": 64,
+      "native_failure": 0,
+      "schema_failure": 0,
+      "geometry_violation": 0,
+      "witness_violation": 64,
+      "conditional_violation": 64,
+      "anchor_violation": 64,
+      "naive_invariance_violation": 64,
+      "repeat_violation": 0,
+      "repeat_numeric_identity": 64,
+      "full_violation": 64,
+      "conditional_assessed_features": 4416,
+      "conditional_abstained_features": 192
+    }
+  },
+  "correctly_transported_case_alerts": [
+    {
+      "job_id": "1026_R01",
+      "seed": 1026,
+      "group": "equivalent",
+      "violated_features": [
+        "original_shape_MeshVolume",
+        "original_shape_Sphericity",
+        "original_shape_SurfaceArea",
+        "original_shape_SurfaceVolumeRatio"
+      ],
+      "worst": {
+        "scaled_error": 0.0011089369255454244,
+        "job_id": "1026_R01",
+        "feature": "original_shape_SurfaceArea",
+        "actual": 1773.2036678592674,
+        "expected": 1771.2394750014546
+      },
+      "witness_violation": false,
+      "anchor_violation": false
+    },
+    {
+      "job_id": "1026_R02",
+      "seed": 1026,
+      "group": "equivalent",
+      "violated_features": [
+        "original_shape_MeshVolume",
+        "original_shape_Sphericity",
+        "original_shape_SurfaceArea",
+        "original_shape_SurfaceVolumeRatio"
+      ],
+      "worst": {
+        "scaled_error": 0.001108936925542472,
+        "job_id": "1026_R02",
+        "feature": "original_shape_SurfaceArea",
+        "actual": 1773.2036678592622,
+        "expected": 1771.2394750014546
+      },
+      "witness_violation": false,
+      "anchor_violation": false
+    },
+    {
+      "job_id": "1026_R03",
+      "seed": 1026,
+      "group": "equivalent",
+      "violated_features": [
+        "original_shape_MeshVolume",
+        "original_shape_Sphericity",
+        "original_shape_SurfaceVolumeRatio"
+      ],
+      "worst": {
+        "scaled_error": 0.001428412007591292,
+        "job_id": "1026_R03",
+        "feature": "original_shape_MeshVolume",
+        "actual": 5083.687679849118,
+        "expected": 5090.959667768721
+      },
+      "witness_violation": false,
+      "anchor_violation": false
+    },
+    {
+      "job_id": "1026_R04",
+      "seed": 1026,
+      "group": "equivalent",
+      "violated_features": [
+        "original_shape_MeshVolume",
+        "original_shape_Sphericity",
+        "original_shape_SurfaceArea",
+        "original_shape_SurfaceVolumeRatio"
+      ],
+      "worst": {
+        "scaled_error": 0.0011089369255420868,
+        "job_id": "1026_R04",
+        "feature": "original_shape_SurfaceArea",
+        "actual": 1773.2036678592615,
+        "expected": 1771.2394750014546
+      },
+      "witness_violation": false,
+      "anchor_violation": false
+    },
+    {
+      "job_id": "1026_R06",
+      "seed": 1026,
+      "group": "equivalent",
+      "violated_features": [
+        "original_shape_MeshVolume",
+        "original_shape_Sphericity",
+        "original_shape_SurfaceVolumeRatio"
+      ],
+      "worst": {
+        "scaled_error": 0.0014284120075882551,
+        "job_id": "1026_R06",
+        "feature": "original_shape_MeshVolume",
+        "actual": 5083.687679849133,
+        "expected": 5090.959667768721
+      },
+      "witness_violation": false,
+      "anchor_violation": false
+    },
+    {
+      "job_id": "1026_R07",
+      "seed": 1026,
+      "group": "equivalent",
+      "violated_features": [
+        "original_shape_MeshVolume",
+        "original_shape_Sphericity",
+        "original_shape_SurfaceArea",
+        "original_shape_SurfaceVolumeRatio"
+      ],
+      "worst": {
+        "scaled_error": 0.0011089369255455528,
+        "job_id": "1026_R07",
+        "feature": "original_shape_SurfaceArea",
+        "actual": 1773.2036678592676,
+        "expected": 1771.2394750014546
+      },
+      "witness_violation": false,
+      "anchor_violation": false
+    },
+    {
+      "job_id": "1026_R09",
+      "seed": 1026,
+      "group": "equivalent",
+      "violated_features": [
+        "original_shape_MeshVolume",
+        "original_shape_Sphericity",
+        "original_shape_SurfaceArea",
+        "original_shape_SurfaceVolumeRatio"
+      ],
+      "worst": {
+        "scaled_error": 0.0011089369255454244,
+        "job_id": "1026_R09",
+        "feature": "original_shape_SurfaceArea",
+        "actual": 1773.2036678592674,
+        "expected": 1771.2394750014546
+      },
+      "witness_violation": false,
+      "anchor_violation": false
+    },
+    {
+      "job_id": "1026_R10",
+      "seed": 1026,
+      "group": "equivalent",
+      "violated_features": [
+        "original_shape_MeshVolume",
+        "original_shape_Sphericity",
+        "original_shape_SurfaceArea",
+        "original_shape_SurfaceVolumeRatio"
+      ],
+      "worst": {
+        "scaled_error": 0.0011089369255436272,
+        "job_id": "1026_R10",
+        "feature": "original_shape_SurfaceArea",
+        "actual": 1773.2036678592642,
+        "expected": 1771.2394750014546
+      },
+      "witness_violation": false,
+      "anchor_violation": false
+    },
+    {
+      "job_id": "1026_R11",
+      "seed": 1026,
+      "group": "equivalent",
+      "violated_features": [
+        "original_shape_MeshVolume",
+        "original_shape_Sphericity",
+        "original_shape_SurfaceVolumeRatio"
+      ],
+      "worst": {
+        "scaled_error": 0.0014284120075884336,
+        "job_id": "1026_R11",
+        "feature": "original_shape_MeshVolume",
+        "actual": 5083.687679849132,
+        "expected": 5090.959667768721
+      },
+      "witness_violation": false,
+      "anchor_violation": false
+    },
+    {
+      "job_id": "1026_R12",
+      "seed": 1026,
+      "group": "equivalent",
+      "violated_features": [
+        "original_shape_MeshVolume",
+        "original_shape_Sphericity",
+        "original_shape_SurfaceArea",
+        "original_shape_SurfaceVolumeRatio"
+      ],
+      "worst": {
+        "scaled_error": 0.001108936925542857,
+        "job_id": "1026_R12",
+        "feature": "original_shape_SurfaceArea",
+        "actual": 1773.2036678592629,
+        "expected": 1771.2394750014546
+      },
+      "witness_violation": false,
+      "anchor_violation": false
+    },
+    {
+      "job_id": "1026_R13",
+      "seed": 1026,
+      "group": "equivalent",
+      "violated_features": [
+        "original_shape_MeshVolume",
+        "original_shape_Sphericity",
+        "original_shape_SurfaceVolumeRatio"
+      ],
+      "worst": {
+        "scaled_error": 0.0014284120075903988,
+        "job_id": "1026_R13",
+        "feature": "original_shape_MeshVolume",
+        "actual": 5083.687679849122,
+        "expected": 5090.959667768721
+      },
+      "witness_violation": false,
+      "anchor_violation": false
+    },
+    {
+      "job_id": "1026_R15",
+      "seed": 1026,
+      "group": "equivalent",
+      "violated_features": [
+        "original_shape_MeshVolume",
+        "original_shape_Sphericity",
+        "original_shape_SurfaceArea",
+        "original_shape_SurfaceVolumeRatio"
+      ],
+      "worst": {
+        "scaled_error": 0.0011089369255459379,
+        "job_id": "1026_R15",
+        "feature": "original_shape_SurfaceArea",
+        "actual": 1773.2036678592683,
+        "expected": 1771.2394750014546
+      },
+      "witness_violation": false,
+      "anchor_violation": false
+    },
+    {
+      "job_id": "1026_R17",
+      "seed": 1026,
+      "group": "equivalent",
+      "violated_features": [
+        "original_shape_MeshVolume",
+        "original_shape_Sphericity",
+        "original_shape_SurfaceArea",
+        "original_shape_SurfaceVolumeRatio"
+      ],
+      "worst": {
+        "scaled_error": 0.0011089369255445258,
+        "job_id": "1026_R17",
+        "feature": "original_shape_SurfaceArea",
+        "actual": 1773.2036678592658,
+        "expected": 1771.2394750014546
+      },
+      "witness_violation": false,
+      "anchor_violation": false
+    },
+    {
+      "job_id": "1026_R18",
+      "seed": 1026,
+      "group": "equivalent",
+      "violated_features": [
+        "original_shape_MeshVolume",
+        "original_shape_Sphericity",
+        "original_shape_SurfaceArea",
+        "original_shape_SurfaceVolumeRatio"
+      ],
+      "worst": {
+        "scaled_error": 0.0011089369255423435,
+        "job_id": "1026_R18",
+        "feature": "original_shape_SurfaceArea",
+        "actual": 1773.203667859262,
+        "expected": 1771.2394750014546
+      },
+      "witness_violation": false,
+      "anchor_violation": false
+    },
+    {
+      "job_id": "1026_R20",
+      "seed": 1026,
+      "group": "equivalent",
+      "violated_features": [
+        "original_shape_MeshVolume",
+        "original_shape_Sphericity",
+        "original_shape_SurfaceArea",
+        "original_shape_SurfaceVolumeRatio"
+      ],
+      "worst": {
+        "scaled_error": 0.001108936925542472,
+        "job_id": "1026_R20",
+        "feature": "original_shape_SurfaceArea",
+        "actual": 1773.2036678592622,
+        "expected": 1771.2394750014546
+      },
+      "witness_violation": false,
+      "anchor_violation": false
+    },
+    {
+      "job_id": "1026_R21",
+      "seed": 1026,
+      "group": "equivalent",
+      "violated_features": [
+        "original_shape_MeshVolume",
+        "original_shape_Sphericity",
+        "original_shape_SurfaceVolumeRatio"
+      ],
+      "worst": {
+        "scaled_error": 0.0014284120075902201,
+        "job_id": "1026_R21",
+        "feature": "original_shape_MeshVolume",
+        "actual": 5083.687679849123,
+        "expected": 5090.959667768721
+      },
+      "witness_violation": false,
+      "anchor_violation": false
+    },
+    {
+      "job_id": "1026_R22",
+      "seed": 1026,
+      "group": "equivalent",
+      "violated_features": [
+        "original_shape_MeshVolume",
+        "original_shape_Sphericity",
+        "original_shape_SurfaceVolumeRatio"
+      ],
+      "worst": {
+        "scaled_error": 0.0014284120075882551,
+        "job_id": "1026_R22",
+        "feature": "original_shape_MeshVolume",
+        "actual": 5083.687679849133,
+        "expected": 5090.959667768721
+      },
+      "witness_violation": false,
+      "anchor_violation": false
+    },
+    {
+      "job_id": "1026_R23",
+      "seed": 1026,
+      "group": "equivalent",
+      "violated_features": [
+        "original_shape_MeshVolume",
+        "original_shape_Sphericity",
+        "original_shape_SurfaceArea",
+        "original_shape_SurfaceVolumeRatio"
+      ],
+      "worst": {
+        "scaled_error": 0.0011089369255450393,
+        "job_id": "1026_R23",
+        "feature": "original_shape_SurfaceArea",
+        "actual": 1773.2036678592667,
+        "expected": 1771.2394750014546
+      },
+      "witness_violation": false,
+      "anchor_violation": false
+    },
+    {
+      "job_id": "1026_R25",
+      "seed": 1026,
+      "group": "equivalent",
+      "violated_features": [
+        "original_shape_MeshVolume",
+        "original_shape_Sphericity",
+        "original_shape_SurfaceArea",
+        "original_shape_SurfaceVolumeRatio"
+      ],
+      "worst": {
+        "scaled_error": 0.0011089369255510727,
+        "job_id": "1026_R25",
+        "feature": "original_shape_SurfaceArea",
+        "actual": 1773.2036678592774,
+        "expected": 1771.2394750014546
+      },
+      "witness_violation": false,
+      "anchor_violation": false
+    },
+    {
+      "job_id": "1026_R26",
+      "seed": 1026,
+      "group": "equivalent",
+      "violated_features": [
+        "original_shape_MeshVolume",
+        "original_shape_Sphericity",
+        "original_shape_SurfaceArea",
+        "original_shape_SurfaceVolumeRatio"
+      ],
+      "worst": {
+        "scaled_error": 0.0011089369255533833,
+        "job_id": "1026_R26",
+        "feature": "original_shape_SurfaceArea",
+        "actual": 1773.2036678592815,
+        "expected": 1771.2394750014546
+      },
+      "witness_violation": false,
+      "anchor_violation": false
+    },
+    {
+      "job_id": "1026_R28",
+      "seed": 1026,
+      "group": "equivalent",
+      "violated_features": [
+        "original_shape_MeshVolume",
+        "original_shape_Sphericity",
+        "original_shape_SurfaceArea",
+        "original_shape_SurfaceVolumeRatio"
+      ],
+      "worst": {
+        "scaled_error": 0.0011089369255533833,
+        "job_id": "1026_R28",
+        "feature": "original_shape_SurfaceArea",
+        "actual": 1773.2036678592815,
+        "expected": 1771.2394750014546
+      },
+      "witness_violation": false,
+      "anchor_violation": false
+    },
+    {
+      "job_id": "1026_R29",
+      "seed": 1026,
+      "group": "equivalent",
+      "violated_features": [
+        "original_shape_MeshVolume",
+        "original_shape_Sphericity",
+        "original_shape_SurfaceVolumeRatio"
+      ],
+      "worst": {
+        "scaled_error": 0.0014284120075891483,
+        "job_id": "1026_R29",
+        "feature": "original_shape_MeshVolume",
+        "actual": 5083.6876798491285,
+        "expected": 5090.959667768721
+      },
+      "witness_violation": false,
+      "anchor_violation": false
+    },
+    {
+      "job_id": "1026_R30",
+      "seed": 1026,
+      "group": "equivalent",
+      "violated_features": [
+        "original_shape_MeshVolume",
+        "original_shape_Sphericity",
+        "original_shape_SurfaceVolumeRatio"
+      ],
+      "worst": {
+        "scaled_error": 0.001428412007592364,
+        "job_id": "1026_R30",
+        "feature": "original_shape_MeshVolume",
+        "actual": 5083.687679849112,
+        "expected": 5090.959667768721
+      },
+      "witness_violation": false,
+      "anchor_violation": false
+    },
+    {
+      "job_id": "1026_R31",
+      "seed": 1026,
+      "group": "equivalent",
+      "violated_features": [
+        "original_shape_MeshVolume",
+        "original_shape_Sphericity",
+        "original_shape_SurfaceArea",
+        "original_shape_SurfaceVolumeRatio"
+      ],
+      "worst": {
+        "scaled_error": 0.0011089369255513294,
+        "job_id": "1026_R31",
+        "feature": "original_shape_SurfaceArea",
+        "actual": 1773.2036678592779,
+        "expected": 1771.2394750014546
+      },
+      "witness_violation": false,
+      "anchor_violation": false
+    },
+    {
+      "job_id": "1026_R33",
+      "seed": 1026,
+      "group": "equivalent",
+      "violated_features": [
+        "original_shape_MeshVolume",
+        "original_shape_Sphericity",
+        "original_shape_SurfaceArea",
+        "original_shape_SurfaceVolumeRatio"
+      ],
+      "worst": {
+        "scaled_error": 0.001108936925544911,
+        "job_id": "1026_R33",
+        "feature": "original_shape_SurfaceArea",
+        "actual": 1773.2036678592665,
+        "expected": 1771.2394750014546
+      },
+      "witness_violation": false,
+      "anchor_violation": false
+    },
+    {
+      "job_id": "1026_R34",
+      "seed": 1026,
+      "group": "equivalent",
+      "violated_features": [
+        "original_shape_MeshVolume",
+        "original_shape_Sphericity",
+        "original_shape_SurfaceArea",
+        "original_shape_SurfaceVolumeRatio"
+      ],
+      "worst": {
+        "scaled_error": 0.0011089369255413166,
+        "job_id": "1026_R34",
+        "feature": "original_shape_SurfaceArea",
+        "actual": 1773.2036678592601,
+        "expected": 1771.2394750014546
+      },
+      "witness_violation": false,
+      "anchor_violation": false
+    },
+    {
+      "job_id": "1026_R35",
+      "seed": 1026,
+      "group": "equivalent",
+      "violated_features": [
+        "original_shape_MeshVolume",
+        "original_shape_Sphericity",
+        "original_shape_SurfaceVolumeRatio"
+      ],
+      "worst": {
+        "scaled_error": 0.0014284120075907561,
+        "job_id": "1026_R35",
+        "feature": "original_shape_MeshVolume",
+        "actual": 5083.68767984912,
+        "expected": 5090.959667768721
+      },
+      "witness_violation": false,
+      "anchor_violation": false
+    },
+    {
+      "job_id": "1026_R36",
+      "seed": 1026,
+      "group": "equivalent",
+      "violated_features": [
+        "original_shape_MeshVolume",
+        "original_shape_Sphericity",
+        "original_shape_SurfaceArea",
+        "original_shape_SurfaceVolumeRatio"
+      ],
+      "worst": {
+        "scaled_error": 0.0011089369255426003,
+        "job_id": "1026_R36",
+        "feature": "original_shape_SurfaceArea",
+        "actual": 1773.2036678592624,
+        "expected": 1771.2394750014546
+      },
+      "witness_violation": false,
+      "anchor_violation": false
+    },
+    {
+      "job_id": "1026_R37",
+      "seed": 1026,
+      "group": "equivalent",
+      "violated_features": [
+        "original_shape_MeshVolume",
+        "original_shape_Sphericity",
+        "original_shape_SurfaceVolumeRatio"
+      ],
+      "worst": {
+        "scaled_error": 0.0014284120075886122,
+        "job_id": "1026_R37",
+        "feature": "original_shape_MeshVolume",
+        "actual": 5083.687679849131,
+        "expected": 5090.959667768721
+      },
+      "witness_violation": false,
+      "anchor_violation": false
+    },
+    {
+      "job_id": "1026_R39",
+      "seed": 1026,
+      "group": "equivalent",
+      "violated_features": [
+        "original_shape_MeshVolume",
+        "original_shape_Sphericity",
+        "original_shape_SurfaceArea",
+        "original_shape_SurfaceVolumeRatio"
+      ],
+      "worst": {
+        "scaled_error": 0.0011089369255441407,
+        "job_id": "1026_R39",
+        "feature": "original_shape_SurfaceArea",
+        "actual": 1773.2036678592651,
+        "expected": 1771.2394750014546
+      },
+      "witness_violation": false,
+      "anchor_violation": false
+    },
+    {
+      "job_id": "1026_R41",
+      "seed": 1026,
+      "group": "equivalent",
+      "violated_features": [
+        "original_shape_MeshVolume",
+        "original_shape_Sphericity",
+        "original_shape_SurfaceArea",
+        "original_shape_SurfaceVolumeRatio"
+      ],
+      "worst": {
+        "scaled_error": 0.0011089369255506876,
+        "job_id": "1026_R41",
+        "feature": "original_shape_SurfaceArea",
+        "actual": 1773.2036678592767,
+        "expected": 1771.2394750014546
+      },
+      "witness_violation": false,
+      "anchor_violation": false
+    },
+    {
+      "job_id": "1026_R42",
+      "seed": 1026,
+      "group": "equivalent",
+      "violated_features": [
+        "original_shape_MeshVolume",
+        "original_shape_Sphericity",
+        "original_shape_SurfaceArea",
+        "original_shape_SurfaceVolumeRatio"
+      ],
+      "worst": {
+        "scaled_error": 0.0011089369255535117,
+        "job_id": "1026_R42",
+        "feature": "original_shape_SurfaceArea",
+        "actual": 1773.2036678592817,
+        "expected": 1771.2394750014546
+      },
+      "witness_violation": false,
+      "anchor_violation": false
+    },
+    {
+      "job_id": "1026_R43",
+      "seed": 1026,
+      "group": "equivalent",
+      "violated_features": [
+        "original_shape_MeshVolume",
+        "original_shape_Sphericity",
+        "original_shape_SurfaceVolumeRatio"
+      ],
+      "worst": {
+        "scaled_error": 0.0014284120075895056,
+        "job_id": "1026_R43",
+        "feature": "original_shape_MeshVolume",
+        "actual": 5083.687679849127,
+        "expected": 5090.959667768721
+      },
+      "witness_violation": false,
+      "anchor_violation": false
+    },
+    {
+      "job_id": "1026_R44",
+      "seed": 1026,
+      "group": "equivalent",
+      "violated_features": [
+        "original_shape_MeshVolume",
+        "original_shape_Sphericity",
+        "original_shape_SurfaceArea",
+        "original_shape_SurfaceVolumeRatio"
+      ],
+      "worst": {
+        "scaled_error": 0.00110893692555364,
+        "job_id": "1026_R44",
+        "feature": "original_shape_SurfaceArea",
+        "actual": 1773.203667859282,
+        "expected": 1771.2394750014546
+      },
+      "witness_violation": false,
+      "anchor_violation": false
+    },
+    {
+      "job_id": "1026_R46",
+      "seed": 1026,
+      "group": "equivalent",
+      "violated_features": [
+        "original_shape_MeshVolume",
+        "original_shape_Sphericity",
+        "original_shape_SurfaceVolumeRatio"
+      ],
+      "worst": {
+        "scaled_error": 0.0014284120075930785,
+        "job_id": "1026_R46",
+        "feature": "original_shape_MeshVolume",
+        "actual": 5083.6876798491085,
+        "expected": 5090.959667768721
+      },
+      "witness_violation": false,
+      "anchor_violation": false
+    },
+    {
+      "job_id": "1026_R47",
+      "seed": 1026,
+      "group": "equivalent",
+      "violated_features": [
+        "original_shape_MeshVolume",
+        "original_shape_Sphericity",
+        "original_shape_SurfaceArea",
+        "original_shape_SurfaceVolumeRatio"
+      ],
+      "worst": {
+        "scaled_error": 0.0011089369255506876,
+        "job_id": "1026_R47",
+        "feature": "original_shape_SurfaceArea",
+        "actual": 1773.2036678592767,
+        "expected": 1771.2394750014546
+      },
+      "witness_violation": false,
+      "anchor_violation": false
+    }
+  ],
+  "correctly_transported_alerts_by_seed": {
+    "1026": 36
+  },
+  "correctly_transported_alerts_by_feature": {
+    "original_shape_MeshVolume": 36,
+    "original_shape_Sphericity": 36,
+    "original_shape_SurfaceArea": 24,
+    "original_shape_SurfaceVolumeRatio": 36
+  },
+  "worst_conditional_scaled_errors": {
+    "reference": {
+      "scaled_error": 0.0,
+      "job_id": "1000_reference",
+      "feature": null
+    },
+    "equivalent": {
+      "scaled_error": 0.0014284120075930785,
+      "job_id": "1026_R46",
+      "feature": "original_shape_MeshVolume",
+      "actual": 5083.6876798491085,
+      "expected": 5090.959667768721
+    },
+    "covariant": {
+      "scaled_error": 3.9468400828390203e-16,
+      "job_id": "1042_intensity_b",
+      "feature": "original_firstorder_Variance",
+      "actual": 108.01695343820407,
+      "expected": 108.01695343820411
+    },
+    "not_applicable": {
+      "scaled_error": 0.0,
+      "job_id": "1000_different_bin_width",
+      "feature": null
+    },
+    "fault": {
+      "scaled_error": 11.031267101601895,
+      "job_id": "1041_H02_misread_contiguous_order",
+      "feature": "original_glrlm_RunLengthNonUniformity",
+      "actual": 2568.700895704266,
+      "expected": 213.5021086317881
+    }
+  },
+  "direct_native_anchor_checks": [
+    {
+      "seed": 1000,
+      "anchor": "mean",
+      "satisfied": true
+    },
+    {
+      "seed": 1000,
+      "anchor": "minimum",
+      "satisfied": true
+    },
+    {
+      "seed": 1000,
+      "anchor": "maximum",
+      "satisfied": true
+    },
+    {
+      "seed": 1000,
+      "anchor": "variance",
+      "satisfied": true
+    },
+    {
+      "seed": 1000,
+      "anchor": "energy",
+      "satisfied": true
+    },
+    {
+      "seed": 1000,
+      "anchor": "voxel_volume",
+      "satisfied": true
+    },
+    {
+      "seed": 1021,
+      "anchor": "mean",
+      "satisfied": true
+    },
+    {
+      "seed": 1021,
+      "anchor": "minimum",
+      "satisfied": true
+    },
+    {
+      "seed": 1021,
+      "anchor": "maximum",
+      "satisfied": true
+    },
+    {
+      "seed": 1021,
+      "anchor": "variance",
+      "satisfied": true
+    },
+    {
+      "seed": 1021,
+      "anchor": "energy",
+      "satisfied": true
+    },
+    {
+      "seed": 1021,
+      "anchor": "voxel_volume",
+      "satisfied": true
+    },
+    {
+      "seed": 1042,
+      "anchor": "mean",
+      "satisfied": true
+    },
+    {
+      "seed": 1042,
+      "anchor": "minimum",
+      "satisfied": true
+    },
+    {
+      "seed": 1042,
+      "anchor": "maximum",
+      "satisfied": true
+    },
+    {
+      "seed": 1042,
+      "anchor": "variance",
+      "satisfied": true
+    },
+    {
+      "seed": 1042,
+      "anchor": "energy",
+      "satisfied": true
+    },
+    {
+      "seed": 1042,
+      "anchor": "voxel_volume",
+      "satisfied": true
+    },
+    {
+      "seed": 1063,
+      "anchor": "mean",
+      "satisfied": true
+    },
+    {
+      "seed": 1063,
+      "anchor": "minimum",
+      "satisfied": true
+    },
+    {
+      "seed": 1063,
+      "anchor": "maximum",
+      "satisfied": true
+    },
+    {
+      "seed": 1063,
+      "anchor": "variance",
+      "satisfied": true
+    },
+    {
+      "seed": 1063,
+      "anchor": "energy",
+      "satisfied": true
+    },
+    {
+      "seed": 1063,
+      "anchor": "voxel_volume",
+      "satisfied": true
+    }
+  ],
+  "native_statuses": {
+    "extracted": 4608
+  },
+  "all_output_feature_counts": {
+    "72": 4608
+  },
+  "native_output_sha256": "81bec3f926b35b9370b362d47c13152edc262ae43fd71cf83b84d73da9a0ffeb",
+  "seconds": 0.8931871999993746,
+  "notes": [
+    "The source-aware witness and geometry counts are read from the frozen case log; decoded file digests and geometry are independently rechecked.",
+    "checks_passed describes audit completeness and integrity; it does not mean all native feature obligations were satisfied.",
+    "Conditional decisions are independently computed with abs error <= 1e-6 + 1e-5*abs(expected). No thresholds are altered.",
+    "The four sampled source anchor sets are independently recomputed using math.fsum and decoded physical affine.",
+    "Counts are synthetic software cases nested within 64 phantoms and eight fault mechanisms, not clinical sensitivity or independent patients."
+  ]
+}

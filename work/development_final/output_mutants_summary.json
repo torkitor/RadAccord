@@ -1,0 +1,194 @@
+[
+  {
+    "engine": "pyradiomics",
+    "mutation": "discard_voxel_volume_units",
+    "transform": "reindex",
+    "cases": 576,
+    "relation_violations": 0,
+    "anchor_violations": 576
+  },
+  {
+    "engine": "pyradiomics",
+    "mutation": "discard_voxel_volume_units",
+    "transform": "encoding",
+    "cases": 12,
+    "relation_violations": 0,
+    "anchor_violations": 12
+  },
+  {
+    "engine": "pyradiomics",
+    "mutation": "discard_voxel_volume_units",
+    "transform": "label",
+    "cases": 12,
+    "relation_violations": 0,
+    "anchor_violations": 12
+  },
+  {
+    "engine": "pyradiomics",
+    "mutation": "discard_voxel_volume_units",
+    "transform": "scale",
+    "cases": 24,
+    "relation_violations": 24,
+    "anchor_violations": 24
+  },
+  {
+    "engine": "pyradiomics",
+    "mutation": "discard_voxel_volume_units",
+    "transform": "intensity",
+    "cases": 24,
+    "relation_violations": 0,
+    "anchor_violations": 24
+  },
+  {
+    "engine": "pyradiomics",
+    "mutation": "discard_voxel_volume_units",
+    "transform": "identity",
+    "cases": 12,
+    "relation_violations": 0,
+    "anchor_violations": 12
+  },
+  {
+    "engine": "pyradiomics",
+    "mutation": "multiply_volume_by_1_02",
+    "transform": "reindex",
+    "cases": 576,
+    "relation_violations": 0,
+    "anchor_violations": 576
+  },
+  {
+    "engine": "pyradiomics",
+    "mutation": "multiply_volume_by_1_02",
+    "transform": "encoding",
+    "cases": 12,
+    "relation_violations": 0,
+    "anchor_violations": 12
+  },
+  {
+    "engine": "pyradiomics",
+    "mutation": "multiply_volume_by_1_02",
+    "transform": "label",
+    "cases": 12,
+    "relation_violations": 0,
+    "anchor_violations": 12
+  },
+  {
+    "engine": "pyradiomics",
+    "mutation": "multiply_volume_by_1_02",
+    "transform": "scale",
+    "cases": 24,
+    "relation_violations": 0,
+    "anchor_violations": 24
+  },
+  {
+    "engine": "pyradiomics",
+    "mutation": "multiply_volume_by_1_02",
+    "transform": "intensity",
+    "cases": 24,
+    "relation_violations": 0,
+    "anchor_violations": 24
+  },
+  {
+    "engine": "pyradiomics",
+    "mutation": "multiply_volume_by_1_02",
+    "transform": "identity",
+    "cases": 12,
+    "relation_violations": 0,
+    "anchor_violations": 12
+  },
+  {
+    "engine": "mirp",
+    "mutation": "discard_voxel_volume_units",
+    "transform": "reindex",
+    "cases": 576,
+    "relation_violations": 0,
+    "anchor_violations": 576
+  },
+  {
+    "engine": "mirp",
+    "mutation": "discard_voxel_volume_units",
+    "transform": "encoding",
+    "cases": 12,
+    "relation_violations": 0,
+    "anchor_violations": 12
+  },
+  {
+    "engine": "mirp",
+    "mutation": "discard_voxel_volume_units",
+    "transform": "label",
+    "cases": 12,
+    "relation_violations": 0,
+    "anchor_violations": 12
+  },
+  {
+    "engine": "mirp",
+    "mutation": "discard_voxel_volume_units",
+    "transform": "scale",
+    "cases": 24,
+    "relation_violations": 24,
+    "anchor_violations": 24
+  },
+  {
+    "engine": "mirp",
+    "mutation": "discard_voxel_volume_units",
+    "transform": "intensity",
+    "cases": 24,
+    "relation_violations": 0,
+    "anchor_violations": 24
+  },
+  {
+    "engine": "mirp",
+    "mutation": "discard_voxel_volume_units",
+    "transform": "identity",
+    "cases": 12,
+    "relation_violations": 0,
+    "anchor_violations": 12
+  },
+  {
+    "engine": "mirp",
+    "mutation": "multiply_volume_by_1_02",
+    "transform": "reindex",
+    "cases": 576,
+    "relation_violations": 0,
+    "anchor_violations": 576
+  },
+  {
+    "engine": "mirp",
+    "mutation": "multiply_volume_by_1_02",
+    "transform": "encoding",
+    "cases": 12,
+    "relation_violations": 0,
+    "anchor_violations": 12
+  },
+  {
+    "engine": "mirp",
+    "mutation": "multiply_volume_by_1_02",
+    "transform": "label",
+    "cases": 12,
+    "relation_violations": 0,
+    "anchor_violations": 12
+  },
+  {
+    "engine": "mirp",
+    "mutation": "multiply_volume_by_1_02",
+    "transform": "scale",
+    "cases": 24,
+    "relation_violations": 0,
+    "anchor_violations": 24
+  },
+  {
+    "engine": "mirp",
+    "mutation": "multiply_volume_by_1_02",
+    "transform": "intensity",
+    "cases": 24,
+    "relation_violations": 0,
+    "anchor_violations": 24
+  },
+  {
+    "engine": "mirp",
+    "mutation": "multiply_volume_by_1_02",
+    "transform": "identity",
+    "cases": 12,
+    "relation_violations": 0,
+    "anchor_violations": 12
+  }
+]

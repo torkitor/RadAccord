@@ -1,0 +1,20 @@
+{
+  "python": "3.10.11",
+  "platform": "Windows",
+  "packages": {
+    "numpy": "1.23.5",
+    "scipy": null,
+    "SimpleITK": "2.2.1",
+    "nibabel": null,
+    "pandas": null,
+    "scikit-image": null,
+    "pyradiomics": "3.0.1",
+    "mirp": null
+  },
+  "thread_environment": {
+    "OMP_NUM_THREADS": "1",
+    "OPENBLAS_NUM_THREADS": "1",
+    "MKL_NUM_THREADS": "1",
+    "ITK_GLOBAL_DEFAULT_NUMBER_OF_THREADS": "1"
+  }
+}

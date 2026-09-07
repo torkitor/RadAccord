@@ -1,0 +1,64 @@
+{
+  "software": "RadAccord",
+  "version": "1.0.0",
+  "date": "2026-09-07",
+  "manuscript_title": "RadAccord: software for physical consistency testing before radiomic feature reuse in research",
+  "scope": "Complete final archive inventory, decoded text pattern scan and all six synthetic NIfTI text headers. This bounded scan is not a proof of anonymity for arbitrary future inputs.",
+  "status": "Final archive scan completed",
+  "archive_file_count": 113,
+  "text_files_scanned": 107,
+  "patterns_checked": [
+    "private_home_path",
+    "traceback",
+    "private_key",
+    "credential_shape",
+    "private_workspace_path"
+  ],
+  "finding_count": 0,
+  "findings": [],
+  "synthetic_nifti_headers": [
+    {
+      "file": "software/examples/origin_fault_image.nii.gz",
+      "text_fields_empty": true,
+      "extensions": 0
+    },
+    {
+      "file": "software/examples/origin_fault_mask.nii.gz",
+      "text_fields_empty": true,
+      "extensions": 0
+    },
+    {
+      "file": "software/examples/source_image.nii.gz",
+      "text_fields_empty": true,
+      "extensions": 0
+    },
+    {
+      "file": "software/examples/source_mask.nii.gz",
+      "text_fields_empty": true,
+      "extensions": 0
+    },
+    {
+      "file": "software/examples/valid_reindex_image.nii.gz",
+      "text_fields_empty": true,
+      "extensions": 0
+    },
+    {
+      "file": "software/examples/valid_reindex_mask.nii.gz",
+      "text_fields_empty": true,
+      "extensions": 0
+    }
+  ],
+  "inventory_matches_allowlist": true,
+  "excluded_artifacts": [
+    "Python caches",
+    "worker logs",
+    "private manuscript or editorial documents",
+    "generated figure rasters, PDFs or SVGs",
+    "font files",
+    "large image volumes",
+    "third-party C source"
+  ],
+  "permitted_public_identity": "Clemente Garcia-Hidalgo and the authorised ORCID in CITATION.cff",
+  "ai_assistance_disclosed_in_readme": true,
+  "verification_boundary": "These checks cover the immutable RadAccord 1.0.0 archive; changes or added user inputs require a new scan."
+}

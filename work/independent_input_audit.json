@@ -1,0 +1,54 @@
+{
+  "checks_passed": true,
+  "manifest_hashes": {
+    "cases_sha256": "5571af71036b019cf92b3cf0dce5284c054a4ce96f12749e0d9a67499c218032",
+    "jobs_sha256": "eb0be09724a05e85485da07f525e7c4048846bd95601bc89d7b522ac449b8630"
+  },
+  "cases_decoded": 4096,
+  "image_mask_files_checked": 8192,
+  "bytes_read_inputs": 213231927,
+  "source_digest_consistent_per_seed": true,
+  "distinct_source_digests": 64,
+  "independent_anchor_samples": {
+    "1000": {
+      "n_voxels": 2069,
+      "mean": 128.25809569840501,
+      "energy": 34922382.75,
+      "variance": 428.7312358129781,
+      "voxel_volume": 5304.547708906014,
+      "minimum": 68.0,
+      "maximum": 179.5
+    },
+    "1021": {
+      "n_voxels": 2297,
+      "mean": 128.48650413582934,
+      "energy": 38906837.875,
+      "variance": 429.32790884989583,
+      "voxel_volume": 8687.779262996932,
+      "minimum": 71.25,
+      "maximum": 180.25
+    },
+    "1042": {
+      "n_voxels": 2023,
+      "mean": 128.14322787938704,
+      "energy": 34093122.6875,
+      "variance": 432.0678137528164,
+      "voxel_volume": 8485.843224379227,
+      "minimum": 70.25,
+      "maximum": 180.0
+    },
+    "1063": {
+      "n_voxels": 2374,
+      "mean": 128.1982940185341,
+      "energy": 40036950.6875,
+      "variance": 429.96181153781595,
+      "voxel_volume": 7925.721720499914,
+      "minimum": 68.25,
+      "maximum": 178.75
+    }
+  },
+  "errors": [],
+  "digest_scope": "Decoded data, integer mask, affine and array shapes; not a hash of original encoded file bytes.",
+  "source_digest_scope": "Pre-serialization source digests checked for completeness and per-seed consistency, not equated to quantised NIfTI affines.",
+  "reused": false
+}

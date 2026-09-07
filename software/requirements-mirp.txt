@@ -1,0 +1,7 @@
+# Tested with Python 3.13.5 in a separate environment.
+numpy==2.2.6
+scipy==1.15.3
+pandas==3.0.2
+scikit-image==0.26.0
+SimpleITK==2.5.3
+mirp==2.5.0

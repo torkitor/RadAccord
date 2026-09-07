@@ -1,0 +1,38 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1280" height="320" viewBox="0 0 1280 320" role="img" aria-labelledby="title desc">
+<title id="title">RadAccord complementary checks</title><desc id="desc">A trusted source, candidate files and declared map feed physical correspondence, conditional feature laws and absolute numerical anchors. Each obligation is satisfied, violated or not applicable.</desc>
+<rect x="0" y="0" width="1280" height="320" fill="white" stroke="none" stroke-width="1"/>
+<rect x="28" y="122" width="234" height="83" fill="#F5F6F9" stroke="#5F6F9F" stroke-width="1"/>
+<text x="47" y="155" font-family="Arial, sans-serif" font-size="20" font-weight="400" fill="#222222" text-anchor="start">Trusted source</text>
+<text x="47" y="182" font-family="Arial, sans-serif" font-size="15" font-weight="400" fill="#666A73" text-anchor="start">+ candidate + declared map</text>
+<polyline points="262,163 307,163" fill="none" stroke="#666A73" stroke-width="1" stroke-linejoin="miter"/>
+<polyline points="307,65 307,257" fill="none" stroke="#666A73" stroke-width="1" stroke-linejoin="miter"/>
+<polyline points="307,65 340,65" fill="none" stroke="#5F6F9F" stroke-width="1" stroke-linejoin="miter"/>
+<polyline points="335,62.5 340,65 335,67.5" fill="none" stroke="#5F6F9F" stroke-width="1" stroke-linejoin="miter"/>
+<text x="366" y="59" font-family="Arial, sans-serif" font-size="12" font-weight="700" fill="#5F6F9F" text-anchor="start">01</text>
+<text x="405" y="59" font-family="Arial, sans-serif" font-size="21" font-weight="400" fill="#222222" text-anchor="start">Physical correspondence</text>
+<text x="405" y="85" font-family="Arial, sans-serif" font-size="16" font-weight="400" fill="#666A73" text-anchor="start">Positions · values · ROI</text>
+<polyline points="767,65 818,65" fill="none" stroke="#666A73" stroke-width="1" stroke-linejoin="miter"/>
+<polyline points="307,161 340,161" fill="none" stroke="#5F6F9F" stroke-width="1" stroke-linejoin="miter"/>
+<polyline points="335,158.5 340,161 335,163.5" fill="none" stroke="#5F6F9F" stroke-width="1" stroke-linejoin="miter"/>
+<text x="366" y="155" font-family="Arial, sans-serif" font-size="12" font-weight="700" fill="#5F6F9F" text-anchor="start">02</text>
+<text x="405" y="155" font-family="Arial, sans-serif" font-size="21" font-weight="400" fill="#222222" text-anchor="start">Conditional feature laws</text>
+<text x="405" y="181" font-family="Arial, sans-serif" font-size="16" font-weight="400" fill="#666A73" text-anchor="start">Expected invariance or covariance</text>
+<polyline points="767,161 818,161" fill="none" stroke="#666A73" stroke-width="1" stroke-linejoin="miter"/>
+<polyline points="307,257 340,257" fill="none" stroke="#5F6F9F" stroke-width="1" stroke-linejoin="miter"/>
+<polyline points="335,254.5 340,257 335,259.5" fill="none" stroke="#5F6F9F" stroke-width="1" stroke-linejoin="miter"/>
+<text x="366" y="251" font-family="Arial, sans-serif" font-size="12" font-weight="700" fill="#5F6F9F" text-anchor="start">03</text>
+<text x="405" y="251" font-family="Arial, sans-serif" font-size="21" font-weight="400" fill="#222222" text-anchor="start">Absolute numerical anchors</text>
+<text x="405" y="277" font-family="Arial, sans-serif" font-size="16" font-weight="400" fill="#666A73" text-anchor="start">Direct input-derived quantities</text>
+<polyline points="767,257 818,257" fill="none" stroke="#666A73" stroke-width="1" stroke-linejoin="miter"/>
+<polyline points="818,65 818,257" fill="none" stroke="#666A73" stroke-width="1" stroke-linejoin="miter"/>
+<polyline points="818,161 874,161" fill="none" stroke="#5F6F9F" stroke-width="1" stroke-linejoin="miter"/>
+<polyline points="869,158.5 874,161 869,163.5" fill="none" stroke="#5F6F9F" stroke-width="1" stroke-linejoin="miter"/>
+<text x="916" y="64" font-family="Arial, sans-serif" font-size="12" font-weight="700" fill="#5F6F9F" text-anchor="start">PER-OBLIGATION</text>
+<text x="916" y="104" font-family="Arial, sans-serif" font-size="27" font-weight="400" fill="#222222" text-anchor="start">Decision</text>
+<rect x="916" y="139" width="11" height="11" fill="#5F6F9F" stroke="none" stroke-width="1"/>
+<text x="944" y="151" font-family="Arial, sans-serif" font-size="20" font-weight="400" fill="#222222" text-anchor="start">Satisfied</text>
+<rect x="916" y="182" width="11" height="11" fill="#EE7F6D" stroke="none" stroke-width="1"/>
+<text x="944" y="194" font-family="Arial, sans-serif" font-size="20" font-weight="400" fill="#222222" text-anchor="start">Violated</text>
+<rect x="916" y="225" width="11" height="11" fill="#666A73" stroke="none" stroke-width="1"/>
+<text x="944" y="237" font-family="Arial, sans-serif" font-size="20" font-weight="400" fill="#222222" text-anchor="start">Not applicable</text>
+</svg>

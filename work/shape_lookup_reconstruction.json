@@ -1,0 +1,92 @@
+{
+  "post_hoc": true,
+  "native_extraction_rerun": false,
+  "frozen_results_modified": false,
+  "upstream_source_url": "https://raw.githubusercontent.com/AIM-Harvard/pyradiomics/v3.0.1/radiomics/src/cshape.c",
+  "upstream_source_sha256": "e8d56aec5b7daa1777d97d91be942952949150c058eb817582ca80d37cd1f14e",
+  "lookup_reconstruction_matches_four_observed_orientation_classes": true,
+  "cases": [
+    {
+      "job_id": "1026_R00",
+      "reconstructed": {
+        "volume": 5090.959667768722,
+        "area": 1771.2394750014641,
+        "triangles": 2302,
+        "edge_use_counts": {
+          "2": 3451,
+          "1": 4
+        },
+        "edges_not_used_exactly_twice": 4
+      },
+      "native": {
+        "volume": 5090.959667768721,
+        "area": 1771.2394750014546
+      },
+      "absolute_error": {
+        "volume": 9.094947017729282e-13,
+        "area": 9.549694368615746e-12
+      }
+    },
+    {
+      "job_id": "1026_R01",
+      "reconstructed": {
+        "volume": 5090.5051685237495,
+        "area": 1773.2036678592713,
+        "triangles": 2304,
+        "edge_use_counts": {
+          "2": 3456
+        },
+        "edges_not_used_exactly_twice": 0
+      },
+      "native": {
+        "volume": 5090.505168523735,
+        "area": 1773.2036678592674
+      },
+      "absolute_error": {
+        "volume": 1.4551915228366852e-11,
+        "area": 3.865352482534945e-12
+      }
+    },
+    {
+      "job_id": "1026_R02",
+      "reconstructed": {
+        "volume": 5089.596170033803,
+        "area": 1773.2036678592713,
+        "triangles": 2304,
+        "edge_use_counts": {
+          "2": 3456
+        },
+        "edges_not_used_exactly_twice": 0
+      },
+      "native": {
+        "volume": 5089.5961700337975,
+        "area": 1773.2036678592622
+      },
+      "absolute_error": {
+        "volume": 5.4569682106375694e-12,
+        "area": 9.094947017729282e-12
+      }
+    },
+    {
+      "job_id": "1026_R03",
+      "reconstructed": {
+        "volume": 5083.687679849137,
+        "area": 1771.2394750014641,
+        "triangles": 2302,
+        "edge_use_counts": {
+          "2": 3451,
+          "1": 4
+        },
+        "edges_not_used_exactly_twice": 4
+      },
+      "native": {
+        "volume": 5083.687679849118,
+        "area": 1771.23947500146
+      },
+      "absolute_error": {
+        "volume": 1.9099388737231493e-11,
+        "area": 4.092726157978177e-12
+      }
+    }
+  ]
+}

@@ -1,0 +1,40 @@
+name: Bug report
+description: Report a reproducible mismatch, unavailable result or execution problem.
+title: "[Bug]: "
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Please use synthetic inputs. Do not upload patient images, patient-derived masks, raw worker logs, private paths or account information.
+        A physical-correspondence violation can coexist with unchanged scalar features. Include the component decision and profile, not only the overall exit code.
+  - type: input
+    id: versions
+    attributes:
+      label: Version, profile and environment
+      description: Include RadAccord version, original/revised profile, engine version, Python version and operating system. Add the freeze identifier if relevant.
+      placeholder: RadAccord 1.0.0; revised profile; PyRadiomics 3.0.1; Python ...; OS ...
+    validations:
+      required: true
+  - type: textarea
+    id: reproduction
+    attributes:
+      label: Minimal synthetic reproduction
+      description: Give the command and a small synthetic generator or bundled example name. Use relative placeholder paths and include the transformation manifest.
+      render: text
+    validations:
+      required: true
+  - type: textarea
+    id: outcome
+    attributes:
+      label: Expected and observed result
+      description: State the expected relationship, actual component decisions, and a short reviewed error excerpt or relevant JSON fields. Include why the obligation should apply.
+    validations:
+      required: true
+  - type: checkboxes
+    id: privacy
+    attributes:
+      label: Public-content check
+      options:
+        - label: I checked that this issue contains only shareable synthetic examples and no patient data, private paths, account information or raw worker logs.
+          required: true
+

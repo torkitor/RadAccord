@@ -1,0 +1,995 @@
+{
+  "source": "development_final",
+  "per_seed_curves": [
+    {
+      "engine": "pyradiomics",
+      "mutation": "discard_voxel_volume_units",
+      "seed": 0,
+      "scales": [
+        0.5,
+        1.0,
+        2.0
+      ],
+      "reported_volume": [
+        3418.0,
+        3418.0,
+        3418.0
+      ],
+      "ratio_to_unscaled": [
+        1.0,
+        1.0,
+        1.0
+      ]
+    },
+    {
+      "engine": "pyradiomics",
+      "mutation": "discard_voxel_volume_units",
+      "seed": 1,
+      "scales": [
+        0.5,
+        1.0,
+        2.0
+      ],
+      "reported_volume": [
+        2599.0,
+        2599.0,
+        2599.0
+      ],
+      "ratio_to_unscaled": [
+        1.0,
+        1.0,
+        1.0
+      ]
+    },
+    {
+      "engine": "pyradiomics",
+      "mutation": "discard_voxel_volume_units",
+      "seed": 2,
+      "scales": [
+        0.5,
+        1.0,
+        2.0
+      ],
+      "reported_volume": [
+        1586.0,
+        1586.0,
+        1586.0
+      ],
+      "ratio_to_unscaled": [
+        1.0,
+        1.0,
+        1.0
+      ]
+    },
+    {
+      "engine": "pyradiomics",
+      "mutation": "discard_voxel_volume_units",
+      "seed": 3,
+      "scales": [
+        0.5,
+        1.0,
+        2.0
+      ],
+      "reported_volume": [
+        1553.0,
+        1553.0,
+        1553.0
+      ],
+      "ratio_to_unscaled": [
+        1.0,
+        1.0,
+        1.0
+      ]
+    },
+    {
+      "engine": "pyradiomics",
+      "mutation": "discard_voxel_volume_units",
+      "seed": 4,
+      "scales": [
+        0.5,
+        1.0,
+        2.0
+      ],
+      "reported_volume": [
+        3014.0,
+        3014.0,
+        3014.0
+      ],
+      "ratio_to_unscaled": [
+        1.0,
+        1.0,
+        1.0
+      ]
+    },
+    {
+      "engine": "pyradiomics",
+      "mutation": "discard_voxel_volume_units",
+      "seed": 5,
+      "scales": [
+        0.5,
+        1.0,
+        2.0
+      ],
+      "reported_volume": [
+        1666.0,
+        1666.0,
+        1666.0
+      ],
+      "ratio_to_unscaled": [
+        1.0,
+        1.0,
+        1.0
+      ]
+    },
+    {
+      "engine": "pyradiomics",
+      "mutation": "discard_voxel_volume_units",
+      "seed": 6,
+      "scales": [
+        0.5,
+        1.0,
+        2.0
+      ],
+      "reported_volume": [
+        2299.0,
+        2299.0,
+        2299.0
+      ],
+      "ratio_to_unscaled": [
+        1.0,
+        1.0,
+        1.0
+      ]
+    },
+    {
+      "engine": "pyradiomics",
+      "mutation": "discard_voxel_volume_units",
+      "seed": 7,
+      "scales": [
+        0.5,
+        1.0,
+        2.0
+      ],
+      "reported_volume": [
+        3041.0,
+        3041.0,
+        3041.0
+      ],
+      "ratio_to_unscaled": [
+        1.0,
+        1.0,
+        1.0
+      ]
+    },
+    {
+      "engine": "pyradiomics",
+      "mutation": "discard_voxel_volume_units",
+      "seed": 8,
+      "scales": [
+        0.5,
+        1.0,
+        2.0
+      ],
+      "reported_volume": [
+        1739.0,
+        1739.0,
+        1739.0
+      ],
+      "ratio_to_unscaled": [
+        1.0,
+        1.0,
+        1.0
+      ]
+    },
+    {
+      "engine": "pyradiomics",
+      "mutation": "discard_voxel_volume_units",
+      "seed": 9,
+      "scales": [
+        0.5,
+        1.0,
+        2.0
+      ],
+      "reported_volume": [
+        4250.0,
+        4250.0,
+        4250.0
+      ],
+      "ratio_to_unscaled": [
+        1.0,
+        1.0,
+        1.0
+      ]
+    },
+    {
+      "engine": "pyradiomics",
+      "mutation": "discard_voxel_volume_units",
+      "seed": 10,
+      "scales": [
+        0.5,
+        1.0,
+        2.0
+      ],
+      "reported_volume": [
+        2717.0,
+        2717.0,
+        2717.0
+      ],
+      "ratio_to_unscaled": [
+        1.0,
+        1.0,
+        1.0
+      ]
+    },
+    {
+      "engine": "pyradiomics",
+      "mutation": "discard_voxel_volume_units",
+      "seed": 11,
+      "scales": [
+        0.5,
+        1.0,
+        2.0
+      ],
+      "reported_volume": [
+        1533.0,
+        1533.0,
+        1533.0
+      ],
+      "ratio_to_unscaled": [
+        1.0,
+        1.0,
+        1.0
+      ]
+    },
+    {
+      "engine": "mirp",
+      "mutation": "discard_voxel_volume_units",
+      "seed": 0,
+      "scales": [
+        0.5,
+        1.0,
+        2.0
+      ],
+      "reported_volume": [
+        3418.0,
+        3418.0,
+        3418.0
+      ],
+      "ratio_to_unscaled": [
+        1.0,
+        1.0,
+        1.0
+      ]
+    },
+    {
+      "engine": "mirp",
+      "mutation": "discard_voxel_volume_units",
+      "seed": 1,
+      "scales": [
+        0.5,
+        1.0,
+        2.0
+      ],
+      "reported_volume": [
+        2599.0,
+        2599.0,
+        2599.0
+      ],
+      "ratio_to_unscaled": [
+        1.0,
+        1.0,
+        1.0
+      ]
+    },
+    {
+      "engine": "mirp",
+      "mutation": "discard_voxel_volume_units",
+      "seed": 2,
+      "scales": [
+        0.5,
+        1.0,
+        2.0
+      ],
+      "reported_volume": [
+        1586.0,
+        1586.0,
+        1586.0
+      ],
+      "ratio_to_unscaled": [
+        1.0,
+        1.0,
+        1.0
+      ]
+    },
+    {
+      "engine": "mirp",
+      "mutation": "discard_voxel_volume_units",
+      "seed": 3,
+      "scales": [
+        0.5,
+        1.0,
+        2.0
+      ],
+      "reported_volume": [
+        1553.0,
+        1553.0,
+        1553.0
+      ],
+      "ratio_to_unscaled": [
+        1.0,
+        1.0,
+        1.0
+      ]
+    },
+    {
+      "engine": "mirp",
+      "mutation": "discard_voxel_volume_units",
+      "seed": 4,
+      "scales": [
+        0.5,
+        1.0,
+        2.0
+      ],
+      "reported_volume": [
+        3014.0,
+        3014.0,
+        3014.0
+      ],
+      "ratio_to_unscaled": [
+        1.0,
+        1.0,
+        1.0
+      ]
+    },
+    {
+      "engine": "mirp",
+      "mutation": "discard_voxel_volume_units",
+      "seed": 5,
+      "scales": [
+        0.5,
+        1.0,
+        2.0
+      ],
+      "reported_volume": [
+        1666.0,
+        1666.0,
+        1666.0
+      ],
+      "ratio_to_unscaled": [
+        1.0,
+        1.0,
+        1.0
+      ]
+    },
+    {
+      "engine": "mirp",
+      "mutation": "discard_voxel_volume_units",
+      "seed": 6,
+      "scales": [
+        0.5,
+        1.0,
+        2.0
+      ],
+      "reported_volume": [
+        2299.0,
+        2299.0,
+        2299.0
+      ],
+      "ratio_to_unscaled": [
+        1.0,
+        1.0,
+        1.0
+      ]
+    },
+    {
+      "engine": "mirp",
+      "mutation": "discard_voxel_volume_units",
+      "seed": 7,
+      "scales": [
+        0.5,
+        1.0,
+        2.0
+      ],
+      "reported_volume": [
+        3041.0,
+        3041.0,
+        3041.0
+      ],
+      "ratio_to_unscaled": [
+        1.0,
+        1.0,
+        1.0
+      ]
+    },
+    {
+      "engine": "mirp",
+      "mutation": "discard_voxel_volume_units",
+      "seed": 8,
+      "scales": [
+        0.5,
+        1.0,
+        2.0
+      ],
+      "reported_volume": [
+        1739.0,
+        1739.0,
+        1739.0
+      ],
+      "ratio_to_unscaled": [
+        1.0,
+        1.0,
+        1.0
+      ]
+    },
+    {
+      "engine": "mirp",
+      "mutation": "discard_voxel_volume_units",
+      "seed": 9,
+      "scales": [
+        0.5,
+        1.0,
+        2.0
+      ],
+      "reported_volume": [
+        4250.0,
+        4250.0,
+        4250.0
+      ],
+      "ratio_to_unscaled": [
+        1.0,
+        1.0,
+        1.0
+      ]
+    },
+    {
+      "engine": "mirp",
+      "mutation": "discard_voxel_volume_units",
+      "seed": 10,
+      "scales": [
+        0.5,
+        1.0,
+        2.0
+      ],
+      "reported_volume": [
+        2717.0,
+        2717.0,
+        2717.0
+      ],
+      "ratio_to_unscaled": [
+        1.0,
+        1.0,
+        1.0
+      ]
+    },
+    {
+      "engine": "mirp",
+      "mutation": "discard_voxel_volume_units",
+      "seed": 11,
+      "scales": [
+        0.5,
+        1.0,
+        2.0
+      ],
+      "reported_volume": [
+        1533.0,
+        1533.0,
+        1533.0
+      ],
+      "ratio_to_unscaled": [
+        1.0,
+        1.0,
+        1.0
+      ]
+    },
+    {
+      "engine": "pyradiomics",
+      "mutation": "multiply_volume_by_1_02",
+      "seed": 0,
+      "scales": [
+        0.5,
+        1.0,
+        2.0
+      ],
+      "reported_volume": [
+        1357.934582781732,
+        10863.476662253855,
+        86907.81329803084
+      ],
+      "ratio_to_unscaled": [
+        0.125,
+        1.0,
+        8.0
+      ]
+    },
+    {
+      "engine": "pyradiomics",
+      "mutation": "multiply_volume_by_1_02",
+      "seed": 1,
+      "scales": [
+        0.5,
+        1.0,
+        2.0
+      ],
+      "reported_volume": [
+        1078.2224049563358,
+        8625.779239650687,
+        69006.23391720549
+      ],
+      "ratio_to_unscaled": [
+        0.125,
+        1.0,
+        8.0
+      ]
+    },
+    {
+      "engine": "pyradiomics",
+      "mutation": "multiply_volume_by_1_02",
+      "seed": 2,
+      "scales": [
+        0.5,
+        1.0,
+        2.0
+      ],
+      "reported_volume": [
+        526.2063481023919,
+        4209.650784819135,
+        33677.20627855308
+      ],
+      "ratio_to_unscaled": [
+        0.125,
+        1.0,
+        8.0
+      ]
+    },
+    {
+      "engine": "pyradiomics",
+      "mutation": "multiply_volume_by_1_02",
+      "seed": 3,
+      "scales": [
+        0.5,
+        1.0,
+        2.0
+      ],
+      "reported_volume": [
+        588.1406972643571,
+        4705.125578114857,
+        37641.00462491885
+      ],
+      "ratio_to_unscaled": [
+        0.125,
+        1.0,
+        8.0
+      ]
+    },
+    {
+      "engine": "pyradiomics",
+      "mutation": "multiply_volume_by_1_02",
+      "seed": 4,
+      "scales": [
+        0.5,
+        1.0,
+        2.0
+      ],
+      "reported_volume": [
+        1513.876104114812,
+        12111.008832918496,
+        96888.07066334797
+      ],
+      "ratio_to_unscaled": [
+        0.125,
+        1.0,
+        8.0
+      ]
+    },
+    {
+      "engine": "pyradiomics",
+      "mutation": "multiply_volume_by_1_02",
+      "seed": 5,
+      "scales": [
+        0.5,
+        1.0,
+        2.0
+      ],
+      "reported_volume": [
+        663.3640349021283,
+        5306.9122792170265,
+        42455.29823373621
+      ],
+      "ratio_to_unscaled": [
+        0.125,
+        1.0,
+        8.0
+      ]
+    },
+    {
+      "engine": "pyradiomics",
+      "mutation": "multiply_volume_by_1_02",
+      "seed": 6,
+      "scales": [
+        0.5,
+        1.0,
+        2.0
+      ],
+      "reported_volume": [
+        998.2644942063182,
+        7986.115953650546,
+        63888.927629204365
+      ],
+      "ratio_to_unscaled": [
+        0.125,
+        1.0,
+        8.0
+      ]
+    },
+    {
+      "engine": "pyradiomics",
+      "mutation": "multiply_volume_by_1_02",
+      "seed": 7,
+      "scales": [
+        0.5,
+        1.0,
+        2.0
+      ],
+      "reported_volume": [
+        899.9263884655527,
+        7199.4111077244215,
+        57595.28886179537
+      ],
+      "ratio_to_unscaled": [
+        0.125,
+        1.0,
+        8.0
+      ]
+    },
+    {
+      "engine": "pyradiomics",
+      "mutation": "multiply_volume_by_1_02",
+      "seed": 8,
+      "scales": [
+        0.5,
+        1.0,
+        2.0
+      ],
+      "reported_volume": [
+        817.7166205708231,
+        6541.732964566585,
+        52333.86371653268
+      ],
+      "ratio_to_unscaled": [
+        0.125,
+        1.0,
+        8.0
+      ]
+    },
+    {
+      "engine": "pyradiomics",
+      "mutation": "multiply_volume_by_1_02",
+      "seed": 9,
+      "scales": [
+        0.5,
+        1.0,
+        2.0
+      ],
+      "reported_volume": [
+        1188.6666933203705,
+        9509.333546562964,
+        76074.66837250371
+      ],
+      "ratio_to_unscaled": [
+        0.125,
+        1.0,
+        8.0
+      ]
+    },
+    {
+      "engine": "pyradiomics",
+      "mutation": "multiply_volume_by_1_02",
+      "seed": 10,
+      "scales": [
+        0.5,
+        1.0,
+        2.0
+      ],
+      "reported_volume": [
+        957.9431437923939,
+        7663.545150339151,
+        61308.36120271321
+      ],
+      "ratio_to_unscaled": [
+        0.125,
+        1.0,
+        8.0
+      ]
+    },
+    {
+      "engine": "pyradiomics",
+      "mutation": "multiply_volume_by_1_02",
+      "seed": 11,
+      "scales": [
+        0.5,
+        1.0,
+        2.0
+      ],
+      "reported_volume": [
+        556.1502441671284,
+        4449.201953337028,
+        35593.61562669622
+      ],
+      "ratio_to_unscaled": [
+        0.125,
+        1.0,
+        8.0
+      ]
+    },
+    {
+      "engine": "mirp",
+      "mutation": "multiply_volume_by_1_02",
+      "seed": 0,
+      "scales": [
+        0.5,
+        1.0,
+        2.0
+      ],
+      "reported_volume": [
+        1357.934582781732,
+        10863.476662253855,
+        86907.81329803084
+      ],
+      "ratio_to_unscaled": [
+        0.125,
+        1.0,
+        8.0
+      ]
+    },
+    {
+      "engine": "mirp",
+      "mutation": "multiply_volume_by_1_02",
+      "seed": 1,
+      "scales": [
+        0.5,
+        1.0,
+        2.0
+      ],
+      "reported_volume": [
+        1078.2224049563358,
+        8625.779239650687,
+        69006.23391720549
+      ],
+      "ratio_to_unscaled": [
+        0.125,
+        1.0,
+        8.0
+      ]
+    },
+    {
+      "engine": "mirp",
+      "mutation": "multiply_volume_by_1_02",
+      "seed": 2,
+      "scales": [
+        0.5,
+        1.0,
+        2.0
+      ],
+      "reported_volume": [
+        526.2063481023919,
+        4209.650784819135,
+        33677.20627855308
+      ],
+      "ratio_to_unscaled": [
+        0.125,
+        1.0,
+        8.0
+      ]
+    },
+    {
+      "engine": "mirp",
+      "mutation": "multiply_volume_by_1_02",
+      "seed": 3,
+      "scales": [
+        0.5,
+        1.0,
+        2.0
+      ],
+      "reported_volume": [
+        588.1406972643571,
+        4705.125578114857,
+        37641.00462491885
+      ],
+      "ratio_to_unscaled": [
+        0.125,
+        1.0,
+        8.0
+      ]
+    },
+    {
+      "engine": "mirp",
+      "mutation": "multiply_volume_by_1_02",
+      "seed": 4,
+      "scales": [
+        0.5,
+        1.0,
+        2.0
+      ],
+      "reported_volume": [
+        1513.876104114812,
+        12111.008832918496,
+        96888.07066334797
+      ],
+      "ratio_to_unscaled": [
+        0.125,
+        1.0,
+        8.0
+      ]
+    },
+    {
+      "engine": "mirp",
+      "mutation": "multiply_volume_by_1_02",
+      "seed": 5,
+      "scales": [
+        0.5,
+        1.0,
+        2.0
+      ],
+      "reported_volume": [
+        663.3640349021283,
+        5306.9122792170265,
+        42455.29823373621
+      ],
+      "ratio_to_unscaled": [
+        0.125,
+        1.0,
+        8.0
+      ]
+    },
+    {
+      "engine": "mirp",
+      "mutation": "multiply_volume_by_1_02",
+      "seed": 6,
+      "scales": [
+        0.5,
+        1.0,
+        2.0
+      ],
+      "reported_volume": [
+        998.2644942063182,
+        7986.115953650546,
+        63888.927629204365
+      ],
+      "ratio_to_unscaled": [
+        0.125,
+        1.0,
+        8.0
+      ]
+    },
+    {
+      "engine": "mirp",
+      "mutation": "multiply_volume_by_1_02",
+      "seed": 7,
+      "scales": [
+        0.5,
+        1.0,
+        2.0
+      ],
+      "reported_volume": [
+        899.9263884655527,
+        7199.4111077244215,
+        57595.28886179537
+      ],
+      "ratio_to_unscaled": [
+        0.125,
+        1.0,
+        8.0
+      ]
+    },
+    {
+      "engine": "mirp",
+      "mutation": "multiply_volume_by_1_02",
+      "seed": 8,
+      "scales": [
+        0.5,
+        1.0,
+        2.0
+      ],
+      "reported_volume": [
+        817.7166205708231,
+        6541.732964566585,
+        52333.86371653268
+      ],
+      "ratio_to_unscaled": [
+        0.125,
+        1.0,
+        8.0
+      ]
+    },
+    {
+      "engine": "mirp",
+      "mutation": "multiply_volume_by_1_02",
+      "seed": 9,
+      "scales": [
+        0.5,
+        1.0,
+        2.0
+      ],
+      "reported_volume": [
+        1188.6666933203705,
+        9509.333546562964,
+        76074.66837250371
+      ],
+      "ratio_to_unscaled": [
+        0.125,
+        1.0,
+        8.0
+      ]
+    },
+    {
+      "engine": "mirp",
+      "mutation": "multiply_volume_by_1_02",
+      "seed": 10,
+      "scales": [
+        0.5,
+        1.0,
+        2.0
+      ],
+      "reported_volume": [
+        957.9431437923939,
+        7663.545150339151,
+        61308.36120271321
+      ],
+      "ratio_to_unscaled": [
+        0.125,
+        1.0,
+        8.0
+      ]
+    },
+    {
+      "engine": "mirp",
+      "mutation": "multiply_volume_by_1_02",
+      "seed": 11,
+      "scales": [
+        0.5,
+        1.0,
+        2.0
+      ],
+      "reported_volume": [
+        556.1502441671284,
+        4449.201953337028,
+        35593.61562669622
+      ],
+      "ratio_to_unscaled": [
+        0.125,
+        1.0,
+        8.0
+      ]
+    }
+  ],
+  "scale_decisions": [
+    {
+      "engine": "pyradiomics",
+      "mutation": "discard_voxel_volume_units",
+      "cases": 24,
+      "relation_alerts": 24,
+      "anchor_alerts": 24
+    },
+    {
+      "engine": "mirp",
+      "mutation": "discard_voxel_volume_units",
+      "cases": 24,
+      "relation_alerts": 24,
+      "anchor_alerts": 24
+    },
+    {
+      "engine": "pyradiomics",
+      "mutation": "multiply_volume_by_1_02",
+      "cases": 24,
+      "relation_alerts": 0,
+      "anchor_alerts": 24
+    },
+    {
+      "engine": "mirp",
+      "mutation": "multiply_volume_by_1_02",
+      "cases": 24,
+      "relation_alerts": 0,
+      "anchor_alerts": 24
+    }
+  ]
+}

@@ -1,0 +1,63 @@
+{
+  "protocol_version": "1.0",
+  "title": "Physical consistency contracts for radiomics software integration",
+  "design": "Synthetic software verification study with development and locked held-out inputs; not clinical validation or external independent validation",
+  "trust_boundary": "A trusted source frame and declared transformation are compared with the decoded image and mask at a NIfTI file boundary. Internal extractor states are not observed.",
+  "domain": {
+    "image": "Real finite 3D arrays, orthogonal nonsingular voxel axes, explicit millimetre NIfTI spatial units, consistent qform/sform when both are present",
+    "mask": "Matching array shape, finite int16 labels, nonempty selected positive label; paired affine agreement is checked separately",
+    "mirp_intensity": "Selected ROI intensities must be nonnegative; MR context with fixed-bin-size25 and lower anchor0, no voxels removed in the synthetic study",
+    "source_geometry": "XYZ array axes; affine maps voxel centres to RAS millimetres",
+    "unsupported": ["shear", "unknown or non-mm NIfTI units", "interpolation or cropped index transport", "directional filtering", "normalisation", "untransported two-dimensional settings"]
+  },
+  "development": {
+    "seeds": {"first": 0, "count": 12},
+    "purpose": "Implementation, domain and numerical tolerance checks before any held-out outcome",
+    "output_mutations": ["discard_voxel_volume_units", "multiply_volume_by_1_02"],
+    "configuration_correction": "The initial CT context in MIRP rounded fractional intensities by design. The final MR context retains the positive fractional input values. No feature tolerance was relaxed.",
+    "independent_core_tests": "Signed permutations checked against a separately implemented voxel-to-physical-coordinate oracle and SimpleITK reader"
+  },
+  "heldout": {
+    "seeds": {"first": 1000, "count": 64},
+    "reference_per_seed": 1,
+    "equivalent_per_seed": {"signed_axis_permutations_including_identity": 48, "calibrated_storage_slope2_intercept_minus8": 1, "ROI_label1_to7": 1},
+    "physical_changes_per_seed": {"isotropic_spatial_scale": [0.5, 2.0], "positive_intensity_calibration": [[1.5, 7.0], [0.5, -3.0]]},
+    "configuration_controls_per_seed": {"fixed_bin_width_25_to50": 1},
+    "faults_per_seed": 8,
+    "native_repetitions_per_fault": 2,
+    "expected_cases_per_engine": 4096,
+    "expected_native_extractions_per_engine": 4608,
+    "fault_specification": "heldout_faults_spec.json",
+    "faults_are_owned": true,
+    "third_party_libraries_modified": false,
+    "no_redraw": "Retain every attempted seed and fault, including inactive faults, boundary errors, extraction failures and zero scalar drift"
+  },
+  "decisions": {
+    "witness": "Independent direct indexing i=Bj on the full grid; corresponding decoded intensities and selected ROI booleans; affine physical positions at all eight grid corners",
+    "scalar_laws": "Versioned native feature keys; scalar equivalence excludes axis-labelled diameters; spatial powers and positive affine intensity laws only where explicitly assigned",
+    "anchors": ["mean", "minimum", "maximum", "population_variance", "sum_of_squared_intensities", "voxel_count_times_absolute_affine_determinant"],
+    "applicability": "Independent source mean, variance, voxel count and full ROI coordinate rank guard weighted-centre, autocorrelation and ellipsoid-density relations; changed extraction settings abstain from the full-vector relation",
+    "feature_schema": "The complete pinned output key set must be present; a missing key cannot become a pass by being absent in both outputs",
+    "abstention": "Not applicable is never counted as satisfied",
+    "position_atol_mm": 0.0001,
+    "intensity_atol_units": 0.0001,
+    "feature_atol": 0.000001,
+    "feature_rtol": 0.00001
+  },
+  "comparators": [
+    "Usable native extraction completion, preserving warnings",
+    "Nominal paired image-mask shape and affine agreement",
+    "Repeated extraction of the same corrupted input",
+    "Feature-only relation to the clean reference",
+    "Analytic anchors without spatial witness",
+    "Full witness plus applicable feature laws and anchors",
+    "Unconditional full-vector invariance on legitimate physical changes and changed-bin controls"
+  ],
+  "analysis": {
+    "primary_unit": "One phantom and fault family; 512 attempted held-out fault instances per engine, grouped by eight mechanisms",
+    "report": ["attempted", "applicable", "inapplicable", "boundary_error", "native_failure", "schema_failure", "violations by component", "undetected fault", "legitimate control alarm", "relation abstentions"],
+    "descriptive_values": ["per-family counts out of64", "per-phantom counts", "maximum corner displacement mm", "maximum intensity discrepancy", "per-feature absolute and max(1,abs(reference))-scaled errors", "median and range of I/O plus witness time and native extraction time"],
+    "inference": "No hypothesis tests or pooled feature-level confidence intervals; transformations, engines and repeated feature values are dependent observations",
+    "runtime": "Single native thread per worker; process-level workers recorded per run; preparation timing includes writing, reading and witness rather than witness-only latency"
+  }
+}

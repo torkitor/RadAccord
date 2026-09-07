@@ -1,0 +1,36 @@
+{
+  "software": "RadAccord",
+  "version": "1.0.0",
+  "date": "2026-09-07",
+  "manuscript_title": "RadAccord: software for physical consistency testing before radiomic feature reuse in research",
+  "status": "Final release validated and packaged",
+  "current_checks": "software_branding_audit.json",
+  "current_privacy_scan": "PRIVACY_SCAN.json",
+  "historical_source_validation": "release_history/supplementary_software_1/RELEASE_VALIDATION.json",
+  "source_scientific_files": {
+    "total": 96,
+    "byte_identical": 93,
+    "figure_script_styling_changes": 3,
+    "new_shared_style_files": 1
+  },
+  "scientific_freezes_unchanged": true,
+  "freeze_file_counts": [
+    16,
+    19
+  ],
+  "native_examples_passed_expected_decisions": true,
+  "full_scientific_suite_rerun_for_branding": false,
+  "new_benchmark_data_generated": false,
+  "four_figures_reproduced_in_four_formats": true,
+  "final_zip_created": true,
+  "archive_filename": "RadAccord-1.0.0.zip",
+  "archive_root": "RadAccord/",
+  "archive_crc_check": "passed",
+  "manifest_member_hash_check": "passed",
+  "manifest_scope": "Every file except MANIFEST.sha256 itself; the archive-level SHA256 is supplied separately.",
+  "archive_file_count": 113,
+  "manifest_entry_count": 112,
+  "post_validation_edits": "None; any later edit requires a new manifest and release verification.",
+  "figure_revision_previous_archive_sha256": "1d5b855b6eed124126b9dd7aca005125583811fe527a5cde93b125ae5b2123d5",
+  "frozen_modules_and_numerical_records_unchanged_from_previous_named_archive": true
+}

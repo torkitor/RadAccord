@@ -1,0 +1,28 @@
+name: Feature request
+description: Propose a supported transformation, engine or usability improvement.
+title: "[Feature]: "
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Describe the research integration you want to check. Keep examples synthetic and omit patient data, private paths and raw worker logs.
+  - type: textarea
+    id: need
+    attributes:
+      label: Integration need
+      description: What task is difficult now? For a scientific extension, state the source/candidate relationship and intended engine/settings.
+    validations:
+      required: true
+  - type: textarea
+    id: behaviour
+    attributes:
+      label: Proposed behaviour and scope
+      description: What should pass, fail or remain unavailable/not applicable? For a documentation or interface change, describe the expected workflow.
+    validations:
+      required: true
+  - type: textarea
+    id: evidence
+    attributes:
+      label: Independent evidence or synthetic example
+      description: If available, provide an analytical expectation, primary source, or small synthetic control and violation that could validate the proposal.
+

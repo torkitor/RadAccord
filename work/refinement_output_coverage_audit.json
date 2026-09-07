@@ -1,0 +1,22 @@
+{
+  "cases_retained": 2048,
+  "planned_jobs_before_boundary_rejections": 2304,
+  "scheduled_jobs": 2302,
+  "completed_native_outputs": 2302,
+  "boundary_rejections": [
+    "2015_R06",
+    "2015_R07"
+  ],
+  "activation_not_applicable": 0,
+  "duplicate_or_missing_scheduled_outputs": false,
+  "native_status_counts": {
+    "extracted": 2302
+  },
+  "case_group_counts": {
+    "reference": 32,
+    "equivalent": 1600,
+    "covariant": 128,
+    "not_applicable": 32,
+    "fault": 256
+  }
+}

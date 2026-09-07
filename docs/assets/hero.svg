@@ -1,0 +1,56 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1280" height="420" viewBox="0 0 1280 420" role="img" aria-labelledby="title desc">
+<title id="title">RadAccord</title><desc id="desc">Research software for physical consistency testing before radiomic feature reuse. The paired grids are a schematic declared correspondence, not experimental data.</desc>
+<rect x="0" y="0" width="1280" height="420" fill="white" stroke="none" stroke-width="1"/>
+<text x="68" y="61" font-family="Arial, sans-serif" font-size="13" font-weight="700" fill="#5F6F9F" text-anchor="start">RESEARCH SOFTWARE</text>
+<text x="65" y="172" font-family="Arial, sans-serif" font-size="88" font-weight="400" fill="#222222" text-anchor="start">Rad</text>
+<text x="226.66666666666666" y="172" font-family="Arial, sans-serif" font-size="88" font-weight="400" fill="#5F6F9F" text-anchor="start">Accord</text>
+<text x="68" y="241" font-family="Arial, sans-serif" font-size="32" font-weight="400" fill="#222222" text-anchor="start">Physical consistency.</text>
+<text x="68" y="282" font-family="Arial, sans-serif" font-size="32" font-weight="400" fill="#222222" text-anchor="start">Before feature reuse.</text>
+<text x="68" y="358" font-family="Arial, sans-serif" font-size="14" font-weight="400" fill="#666A73" text-anchor="start">Physical correspondence · Feature laws · Numerical anchors</text>
+<polyline points="747,77 747,342" fill="none" stroke="#D9DDE7" stroke-width="1" stroke-linejoin="miter"/>
+<text x="805" y="104" font-family="Arial, sans-serif" font-size="12" font-weight="700" fill="#666A73" text-anchor="start">SOURCE</text>
+<rect x="805" y="126" width="130" height="130" fill="#F5F6F9" stroke="none" stroke-width="1"/>
+<rect x="857" y="204" width="26" height="26" fill="#5F6F9F" stroke="none" stroke-width="1"/>
+<rect x="831" y="178" width="26" height="26" fill="#5F6F9F" stroke="none" stroke-width="1"/>
+<rect x="857" y="152" width="26" height="26" fill="#5F6F9F" stroke="none" stroke-width="1"/>
+<rect x="857" y="178" width="26" height="26" fill="#5F6F9F" stroke="none" stroke-width="1"/>
+<rect x="831" y="152" width="26" height="26" fill="#5F6F9F" stroke="none" stroke-width="1"/>
+<rect x="883" y="178" width="26" height="26" fill="#5F6F9F" stroke="none" stroke-width="1"/>
+<polyline points="805,126 805,256" fill="none" stroke="#D9DDE7" stroke-width="1" stroke-linejoin="miter"/>
+<polyline points="805,126 935,126" fill="none" stroke="#D9DDE7" stroke-width="1" stroke-linejoin="miter"/>
+<polyline points="831,126 831,256" fill="none" stroke="#D9DDE7" stroke-width="1" stroke-linejoin="miter"/>
+<polyline points="805,152 935,152" fill="none" stroke="#D9DDE7" stroke-width="1" stroke-linejoin="miter"/>
+<polyline points="857,126 857,256" fill="none" stroke="#D9DDE7" stroke-width="1" stroke-linejoin="miter"/>
+<polyline points="805,178 935,178" fill="none" stroke="#D9DDE7" stroke-width="1" stroke-linejoin="miter"/>
+<polyline points="883,126 883,256" fill="none" stroke="#D9DDE7" stroke-width="1" stroke-linejoin="miter"/>
+<polyline points="805,204 935,204" fill="none" stroke="#D9DDE7" stroke-width="1" stroke-linejoin="miter"/>
+<polyline points="909,126 909,256" fill="none" stroke="#D9DDE7" stroke-width="1" stroke-linejoin="miter"/>
+<polyline points="805,230 935,230" fill="none" stroke="#D9DDE7" stroke-width="1" stroke-linejoin="miter"/>
+<polyline points="935,126 935,256" fill="none" stroke="#D9DDE7" stroke-width="1" stroke-linejoin="miter"/>
+<polyline points="805,256 935,256" fill="none" stroke="#D9DDE7" stroke-width="1" stroke-linejoin="miter"/>
+<rect x="805" y="126" width="130" height="130" fill="none" stroke="#5F6F9F" stroke-width="1"/>
+<text x="1069" y="104" font-family="Arial, sans-serif" font-size="12" font-weight="700" fill="#666A73" text-anchor="start">CANDIDATE</text>
+<rect x="1069" y="126" width="130" height="130" fill="#F5F6F9" stroke="none" stroke-width="1"/>
+<rect x="1121" y="204" width="26" height="26" fill="#5F6F9F" stroke="none" stroke-width="1"/>
+<rect x="1095" y="178" width="26" height="26" fill="#5F6F9F" stroke="none" stroke-width="1"/>
+<rect x="1121" y="152" width="26" height="26" fill="#5F6F9F" stroke="none" stroke-width="1"/>
+<rect x="1121" y="178" width="26" height="26" fill="#5F6F9F" stroke="none" stroke-width="1"/>
+<rect x="1095" y="152" width="26" height="26" fill="#5F6F9F" stroke="none" stroke-width="1"/>
+<rect x="1147" y="178" width="26" height="26" fill="#5F6F9F" stroke="none" stroke-width="1"/>
+<polyline points="1069,126 1069,256" fill="none" stroke="#D9DDE7" stroke-width="1" stroke-linejoin="miter"/>
+<polyline points="1069,126 1199,126" fill="none" stroke="#D9DDE7" stroke-width="1" stroke-linejoin="miter"/>
+<polyline points="1095,126 1095,256" fill="none" stroke="#D9DDE7" stroke-width="1" stroke-linejoin="miter"/>
+<polyline points="1069,152 1199,152" fill="none" stroke="#D9DDE7" stroke-width="1" stroke-linejoin="miter"/>
+<polyline points="1121,126 1121,256" fill="none" stroke="#D9DDE7" stroke-width="1" stroke-linejoin="miter"/>
+<polyline points="1069,178 1199,178" fill="none" stroke="#D9DDE7" stroke-width="1" stroke-linejoin="miter"/>
+<polyline points="1147,126 1147,256" fill="none" stroke="#D9DDE7" stroke-width="1" stroke-linejoin="miter"/>
+<polyline points="1069,204 1199,204" fill="none" stroke="#D9DDE7" stroke-width="1" stroke-linejoin="miter"/>
+<polyline points="1173,126 1173,256" fill="none" stroke="#D9DDE7" stroke-width="1" stroke-linejoin="miter"/>
+<polyline points="1069,230 1199,230" fill="none" stroke="#D9DDE7" stroke-width="1" stroke-linejoin="miter"/>
+<polyline points="1199,126 1199,256" fill="none" stroke="#D9DDE7" stroke-width="1" stroke-linejoin="miter"/>
+<polyline points="1069,256 1199,256" fill="none" stroke="#D9DDE7" stroke-width="1" stroke-linejoin="miter"/>
+<rect x="1069" y="126" width="130" height="130" fill="none" stroke="#5F6F9F" stroke-width="1"/>
+<polyline points="805,277 805,286 1069,286 1069,277" fill="none" stroke="#EE7F6D" stroke-width="1.5" stroke-linejoin="miter"/>
+<polyline points="1066,283 1069,277 1072,283" fill="none" stroke="#EE7F6D" stroke-width="1.5" stroke-linejoin="miter"/>
+<text x="1002.0" y="318" font-family="Arial, sans-serif" font-size="14" font-weight="400" fill="#666A73" text-anchor="middle">Declared correspondence</text>
+</svg>

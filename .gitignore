@@ -1,0 +1,35 @@
+# Local interpreters, caches and editor state
+.venv*/
+venv/
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+
+# Local outputs and sensitive run logs
+/outputs/
+/reproduced/
+/reports/
+/generated_inputs/
+/software/runs/
+*.log
+.env
+.env.*
+*.pem
+*.key
+
+# Exact large records are restored from the bundled scientific archive
+/work/**/*.jsonl
+/work/**/inputs/
+/figures/P2_Fig*
+
+# Patient inputs belong outside this public repository
+*.nii
+*.nii.gz
+!software/examples/*.nii.gz
+*.dcm

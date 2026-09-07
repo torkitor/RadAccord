@@ -1,0 +1,376 @@
+{
+  "engine": "mirp",
+  "checks_passed": true,
+  "cases": 4096,
+  "native_jobs": 4608,
+  "duplicate_or_missing_case_job_output_ids": false,
+  "frozen_hashes_unchanged": true,
+  "case_manifest_hash_matches": true,
+  "input_audit_reused": true,
+  "activation_not_applicable": 0,
+  "boundary_errors": 0,
+  "groups": {
+    "reference": {
+      "cases": 64,
+      "native_failure": 0,
+      "schema_failure": 0,
+      "geometry_violation": 0,
+      "witness_violation": 0,
+      "conditional_violation": 0,
+      "anchor_violation": 0,
+      "naive_invariance_violation": 0,
+      "full_violation": 0,
+      "conditional_assessed_features": 5376,
+      "conditional_abstained_features": 0
+    },
+    "equivalent": {
+      "cases": 3200,
+      "native_failure": 0,
+      "schema_failure": 0,
+      "geometry_violation": 0,
+      "witness_violation": 0,
+      "conditional_violation": 0,
+      "anchor_violation": 0,
+      "naive_invariance_violation": 0,
+      "full_violation": 0,
+      "conditional_assessed_features": 268800,
+      "conditional_abstained_features": 0
+    },
+    "covariant": {
+      "cases": 256,
+      "native_failure": 0,
+      "schema_failure": 0,
+      "geometry_violation": 0,
+      "witness_violation": 0,
+      "conditional_violation": 0,
+      "anchor_violation": 0,
+      "naive_invariance_violation": 256,
+      "full_violation": 0,
+      "conditional_assessed_features": 4224,
+      "conditional_abstained_features": 17280
+    },
+    "not_applicable": {
+      "cases": 64,
+      "native_failure": 0,
+      "schema_failure": 0,
+      "geometry_violation": 0,
+      "witness_violation": 0,
+      "conditional_violation": 0,
+      "anchor_violation": 0,
+      "naive_invariance_violation": 64,
+      "full_violation": 0,
+      "conditional_assessed_features": 0,
+      "conditional_abstained_features": 5376
+    },
+    "fault": {
+      "cases": 512,
+      "native_failure": 0,
+      "schema_failure": 0,
+      "geometry_violation": 0,
+      "witness_violation": 512,
+      "conditional_violation": 384,
+      "anchor_violation": 320,
+      "naive_invariance_violation": 384,
+      "repeat_violation": 0,
+      "repeat_numeric_identity": 512,
+      "full_violation": 512,
+      "conditional_assessed_features": 43008,
+      "conditional_abstained_features": 0
+    }
+  },
+  "fault_families": {
+    "H01_reverse_image_slice_stack": {
+      "cases": 64,
+      "native_failure": 0,
+      "schema_failure": 0,
+      "geometry_violation": 0,
+      "witness_violation": 64,
+      "conditional_violation": 64,
+      "anchor_violation": 64,
+      "naive_invariance_violation": 64,
+      "repeat_violation": 0,
+      "repeat_numeric_identity": 64,
+      "full_violation": 64,
+      "conditional_assessed_features": 5376,
+      "conditional_abstained_features": 0
+    },
+    "H02_misread_contiguous_order": {
+      "cases": 64,
+      "native_failure": 0,
+      "schema_failure": 0,
+      "geometry_violation": 0,
+      "witness_violation": 64,
+      "conditional_violation": 64,
+      "anchor_violation": 0,
+      "naive_invariance_violation": 64,
+      "repeat_violation": 0,
+      "repeat_numeric_identity": 64,
+      "full_violation": 64,
+      "conditional_assessed_features": 5376,
+      "conditional_abstained_features": 0
+    },
+    "H03_roi_index_off_by_one": {
+      "cases": 64,
+      "native_failure": 0,
+      "schema_failure": 0,
+      "geometry_violation": 0,
+      "witness_violation": 64,
+      "conditional_violation": 64,
+      "anchor_violation": 64,
+      "naive_invariance_violation": 64,
+      "repeat_violation": 0,
+      "repeat_numeric_identity": 64,
+      "full_violation": 64,
+      "conditional_assessed_features": 5376,
+      "conditional_abstained_features": 0
+    },
+    "H04_linear_mask_then_integer_cast": {
+      "cases": 64,
+      "native_failure": 0,
+      "schema_failure": 0,
+      "geometry_violation": 0,
+      "witness_violation": 64,
+      "conditional_violation": 64,
+      "anchor_violation": 64,
+      "naive_invariance_violation": 64,
+      "repeat_violation": 0,
+      "repeat_numeric_identity": 64,
+      "full_violation": 64,
+      "conditional_assessed_features": 5376,
+      "conditional_abstained_features": 0
+    },
+    "H05_transpose_direction_matrix": {
+      "cases": 64,
+      "native_failure": 0,
+      "schema_failure": 0,
+      "geometry_violation": 0,
+      "witness_violation": 64,
+      "conditional_violation": 0,
+      "anchor_violation": 0,
+      "naive_invariance_violation": 0,
+      "repeat_violation": 0,
+      "repeat_numeric_identity": 64,
+      "full_violation": 64,
+      "conditional_assessed_features": 5376,
+      "conditional_abstained_features": 0
+    },
+    "H06_corner_centre_origin_confusion": {
+      "cases": 64,
+      "native_failure": 0,
+      "schema_failure": 0,
+      "geometry_violation": 0,
+      "witness_violation": 64,
+      "conditional_violation": 0,
+      "anchor_violation": 0,
+      "naive_invariance_violation": 0,
+      "repeat_violation": 0,
+      "repeat_numeric_identity": 64,
+      "full_violation": 64,
+      "conditional_assessed_features": 5376,
+      "conditional_abstained_features": 0
+    },
+    "H07_intercept_before_slope": {
+      "cases": 64,
+      "native_failure": 0,
+      "schema_failure": 0,
+      "geometry_violation": 0,
+      "witness_violation": 64,
+      "conditional_violation": 64,
+      "anchor_violation": 64,
+      "naive_invariance_violation": 64,
+      "repeat_violation": 0,
+      "repeat_numeric_identity": 64,
+      "full_violation": 64,
+      "conditional_assessed_features": 5376,
+      "conditional_abstained_features": 0
+    },
+    "H08_premature_integer_buffer": {
+      "cases": 64,
+      "native_failure": 0,
+      "schema_failure": 0,
+      "geometry_violation": 0,
+      "witness_violation": 64,
+      "conditional_violation": 64,
+      "anchor_violation": 64,
+      "naive_invariance_violation": 64,
+      "repeat_violation": 0,
+      "repeat_numeric_identity": 64,
+      "full_violation": 64,
+      "conditional_assessed_features": 5376,
+      "conditional_abstained_features": 0
+    }
+  },
+  "correctly_transported_case_alerts": [],
+  "correctly_transported_alerts_by_seed": {},
+  "correctly_transported_alerts_by_feature": {},
+  "worst_conditional_scaled_errors": {
+    "reference": {
+      "scaled_error": 0.0,
+      "job_id": "1000_reference",
+      "feature": null
+    },
+    "equivalent": {
+      "scaled_error": 1.6689300537109375e-06,
+      "job_id": "1047_R01",
+      "feature": "stat_kurt",
+      "actual": -0.3373594284057617,
+      "expected": -0.337357759475708
+    },
+    "covariant": {
+      "scaled_error": 2.5390093394919546e-07,
+      "job_id": "1037_intensity_a",
+      "feature": "stat_var",
+      "actual": 961.558349609375,
+      "expected": 961.55859375
+    },
+    "not_applicable": {
+      "scaled_error": 0.0,
+      "job_id": "1000_different_bin_width",
+      "feature": null
+    },
+    "fault": {
+      "scaled_error": 11.031267101601891,
+      "job_id": "1041_H02_misread_contiguous_order",
+      "feature": "rlm_rlnu_3d_avg_fbs_w25.0",
+      "actual": 2568.7008957042663,
+      "expected": 213.50210863178816
+    }
+  },
+  "direct_native_anchor_checks": [
+    {
+      "seed": 1000,
+      "anchor": "mean",
+      "satisfied": true
+    },
+    {
+      "seed": 1000,
+      "anchor": "minimum",
+      "satisfied": true
+    },
+    {
+      "seed": 1000,
+      "anchor": "maximum",
+      "satisfied": true
+    },
+    {
+      "seed": 1000,
+      "anchor": "variance",
+      "satisfied": true
+    },
+    {
+      "seed": 1000,
+      "anchor": "energy",
+      "satisfied": true
+    },
+    {
+      "seed": 1000,
+      "anchor": "voxel_volume",
+      "satisfied": true
+    },
+    {
+      "seed": 1021,
+      "anchor": "mean",
+      "satisfied": true
+    },
+    {
+      "seed": 1021,
+      "anchor": "minimum",
+      "satisfied": true
+    },
+    {
+      "seed": 1021,
+      "anchor": "maximum",
+      "satisfied": true
+    },
+    {
+      "seed": 1021,
+      "anchor": "variance",
+      "satisfied": true
+    },
+    {
+      "seed": 1021,
+      "anchor": "energy",
+      "satisfied": true
+    },
+    {
+      "seed": 1021,
+      "anchor": "voxel_volume",
+      "satisfied": true
+    },
+    {
+      "seed": 1042,
+      "anchor": "mean",
+      "satisfied": true
+    },
+    {
+      "seed": 1042,
+      "anchor": "minimum",
+      "satisfied": true
+    },
+    {
+      "seed": 1042,
+      "anchor": "maximum",
+      "satisfied": true
+    },
+    {
+      "seed": 1042,
+      "anchor": "variance",
+      "satisfied": true
+    },
+    {
+      "seed": 1042,
+      "anchor": "energy",
+      "satisfied": true
+    },
+    {
+      "seed": 1042,
+      "anchor": "voxel_volume",
+      "satisfied": true
+    },
+    {
+      "seed": 1063,
+      "anchor": "mean",
+      "satisfied": true
+    },
+    {
+      "seed": 1063,
+      "anchor": "minimum",
+      "satisfied": true
+    },
+    {
+      "seed": 1063,
+      "anchor": "maximum",
+      "satisfied": true
+    },
+    {
+      "seed": 1063,
+      "anchor": "variance",
+      "satisfied": true
+    },
+    {
+      "seed": 1063,
+      "anchor": "energy",
+      "satisfied": true
+    },
+    {
+      "seed": 1063,
+      "anchor": "voxel_volume",
+      "satisfied": true
+    }
+  ],
+  "native_statuses": {
+    "extracted": 4608
+  },
+  "all_output_feature_counts": {
+    "84": 4608
+  },
+  "native_output_sha256": "bbee315c61e59d53ee35ec78cd53a39a188149340685917bb864fc63ac69da77",
+  "seconds": 0.8771181000010984,
+  "notes": [
+    "The source-aware witness and geometry counts are read from the frozen case log; decoded file digests and geometry are independently rechecked.",
+    "checks_passed describes audit completeness and integrity; it does not mean all native feature obligations were satisfied.",
+    "Conditional decisions are independently computed with abs error <= 1e-6 + 1e-5*abs(expected). No thresholds are altered.",
+    "The four sampled source anchor sets are independently recomputed using math.fsum and decoded physical affine.",
+    "Counts are synthetic software cases nested within 64 phantoms and eight fault mechanisms, not clinical sensitivity or independent patients."
+  ]
+}

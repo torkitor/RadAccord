@@ -1,0 +1,406 @@
+{
+  "software": "RadAccord",
+  "version": "1.0.0",
+  "date": "2026-09-07",
+  "source_archive_sha256": "f1a7ae9a71a210797c5474ede85f41958baa330dde11f2d0a78dd0406186f5a2",
+  "scope": "Final RadAccord 1.0.0 distribution after prepublication figure styling. The wrapper, verifier, configuration, examples and numerical records remain byte-identical to those previously tested. No new benchmark data were generated.",
+  "frozen_manifests": [
+    {
+      "manifest": "software/protocol/final_freeze.json",
+      "files_checked": 16,
+      "all_match": true
+    },
+    {
+      "manifest": "software/protocol/refinement_freeze.json",
+      "files_checked": 19,
+      "all_match": true
+    }
+  ],
+  "source_software_and_work_files_byte_identical": [
+    "software/adapters.py",
+    "software/benchmark.py",
+    "software/examples/origin_fault_contract.json",
+    "software/examples/origin_fault_expected_report.json",
+    "software/examples/origin_fault_image.nii.gz",
+    "software/examples/origin_fault_mask.nii.gz",
+    "software/examples/README.md",
+    "software/examples/source_image.nii.gz",
+    "software/examples/source_mask.nii.gz",
+    "software/examples/valid_reindex_contract.json",
+    "software/examples/valid_reindex_expected_report.json",
+    "software/examples/valid_reindex_image.nii.gz",
+    "software/examples/valid_reindex_mask.nii.gz",
+    "software/faultinjectors.py",
+    "software/output_mutants.py",
+    "software/physical_contracts.py",
+    "software/protocol/feature_schema.json",
+    "software/protocol/final_freeze.json",
+    "software/protocol/heldout_faults_freeze.json",
+    "software/protocol/heldout_faults_spec.json",
+    "software/protocol/protocol.json",
+    "software/protocol/refinement_freeze.json",
+    "software/protocol/refinement_protocol.json",
+    "software/README.md",
+    "software/relations.py",
+    "software/REPRODUCIBILITY.md",
+    "software/requirements-core.txt",
+    "software/requirements-mirp.txt",
+    "software/requirements-pyradiomics.txt",
+    "software/tests/test_physical_contracts.py",
+    "software/tests/test_relations.py",
+    "software/validation_refinement.py",
+    "software/verify.py",
+    "software/verify_refined.py",
+    "work/contract_source_provenance.json",
+    "work/development_final/cases.jsonl",
+    "work/development_final/decisions.jsonl",
+    "work/development_final/feature_diagnostics.jsonl",
+    "work/development_final/input_manifest.json",
+    "work/development_final/jobs.jsonl",
+    "work/development_final/mirp.jsonl",
+    "work/development_final/mirp_environment.json",
+    "work/development_final/mirp_run.json",
+    "work/development_final/output_mutants.jsonl",
+    "work/development_final/output_mutants_summary.json",
+    "work/development_final/pyradiomics.jsonl",
+    "work/development_final/pyradiomics_environment.json",
+    "work/development_final/pyradiomics_run.json",
+    "work/development_final/summary.json",
+    "work/fig3_source_data.json",
+    "work/fig4_source_data.json",
+    "work/heldout/cases.jsonl",
+    "work/heldout/decisions.jsonl",
+    "work/heldout/feature_diagnostics.jsonl",
+    "work/heldout/input_manifest.json",
+    "work/heldout/jobs.jsonl",
+    "work/heldout/mirp.jsonl",
+    "work/heldout/mirp_environment.json",
+    "work/heldout/mirp_run.json",
+    "work/heldout/pyradiomics.jsonl",
+    "work/heldout/pyradiomics_environment.json",
+    "work/heldout/pyradiomics_run.json",
+    "work/heldout/summary.json",
+    "work/independent_decisions_mirp.jsonl",
+    "work/independent_decisions_pyradiomics.jsonl",
+    "work/independent_input_audit.json",
+    "work/independent_refinement_audit.json",
+    "work/independent_refinement_audit.md",
+    "work/independent_refinement_audit.py",
+    "work/independent_refinement_decisions.jsonl",
+    "work/independent_results_audit.py",
+    "work/independent_results_audit_mirp.json",
+    "work/independent_results_audit_mirp.md",
+    "work/independent_results_audit_pyradiomics.json",
+    "work/independent_results_audit_pyradiomics.md",
+    "work/inspect_shape_alert_geometry.py",
+    "work/physical_contracts_independent_review.md",
+    "work/refinement/cases.jsonl",
+    "work/refinement/input_manifest.json",
+    "work/refinement/jobs.jsonl",
+    "work/refinement/pyradiomics.jsonl",
+    "work/refinement/pyradiomics_environment.json",
+    "work/refinement/pyradiomics_refined_decisions.jsonl",
+    "work/refinement/pyradiomics_refined_summary.json",
+    "work/refinement/pyradiomics_run.json",
+    "work/refinement_output_coverage_audit.json",
+    "work/refinement_qform_edge_audit.json",
+    "work/refinement_qform_edge_audit.md",
+    "work/relations_unit_test_report.md",
+    "work/reproduce_shape_lookup.py",
+    "work/shape_alert_geometry_description.json",
+    "work/shape_ambiguity_review.md",
+    "work/shape_lookup_reconstruction.json"
+  ],
+  "historical_audit_files_byte_identical": [
+    "PRIVACY_SCAN.json",
+    "RELEASE_VALIDATION.json",
+    "MANIFEST.sha256"
+  ],
+  "version_command": {
+    "exit_code": 0,
+    "stdout": "RadAccord 1.0.0"
+  },
+  "help_from_unrelated_directory_with_spaces": {
+    "exit_code": 0,
+    "delegated_arguments_available": true
+  },
+  "native_engine": "PyRadiomics 3.0.1, existing recorded local environment",
+  "native_cli_examples": [
+    {
+      "example": "valid_reindex",
+      "exit_code": 0,
+      "decision": "applicable_obligations_satisfied",
+      "witness": "satisfied",
+      "relations": "satisfied",
+      "anchors": "satisfied",
+      "profile": "revised_mesh_scope",
+      "complete_report_matches_archive_except_seconds": true,
+      "command": "python -B radaccord.py --source-image software/examples/source_image.nii.gz --source-mask software/examples/source_mask.nii.gz --candidate-image software/examples/valid_reindex_image.nii.gz --candidate-mask software/examples/valid_reindex_mask.nii.gz --contract software/examples/valid_reindex_contract.json --engine pyradiomics --engine-python ENGINE_PYTHON --report valid_reindex_report.json"
+    },
+    {
+      "example": "origin_fault",
+      "exit_code": 1,
+      "decision": "violated",
+      "witness": "violated",
+      "relations": "satisfied",
+      "anchors": "satisfied",
+      "profile": "revised_mesh_scope",
+      "complete_report_matches_archive_except_seconds": true,
+      "command": "python -B radaccord.py --source-image software/examples/source_image.nii.gz --source-mask software/examples/source_mask.nii.gz --candidate-image software/examples/origin_fault_image.nii.gz --candidate-mask software/examples/origin_fault_mask.nii.gz --contract software/examples/origin_fault_contract.json --engine pyradiomics --engine-python ENGINE_PYTHON --report origin_fault_report.json"
+    }
+  ],
+  "checks_not_rerun": [
+    "full scientific unit suite",
+    "full native benchmark extraction",
+    "large input regeneration"
+  ],
+  "wrapper_sha256": "dd2d1572338ab46c990020dae4199ed53462e9e7b7ab760c088310cca2412048",
+  "original_profile_entry": "software/verify.py",
+  "final_zip_created": true,
+  "status": "Final release validated",
+  "source_scientific_file_count": 96,
+  "source_scientific_files_unchanged_count": 93,
+  "archived_scientific_json_and_jsonl_files": {
+    "count": 59,
+    "all_byte_identical": true,
+    "files": [
+      "software/examples/origin_fault_contract.json",
+      "software/examples/origin_fault_expected_report.json",
+      "software/examples/valid_reindex_contract.json",
+      "software/examples/valid_reindex_expected_report.json",
+      "software/protocol/feature_schema.json",
+      "software/protocol/final_freeze.json",
+      "software/protocol/heldout_faults_freeze.json",
+      "software/protocol/heldout_faults_spec.json",
+      "software/protocol/protocol.json",
+      "software/protocol/refinement_freeze.json",
+      "software/protocol/refinement_protocol.json",
+      "work/contract_source_provenance.json",
+      "work/development_final/cases.jsonl",
+      "work/development_final/decisions.jsonl",
+      "work/development_final/feature_diagnostics.jsonl",
+      "work/development_final/input_manifest.json",
+      "work/development_final/jobs.jsonl",
+      "work/development_final/mirp.jsonl",
+      "work/development_final/mirp_environment.json",
+      "work/development_final/mirp_run.json",
+      "work/development_final/output_mutants.jsonl",
+      "work/development_final/output_mutants_summary.json",
+      "work/development_final/pyradiomics.jsonl",
+      "work/development_final/pyradiomics_environment.json",
+      "work/development_final/pyradiomics_run.json",
+      "work/development_final/summary.json",
+      "work/fig3_source_data.json",
+      "work/fig4_source_data.json",
+      "work/heldout/cases.jsonl",
+      "work/heldout/decisions.jsonl",
+      "work/heldout/feature_diagnostics.jsonl",
+      "work/heldout/input_manifest.json",
+      "work/heldout/jobs.jsonl",
+      "work/heldout/mirp.jsonl",
+      "work/heldout/mirp_environment.json",
+      "work/heldout/mirp_run.json",
+      "work/heldout/pyradiomics.jsonl",
+      "work/heldout/pyradiomics_environment.json",
+      "work/heldout/pyradiomics_run.json",
+      "work/heldout/summary.json",
+      "work/independent_decisions_mirp.jsonl",
+      "work/independent_decisions_pyradiomics.jsonl",
+      "work/independent_input_audit.json",
+      "work/independent_refinement_audit.json",
+      "work/independent_refinement_decisions.jsonl",
+      "work/independent_results_audit_mirp.json",
+      "work/independent_results_audit_pyradiomics.json",
+      "work/refinement/cases.jsonl",
+      "work/refinement/input_manifest.json",
+      "work/refinement/jobs.jsonl",
+      "work/refinement/pyradiomics.jsonl",
+      "work/refinement/pyradiomics_environment.json",
+      "work/refinement/pyradiomics_refined_decisions.jsonl",
+      "work/refinement/pyradiomics_refined_summary.json",
+      "work/refinement/pyradiomics_run.json",
+      "work/refinement_output_coverage_audit.json",
+      "work/refinement_qform_edge_audit.json",
+      "work/shape_alert_geometry_description.json",
+      "work/shape_lookup_reconstruction.json"
+    ]
+  },
+  "allowed_existing_file_differences": [
+    "CITATION.cff",
+    "MANIFEST.sha256",
+    "PRIVACY_SCAN.json",
+    "README.md",
+    "RELEASE_VALIDATION.json",
+    "figures/README.md",
+    "work/build_fig1.py",
+    "work/build_fig2.py",
+    "work/build_fig3_4.py"
+  ],
+  "added_files": [
+    "USAGE.md",
+    "radaccord.py",
+    "release_history/supplementary_software_1/MANIFEST.sha256",
+    "release_history/supplementary_software_1/PRIVACY_SCAN.json",
+    "release_history/supplementary_software_1/README.md",
+    "release_history/supplementary_software_1/RELEASE_VALIDATION.json",
+    "software_branding_audit.json",
+    "work/figure_style.py"
+  ],
+  "archive_filename": "RadAccord-1.0.0.zip",
+  "archive_checks": "All member CRCs and every MANIFEST.sha256 entry verified after packaging; archive digest is recorded separately to avoid a circular self-hash.",
+  "manuscript_title": "RadAccord: software for physical consistency testing before radiomic feature reuse in research",
+  "manuscript_title_revision": {
+    "previous_archive_sha256": "50cb2130030fbc47c3ed9e3d6c194a8bbedf0c83bb1b2fafb4d0fc35c5213ebb",
+    "previous_title": "RadAccord for physical consistency testing before radiomic feature reuse",
+    "approved_title": "RadAccord: software for physical consistency testing before radiomic feature reuse in research",
+    "version_unchanged": "1.0.0: unpublished manuscript title correction only",
+    "substantive_changed_files": [
+      "README.md",
+      "CITATION.cff"
+    ],
+    "regenerated_release_records": [
+      "MANIFEST.sha256",
+      "PRIVACY_SCAN.json",
+      "RELEASE_VALIDATION.json",
+      "software_branding_audit.json"
+    ],
+    "all_96_scientific_files_byte_identical_to_previous_named_archive": true,
+    "historical_release_evidence_untouched": true,
+    "native_extraction_rerun_for_title_revision": false,
+    "scope": "Historical title-revision checks before the figure styling revision; these counts describe that earlier snapshot."
+  },
+  "allowed_figure_script_differences": [
+    {
+      "file": "work/build_fig1.py",
+      "source_sha256": "0f968c56976f78d5f9c170016278f26d6ced7f8181b423df2c8840bcf5d2b614",
+      "release_sha256": "51481ba5596e6f0163f478113e5cbdc0261d9a2afdba25e9be11ebe5100f50e5"
+    },
+    {
+      "file": "work/build_fig2.py",
+      "source_sha256": "e9620133a5f030f4b3ba155e51b2efc767353b63f5bac55a955deeb62f277d64",
+      "release_sha256": "a482f3f74f28242398b6efa60dcd3c118a46ff26b25ab5ea9e837ca72e1f42f7"
+    },
+    {
+      "file": "work/build_fig3_4.py",
+      "source_sha256": "e16311cf8b11f48488b3273f0a21c0393597d474a28667d9c63a73ba500c95a4",
+      "release_sha256": "31e31c70b5fc884d0d5bfe6a29650b448f9f02dfcc6a42d82e42a87dde016a4c"
+    }
+  ],
+  "figure_reproduction": {
+    "commands": [
+      "python -B work/build_fig1.py",
+      "python -B work/build_fig2.py",
+      "python -B work/build_fig3_4.py"
+    ],
+    "all_exit_codes_zero": true,
+    "figures": [
+      {
+        "figure": "P2_Fig1",
+        "sha256": {
+          "png": "300ee44c949f9f1f12dd77343a285b30f5774b749e5aac7187f8320e4009b222",
+          "pdf": "52db8c9eb9dd79f52fa8980dfc2bb60b5e2ea0c079fa1f9641d305800be09f20",
+          "svg": "da4eb21475ab97e0e10afdda456b6d80a4208bd65e64cde6aa2d78dd0fd86840",
+          "tiff": "cb0f2d86dcaf7aa3ec9b8d48e974c2c1f7357e95b444b1aa556c9bc2b2f0241c"
+        },
+        "pixels": [
+          3900,
+          3900
+        ],
+        "dpi": 600,
+        "all_four_formats_byte_identical_to_final_manuscript_figures": true,
+        "png_tiff_pixels_identical": true,
+        "embedded_pdf_fonts": [
+          "/ELUGPM+ArialMT",
+          "/ELUGPM+Arial-BoldMT"
+        ],
+        "svg_text_editable": true
+      },
+      {
+        "figure": "P2_Fig2",
+        "sha256": {
+          "png": "cd1ac0763a84d2fecb3b4f480c4e69633508cf29b14d2f9577be054a5f3987c0",
+          "pdf": "892157b5ebeba537db71075a9089d9ab8b27e7572276c093b604bc249cac4b93",
+          "svg": "ffb859aa46aa4331f89a100201a3d69095cd5e53539f2490aa7238bdc0fcd49a",
+          "tiff": "740997b88ed4869044d7de3c11ab300818c195ff7eaeba39b249559803dabbe8"
+        },
+        "pixels": [
+          3900,
+          3600
+        ],
+        "dpi": 600,
+        "all_four_formats_byte_identical_to_final_manuscript_figures": true,
+        "png_tiff_pixels_identical": true,
+        "embedded_pdf_fonts": [
+          "/ELUGPM+ArialMT",
+          "/ELUGPM+Arial-BoldMT"
+        ],
+        "svg_text_editable": true
+      },
+      {
+        "figure": "P2_Fig3",
+        "sha256": {
+          "png": "081d6458b07d132d5ba68c2b782bb0772276db3bccb29992bb650b028b9a6ed4",
+          "pdf": "7144f5187fe7c5b405ad98336a773338728d524c02f76f2f79b2d79babd195a9",
+          "svg": "7a557a9ca6b8a6f880d5979d4af342489d55e6b57a2505833f46de630649db82",
+          "tiff": "7a365890ae04cf989cc01ae794ae4a020cafc1454065f09383550e5becea6c01"
+        },
+        "pixels": [
+          3900,
+          2760
+        ],
+        "dpi": 600,
+        "all_four_formats_byte_identical_to_final_manuscript_figures": true,
+        "png_tiff_pixels_identical": true,
+        "embedded_pdf_fonts": [
+          "/ELUGPM+ArialMT",
+          "/ELUGPM+Arial-BoldMT"
+        ],
+        "svg_text_editable": true
+      },
+      {
+        "figure": "P2_Fig4",
+        "sha256": {
+          "png": "988e704ff184b4049502bbe43c128f2f98cbd410ee1a25250633c827ccdd310e",
+          "pdf": "c09dbcee4be7d8bd3db440ee9462c26cf28c1ce1a9656679e91577e844ec4383",
+          "svg": "86ccc7276c82d57a46b3ee6443bf3db6ca5c3c0c3cf5c40dc9b5f4635ec9b255",
+          "tiff": "e49342f7a87ac40c845feba440dcbed6d6e5fbe62b757b548d412b93f696494d"
+        },
+        "pixels": [
+          3900,
+          3840
+        ],
+        "dpi": 600,
+        "all_four_formats_byte_identical_to_final_manuscript_figures": true,
+        "png_tiff_pixels_identical": true,
+        "embedded_pdf_fonts": [
+          "/ELUGPM+ArialMT",
+          "/ELUGPM+Arial-BoldMT"
+        ],
+        "svg_text_editable": true
+      }
+    ],
+    "figure_1_phantom_geometry_and_camera_blocks_unchanged": true,
+    "figure_1_geometry_comparison_scope": "Phantom, vertices, points, triangles and normals before the display-colour assignment; bounds, camera, orthographic projection and zoom after adding the mesh collection. Display colour and axes placement are styling.",
+    "generated_figures_and_font_files_excluded_from_software_archive": true
+  },
+  "figure_styling_revision": {
+    "previous_archive_sha256": "1d5b855b6eed124126b9dd7aca005125583811fe527a5cde93b125ae5b2123d5",
+    "version_unchanged": "1.0.0: prepublication figure styling only",
+    "changed_figure_sources": [
+      "work/build_fig1.py",
+      "work/build_fig2.py",
+      "work/build_fig3_4.py"
+    ],
+    "shared_style": "work/figure_style.py",
+    "regenerated_release_records": [
+      "MANIFEST.sha256",
+      "PRIVACY_SCAN.json",
+      "RELEASE_VALIDATION.json",
+      "software_branding_audit.json"
+    ],
+    "unchanged_original_software_and_work_files": 93,
+    "all_59_scientific_json_jsonl_files_byte_identical": true,
+    "historical_release_evidence_untouched": true,
+    "native_extraction_rerun_for_figure_revision": false
+  }
+}

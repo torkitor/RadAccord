@@ -1,0 +1,38 @@
+{
+  "purpose": "Source provenance only; no benchmark, phantom, or held-out execution.",
+  "mirp_2_5_0_tags": [
+    {
+      "name": "v2.5.0",
+      "zipball_url": "https://api.github.com/repos/oncoray/mirp/zipball/refs/tags/v2.5.0",
+      "tarball_url": "https://api.github.com/repos/oncoray/mirp/tarball/refs/tags/v2.5.0",
+      "commit": {
+        "sha": "fdd6924ed49291ed3cd66fe6671f2c0ab2e4c3bd",
+        "url": "https://api.github.com/repos/oncoray/mirp/commits/fdd6924ed49291ed3cd66fe6671f2c0ab2e4c3bd"
+      },
+      "node_id": "MDM6UmVmMTk0NzI2ODYxOnJlZnMvdGFncy92Mi41LjA="
+    }
+  ],
+  "morph_3d_features.py": {
+    "installed_normalized_sha256": "75e771d7736f16044bdfb4cabe92c4ae77d3d3a81571d944d70568132a4ff15f",
+    "official_head_normalized_sha256": "75e771d7736f16044bdfb4cabe92c4ae77d3d3a81571d944d70568132a4ff15f",
+    "same_after_newline_normalization": true,
+    "same_as_pypi_wheel": true
+  },
+  "morph_3d_data.py": {
+    "installed_normalized_sha256": "4ec1dbfdd6cc9a871e16500f5d36c1369382ee0717f97f9a05ea26d7ba9f0a11",
+    "official_head_normalized_sha256": "4ec1dbfdd6cc9a871e16500f5d36c1369382ee0717f97f9a05ea26d7ba9f0a11",
+    "same_after_newline_normalization": true,
+    "same_as_pypi_wheel": true
+  },
+  "pypi_wheel": {
+    "filename": "mirp-2.5.0-py3-none-any.whl",
+    "url": "https://files.pythonhosted.org/packages/50/ae/2d48665f79a863b8a7ec3d1c77f779b2b42886e854dee0b655793b14c5ff/mirp-2.5.0-py3-none-any.whl",
+    "digests": {
+      "blake2b_256": "50ae2d48665f79a863b8a7ec3d1c77f779b2b42886e854dee0b655793b14c5ff",
+      "md5": "9e3d1a0100bffaab9bdb0bb95325eb00",
+      "sha256": "972c8f7d4e77648639cd514a15185b65070610dfae9a5d8e9f8c8dd14ff07db5"
+    },
+    "upload_time_iso_8601": "2026-02-03T12:15:53.524129Z",
+    "download_matches_sha256": true
+  }
+}

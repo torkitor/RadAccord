@@ -1,0 +1,8 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="256" height="256" viewBox="0 0 256 256" role="img" aria-labelledby="title desc">
+<title id="title">RadAccord logomark</title><desc id="desc">Two coordinate frames and corresponding points linked by a declared displacement.</desc>
+<rect x="46.0" y="74.0" width="128.0" height="128.0" fill="none" stroke="#5F6F9F" stroke-width="10.0"/>
+<rect x="82.0" y="38.0" width="128.0" height="128.0" fill="none" stroke="#EE7F6D" stroke-width="10.0"/>
+<polyline points="110.0,138.0 146.0,102.0" fill="none" stroke="#222222" stroke-width="4.0" stroke-linejoin="miter"/>
+<circle cx="110.0" cy="138.0" r="8.0" fill="#5F6F9F"/>
+<circle cx="146.0" cy="102.0" r="8.0" fill="#EE7F6D"/>
+</svg>

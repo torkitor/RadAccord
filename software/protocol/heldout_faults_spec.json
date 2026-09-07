@@ -1,0 +1,159 @@
+{
+  "schema_version": "1.0",
+  "study": "Physical-coordinate verification for radiomics software integration",
+  "specification_role": "Held-out fault definitions prepared before final evaluation",
+  "evaluation_status_at_definition": "Not executed or inspected by the specification author",
+  "mutation_scope": "Owned integration adapters only; no modification of third-party libraries",
+  "heldout_seeds": {"first": 1000, "last": 1063, "count": 64},
+  "development_faults_excluded": [
+    "replace both image and mask spacing by unit spacing",
+    "zero the origin",
+    "discard the direction matrix",
+    "select an incorrect mask label",
+    "ignore calibration",
+    "double normalisation or biased scaling of feature outputs"
+  ],
+  "independence_scope": "New mutation mechanisms and held-out phantom seeds. Mathematical properties and portions of the diagnostic machinery overlap development; this is not external independent validation.",
+  "api": {
+    "module": "software/faultinjectors.py",
+    "call": "transform_frame(frame, fault_id)",
+    "input_type": "dict",
+    "required_keys": ["data", "mask", "affine"],
+    "optional_keys": {"label": 1, "slope": 1.0, "intercept": 0.0},
+    "array_order": "XYZ",
+    "affine_convention": "4x4 float64 index-to-RAS physical transform",
+    "data_semantics": "Decoded physical intensities, represented as float64 inside the adapter",
+    "writer_contract": "stored=(data-intercept)/slope; header calibration is recorded and normally decoded by the reader",
+    "return_contract": "Mutated deep copy with the same payload keys; caller input is not altered",
+    "unknown_name": "KeyError, never implicit identity",
+    "inapplicable_mutation": "FaultNotApplicable with reason; retain the attempted case and do not redraw its seed"
+  },
+  "fixture_requirements": {
+    "geometry": "Nonzero origin, anisotropic positive spacing and nonsymmetric oblique orthogonal direction; no shear",
+    "array": "Three-dimensional, asymmetric physical-intensity field with at least two samples per axis",
+    "mask": "Selected nonzero label exists; at least one trailing x plane is empty; asymmetric ROI includes neighbouring x voxels",
+    "intensity": "Finite values within int16 range, including nonintegral quarter-unit values",
+    "calibration": {"slope": 2.0, "intercept": -8.0},
+    "scope_note": "These activation requirements are fixed before held-out outcomes. They are engineering coverage choices, not clinical population sampling. Any unmet requirement must be reported."
+  },
+  "evaluation_units": {
+    "primary_case": ["seed", "representation_id", "fault_id"],
+    "base_fault_combinations": 512,
+    "base_fault_combinations_note": "64 seeds times 8 fault families at one primary representation; additional representation variants remain dependent repeated cases",
+    "controls": "Unmodified frames and admissible transformed frames from the root evaluation protocol; no hidden control injector is included here",
+    "report_separately": ["attempted", "applicable", "inapplicable", "reader_or_extractor_error", "contract_violation_detected", "undetected_violation", "control_false_alarm"],
+    "no_posthoc_exclusion": "Retain faults with little or no feature drift. Do not condition performance on whether a scalar output changed.",
+    "no_universal_rates": "Report by fault family and base phantom; do not interpret all transformed arrays or feature values as independent subjects."
+  },
+  "faults": [
+    {
+      "id": "H01_reverse_image_slice_stack",
+      "mechanism": "A slice-list reader reverses only the image stack without applying the corresponding physical transform or changing the mask",
+      "operation": "data'=data[:,:,::-1]; mask and affine unchanged",
+      "activation": "At least two z slices and an intensity field not invariant under that reversal",
+      "changed": ["physical intensity assignment", "image-to-ROI correspondence"],
+      "preserved": ["array dimensions", "affine", "mask", "nominal paired geometry", "full-image intensity multiset"],
+      "required_diagnostic": "Physical-intensity correspondence violation; first divergent stage is the owned slice-order adapter",
+      "feature_expectation": "No universal magnitude prediction; selected ROI statistics or textures may change while some shape quantities remain unchanged",
+      "third_party_fault_claim": false
+    },
+    {
+      "id": "H02_misread_contiguous_order",
+      "mechanism": "A shared buffer is read with Fortran indexing although it was flattened in C order",
+      "operation": "For both data and mask, ravel(order='C').reshape(original_shape,order='F'); affine unchanged",
+      "activation": "The paired reinterpretation changes at least one input array",
+      "changed": ["mapping from voxel indices to physical image samples", "spatial arrangement of ROI and texture"],
+      "preserved": ["array dimensions", "affine", "nominal paired geometry", "ROI voxel count", "paired data-mask intensity multiset"],
+      "required_diagnostic": "Physical correspondence violation despite retained paired first-order intensity distribution",
+      "feature_expectation": "First-order distribution and voxel-count volume can survive; spatial features need not. No scalar change is required for a true representation violation.",
+      "third_party_fault_claim": false
+    },
+    {
+      "id": "H03_roi_index_off_by_one",
+      "mechanism": "An ROI voxel index is shifted by one when converting an inclusive array index to a destination buffer",
+      "operation": "mask'[1:,:,:]=mask[:-1,:,:], with a zero first plane; data and affine unchanged",
+      "activation": "One empty trailing x plane prevents ROI truncation",
+      "changed": ["physical ROI location", "selection of image intensities by the ROI"],
+      "preserved": ["shape", "affine", "nonzero label identities", "voxel counts per label", "nominal paired geometry"],
+      "required_diagnostic": "ROI correspondence violation with exactly one x-index displacement of retained labelled samples",
+      "feature_expectation": "Shape volume is preserved. The masked intensity distribution may or may not change; record it rather than assuming a minimum effect.",
+      "third_party_fault_claim": false
+    },
+    {
+      "id": "H04_linear_mask_then_integer_cast",
+      "mechanism": "A binary ROI is averaged at half a voxel using a linear operation and then cast to integer labels by truncation",
+      "operation": "Average selected-label support with its previous-x neighbour, truncate to uint8 and restore the selected label; preserve other labels",
+      "activation": "A finite nonempty selected ROI; neighbouring x voxels are part of the planned fixtures",
+      "changed": ["ROI support", "boundary membership", "usually ROI voxel count"],
+      "preserved": ["array dimensions", "image data", "affine", "nominal paired geometry"],
+      "required_diagnostic": "ROI-support violation; report an empty or unextractable result if one occurs rather than dropping the case",
+      "feature_expectation": "The operation retains the intersection with the shifted ROI. Retained voxel count can only decrease; no numerical feature error size is assumed.",
+      "third_party_fault_claim": false
+    },
+    {
+      "id": "H05_transpose_direction_matrix",
+      "mechanism": "A row-major direction matrix is treated as column-major at an interface boundary",
+      "operation": "D=A[:3,:3]/column_norms; set A'[:3,:3]=D.T*column_norms, retaining origin",
+      "activation": "Positive spacing, orthogonal direction and D different from D.T",
+      "changed": ["physical orientation and point locations"],
+      "preserved": ["data", "mask", "origin", "spacing magnitudes", "absolute voxel-volume determinant", "nominal paired geometry"],
+      "required_diagnostic": "Physical-coordinate witness violation even if all scalar measurements remain unchanged",
+      "feature_expectation": "Physically rotation-invariant scalar measurements may all survive. That is an intended blind spot of feature-only checking, not a reason to exclude the fault.",
+      "third_party_fault_claim": false
+    },
+    {
+      "id": "H06_corner_centre_origin_confusion",
+      "mechanism": "The origin of the centre of the first voxel is interpreted as the outer corner of that voxel",
+      "operation": "A'[:3,3]=A[:3,3]+A[:3,:3]@[0.5,0.5,0.5]",
+      "activation": "A valid invertible spatial affine",
+      "changed": ["physical point locations by a common half-voxel offset"],
+      "preserved": ["all array values", "ROI support in index coordinates", "spacing", "direction", "nominal paired geometry", "translation-invariant scalar measurements"],
+      "required_diagnostic": "Physical-coordinate witness violation; for orthogonal axes the displacement magnitude is 0.5*sqrt(sx^2+sy^2+sz^2)",
+      "feature_expectation": "Translation-invariant scalar outputs are expected to remain unchanged, demonstrating that scalar agreement cannot prove physical identity",
+      "third_party_fault_claim": false
+    },
+    {
+      "id": "H07_intercept_before_slope",
+      "mechanism": "The decoder adds the calibration intercept before applying the slope",
+      "operation": "stored=(data-b)/a; data'=(stored+b)*a; keep slope a and intercept b for the later correct writer",
+      "activation": "Finite nonzero slope a, a!=1, and nonzero intercept b",
+      "changed": ["physical intensities by the constant b*(a-1)"],
+      "preserved": ["mask", "affine", "nominal paired geometry", "intensity ranks and pairwise differences in exact arithmetic"],
+      "required_diagnostic": "Intensity-calibration correspondence violation; nonzero mean anchor follows the same additive error",
+      "feature_expectation": "For the frozen a=2,b=-8 setting, the physical intensity and ROI-mean offsets are -8 before file-rounding effects; variance can remain unchanged",
+      "third_party_fault_claim": false
+    },
+    {
+      "id": "H08_premature_integer_buffer",
+      "mechanism": "Decoded floating-point intensities are passed through an int16 temporary buffer before re-encoding",
+      "operation": "data'=data.astype(int16).astype(float64), truncating toward zero; metadata unchanged",
+      "activation": "All data fit int16 and at least one intensity is nonintegral, isolating truncation from overflow",
+      "changed": ["physical intensity values with a nonzero fractional part"],
+      "preserved": ["mask", "affine", "nominal paired geometry", "integer-valued input samples"],
+      "required_diagnostic": "Intensity correspondence violation; pre-writer absolute error is less than one intensity unit per changed voxel",
+      "feature_expectation": "Some texture values may be unchanged if discretised bins remain unchanged; no minimum downstream feature drift is required",
+      "third_party_fault_claim": false
+    }
+  ],
+  "representative_contrast_fixed_before_outcomes": {
+    "purpose": "Show that operational error size and downstream scalar drift are different properties; these are not validated clinical severity categories",
+    "large_spatial_rearrangement_examples": ["H02_misread_contiguous_order", "H05_transpose_direction_matrix"],
+    "smaller_offset_or_precision_examples": ["H06_corner_centre_origin_confusion", "H08_premature_integer_buffer"],
+    "required_report": [
+      "maximum physical point displacement in mm where a matching source-index map is defined",
+      "maximum absolute decoded intensity discrepancy on corresponding source samples",
+      "ROI support agreement after mapping to the declared common physical frame",
+      "signed and absolute ROI-mean error",
+      "absolute volume error and volume ratio where reference volume is nonzero",
+      "per-feature absolute error plus error divided by max(1,abs(reference)) in stated feature units",
+      "physical-witness decision, nominal geometry decision and feature-only decision"
+    ],
+    "magnitude_note": "Report observed displacement and intensity differences; do not force 'large' or 'small' feature effects to fit these planned examples. Do not calculate a geometric displacement by naively subtracting arrays from incompatible frames."
+  },
+  "freeze_policy": {
+    "artifact": "work/heldout_faults_freeze.json",
+    "contents": "UTC timestamp and SHA256 of this specification and software/faultinjectors.py",
+    "before_final_evaluation": true,
+    "amendments": "Any later change requires a separately recorded reason, hashes and identification of outcomes already inspected; never silently rewrite the frozen definitions"
+  }
+}

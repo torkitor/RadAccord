@@ -1,0 +1,1333 @@
+{
+  "audit_integrity_passed": true,
+  "cases_retained": 2048,
+  "planned_native_jobs": 2304,
+  "scheduled_and_completed_native_jobs": 2302,
+  "fault_repeat_jobs": 256,
+  "outside_domain_not_approved": [
+    "2015_R06",
+    "2015_R07"
+  ],
+  "activation_not_applicable": 0,
+  "no_duplicate_or_missing_scheduled_outputs": true,
+  "all_native_outputs_extracted_finite_complete": true,
+  "frozen_hash_counts_verified": {
+    "final_freeze.json": 16,
+    "refinement_freeze.json": 19
+  },
+  "decoded_files_verified": 4092,
+  "source_digest_consistency_and_uniqueness": true,
+  "groups": {
+    "reference": {
+      "attempted": 32,
+      "analysable": 32,
+      "initial_relation_violation": 0,
+      "revised_relation_violation": 0,
+      "anchor_violation": 0,
+      "witness_violation": 0,
+      "pair_geometry_violation": 0,
+      "repeat_violation": 0,
+      "repeat_numeric_identity": 0,
+      "combined_violation": 0,
+      "relation_abstention": 0,
+      "approved": 32
+    },
+    "equivalent": {
+      "attempted": 1600,
+      "analysable": 1598,
+      "initial_relation_violation": 384,
+      "revised_relation_violation": 0,
+      "anchor_violation": 0,
+      "witness_violation": 0,
+      "pair_geometry_violation": 0,
+      "repeat_violation": 0,
+      "repeat_numeric_identity": 0,
+      "combined_violation": 0,
+      "relation_abstention": 0,
+      "approved": 1598,
+      "boundary_rejected": 2
+    },
+    "covariant": {
+      "attempted": 128,
+      "analysable": 128,
+      "initial_relation_violation": 0,
+      "revised_relation_violation": 0,
+      "anchor_violation": 0,
+      "witness_violation": 0,
+      "pair_geometry_violation": 0,
+      "repeat_violation": 0,
+      "repeat_numeric_identity": 0,
+      "combined_violation": 0,
+      "relation_abstention": 0,
+      "approved": 128
+    },
+    "not_applicable": {
+      "attempted": 32,
+      "analysable": 32,
+      "initial_relation_violation": 0,
+      "revised_relation_violation": 0,
+      "anchor_violation": 0,
+      "witness_violation": 0,
+      "pair_geometry_violation": 0,
+      "repeat_violation": 0,
+      "repeat_numeric_identity": 0,
+      "combined_violation": 0,
+      "relation_abstention": 32,
+      "approved": 0
+    },
+    "fault": {
+      "attempted": 256,
+      "analysable": 256,
+      "initial_relation_violation": 192,
+      "revised_relation_violation": 192,
+      "anchor_violation": 160,
+      "witness_violation": 256,
+      "pair_geometry_violation": 0,
+      "repeat_violation": 0,
+      "repeat_numeric_identity": 256,
+      "combined_violation": 256,
+      "relation_abstention": 0,
+      "approved": 0
+    }
+  },
+  "fault_families": {
+    "H01_reverse_image_slice_stack": {
+      "analysable": 32,
+      "initial_relation_violation": 32,
+      "revised_relation_violation": 32,
+      "anchor_violation": 32,
+      "witness_violation": 32,
+      "pair_geometry_violation": 0,
+      "repeat_violation": 0,
+      "repeat_numeric_identity": 32,
+      "combined_violation": 32,
+      "relation_abstention": 0,
+      "approved": 0
+    },
+    "H02_misread_contiguous_order": {
+      "analysable": 32,
+      "initial_relation_violation": 32,
+      "revised_relation_violation": 32,
+      "anchor_violation": 0,
+      "witness_violation": 32,
+      "pair_geometry_violation": 0,
+      "repeat_violation": 0,
+      "repeat_numeric_identity": 32,
+      "combined_violation": 32,
+      "relation_abstention": 0,
+      "approved": 0
+    },
+    "H03_roi_index_off_by_one": {
+      "analysable": 32,
+      "initial_relation_violation": 32,
+      "revised_relation_violation": 32,
+      "anchor_violation": 32,
+      "witness_violation": 32,
+      "pair_geometry_violation": 0,
+      "repeat_violation": 0,
+      "repeat_numeric_identity": 32,
+      "combined_violation": 32,
+      "relation_abstention": 0,
+      "approved": 0
+    },
+    "H04_linear_mask_then_integer_cast": {
+      "analysable": 32,
+      "initial_relation_violation": 32,
+      "revised_relation_violation": 32,
+      "anchor_violation": 32,
+      "witness_violation": 32,
+      "pair_geometry_violation": 0,
+      "repeat_violation": 0,
+      "repeat_numeric_identity": 32,
+      "combined_violation": 32,
+      "relation_abstention": 0,
+      "approved": 0
+    },
+    "H05_transpose_direction_matrix": {
+      "analysable": 32,
+      "initial_relation_violation": 0,
+      "revised_relation_violation": 0,
+      "anchor_violation": 0,
+      "witness_violation": 32,
+      "pair_geometry_violation": 0,
+      "repeat_violation": 0,
+      "repeat_numeric_identity": 32,
+      "combined_violation": 32,
+      "relation_abstention": 0,
+      "approved": 0
+    },
+    "H06_corner_centre_origin_confusion": {
+      "analysable": 32,
+      "initial_relation_violation": 0,
+      "revised_relation_violation": 0,
+      "anchor_violation": 0,
+      "witness_violation": 32,
+      "pair_geometry_violation": 0,
+      "repeat_violation": 0,
+      "repeat_numeric_identity": 32,
+      "combined_violation": 32,
+      "relation_abstention": 0,
+      "approved": 0
+    },
+    "H07_intercept_before_slope": {
+      "analysable": 32,
+      "initial_relation_violation": 32,
+      "revised_relation_violation": 32,
+      "anchor_violation": 32,
+      "witness_violation": 32,
+      "pair_geometry_violation": 0,
+      "repeat_violation": 0,
+      "repeat_numeric_identity": 32,
+      "combined_violation": 32,
+      "relation_abstention": 0,
+      "approved": 0
+    },
+    "H08_premature_integer_buffer": {
+      "analysable": 32,
+      "initial_relation_violation": 32,
+      "revised_relation_violation": 32,
+      "anchor_violation": 32,
+      "witness_violation": 32,
+      "pair_geometry_violation": 0,
+      "repeat_violation": 0,
+      "repeat_numeric_identity": 32,
+      "combined_violation": 32,
+      "relation_abstention": 0,
+      "approved": 0
+    }
+  },
+  "fixture_splits": {
+    "natural_reference": {
+      "attempted": 16,
+      "analysable": 16,
+      "initial_relation_violation": 0,
+      "revised_relation_violation": 0,
+      "anchor_violation": 0,
+      "witness_violation": 0,
+      "pair_geometry_violation": 0,
+      "repeat_violation": 0,
+      "repeat_numeric_identity": 0,
+      "combined_violation": 0,
+      "relation_abstention": 0,
+      "approved": 16
+    },
+    "natural_equivalent": {
+      "attempted": 800,
+      "analysable": 800,
+      "initial_relation_violation": 0,
+      "revised_relation_violation": 0,
+      "anchor_violation": 0,
+      "witness_violation": 0,
+      "pair_geometry_violation": 0,
+      "repeat_violation": 0,
+      "repeat_numeric_identity": 0,
+      "combined_violation": 0,
+      "relation_abstention": 0,
+      "approved": 800
+    },
+    "natural_covariant": {
+      "attempted": 64,
+      "analysable": 64,
+      "initial_relation_violation": 0,
+      "revised_relation_violation": 0,
+      "anchor_violation": 0,
+      "witness_violation": 0,
+      "pair_geometry_violation": 0,
+      "repeat_violation": 0,
+      "repeat_numeric_identity": 0,
+      "combined_violation": 0,
+      "relation_abstention": 0,
+      "approved": 64
+    },
+    "natural_not_applicable": {
+      "attempted": 16,
+      "analysable": 16,
+      "initial_relation_violation": 0,
+      "revised_relation_violation": 0,
+      "anchor_violation": 0,
+      "witness_violation": 0,
+      "pair_geometry_violation": 0,
+      "repeat_violation": 0,
+      "repeat_numeric_identity": 0,
+      "combined_violation": 0,
+      "relation_abstention": 16,
+      "approved": 0
+    },
+    "natural_fault": {
+      "attempted": 128,
+      "analysable": 128,
+      "initial_relation_violation": 96,
+      "revised_relation_violation": 96,
+      "anchor_violation": 80,
+      "witness_violation": 128,
+      "pair_geometry_violation": 0,
+      "repeat_violation": 0,
+      "repeat_numeric_identity": 128,
+      "combined_violation": 128,
+      "relation_abstention": 0,
+      "approved": 0
+    },
+    "enriched_reference": {
+      "attempted": 16,
+      "analysable": 16,
+      "initial_relation_violation": 0,
+      "revised_relation_violation": 0,
+      "anchor_violation": 0,
+      "witness_violation": 0,
+      "pair_geometry_violation": 0,
+      "repeat_violation": 0,
+      "repeat_numeric_identity": 0,
+      "combined_violation": 0,
+      "relation_abstention": 0,
+      "approved": 16
+    },
+    "enriched_equivalent": {
+      "attempted": 800,
+      "analysable": 798,
+      "initial_relation_violation": 384,
+      "revised_relation_violation": 0,
+      "anchor_violation": 0,
+      "witness_violation": 0,
+      "pair_geometry_violation": 0,
+      "repeat_violation": 0,
+      "repeat_numeric_identity": 0,
+      "combined_violation": 0,
+      "relation_abstention": 0,
+      "approved": 798,
+      "boundary_rejected": 2
+    },
+    "enriched_covariant": {
+      "attempted": 64,
+      "analysable": 64,
+      "initial_relation_violation": 0,
+      "revised_relation_violation": 0,
+      "anchor_violation": 0,
+      "witness_violation": 0,
+      "pair_geometry_violation": 0,
+      "repeat_violation": 0,
+      "repeat_numeric_identity": 0,
+      "combined_violation": 0,
+      "relation_abstention": 0,
+      "approved": 64
+    },
+    "enriched_not_applicable": {
+      "attempted": 16,
+      "analysable": 16,
+      "initial_relation_violation": 0,
+      "revised_relation_violation": 0,
+      "anchor_violation": 0,
+      "witness_violation": 0,
+      "pair_geometry_violation": 0,
+      "repeat_violation": 0,
+      "repeat_numeric_identity": 0,
+      "combined_violation": 0,
+      "relation_abstention": 16,
+      "approved": 0
+    },
+    "enriched_fault": {
+      "attempted": 128,
+      "analysable": 128,
+      "initial_relation_violation": 96,
+      "revised_relation_violation": 96,
+      "anchor_violation": 80,
+      "witness_violation": 128,
+      "pair_geometry_violation": 0,
+      "repeat_violation": 0,
+      "repeat_numeric_identity": 128,
+      "combined_violation": 128,
+      "relation_abstention": 0,
+      "approved": 0
+    }
+  },
+  "initial_control_alerts_by_seed": {
+    "2001": 24,
+    "2003": 24,
+    "2005": 24,
+    "2007": 24,
+    "2009": 24,
+    "2011": 24,
+    "2013": 24,
+    "2015": 24,
+    "2017": 24,
+    "2019": 24,
+    "2021": 24,
+    "2023": 24,
+    "2025": 24,
+    "2027": 24,
+    "2029": 24,
+    "2031": 24
+  },
+  "retained_initial_obligation_records": 6136,
+  "direct_anchor_checks": [
+    {
+      "seed": 2000,
+      "anchor": "mean",
+      "satisfied": true
+    },
+    {
+      "seed": 2000,
+      "anchor": "minimum",
+      "satisfied": true
+    },
+    {
+      "seed": 2000,
+      "anchor": "maximum",
+      "satisfied": true
+    },
+    {
+      "seed": 2000,
+      "anchor": "variance",
+      "satisfied": true
+    },
+    {
+      "seed": 2000,
+      "anchor": "energy",
+      "satisfied": true
+    },
+    {
+      "seed": 2000,
+      "anchor": "voxel_volume",
+      "satisfied": true
+    },
+    {
+      "seed": 2001,
+      "anchor": "mean",
+      "satisfied": true
+    },
+    {
+      "seed": 2001,
+      "anchor": "minimum",
+      "satisfied": true
+    },
+    {
+      "seed": 2001,
+      "anchor": "maximum",
+      "satisfied": true
+    },
+    {
+      "seed": 2001,
+      "anchor": "variance",
+      "satisfied": true
+    },
+    {
+      "seed": 2001,
+      "anchor": "energy",
+      "satisfied": true
+    },
+    {
+      "seed": 2001,
+      "anchor": "voxel_volume",
+      "satisfied": true
+    },
+    {
+      "seed": 2002,
+      "anchor": "mean",
+      "satisfied": true
+    },
+    {
+      "seed": 2002,
+      "anchor": "minimum",
+      "satisfied": true
+    },
+    {
+      "seed": 2002,
+      "anchor": "maximum",
+      "satisfied": true
+    },
+    {
+      "seed": 2002,
+      "anchor": "variance",
+      "satisfied": true
+    },
+    {
+      "seed": 2002,
+      "anchor": "energy",
+      "satisfied": true
+    },
+    {
+      "seed": 2002,
+      "anchor": "voxel_volume",
+      "satisfied": true
+    },
+    {
+      "seed": 2003,
+      "anchor": "mean",
+      "satisfied": true
+    },
+    {
+      "seed": 2003,
+      "anchor": "minimum",
+      "satisfied": true
+    },
+    {
+      "seed": 2003,
+      "anchor": "maximum",
+      "satisfied": true
+    },
+    {
+      "seed": 2003,
+      "anchor": "variance",
+      "satisfied": true
+    },
+    {
+      "seed": 2003,
+      "anchor": "energy",
+      "satisfied": true
+    },
+    {
+      "seed": 2003,
+      "anchor": "voxel_volume",
+      "satisfied": true
+    },
+    {
+      "seed": 2004,
+      "anchor": "mean",
+      "satisfied": true
+    },
+    {
+      "seed": 2004,
+      "anchor": "minimum",
+      "satisfied": true
+    },
+    {
+      "seed": 2004,
+      "anchor": "maximum",
+      "satisfied": true
+    },
+    {
+      "seed": 2004,
+      "anchor": "variance",
+      "satisfied": true
+    },
+    {
+      "seed": 2004,
+      "anchor": "energy",
+      "satisfied": true
+    },
+    {
+      "seed": 2004,
+      "anchor": "voxel_volume",
+      "satisfied": true
+    },
+    {
+      "seed": 2005,
+      "anchor": "mean",
+      "satisfied": true
+    },
+    {
+      "seed": 2005,
+      "anchor": "minimum",
+      "satisfied": true
+    },
+    {
+      "seed": 2005,
+      "anchor": "maximum",
+      "satisfied": true
+    },
+    {
+      "seed": 2005,
+      "anchor": "variance",
+      "satisfied": true
+    },
+    {
+      "seed": 2005,
+      "anchor": "energy",
+      "satisfied": true
+    },
+    {
+      "seed": 2005,
+      "anchor": "voxel_volume",
+      "satisfied": true
+    },
+    {
+      "seed": 2006,
+      "anchor": "mean",
+      "satisfied": true
+    },
+    {
+      "seed": 2006,
+      "anchor": "minimum",
+      "satisfied": true
+    },
+    {
+      "seed": 2006,
+      "anchor": "maximum",
+      "satisfied": true
+    },
+    {
+      "seed": 2006,
+      "anchor": "variance",
+      "satisfied": true
+    },
+    {
+      "seed": 2006,
+      "anchor": "energy",
+      "satisfied": true
+    },
+    {
+      "seed": 2006,
+      "anchor": "voxel_volume",
+      "satisfied": true
+    },
+    {
+      "seed": 2007,
+      "anchor": "mean",
+      "satisfied": true
+    },
+    {
+      "seed": 2007,
+      "anchor": "minimum",
+      "satisfied": true
+    },
+    {
+      "seed": 2007,
+      "anchor": "maximum",
+      "satisfied": true
+    },
+    {
+      "seed": 2007,
+      "anchor": "variance",
+      "satisfied": true
+    },
+    {
+      "seed": 2007,
+      "anchor": "energy",
+      "satisfied": true
+    },
+    {
+      "seed": 2007,
+      "anchor": "voxel_volume",
+      "satisfied": true
+    },
+    {
+      "seed": 2008,
+      "anchor": "mean",
+      "satisfied": true
+    },
+    {
+      "seed": 2008,
+      "anchor": "minimum",
+      "satisfied": true
+    },
+    {
+      "seed": 2008,
+      "anchor": "maximum",
+      "satisfied": true
+    },
+    {
+      "seed": 2008,
+      "anchor": "variance",
+      "satisfied": true
+    },
+    {
+      "seed": 2008,
+      "anchor": "energy",
+      "satisfied": true
+    },
+    {
+      "seed": 2008,
+      "anchor": "voxel_volume",
+      "satisfied": true
+    },
+    {
+      "seed": 2009,
+      "anchor": "mean",
+      "satisfied": true
+    },
+    {
+      "seed": 2009,
+      "anchor": "minimum",
+      "satisfied": true
+    },
+    {
+      "seed": 2009,
+      "anchor": "maximum",
+      "satisfied": true
+    },
+    {
+      "seed": 2009,
+      "anchor": "variance",
+      "satisfied": true
+    },
+    {
+      "seed": 2009,
+      "anchor": "energy",
+      "satisfied": true
+    },
+    {
+      "seed": 2009,
+      "anchor": "voxel_volume",
+      "satisfied": true
+    },
+    {
+      "seed": 2010,
+      "anchor": "mean",
+      "satisfied": true
+    },
+    {
+      "seed": 2010,
+      "anchor": "minimum",
+      "satisfied": true
+    },
+    {
+      "seed": 2010,
+      "anchor": "maximum",
+      "satisfied": true
+    },
+    {
+      "seed": 2010,
+      "anchor": "variance",
+      "satisfied": true
+    },
+    {
+      "seed": 2010,
+      "anchor": "energy",
+      "satisfied": true
+    },
+    {
+      "seed": 2010,
+      "anchor": "voxel_volume",
+      "satisfied": true
+    },
+    {
+      "seed": 2011,
+      "anchor": "mean",
+      "satisfied": true
+    },
+    {
+      "seed": 2011,
+      "anchor": "minimum",
+      "satisfied": true
+    },
+    {
+      "seed": 2011,
+      "anchor": "maximum",
+      "satisfied": true
+    },
+    {
+      "seed": 2011,
+      "anchor": "variance",
+      "satisfied": true
+    },
+    {
+      "seed": 2011,
+      "anchor": "energy",
+      "satisfied": true
+    },
+    {
+      "seed": 2011,
+      "anchor": "voxel_volume",
+      "satisfied": true
+    },
+    {
+      "seed": 2012,
+      "anchor": "mean",
+      "satisfied": true
+    },
+    {
+      "seed": 2012,
+      "anchor": "minimum",
+      "satisfied": true
+    },
+    {
+      "seed": 2012,
+      "anchor": "maximum",
+      "satisfied": true
+    },
+    {
+      "seed": 2012,
+      "anchor": "variance",
+      "satisfied": true
+    },
+    {
+      "seed": 2012,
+      "anchor": "energy",
+      "satisfied": true
+    },
+    {
+      "seed": 2012,
+      "anchor": "voxel_volume",
+      "satisfied": true
+    },
+    {
+      "seed": 2013,
+      "anchor": "mean",
+      "satisfied": true
+    },
+    {
+      "seed": 2013,
+      "anchor": "minimum",
+      "satisfied": true
+    },
+    {
+      "seed": 2013,
+      "anchor": "maximum",
+      "satisfied": true
+    },
+    {
+      "seed": 2013,
+      "anchor": "variance",
+      "satisfied": true
+    },
+    {
+      "seed": 2013,
+      "anchor": "energy",
+      "satisfied": true
+    },
+    {
+      "seed": 2013,
+      "anchor": "voxel_volume",
+      "satisfied": true
+    },
+    {
+      "seed": 2014,
+      "anchor": "mean",
+      "satisfied": true
+    },
+    {
+      "seed": 2014,
+      "anchor": "minimum",
+      "satisfied": true
+    },
+    {
+      "seed": 2014,
+      "anchor": "maximum",
+      "satisfied": true
+    },
+    {
+      "seed": 2014,
+      "anchor": "variance",
+      "satisfied": true
+    },
+    {
+      "seed": 2014,
+      "anchor": "energy",
+      "satisfied": true
+    },
+    {
+      "seed": 2014,
+      "anchor": "voxel_volume",
+      "satisfied": true
+    },
+    {
+      "seed": 2015,
+      "anchor": "mean",
+      "satisfied": true
+    },
+    {
+      "seed": 2015,
+      "anchor": "minimum",
+      "satisfied": true
+    },
+    {
+      "seed": 2015,
+      "anchor": "maximum",
+      "satisfied": true
+    },
+    {
+      "seed": 2015,
+      "anchor": "variance",
+      "satisfied": true
+    },
+    {
+      "seed": 2015,
+      "anchor": "energy",
+      "satisfied": true
+    },
+    {
+      "seed": 2015,
+      "anchor": "voxel_volume",
+      "satisfied": true
+    },
+    {
+      "seed": 2016,
+      "anchor": "mean",
+      "satisfied": true
+    },
+    {
+      "seed": 2016,
+      "anchor": "minimum",
+      "satisfied": true
+    },
+    {
+      "seed": 2016,
+      "anchor": "maximum",
+      "satisfied": true
+    },
+    {
+      "seed": 2016,
+      "anchor": "variance",
+      "satisfied": true
+    },
+    {
+      "seed": 2016,
+      "anchor": "energy",
+      "satisfied": true
+    },
+    {
+      "seed": 2016,
+      "anchor": "voxel_volume",
+      "satisfied": true
+    },
+    {
+      "seed": 2017,
+      "anchor": "mean",
+      "satisfied": true
+    },
+    {
+      "seed": 2017,
+      "anchor": "minimum",
+      "satisfied": true
+    },
+    {
+      "seed": 2017,
+      "anchor": "maximum",
+      "satisfied": true
+    },
+    {
+      "seed": 2017,
+      "anchor": "variance",
+      "satisfied": true
+    },
+    {
+      "seed": 2017,
+      "anchor": "energy",
+      "satisfied": true
+    },
+    {
+      "seed": 2017,
+      "anchor": "voxel_volume",
+      "satisfied": true
+    },
+    {
+      "seed": 2018,
+      "anchor": "mean",
+      "satisfied": true
+    },
+    {
+      "seed": 2018,
+      "anchor": "minimum",
+      "satisfied": true
+    },
+    {
+      "seed": 2018,
+      "anchor": "maximum",
+      "satisfied": true
+    },
+    {
+      "seed": 2018,
+      "anchor": "variance",
+      "satisfied": true
+    },
+    {
+      "seed": 2018,
+      "anchor": "energy",
+      "satisfied": true
+    },
+    {
+      "seed": 2018,
+      "anchor": "voxel_volume",
+      "satisfied": true
+    },
+    {
+      "seed": 2019,
+      "anchor": "mean",
+      "satisfied": true
+    },
+    {
+      "seed": 2019,
+      "anchor": "minimum",
+      "satisfied": true
+    },
+    {
+      "seed": 2019,
+      "anchor": "maximum",
+      "satisfied": true
+    },
+    {
+      "seed": 2019,
+      "anchor": "variance",
+      "satisfied": true
+    },
+    {
+      "seed": 2019,
+      "anchor": "energy",
+      "satisfied": true
+    },
+    {
+      "seed": 2019,
+      "anchor": "voxel_volume",
+      "satisfied": true
+    },
+    {
+      "seed": 2020,
+      "anchor": "mean",
+      "satisfied": true
+    },
+    {
+      "seed": 2020,
+      "anchor": "minimum",
+      "satisfied": true
+    },
+    {
+      "seed": 2020,
+      "anchor": "maximum",
+      "satisfied": true
+    },
+    {
+      "seed": 2020,
+      "anchor": "variance",
+      "satisfied": true
+    },
+    {
+      "seed": 2020,
+      "anchor": "energy",
+      "satisfied": true
+    },
+    {
+      "seed": 2020,
+      "anchor": "voxel_volume",
+      "satisfied": true
+    },
+    {
+      "seed": 2021,
+      "anchor": "mean",
+      "satisfied": true
+    },
+    {
+      "seed": 2021,
+      "anchor": "minimum",
+      "satisfied": true
+    },
+    {
+      "seed": 2021,
+      "anchor": "maximum",
+      "satisfied": true
+    },
+    {
+      "seed": 2021,
+      "anchor": "variance",
+      "satisfied": true
+    },
+    {
+      "seed": 2021,
+      "anchor": "energy",
+      "satisfied": true
+    },
+    {
+      "seed": 2021,
+      "anchor": "voxel_volume",
+      "satisfied": true
+    },
+    {
+      "seed": 2022,
+      "anchor": "mean",
+      "satisfied": true
+    },
+    {
+      "seed": 2022,
+      "anchor": "minimum",
+      "satisfied": true
+    },
+    {
+      "seed": 2022,
+      "anchor": "maximum",
+      "satisfied": true
+    },
+    {
+      "seed": 2022,
+      "anchor": "variance",
+      "satisfied": true
+    },
+    {
+      "seed": 2022,
+      "anchor": "energy",
+      "satisfied": true
+    },
+    {
+      "seed": 2022,
+      "anchor": "voxel_volume",
+      "satisfied": true
+    },
+    {
+      "seed": 2023,
+      "anchor": "mean",
+      "satisfied": true
+    },
+    {
+      "seed": 2023,
+      "anchor": "minimum",
+      "satisfied": true
+    },
+    {
+      "seed": 2023,
+      "anchor": "maximum",
+      "satisfied": true
+    },
+    {
+      "seed": 2023,
+      "anchor": "variance",
+      "satisfied": true
+    },
+    {
+      "seed": 2023,
+      "anchor": "energy",
+      "satisfied": true
+    },
+    {
+      "seed": 2023,
+      "anchor": "voxel_volume",
+      "satisfied": true
+    },
+    {
+      "seed": 2024,
+      "anchor": "mean",
+      "satisfied": true
+    },
+    {
+      "seed": 2024,
+      "anchor": "minimum",
+      "satisfied": true
+    },
+    {
+      "seed": 2024,
+      "anchor": "maximum",
+      "satisfied": true
+    },
+    {
+      "seed": 2024,
+      "anchor": "variance",
+      "satisfied": true
+    },
+    {
+      "seed": 2024,
+      "anchor": "energy",
+      "satisfied": true
+    },
+    {
+      "seed": 2024,
+      "anchor": "voxel_volume",
+      "satisfied": true
+    },
+    {
+      "seed": 2025,
+      "anchor": "mean",
+      "satisfied": true
+    },
+    {
+      "seed": 2025,
+      "anchor": "minimum",
+      "satisfied": true
+    },
+    {
+      "seed": 2025,
+      "anchor": "maximum",
+      "satisfied": true
+    },
+    {
+      "seed": 2025,
+      "anchor": "variance",
+      "satisfied": true
+    },
+    {
+      "seed": 2025,
+      "anchor": "energy",
+      "satisfied": true
+    },
+    {
+      "seed": 2025,
+      "anchor": "voxel_volume",
+      "satisfied": true
+    },
+    {
+      "seed": 2026,
+      "anchor": "mean",
+      "satisfied": true
+    },
+    {
+      "seed": 2026,
+      "anchor": "minimum",
+      "satisfied": true
+    },
+    {
+      "seed": 2026,
+      "anchor": "maximum",
+      "satisfied": true
+    },
+    {
+      "seed": 2026,
+      "anchor": "variance",
+      "satisfied": true
+    },
+    {
+      "seed": 2026,
+      "anchor": "energy",
+      "satisfied": true
+    },
+    {
+      "seed": 2026,
+      "anchor": "voxel_volume",
+      "satisfied": true
+    },
+    {
+      "seed": 2027,
+      "anchor": "mean",
+      "satisfied": true
+    },
+    {
+      "seed": 2027,
+      "anchor": "minimum",
+      "satisfied": true
+    },
+    {
+      "seed": 2027,
+      "anchor": "maximum",
+      "satisfied": true
+    },
+    {
+      "seed": 2027,
+      "anchor": "variance",
+      "satisfied": true
+    },
+    {
+      "seed": 2027,
+      "anchor": "energy",
+      "satisfied": true
+    },
+    {
+      "seed": 2027,
+      "anchor": "voxel_volume",
+      "satisfied": true
+    },
+    {
+      "seed": 2028,
+      "anchor": "mean",
+      "satisfied": true
+    },
+    {
+      "seed": 2028,
+      "anchor": "minimum",
+      "satisfied": true
+    },
+    {
+      "seed": 2028,
+      "anchor": "maximum",
+      "satisfied": true
+    },
+    {
+      "seed": 2028,
+      "anchor": "variance",
+      "satisfied": true
+    },
+    {
+      "seed": 2028,
+      "anchor": "energy",
+      "satisfied": true
+    },
+    {
+      "seed": 2028,
+      "anchor": "voxel_volume",
+      "satisfied": true
+    },
+    {
+      "seed": 2029,
+      "anchor": "mean",
+      "satisfied": true
+    },
+    {
+      "seed": 2029,
+      "anchor": "minimum",
+      "satisfied": true
+    },
+    {
+      "seed": 2029,
+      "anchor": "maximum",
+      "satisfied": true
+    },
+    {
+      "seed": 2029,
+      "anchor": "variance",
+      "satisfied": true
+    },
+    {
+      "seed": 2029,
+      "anchor": "energy",
+      "satisfied": true
+    },
+    {
+      "seed": 2029,
+      "anchor": "voxel_volume",
+      "satisfied": true
+    },
+    {
+      "seed": 2030,
+      "anchor": "mean",
+      "satisfied": true
+    },
+    {
+      "seed": 2030,
+      "anchor": "minimum",
+      "satisfied": true
+    },
+    {
+      "seed": 2030,
+      "anchor": "maximum",
+      "satisfied": true
+    },
+    {
+      "seed": 2030,
+      "anchor": "variance",
+      "satisfied": true
+    },
+    {
+      "seed": 2030,
+      "anchor": "energy",
+      "satisfied": true
+    },
+    {
+      "seed": 2030,
+      "anchor": "voxel_volume",
+      "satisfied": true
+    },
+    {
+      "seed": 2031,
+      "anchor": "mean",
+      "satisfied": true
+    },
+    {
+      "seed": 2031,
+      "anchor": "minimum",
+      "satisfied": true
+    },
+    {
+      "seed": 2031,
+      "anchor": "maximum",
+      "satisfied": true
+    },
+    {
+      "seed": 2031,
+      "anchor": "variance",
+      "satisfied": true
+    },
+    {
+      "seed": 2031,
+      "anchor": "energy",
+      "satisfied": true
+    },
+    {
+      "seed": 2031,
+      "anchor": "voxel_volume",
+      "satisfied": true
+    }
+  ],
+  "initial_64_raw_sha_still_matches": true,
+  "initial_64_equivalent_alerts_still_recorded": 36,
+  "hashes": {
+    "cases.jsonl": "b2bda90d5bce085b3d614bc34191bc70aef9d75838389a57bc86026227a7f7a2",
+    "jobs.jsonl": "a7f8482fbcd8f4c8056849c41c4a81ab7b41a95c4a130454fbeb9fe4133d97da",
+    "pyradiomics.jsonl": "fe100cde4c2b4e20a79721a0e2dae1f6015ef4bb1ccfa5fc970eaa461ed608e4",
+    "pyradiomics_refined_decisions.jsonl": "6e4aa1cdbb950fa518ac36913bb0e128b63de82950f91126c7479a697bc6fa41"
+  },
+  "seconds": 19.00796369999989,
+  "scope": "New-input targeted follow-up after a known profile restriction; the eight fault families are known. No clinical sensitivity or independence of thousands of cases is asserted."
+}

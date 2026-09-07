@@ -1,0 +1,36 @@
+{
+  "frozen_at_utc": "2026-09-06T23:01:29.464295+00:00",
+  "heldout_generated_or_read": false,
+  "development_seeds": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7,
+    8,
+    9,
+    10,
+    11
+  ],
+  "sha256": {
+    "adapters.py": "deb9bccdd4ab688f8d2e64bc8d582df5fdbe86147d9b14473faa371ca84d6083",
+    "benchmark.py": "4300509821467ed9fb3da913c69e42a6b2c22b714335134e2785e2341b3a71e8",
+    "faultinjectors.py": "dc39c6d8f5f36c9eedafe12c6ea8e6f9f166ce7b17caf25289b8d3f29d362c94",
+    "output_mutants.py": "24e45b1611483d1f92fdd37b4ee8a63f0a3b309f0191ac901972797aa949110d",
+    "physical_contracts.py": "b2ddc6b63ed65245d4c0104c72f126b01ea337d1fb393c8e2ae27477427eb6b2",
+    "protocol/feature_schema.json": "0e574f7ca3a03f183a7949780424d219510a52aa4c20704034665502b1989ec6",
+    "protocol/heldout_faults_freeze.json": "62ec74d074069ad1b4334accbd729f2f9b6a9f082d8500926b8ae796f7a669ea",
+    "protocol/heldout_faults_spec.json": "f74f6eb9e91cab3cca0a301546ae7908dd7ced03363a355765b91cfa26f7d452",
+    "protocol/protocol.json": "8ef8127bdb7e678d07908e8f3ddadf2b34398c2bdac0e957f4463a766b5e3b23",
+    "relations.py": "8ebe38422e373c90843aaaea5398254d22bafcdad70657aa1e88a44dc7c9f435",
+    "requirements-core.txt": "439a2fef8845c248d3907341fdfaf7ec17b918de3175bee1833f570098a07a17",
+    "requirements-mirp.txt": "90f0d49fc83ac1a5f1535a448f6832c159448bca07452e1a74e5574a503d68eb",
+    "requirements-pyradiomics.txt": "bfcd9282afaaa587ab8813ff9ee111a62bb5f5150a3fb61077f03fc7434020f9",
+    "tests/test_physical_contracts.py": "b04a9e8ab5933bc224448f3ea73d4969f97aecea7ce3a10073fa9e98a53a22f1",
+    "tests/test_relations.py": "e85702960a89582a1d2b6b102c34aa3e4ea5760cc092c0de1a1e05d54ca0f73b",
+    "verify.py": "8ee713e10ff2810c88644c9e0413d07488021822b942e510a238b5218e6b259a"
+  }
+}

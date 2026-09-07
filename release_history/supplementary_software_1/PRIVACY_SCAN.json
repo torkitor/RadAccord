@@ -1,0 +1,39 @@
+{
+  "scope": "Automated pattern scan plus allow-list and synthetic NIfTI header checks; not a proof of anonymity for arbitrary future inputs.",
+  "text_files_scanned": 96,
+  "finding_count": 0,
+  "findings": [],
+  "reviewed_nonprivate_false_positives": [
+    {
+      "file": "software/physical_contracts.py",
+      "pattern": "email_like_string",
+      "matched_text": "l@frame.affine",
+      "interpretation": "Python matrix multiplication, not an email address"
+    },
+    {
+      "file": "software/physical_contracts.py",
+      "pattern": "email_like_string",
+      "matched_text": "l@source.affine",
+      "interpretation": "Python matrix multiplication, not an email address"
+    },
+    {
+      "file": "software/verify.py",
+      "pattern": "email_like_string",
+      "matched_text": "world@source.affine",
+      "interpretation": "Python matrix multiplication, not an email address"
+    }
+  ],
+  "forbidden_artifacts_absent": [
+    "private paths",
+    "worker logs",
+    "exception tracebacks",
+    "credentials matching scan patterns",
+    "large input volumes",
+    "third-party C source",
+    "clinical/P1 data",
+    "caches",
+    "manuscript documents"
+  ],
+  "permitted_public_identity": "Author name and ORCID appear in CITATION.cff as explicitly authorised.",
+  "ai_assistance_disclosed": true
+}

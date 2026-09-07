@@ -1,0 +1,16 @@
+{
+  "scope": "Post hoc description only; frozen evaluation unchanged; no native extraction rerun",
+  "reference_masks_with_checkerboard_2x2_faces": {
+    "1026": 1
+  },
+  "seed1026_R46_independent_SimpleITK_array_and_mask_transport_exact": true,
+  "seed1026_R46_independent_max_corner_difference_mm": 5.6291184103567005e-06,
+  "seed1026_voxel_volume_mm3": 2.7269954698459857,
+  "seed1026_mesh_volume_delta_in_voxel_volume_units_by_orientation_count": {
+    "0.0": 12,
+    "-0.166667": 12,
+    "-0.5": 12,
+    "-2.666667": 12
+  },
+  "interpretation": "Alternating binary 2x2 face configurations are compatible with a mesh-triangulation ambiguity explanation; this description alone does not establish an upstream defect or its exact implementation mechanism."
+}
