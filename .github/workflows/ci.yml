@@ -46,12 +46,16 @@ jobs:
         shell: python
         run: |
           from pathlib import Path
+          import sys
           import tempfile
           import unittest
           # Windows runners may expose an 8.3 alias through TEMP. Fixtures that
           # replace the resolved production repository root require the same
           # canonical spelling. No production path check or test is bypassed.
           tempfile.tempdir = str(Path(tempfile.gettempdir()).resolve())
+          # Python-shell steps run from a temporary script, so make the checkout
+          # importable before discovery imports the scripts namespace package.
+          sys.path.insert(0, str(Path.cwd().resolve()))
           suite = unittest.defaultTestLoader.discover('scripts/tests')
           result = unittest.TextTestRunner(verbosity=2).run(suite)
           assert result.wasSuccessful(), 'Release-tool tests failed'

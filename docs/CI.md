@@ -55,3 +55,9 @@ The release-tool test launcher resolves `tempfile.tempdir` before constructing
 fixtures. All tests and production containment checks still execute unchanged.
 The initial 1.3.0rc1 core run exposed this fixture mismatch on Windows while the
 Ubuntu job passed; the scientific freeze and clinical analysis were not changed.
+
+GitHub's Python-shell steps execute a script stored in a temporary directory.
+The launcher explicitly adds the resolved checkout working directory to
+`sys.path` before discovery, allowing tests to import the repository's `scripts`
+namespace. This restores the import context of `python -m unittest`; it does not
+change test selection, the minimum collected count or any frozen source.
