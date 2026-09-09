@@ -43,7 +43,6 @@ jobs:
     defaults:
       run:
         shell: python
-        working-directory: ${{ runner.temp }}
     env:
       RADACCORD_CI_PROFILE: ${{ matrix.profile }}
     steps:
@@ -56,6 +55,7 @@ jobs:
         with:
           python-version: ${{ matrix.python }}
       - name: Build wheel with an isolated PEP 517 build environment
+        working-directory: ${{ runner.temp }}
         run: |
           import os, pathlib, subprocess, sys, venv
           root = pathlib.Path(os.environ['GITHUB_WORKSPACE']).resolve()
@@ -72,6 +72,7 @@ jobs:
               stream.write('RADACCORD_CI_PYTHON=' + str(python) + '\n')
               stream.write('RADACCORD_TEST_WHEEL=' + str(wheels[0]) + '\n')
       - name: Install pinned profile from the wheel and check dependencies
+        working-directory: ${{ runner.temp }}
         run: |
           import os, subprocess
           python = os.environ['RADACCORD_CI_PYTHON']
@@ -93,6 +94,7 @@ jobs:
                                     'scipy==1.15.3', 'SimpleITK==2.5.3'], check=True)
           subprocess.run(pip + ['check'], check=True)
       - name: Test installed package outside the checkout; require all selected tests to run
+        working-directory: ${{ runner.temp }}
         run: |
           import os, subprocess
           code = r'''
@@ -148,7 +150,6 @@ jobs:
     defaults:
       run:
         shell: python
-        working-directory: ${{ runner.temp }}
     env:
       RADACCORD_HISTORICAL_MIRP: ${{ matrix.mirp }}
     steps:
@@ -161,6 +162,7 @@ jobs:
         with:
           python-version: '3.13'
       - name: Build and install a wheel in a separate historical environment
+        working-directory: ${{ runner.temp }}
         run: |
           import os, pathlib, subprocess, sys, venv
           root = pathlib.Path(os.environ['GITHUB_WORKSPACE']).resolve()
@@ -182,6 +184,7 @@ jobs:
           with open(os.environ['GITHUB_ENV'], 'a', encoding='utf-8') as stream:
               stream.write('RADACCORD_CI_PYTHON=' + str(python) + '\n')
       - name: Reproduce three synthetic cases and verify affected and fixed behavior
+        working-directory: ${{ runner.temp }}
         run: |
           import json, os, pathlib, subprocess
           root = pathlib.Path(os.environ['GITHUB_WORKSPACE']).resolve()
