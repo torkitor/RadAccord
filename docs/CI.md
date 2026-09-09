@@ -19,6 +19,21 @@ numerical profiles; they do not turn a tolerance band into a certified error bou
 Every automatic job also requires the five evidence/reporting tests, including
 escaping of untrusted text and the limits of provenance and failure reports.
 
+Linux MIRP installation uses pip **24.1.2** because the upstream ITK 5.4.6
+Linux metawheel records a malformed `WHEEL` tag containing the package name and
+version before the normal interpreter/ABI/platform fields. Later pip versions
+raise a parsing exception in `pip check` after successful installation. The
+installed upstream files remain untouched. The pinned pip command still checks
+missing and conflicting dependencies; it does not perform the later installed-
+wheel tag audit. Pip's platform selection at installation, the explicit version
+assertions and the actual native import/extraction tests remain required. This
+installer compatibility pin is not a correction of ITK or a skipped dependency
+check. Windows keeps its normal installer. See the
+[ITK release artifacts](https://pypi.org/project/itk/5.4.6/#files) and
+[pip 24.1.2 check implementation](https://github.com/pypa/pip/blob/24.1.2/src/pip/_internal/commands/check.py).
+The two optional historical Linux environments use the same ITK 5.4.6
+metadistribution and the same installer pin; they remain manual jobs.
+
 The synthetic native tests compare returned features with direct engine execution, exercise declared preprocessing checkpoints, and retain unsupported or ambiguous operations as unavailable or indeterminate. Packaging tests also exercise command entry points, report handling, and byte identity of the historical modules included in the wheel. Successful CI establishes those tested behaviors on the recorded environments; it does not establish correctness of every feature definition, clinical performance, or coverage of arbitrary configurations.
 
 ## Optional historical regression

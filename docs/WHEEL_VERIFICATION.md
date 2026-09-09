@@ -69,10 +69,23 @@ environments exercise the filename contract with a strict stand-in.
 
 The adapter, operator, numerical and evidence modules are byte-identical to
 the retained rc2 evaluation. The 27-file rc2 freeze remains unchanged. Four
-current source files deliberately differ from that historical freeze:
+current source files deliberately differed from that historical freeze at the
+initial rc3 wheel verification:
 `pyproject.toml`, `radaccord/__init__.py`, `radaccord/cli.py` and
 `tests/test_packaging.py`. Version/CLI/test updates do not constitute a new
 scientific cohort evaluation.
+
+The first Ubuntu CI run exposed a platform-specific assumption in the integer
+resampling test: it required every preserved nominal diagnostic to reproduce
+the Windows result, even though weighted integer sampling is outside the checked
+numerical profile. The current test requires `unavailable` at every checkpoint,
+unchanged native outputs and retained nominal diagnostic fields. The scientific
+modules and the final wheel are unchanged. This adds a fifth current difference
+from the historical rc2 freeze, `tests/test_native_pyradiomics.py`.
+All eleven current PyRadiomics tests were repeated on Windows and passed without
+skips; they are a repeat of that group, not eleven additional distinct tests.
+The original 65-test record above remains intact. Completion of all eight jobs
+on the corrected PR commit still requires the corresponding remote run.
 
 | Retained artifact | SHA-256 |
 |---|---|

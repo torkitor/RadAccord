@@ -112,6 +112,14 @@ retained separately from the rc3 filename-dispatch fix. Source and installed-whe
 checks are distinguished in [the artifact verification record](WHEEL_VERIFICATION.md);
 neither substitutes for independent validation.
 
+Linux CI also pins its installer to pip 24.1.2. The ITK 5.4.6 Linux metawheel
+contains a malformed installed-wheel tag that crashes newer `pip check`
+implementations. The upstream files are preserved. The pinned command checks
+dependency consistency; native imports, extra-version assertions and actual
+extraction tests provide separate runtime checks. It does not audit installed
+wheel tags. Windows does not require this installer pin. See
+[the CI compatibility scope](CI.md) before reproducing that environment.
+
 ## Boundaries and reproducibility
 
 Input decoding is trusted and observed after MIRP's native reader; DICOM/NIfTI

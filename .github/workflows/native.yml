@@ -87,6 +87,10 @@ jobs:
               subprocess.run(pip + ['install', '--no-build-isolation',
                                     wheel + '[pyradiomics]'], check=True)
           elif profile == 'mirp':
+              if os.name == 'posix':
+                  # ITK 5.4.6's Linux metawheel has a malformed WHEEL Tag.
+                  # Keep an ordinary dependency check with the documented pip version.
+                  subprocess.run(pip + ['install', 'pip==24.1.2'], check=True)
               subprocess.run(pip + ['install', wheel + '[mirp]', 'itk==5.4.6',
                                     'pydicom==3.0.1'], check=True)
           else:
@@ -175,6 +179,8 @@ jobs:
           environment = temporary / 'historical-installed'
           venv.EnvBuilder(with_pip=True, system_site_packages=False).create(environment)
           python = environment / 'bin/python'
+          # Same upstream ITK metawheel compatibility pin as the Linux MIRP profile.
+          subprocess.run([str(python), '-m', 'pip', 'install', 'pip==24.1.2'], check=True)
           subprocess.run([str(python), '-m', 'pip', 'install', '--disable-pip-version-check',
                           str(wheels[0]), 'mirp==' + os.environ['RADACCORD_HISTORICAL_MIRP'],
                           'numpy==2.2.6', 'nibabel==5.3.3', 'scipy==1.15.3',

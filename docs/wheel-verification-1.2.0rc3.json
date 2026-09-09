@@ -169,7 +169,8 @@
     "pyproject.toml",
     "radaccord/__init__.py",
     "radaccord/cli.py",
-    "tests/test_packaging.py"
+    "tests/test_packaging.py",
+    "tests/test_native_pyradiomics.py"
   ],
   "limits": [
     "Local Windows verification; remote native CI remains unverified in this record.",
@@ -177,6 +178,16 @@
     "Final-wheel checks repeated installation, source integrity, version dispatch, native CLI/API evidence and feature-digest comparisons, and pip check.",
     "Input-relation evidence does not certify feature formulae or clinical validity."
   ],
+  "linux_mirp_installer_compatibility_probe": {
+    "actual_linux_native_execution": "pending_remote_CI",
+    "fresh_environment_dependency_check": "passed",
+    "installed_wheel_tag_audit": false,
+    "missing_dependency_exit_code": 1,
+    "pip": "24.1.2",
+    "platform": "Windows",
+    "python": "3.13.5",
+    "synthetic_malformed_tag_does_not_disable_dependency_check": true
+  },
   "metadata_only_rebuild": {
     "all_python_payloads_byte_identical": true,
     "changed_members": [
@@ -188,6 +199,46 @@
     "old_sha256": "0b33fac37d11f8c5cdfdf97f99434ce2b28f1cd06d4e63932e08d65fe427b746"
   },
   "native_rc2_freeze_sha256": "8a99094b119db04275251de57f1e2915720b5bad649736e5212fcecadf6a3b4e",
+  "post_initial_ci_test_portability_correction": {
+    "changed_file": "tests/test_native_pyradiomics.py",
+    "changed_file_sha256": "6290298e27419d5d32b63dbbcf821216dc86cb6a5109ae5ab30d79e3a8a54f3a",
+    "issue": "Platform-sensitive strict nominal diagnostic in an explicitly unavailable weighted-integer profile",
+    "local_test": {
+      "packages": {
+        "SimpleITK": "2.2.1",
+        "nibabel": "5.3.3",
+        "numpy": "1.23.5",
+        "pyradiomics": "3.0.1"
+      },
+      "passed": 11,
+      "python": "3.10.11",
+      "seconds": 5.164,
+      "skipped": 0,
+      "system": "Windows"
+    },
+    "native_study_reexecuted": false,
+    "probe_sha256": "63c4a4cf5e4dea12eb098604e9ec805cca2a6bce168281ef99644700a285a9ba",
+    "remote_head": "44bef81bad9a1260a74f0d57bf5b6010b5f37794",
+    "remote_job_id": 102491286896,
+    "remote_log_fact": "Output preservation and top-level unavailable assertion passed; the following compound nominal-reference assertion failed without printing either diagnostic value.",
+    "remote_run_id": 34359129929,
+    "reproduced_observation": {
+      "all_nominal_status": "indeterminate",
+      "all_primary_checkpoint_status": "unavailable",
+      "origin_shift_magnitudes_mm": [
+        1e-12,
+        1e-10
+      ],
+      "shifted_nominal_mismatched_intensity_voxels": 1,
+      "shifted_strict_nominal_status": "violated",
+      "unchanged_origin_strict_nominal_status": "satisfied"
+    },
+    "scientific_sources_changed": 0,
+    "scope": "Engineering test correction outside the retained scientific evaluations. Actual Ubuntu nominal diagnostic values were not present in the failed log; Linux rerun is pending.",
+    "source_probe": "integer_ci_rounding_probe.json",
+    "test_change": "Retain exact native output equality; require all three checkpoints unavailable with numerical_profile null, exact weighted-integer reason, blocked reuse and retained nominal diagnostic. Do not prescribe a platform-specific nominal cast outcome.",
+    "wheel_changed": false
+  },
   "schema": "radaccord-wheel-verification-2",
   "test_groups": {
     "test_evidence_reporting.py": 5,
