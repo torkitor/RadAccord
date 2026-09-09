@@ -1,0 +1,325 @@
+{
+  "inputs": [
+    {
+      "collection": "Task02_Heart",
+      "id": "Task02_Heart_la_014",
+      "image_sha256": "517491ea1e39878550477ac38b8fa67d5ca25add9c24f3aef64616466c3935bb",
+      "kind": "image",
+      "mask_sha256": "e677363b98d7ad91390f1b162d9fcce00ec9973efe2e8b7340b35c1792d2ce8d",
+      "modality": "mr",
+      "selection_rank": 1
+    },
+    {
+      "collection": "Task02_Heart",
+      "id": "Task02_Heart_la_007",
+      "image_sha256": "b6b907dd83372f952fa1c45dcf0abaf7c238249d8b427fac46e380d86bd2d197",
+      "kind": "image",
+      "mask_sha256": "a8bf626bdba452053b0760dda17a51716228d2b58f198271a7d3f356c3ba5b98",
+      "modality": "mr",
+      "selection_rank": 2
+    },
+    {
+      "collection": "Task02_Heart",
+      "id": "Task02_Heart_la_029",
+      "image_sha256": "46ff56c6b66d2b688b849f30d4996c2d964027306cd6eef61e80b6f24d61012d",
+      "kind": "image",
+      "mask_sha256": "566bd19d2960620012d5d8ca9b5950098b738be99f5ffc5c3afe1120113dac0d",
+      "modality": "mr",
+      "selection_rank": 3
+    },
+    {
+      "collection": "Task02_Heart",
+      "id": "Task02_Heart_la_009",
+      "image_sha256": "58de6c73322f6d96a61608db4abb304b3c2f93c1443e9e616d7bbe811394d0ab",
+      "kind": "image",
+      "mask_sha256": "b9ea53aae9df98dbd4635712d66cdfc507d51f7c22f4223f9611f1759abaaf94",
+      "modality": "mr",
+      "selection_rank": 4
+    },
+    {
+      "collection": "Task06_Lung",
+      "id": "Task06_Lung_lung_037",
+      "image_sha256": "f54bce703cbdc98494fc5a7ea96dc2b80b4ca74646fef639b501d7f08fb8c85d",
+      "kind": "image",
+      "mask_sha256": "9eed3b1461ec49f62af99898dd8fdba85051ad15714cddf133a1e8973ba0e4b4",
+      "modality": "ct",
+      "selection_rank": 1
+    },
+    {
+      "collection": "Task06_Lung",
+      "id": "Task06_Lung_lung_029",
+      "image_sha256": "f18d4ce835df940a7b942961709c35c31a9c44c7f751b48cfb3e160b52a58b45",
+      "kind": "image",
+      "mask_sha256": "0ee173933d42a7cdd92e3e91248240994b0187dac33eb208710693c2c0c661b0",
+      "modality": "ct",
+      "selection_rank": 2
+    },
+    {
+      "collection": "Task06_Lung",
+      "id": "Task06_Lung_lung_074",
+      "image_sha256": "d4c08f5295d18dc243dfb2b2f4a787d09523d54affcbfd6714c8fed2f066ccce",
+      "kind": "image",
+      "mask_sha256": "9a86e10268ac7440f2a11b397ec74e29d205a3439dc34bb414ba9f6ea542f5ef",
+      "modality": "ct",
+      "selection_rank": 3
+    },
+    {
+      "collection": "Task06_Lung",
+      "id": "Task06_Lung_lung_095",
+      "image_sha256": "67272357976b232445fdc5ca84092d17baaf327e925512798f8172d9f7076b29",
+      "kind": "image",
+      "mask_sha256": "9f180a45a22549bf2574972899cea6703ed9cc3a88e65b762d7310978fd591c6",
+      "modality": "ct",
+      "selection_rank": 4
+    }
+  ],
+  "intention_to_evaluate_pairs": 128,
+  "mode": "timing",
+  "native_planned_pairs": 128,
+  "native_threads": 1,
+  "not_native_planned_pairs": 0,
+  "prepared_volume_slots": 8,
+  "provenance": {
+    "crop_receipt": {
+      "file": "protocol/sources/heldout_clinical/crop_receipt.json",
+      "sha256": "9756050d585e1e0b0502c95526955ddddf66d98c180a8777c70acc97d8001387"
+    },
+    "eligibility": {
+      "file": "protocol/sources/heldout_clinical/selected_source_eligibility.json",
+      "sha256": "78c5aa0e30137144963eb40ff1039985ec527eef32840e826c40bfe249d36040"
+    },
+    "environments": {
+      "file": "protocol/prospective_environments.json",
+      "sha256": "44a435db3e4c97b90ad566743d6da790ade6df2d950a2a2d2169a183c5599230"
+    },
+    "general_freeze": {
+      "file": "protocol/prospective_freeze.json",
+      "sha256": "176d9e8e286f6a44ff8d912b771abc11fe1d129bf4ff5e8e5ca9d8a741da5234"
+    },
+    "private_manifest_sha256": "da4341633c9b21487052f51130d14b735637d4f066d50b88adde74cef4b1b6b3"
+  },
+  "repeats": 4,
+  "schema_version": "operational-benchmark-1",
+  "selected_inputs": [
+    {
+      "collection": "Task02_Heart",
+      "exclusion_reasons": [],
+      "id": "Task02_Heart_la_014",
+      "image_sha256": "517491ea1e39878550477ac38b8fa67d5ca25add9c24f3aef64616466c3935bb",
+      "mask_sha256": "e677363b98d7ad91390f1b162d9fcce00ec9973efe2e8b7340b35c1792d2ce8d",
+      "modality": "mr",
+      "selection_rank": 1,
+      "source_eligible": true,
+      "source_image_sha256": "478c4347fa0dd5432ceb06674b411543b7ab65d44e76cf7ddc5421d495f98486",
+      "source_mask_sha256": "0a59d41146b4c1f68b4fa01199829636258123a8a5cd9eeaa15543b75f7e6667",
+      "status": "prepared_and_verified"
+    },
+    {
+      "collection": "Task02_Heart",
+      "exclusion_reasons": [],
+      "id": "Task02_Heart_la_007",
+      "image_sha256": "b6b907dd83372f952fa1c45dcf0abaf7c238249d8b427fac46e380d86bd2d197",
+      "mask_sha256": "a8bf626bdba452053b0760dda17a51716228d2b58f198271a7d3f356c3ba5b98",
+      "modality": "mr",
+      "selection_rank": 2,
+      "source_eligible": true,
+      "source_image_sha256": "4ab0c2f2e1697b77a390660b4f647f4cc3b40a02532b55ce355f3736f911eff2",
+      "source_mask_sha256": "1d70e6ba71e8a06e462d27a4b81b25ee32b81a7d2f6b7839e853a3eceed3fffa",
+      "status": "prepared_and_verified"
+    },
+    {
+      "collection": "Task02_Heart",
+      "exclusion_reasons": [],
+      "id": "Task02_Heart_la_029",
+      "image_sha256": "46ff56c6b66d2b688b849f30d4996c2d964027306cd6eef61e80b6f24d61012d",
+      "mask_sha256": "566bd19d2960620012d5d8ca9b5950098b738be99f5ffc5c3afe1120113dac0d",
+      "modality": "mr",
+      "selection_rank": 3,
+      "source_eligible": true,
+      "source_image_sha256": "a5ef5bd7ebf3cf04036f4a654ecd4875ab25833fab211d1fcf3bf279d4294d79",
+      "source_mask_sha256": "f90dcb604e7b5a14aaea4021640e7384f20e6211046251ce26f4ec9782c23355",
+      "status": "prepared_and_verified"
+    },
+    {
+      "collection": "Task02_Heart",
+      "exclusion_reasons": [],
+      "id": "Task02_Heart_la_009",
+      "image_sha256": "58de6c73322f6d96a61608db4abb304b3c2f93c1443e9e616d7bbe811394d0ab",
+      "mask_sha256": "b9ea53aae9df98dbd4635712d66cdfc507d51f7c22f4223f9611f1759abaaf94",
+      "modality": "mr",
+      "selection_rank": 4,
+      "source_eligible": true,
+      "source_image_sha256": "0f8606cd46ab9c46d22278c9b772c6e6678a3a94d80a41096ed92229cb82616d",
+      "source_mask_sha256": "a1dcc0b9d06f02a521271bf9ee94b94e9cc11a1e072ef89892ec13742fb73f61",
+      "status": "prepared_and_verified"
+    },
+    {
+      "collection": "Task06_Lung",
+      "exclusion_reasons": [],
+      "id": "Task06_Lung_lung_037",
+      "image_sha256": "f54bce703cbdc98494fc5a7ea96dc2b80b4ca74646fef639b501d7f08fb8c85d",
+      "mask_sha256": "9eed3b1461ec49f62af99898dd8fdba85051ad15714cddf133a1e8973ba0e4b4",
+      "modality": "ct",
+      "selection_rank": 1,
+      "source_eligible": true,
+      "source_image_sha256": "8108470d127a2e5792cb55a4d8c9b22ae110e6d35b98d2bf3d31df4f5d113144",
+      "source_mask_sha256": "3c8b693ca29041667340edfef0d9ed3e9810ac61524784cb38cbe049202c954d",
+      "status": "prepared_and_verified"
+    },
+    {
+      "collection": "Task06_Lung",
+      "exclusion_reasons": [],
+      "id": "Task06_Lung_lung_029",
+      "image_sha256": "f18d4ce835df940a7b942961709c35c31a9c44c7f751b48cfb3e160b52a58b45",
+      "mask_sha256": "0ee173933d42a7cdd92e3e91248240994b0187dac33eb208710693c2c0c661b0",
+      "modality": "ct",
+      "selection_rank": 2,
+      "source_eligible": true,
+      "source_image_sha256": "6f5f3350cb37087a9a8f9c0bea516a1ced9f05dd93b9988d7727b34ba636da64",
+      "source_mask_sha256": "1ef21e3c9e281e275c6a15c0c2db8b28f68d7b27771937fd85db65707d26e5a2",
+      "status": "prepared_and_verified"
+    },
+    {
+      "collection": "Task06_Lung",
+      "exclusion_reasons": [],
+      "id": "Task06_Lung_lung_074",
+      "image_sha256": "d4c08f5295d18dc243dfb2b2f4a787d09523d54affcbfd6714c8fed2f066ccce",
+      "mask_sha256": "9a86e10268ac7440f2a11b397ec74e29d205a3439dc34bb414ba9f6ea542f5ef",
+      "modality": "ct",
+      "selection_rank": 3,
+      "source_eligible": true,
+      "source_image_sha256": "15ef7af033be9bb53cb409cfdbee6cc519af9ff79472ad3afbd14b32b783b271",
+      "source_mask_sha256": "655da2704a1096a1737aae8bf5b2ad3fc3ba4effbe2c4b0b298bc56770dcb08e",
+      "status": "prepared_and_verified"
+    },
+    {
+      "collection": "Task06_Lung",
+      "exclusion_reasons": [],
+      "id": "Task06_Lung_lung_095",
+      "image_sha256": "67272357976b232445fdc5ca84092d17baaf327e925512798f8172d9f7076b29",
+      "mask_sha256": "9f180a45a22549bf2574972899cea6703ed9cc3a88e65b762d7310978fd591c6",
+      "modality": "ct",
+      "selection_rank": 4,
+      "source_eligible": true,
+      "source_image_sha256": "d84c4f10bd8562c0d099feb121f5b09aab074b88b2273d154b294f6ddb6a36ab",
+      "source_mask_sha256": "a742a7d56e305c993d337f92666e58d9c0563e4ea45690348e20f8f0fa381799",
+      "status": "prepared_and_verified"
+    }
+  ],
+  "selected_volume_slots": 8,
+  "source_eligible_volume_slots": 8,
+  "timeout_seconds_per_pair": 300,
+  "warmup_pairs_per_worker": 1,
+  "workflows": [
+    {
+      "configs": {
+        "mirp": {
+          "base_discretisation_method": "fixed_bin_number",
+          "base_discretisation_n_bins": 32,
+          "base_feature_families": [
+            "all"
+          ]
+        },
+        "pyradiomics": {
+          "imageType": {
+            "Original": {}
+          },
+          "setting": {
+            "binCount": 32
+          }
+        }
+      },
+      "id": "identity_mr",
+      "modalities": [
+        "mr"
+      ]
+    },
+    {
+      "configs": {
+        "mirp": {
+          "anti_aliasing": true,
+          "base_discretisation_method": "fixed_bin_number",
+          "base_discretisation_n_bins": 32,
+          "base_feature_families": [
+            "all"
+          ],
+          "new_spacing": 2.0,
+          "spline_order": 3
+        },
+        "pyradiomics": {
+          "imageType": {
+            "Original": {}
+          },
+          "setting": {
+            "binCount": 32,
+            "interpolator": "sitkBSpline",
+            "resampledPixelSpacing": [
+              2.0,
+              2.0,
+              2.0
+            ]
+          }
+        }
+      },
+      "id": "cubic_2_mr",
+      "modalities": [
+        "mr"
+      ]
+    },
+    {
+      "configs": {
+        "mirp": {
+          "base_discretisation_method": "fixed_bin_number",
+          "base_discretisation_n_bins": 32,
+          "base_feature_families": [
+            "all"
+          ]
+        },
+        "pyradiomics": {
+          "imageType": {
+            "Original": {}
+          },
+          "setting": {
+            "binWidth": 25.0
+          }
+        }
+      },
+      "id": "identity_ct",
+      "modalities": [
+        "ct"
+      ]
+    },
+    {
+      "configs": {
+        "mirp": {
+          "anti_aliasing": true,
+          "base_discretisation_method": "fixed_bin_number",
+          "base_discretisation_n_bins": 32,
+          "base_feature_families": [
+            "all"
+          ],
+          "new_spacing": 2.0,
+          "spline_order": 3
+        },
+        "pyradiomics": {
+          "imageType": {
+            "Original": {}
+          },
+          "setting": {
+            "binWidth": 25.0,
+            "interpolator": "sitkBSpline",
+            "resampledPixelSpacing": [
+              2.0,
+              2.0,
+              2.0
+            ]
+          }
+        }
+      },
+      "id": "cubic_2_ct",
+      "modalities": [
+        "ct"
+      ]
+    }
+  ]
+}

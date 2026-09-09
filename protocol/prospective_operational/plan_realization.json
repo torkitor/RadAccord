@@ -1,0 +1,38 @@
+{
+  "plans": {
+    "coverage": {
+      "freeze_sha256": "a6aa681e92833019bb13124d62e6094013ffd115384cc754c613a2e9afba2b37",
+      "intention_to_evaluate_pairs": 144,
+      "native_planned_pairs": 144,
+      "not_native_planned_pairs": 0,
+      "plan_sha256": "5cb2e34b41c2217f8dea91ddabd411f05478702b75222d530319826f0003a983"
+    },
+    "timing": {
+      "freeze_sha256": "2b22246a7e951b61f32359e11f59dbc15de66fee8a00b1f60960b04e6ea12627",
+      "intention_to_evaluate_pairs": 128,
+      "native_planned_pairs": 128,
+      "not_native_planned_pairs": 0,
+      "plan_sha256": "23822e1bf96b23eee769fb9221ed50a7a02f5c0448d71b85e08546090f0cf756"
+    }
+  },
+  "provenance": {
+    "crop_receipt": {
+      "file": "protocol/sources/heldout_clinical/crop_receipt.json",
+      "sha256": "9756050d585e1e0b0502c95526955ddddf66d98c180a8777c70acc97d8001387"
+    },
+    "eligibility": {
+      "file": "protocol/sources/heldout_clinical/selected_source_eligibility.json",
+      "sha256": "78c5aa0e30137144963eb40ff1039985ec527eef32840e826c40bfe249d36040"
+    },
+    "environments": {
+      "file": "protocol/prospective_environments.json",
+      "sha256": "44a435db3e4c97b90ad566743d6da790ade6df2d950a2a2d2169a183c5599230"
+    },
+    "general_freeze": {
+      "file": "protocol/prospective_freeze.json",
+      "sha256": "176d9e8e286f6a44ff8d912b771abc11fe1d129bf4ff5e8e5ca9d8a741da5234"
+    },
+    "private_manifest_sha256": "da4341633c9b21487052f51130d14b735637d4f066d50b88adde74cef4b1b6b3"
+  },
+  "schema_version": "prospective-plan-realization-1"
+}

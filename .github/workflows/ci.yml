@@ -43,7 +43,19 @@ jobs:
       - name: Install pinned core and independent image reader
         run: python -m pip install --disable-pip-version-check -r software/requirements-core.txt SimpleITK==2.5.3 pytest==9.0.2
       - name: Test release tools
-        run: python -B -m unittest discover -s scripts/tests -v
+        shell: python
+        run: |
+          from pathlib import Path
+          import tempfile
+          import unittest
+          # Windows runners may expose an 8.3 alias through TEMP. Fixtures that
+          # replace the resolved production repository root require the same
+          # canonical spelling. No production path check or test is bypassed.
+          tempfile.tempdir = str(Path(tempfile.gettempdir()).resolve())
+          suite = unittest.defaultTestLoader.discover('scripts/tests')
+          result = unittest.TextTestRunner(verbosity=2).run(suite)
+          assert result.wasSuccessful(), 'Release-tool tests failed'
+          assert result.testsRun >= 92, 'Release-tool tests were not collected'
       - name: Test sampling freeze verification
         run: python -B -m pytest -q -p no:cacheprovider scripts/tests/test_sampling_freeze.py
       - name: Test public clinical source acquisition using synthetic fixtures

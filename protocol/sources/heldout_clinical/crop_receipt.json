@@ -1,0 +1,1185 @@
+{
+  "schema_version": "clinical-crop-receipt-1",
+  "records": [
+    {
+      "id": "Task02_Heart_la_014",
+      "task": "Task02_Heart",
+      "selection_rank": 1,
+      "source_image_sha256": "478c4347fa0dd5432ceb06674b411543b7ab65d44e76cf7ddc5421d495f98486",
+      "source_mask_sha256": "0a59d41146b4c1f68b4fa01199829636258123a8a5cd9eeaa15543b75f7e6667",
+      "source_eligible": true,
+      "exclusion_reasons": [],
+      "status": "prepared_and_verified",
+      "lower_index": [
+        113,
+        138,
+        25
+      ],
+      "upper_index_exclusive": [
+        183,
+        211,
+        107
+      ],
+      "context_mm": 10.0,
+      "original_shape": [
+        320,
+        320,
+        120
+      ],
+      "crop_shape": [
+        70,
+        73,
+        82
+      ],
+      "label": 1,
+      "image_verification": {
+        "decoded_array_equal": true,
+        "decoded_dtype_equal": true,
+        "maximum_world_error_mm": 1.1920928955078125e-07,
+        "geometry_tolerance_mm": 0.0001
+      },
+      "image_sha256": "517491ea1e39878550477ac38b8fa67d5ca25add9c24f3aef64616466c3935bb",
+      "mask_verification": {
+        "decoded_array_equal": true,
+        "decoded_dtype_equal": true,
+        "maximum_world_error_mm": 1.1920928955078125e-07,
+        "geometry_tolerance_mm": 0.0001,
+        "selected_roi_voxels_before": 68148,
+        "selected_roi_voxels_after": 68148,
+        "selected_roi_completely_retained": true
+      },
+      "mask_sha256": "e677363b98d7ad91390f1b162d9fcce00ec9973efe2e8b7340b35c1792d2ce8d"
+    },
+    {
+      "id": "Task02_Heart_la_007",
+      "task": "Task02_Heart",
+      "selection_rank": 2,
+      "source_image_sha256": "4ab0c2f2e1697b77a390660b4f647f4cc3b40a02532b55ce355f3736f911eff2",
+      "source_mask_sha256": "1d70e6ba71e8a06e462d27a4b81b25ee32b81a7d2f6b7839e853a3eceed3fffa",
+      "source_eligible": true,
+      "exclusion_reasons": [],
+      "status": "prepared_and_verified",
+      "lower_index": [
+        115,
+        140,
+        32
+      ],
+      "upper_index_exclusive": [
+        173,
+        218,
+        124
+      ],
+      "context_mm": 10.0,
+      "original_shape": [
+        320,
+        320,
+        130
+      ],
+      "crop_shape": [
+        58,
+        78,
+        92
+      ],
+      "label": 1,
+      "image_verification": {
+        "decoded_array_equal": true,
+        "decoded_dtype_equal": true,
+        "maximum_world_error_mm": 0.0,
+        "geometry_tolerance_mm": 0.0001
+      },
+      "image_sha256": "b6b907dd83372f952fa1c45dcf0abaf7c238249d8b427fac46e380d86bd2d197",
+      "mask_verification": {
+        "decoded_array_equal": true,
+        "decoded_dtype_equal": true,
+        "maximum_world_error_mm": 0.0,
+        "geometry_tolerance_mm": 0.0001,
+        "selected_roi_voxels_before": 55444,
+        "selected_roi_voxels_after": 55444,
+        "selected_roi_completely_retained": true
+      },
+      "mask_sha256": "a8bf626bdba452053b0760dda17a51716228d2b58f198271a7d3f356c3ba5b98"
+    },
+    {
+      "id": "Task02_Heart_la_029",
+      "task": "Task02_Heart",
+      "selection_rank": 3,
+      "source_image_sha256": "a5ef5bd7ebf3cf04036f4a654ecd4875ab25833fab211d1fcf3bf279d4294d79",
+      "source_mask_sha256": "f90dcb604e7b5a14aaea4021640e7384f20e6211046251ce26f4ec9782c23355",
+      "source_eligible": true,
+      "exclusion_reasons": [],
+      "status": "prepared_and_verified",
+      "lower_index": [
+        119,
+        121,
+        25
+      ],
+      "upper_index_exclusive": [
+        169,
+        186,
+        101
+      ],
+      "context_mm": 10.0,
+      "original_shape": [
+        320,
+        320,
+        109
+      ],
+      "crop_shape": [
+        50,
+        65,
+        76
+      ],
+      "label": 1,
+      "image_verification": {
+        "decoded_array_equal": true,
+        "decoded_dtype_equal": true,
+        "maximum_world_error_mm": 1.1920928955078125e-07,
+        "geometry_tolerance_mm": 0.0001
+      },
+      "image_sha256": "46ff56c6b66d2b688b849f30d4996c2d964027306cd6eef61e80b6f24d61012d",
+      "mask_verification": {
+        "decoded_array_equal": true,
+        "decoded_dtype_equal": true,
+        "maximum_world_error_mm": 1.1920928955078125e-07,
+        "geometry_tolerance_mm": 0.0001,
+        "selected_roi_voxels_before": 32607,
+        "selected_roi_voxels_after": 32607,
+        "selected_roi_completely_retained": true
+      },
+      "mask_sha256": "566bd19d2960620012d5d8ca9b5950098b738be99f5ffc5c3afe1120113dac0d"
+    },
+    {
+      "id": "Task02_Heart_la_009",
+      "task": "Task02_Heart",
+      "selection_rank": 4,
+      "source_image_sha256": "0f8606cd46ab9c46d22278c9b772c6e6678a3a94d80a41096ed92229cb82616d",
+      "source_mask_sha256": "a1dcc0b9d06f02a521271bf9ee94b94e9cc11a1e072ef89892ec13742fb73f61",
+      "source_eligible": true,
+      "exclusion_reasons": [],
+      "status": "prepared_and_verified",
+      "lower_index": [
+        109,
+        119,
+        5
+      ],
+      "upper_index_exclusive": [
+        173,
+        199,
+        100
+      ],
+      "context_mm": 10.0,
+      "original_shape": [
+        320,
+        320,
+        100
+      ],
+      "crop_shape": [
+        64,
+        80,
+        95
+      ],
+      "label": 1,
+      "image_verification": {
+        "decoded_array_equal": true,
+        "decoded_dtype_equal": true,
+        "maximum_world_error_mm": 1.1920928955078125e-07,
+        "geometry_tolerance_mm": 0.0001
+      },
+      "image_sha256": "58de6c73322f6d96a61608db4abb304b3c2f93c1443e9e616d7bbe811394d0ab",
+      "mask_verification": {
+        "decoded_array_equal": true,
+        "decoded_dtype_equal": true,
+        "maximum_world_error_mm": 1.1920928955078125e-07,
+        "geometry_tolerance_mm": 0.0001,
+        "selected_roi_voxels_before": 47111,
+        "selected_roi_voxels_after": 47111,
+        "selected_roi_completely_retained": true
+      },
+      "mask_sha256": "b9ea53aae9df98dbd4635712d66cdfc507d51f7c22f4223f9611f1759abaaf94"
+    },
+    {
+      "id": "Task02_Heart_la_003",
+      "task": "Task02_Heart",
+      "selection_rank": 5,
+      "source_image_sha256": "035de3923ffe7a8bd5e1d8ad8eefb57eeaf9a98074a8f70825aab88464e4e098",
+      "source_mask_sha256": "c91fea6782a75ae98de74bdbdd3a9ae4e68998e7dca65b2174cc4d0ecf16e913",
+      "source_eligible": true,
+      "exclusion_reasons": [],
+      "status": "prepared_and_verified",
+      "lower_index": [
+        107,
+        143,
+        37
+      ],
+      "upper_index_exclusive": [
+        168,
+        218,
+        119
+      ],
+      "context_mm": 10.0,
+      "original_shape": [
+        320,
+        320,
+        130
+      ],
+      "crop_shape": [
+        61,
+        75,
+        82
+      ],
+      "label": 1,
+      "image_verification": {
+        "decoded_array_equal": true,
+        "decoded_dtype_equal": true,
+        "maximum_world_error_mm": 1.5497207641601562e-06,
+        "geometry_tolerance_mm": 0.0001
+      },
+      "image_sha256": "478c7043dffc0fafd14969974c2b66ce05f698aa5d7752a9933ca96504afa268",
+      "mask_verification": {
+        "decoded_array_equal": true,
+        "decoded_dtype_equal": true,
+        "maximum_world_error_mm": 1.5497207641601562e-06,
+        "geometry_tolerance_mm": 0.0001,
+        "selected_roi_voxels_before": 45003,
+        "selected_roi_voxels_after": 45003,
+        "selected_roi_completely_retained": true
+      },
+      "mask_sha256": "fb58fc836b30a1d490151964d6ef4be7b801e8d443a166574747ff9e4d9665d0"
+    },
+    {
+      "id": "Task02_Heart_la_017",
+      "task": "Task02_Heart",
+      "selection_rank": 6,
+      "source_image_sha256": "981d220f34111b6bd252c002debd54098a532f36ea26db02707a9db2287cc41b",
+      "source_mask_sha256": "82a4a515ec2c384eb9fd53d0185e778c34c78689509a82ffffc02c31e4d1894b",
+      "source_eligible": true,
+      "exclusion_reasons": [],
+      "status": "prepared_and_verified",
+      "lower_index": [
+        123,
+        157,
+        35
+      ],
+      "upper_index_exclusive": [
+        183,
+        220,
+        115
+      ],
+      "context_mm": 10.0,
+      "original_shape": [
+        320,
+        320,
+        120
+      ],
+      "crop_shape": [
+        60,
+        63,
+        80
+      ],
+      "label": 1,
+      "image_verification": {
+        "decoded_array_equal": true,
+        "decoded_dtype_equal": true,
+        "maximum_world_error_mm": 5.960464477539062e-07,
+        "geometry_tolerance_mm": 0.0001
+      },
+      "image_sha256": "c1ac3623c9fe41322a314fff3f5db393e61697524ad438561cb00c58c84a9502",
+      "mask_verification": {
+        "decoded_array_equal": true,
+        "decoded_dtype_equal": true,
+        "maximum_world_error_mm": 5.960464477539062e-07,
+        "geometry_tolerance_mm": 0.0001,
+        "selected_roi_voxels_before": 37779,
+        "selected_roi_voxels_after": 37779,
+        "selected_roi_completely_retained": true
+      },
+      "mask_sha256": "bffb925824954bb96abafd4ea05707a43f5d626760c38874b37a44ee6e827369"
+    },
+    {
+      "id": "Task02_Heart_la_011",
+      "task": "Task02_Heart",
+      "selection_rank": 7,
+      "source_image_sha256": "f74304a7601d7178a8ab21553e152427f2da076c7ac8883e6c7338c589939131",
+      "source_mask_sha256": "65085606ccd8a3ea7e0e6beb6595679e009a3ee3c5463f337b1abd41f8a87ea0",
+      "source_eligible": true,
+      "exclusion_reasons": [],
+      "status": "prepared_and_verified",
+      "lower_index": [
+        116,
+        130,
+        34
+      ],
+      "upper_index_exclusive": [
+        173,
+        213,
+        118
+      ],
+      "context_mm": 10.0,
+      "original_shape": [
+        320,
+        320,
+        120
+      ],
+      "crop_shape": [
+        57,
+        83,
+        84
+      ],
+      "label": 1,
+      "image_verification": {
+        "decoded_array_equal": true,
+        "decoded_dtype_equal": true,
+        "maximum_world_error_mm": 1.6689300537109375e-06,
+        "geometry_tolerance_mm": 0.0001
+      },
+      "image_sha256": "146173f90234d0dcccec3e6508116b8e3b59c5606c2ae41df0696e5c7169f938",
+      "mask_verification": {
+        "decoded_array_equal": true,
+        "decoded_dtype_equal": true,
+        "maximum_world_error_mm": 1.6689300537109375e-06,
+        "geometry_tolerance_mm": 0.0001,
+        "selected_roi_voxels_before": 58455,
+        "selected_roi_voxels_after": 58455,
+        "selected_roi_completely_retained": true
+      },
+      "mask_sha256": "e5b1d98f9f071362ea4d4b8594c34c62aab50eca992cdbb17b6191884d4fcaf8"
+    },
+    {
+      "id": "Task02_Heart_la_030",
+      "task": "Task02_Heart",
+      "selection_rank": 8,
+      "source_image_sha256": "2fddf07fe1e6ce51ea70a4fcaf47662f454a7e0c9f0995bc2f63ccc4c24cf2a1",
+      "source_mask_sha256": "b4838f3ced97dd4861b1d8e56332d15464a34556d745938ac6012d20e077c271",
+      "source_eligible": true,
+      "exclusion_reasons": [],
+      "status": "prepared_and_verified",
+      "lower_index": [
+        123,
+        137,
+        25
+      ],
+      "upper_index_exclusive": [
+        176,
+        207,
+        110
+      ],
+      "context_mm": 10.0,
+      "original_shape": [
+        320,
+        320,
+        110
+      ],
+      "crop_shape": [
+        53,
+        70,
+        85
+      ],
+      "label": 1,
+      "image_verification": {
+        "decoded_array_equal": true,
+        "decoded_dtype_equal": true,
+        "maximum_world_error_mm": 1.1920928955078125e-07,
+        "geometry_tolerance_mm": 0.0001
+      },
+      "image_sha256": "30a1edccadcca7effdd712f0667674074b9a177281d52f6910a9ff628d7ce613",
+      "mask_verification": {
+        "decoded_array_equal": true,
+        "decoded_dtype_equal": true,
+        "maximum_world_error_mm": 1.1920928955078125e-07,
+        "geometry_tolerance_mm": 0.0001,
+        "selected_roi_voxels_before": 44982,
+        "selected_roi_voxels_after": 44982,
+        "selected_roi_completely_retained": true
+      },
+      "mask_sha256": "04d35cd5acc1e5868c757e6821670f5eef81b81de4bbed985def526feac31035"
+    },
+    {
+      "id": "Task02_Heart_la_020",
+      "task": "Task02_Heart",
+      "selection_rank": 9,
+      "source_image_sha256": "d09261de17cd568e82bce71c9fc9dd1b15ebd191e29e312e729f5d0dae1b5364",
+      "source_mask_sha256": "c09f40ba759955ae77d384d3c49ba6a28ed007f51707ee848c1cdcd0a9ae9e9f",
+      "source_eligible": true,
+      "exclusion_reasons": [],
+      "status": "prepared_and_verified",
+      "lower_index": [
+        125,
+        169,
+        20
+      ],
+      "upper_index_exclusive": [
+        179,
+        229,
+        106
+      ],
+      "context_mm": 10.0,
+      "original_shape": [
+        320,
+        320,
+        110
+      ],
+      "crop_shape": [
+        54,
+        60,
+        86
+      ],
+      "label": 1,
+      "image_verification": {
+        "decoded_array_equal": true,
+        "decoded_dtype_equal": true,
+        "maximum_world_error_mm": 4.76837158203125e-07,
+        "geometry_tolerance_mm": 0.0001
+      },
+      "image_sha256": "aa994bdc15431345d4021426b6649ab7cd320917cee29b65bd8875b7040a5c8b",
+      "mask_verification": {
+        "decoded_array_equal": true,
+        "decoded_dtype_equal": true,
+        "maximum_world_error_mm": 4.76837158203125e-07,
+        "geometry_tolerance_mm": 0.0001,
+        "selected_roi_voxels_before": 32040,
+        "selected_roi_voxels_after": 32040,
+        "selected_roi_completely_retained": true
+      },
+      "mask_sha256": "0c4f774d4f5c18b4118cafd567183661d64880fd0ac1cd562757f410c1e58e8f"
+    },
+    {
+      "id": "Task02_Heart_la_021",
+      "task": "Task02_Heart",
+      "selection_rank": 10,
+      "source_image_sha256": "7f77e09d51e4343465b860b041790df3d56af8df507aa365f18a53a67173ca94",
+      "source_mask_sha256": "b50bd990c4212bce61f7482a70cd016247460cc52540a662c3365606a5dff66c",
+      "source_eligible": true,
+      "exclusion_reasons": [],
+      "status": "prepared_and_verified",
+      "lower_index": [
+        117,
+        135,
+        10
+      ],
+      "upper_index_exclusive": [
+        175,
+        205,
+        97
+      ],
+      "context_mm": 10.0,
+      "original_shape": [
+        320,
+        320,
+        100
+      ],
+      "crop_shape": [
+        58,
+        70,
+        87
+      ],
+      "label": 1,
+      "image_verification": {
+        "decoded_array_equal": true,
+        "decoded_dtype_equal": true,
+        "maximum_world_error_mm": 2.384185791015625e-07,
+        "geometry_tolerance_mm": 0.0001
+      },
+      "image_sha256": "149498cc797783dbff28c9ac745259c3a57c906d95305b69bb0f43f737d918f0",
+      "mask_verification": {
+        "decoded_array_equal": true,
+        "decoded_dtype_equal": true,
+        "maximum_world_error_mm": 2.384185791015625e-07,
+        "geometry_tolerance_mm": 0.0001,
+        "selected_roi_voxels_before": 39164,
+        "selected_roi_voxels_after": 39164,
+        "selected_roi_completely_retained": true
+      },
+      "mask_sha256": "c7a9b2090a7d4c97f8a978b8cd1d07578c7e25b53fad60fb359002b8c84d7ef5"
+    },
+    {
+      "id": "Task02_Heart_la_026",
+      "task": "Task02_Heart",
+      "selection_rank": 11,
+      "source_image_sha256": "b7788f025ddce3b1d44c50f18f6fa7cc8299c507d46e251b7245e17b361864d0",
+      "source_mask_sha256": "a65f46b2f09bb165aa0528ab54ce880f9eb4942fe14f7551de90bfce2c99212d",
+      "source_eligible": true,
+      "exclusion_reasons": [],
+      "status": "prepared_and_verified",
+      "lower_index": [
+        120,
+        137,
+        33
+      ],
+      "upper_index_exclusive": [
+        170,
+        218,
+        120
+      ],
+      "context_mm": 10.0,
+      "original_shape": [
+        320,
+        320,
+        120
+      ],
+      "crop_shape": [
+        50,
+        81,
+        87
+      ],
+      "label": 1,
+      "image_verification": {
+        "decoded_array_equal": true,
+        "decoded_dtype_equal": true,
+        "maximum_world_error_mm": 1.0728836059570312e-06,
+        "geometry_tolerance_mm": 0.0001
+      },
+      "image_sha256": "1397c608d6c328c479140cdade32ed92e084ec9296d688e51ac461d280ea9880",
+      "mask_verification": {
+        "decoded_array_equal": true,
+        "decoded_dtype_equal": true,
+        "maximum_world_error_mm": 1.0728836059570312e-06,
+        "geometry_tolerance_mm": 0.0001,
+        "selected_roi_voxels_before": 53865,
+        "selected_roi_voxels_after": 53865,
+        "selected_roi_completely_retained": true
+      },
+      "mask_sha256": "99708a02231baa844c0fa06a3b68239c43314a3b1500e7d9800c8c798ddc7e7c"
+    },
+    {
+      "id": "Task02_Heart_la_023",
+      "task": "Task02_Heart",
+      "selection_rank": 12,
+      "source_image_sha256": "3e23b9a8b24eaa1eef6367da1a1f8ea66ae09037169ee1be8c25fd681e97520b",
+      "source_mask_sha256": "fa59479b2e3afdabe94a89c431d3180599b1c8a485c14a5342b761e519335578",
+      "source_eligible": true,
+      "exclusion_reasons": [],
+      "status": "prepared_and_verified",
+      "lower_index": [
+        111,
+        129,
+        29
+      ],
+      "upper_index_exclusive": [
+        173,
+        202,
+        99
+      ],
+      "context_mm": 10.0,
+      "original_shape": [
+        320,
+        320,
+        110
+      ],
+      "crop_shape": [
+        62,
+        73,
+        70
+      ],
+      "label": 1,
+      "image_verification": {
+        "decoded_array_equal": true,
+        "decoded_dtype_equal": true,
+        "maximum_world_error_mm": 5.960464477539062e-07,
+        "geometry_tolerance_mm": 0.0001
+      },
+      "image_sha256": "2963135851c71d1b552b8dc966e389a0eb58475e4f8a87aa6ac53914cea4fa6c",
+      "mask_verification": {
+        "decoded_array_equal": true,
+        "decoded_dtype_equal": true,
+        "maximum_world_error_mm": 5.960464477539062e-07,
+        "geometry_tolerance_mm": 0.0001,
+        "selected_roi_voxels_before": 43204,
+        "selected_roi_voxels_after": 43204,
+        "selected_roi_completely_retained": true
+      },
+      "mask_sha256": "4c62e2fae33ae476640070bb90260f133712d5b00c50079bf79031e104d65283"
+    },
+    {
+      "id": "Task06_Lung_lung_037",
+      "task": "Task06_Lung",
+      "selection_rank": 1,
+      "source_image_sha256": "8108470d127a2e5792cb55a4d8c9b22ae110e6d35b98d2bf3d31df4f5d113144",
+      "source_mask_sha256": "3c8b693ca29041667340edfef0d9ed3e9810ac61524784cb38cbe049202c954d",
+      "source_eligible": true,
+      "exclusion_reasons": [],
+      "status": "prepared_and_verified",
+      "lower_index": [
+        206,
+        222,
+        103
+      ],
+      "upper_index_exclusive": [
+        252,
+        268,
+        117
+      ],
+      "context_mm": 10.0,
+      "original_shape": [
+        512,
+        512,
+        126
+      ],
+      "crop_shape": [
+        46,
+        46,
+        14
+      ],
+      "label": 1,
+      "image_verification": {
+        "decoded_array_equal": true,
+        "decoded_dtype_equal": true,
+        "maximum_world_error_mm": 0.0,
+        "geometry_tolerance_mm": 0.0001
+      },
+      "image_sha256": "f54bce703cbdc98494fc5a7ea96dc2b80b4ca74646fef639b501d7f08fb8c85d",
+      "mask_verification": {
+        "decoded_array_equal": true,
+        "decoded_dtype_equal": true,
+        "maximum_world_error_mm": 0.0,
+        "geometry_tolerance_mm": 0.0001,
+        "selected_roi_voxels_before": 756,
+        "selected_roi_voxels_after": 756,
+        "selected_roi_completely_retained": true
+      },
+      "mask_sha256": "9eed3b1461ec49f62af99898dd8fdba85051ad15714cddf133a1e8973ba0e4b4"
+    },
+    {
+      "id": "Task06_Lung_lung_029",
+      "task": "Task06_Lung",
+      "selection_rank": 2,
+      "source_image_sha256": "6f5f3350cb37087a9a8f9c0bea516a1ced9f05dd93b9988d7727b34ba636da64",
+      "source_mask_sha256": "1ef21e3c9e281e275c6a15c0c2db8b28f68d7b27771937fd85db65707d26e5a2",
+      "source_eligible": true,
+      "exclusion_reasons": [],
+      "status": "prepared_and_verified",
+      "lower_index": [
+        306,
+        191,
+        195
+      ],
+      "upper_index_exclusive": [
+        358,
+        241,
+        230
+      ],
+      "context_mm": 10.0,
+      "original_shape": [
+        512,
+        512,
+        255
+      ],
+      "crop_shape": [
+        52,
+        50,
+        35
+      ],
+      "label": 1,
+      "image_verification": {
+        "decoded_array_equal": true,
+        "decoded_dtype_equal": true,
+        "maximum_world_error_mm": 1.710975181389728e-06,
+        "geometry_tolerance_mm": 0.0001
+      },
+      "image_sha256": "f18d4ce835df940a7b942961709c35c31a9c44c7f751b48cfb3e160b52a58b45",
+      "mask_verification": {
+        "decoded_array_equal": true,
+        "decoded_dtype_equal": true,
+        "maximum_world_error_mm": 1.710975181389728e-06,
+        "geometry_tolerance_mm": 0.0001,
+        "selected_roi_voxels_before": 3924,
+        "selected_roi_voxels_after": 3924,
+        "selected_roi_completely_retained": true
+      },
+      "mask_sha256": "0ee173933d42a7cdd92e3e91248240994b0187dac33eb208710693c2c0c661b0"
+    },
+    {
+      "id": "Task06_Lung_lung_074",
+      "task": "Task06_Lung",
+      "selection_rank": 3,
+      "source_image_sha256": "15ef7af033be9bb53cb409cfdbee6cc519af9ff79472ad3afbd14b32b783b271",
+      "source_mask_sha256": "655da2704a1096a1737aae8bf5b2ad3fc3ba4effbe2c4b0b298bc56770dcb08e",
+      "source_eligible": true,
+      "exclusion_reasons": [],
+      "status": "prepared_and_verified",
+      "lower_index": [
+        291,
+        178,
+        249
+      ],
+      "upper_index_exclusive": [
+        403,
+        350,
+        346
+      ],
+      "context_mm": 10.0,
+      "original_shape": [
+        512,
+        512,
+        369
+      ],
+      "crop_shape": [
+        112,
+        172,
+        97
+      ],
+      "label": 1,
+      "image_verification": {
+        "decoded_array_equal": true,
+        "decoded_dtype_equal": true,
+        "maximum_world_error_mm": 0.0,
+        "geometry_tolerance_mm": 0.0001
+      },
+      "image_sha256": "d4c08f5295d18dc243dfb2b2f4a787d09523d54affcbfd6714c8fed2f066ccce",
+      "mask_verification": {
+        "decoded_array_equal": true,
+        "decoded_dtype_equal": true,
+        "maximum_world_error_mm": 0.0,
+        "geometry_tolerance_mm": 0.0001,
+        "selected_roi_voxels_before": 71076,
+        "selected_roi_voxels_after": 71076,
+        "selected_roi_completely_retained": true
+      },
+      "mask_sha256": "9a86e10268ac7440f2a11b397ec74e29d205a3439dc34bb414ba9f6ea542f5ef"
+    },
+    {
+      "id": "Task06_Lung_lung_095",
+      "task": "Task06_Lung",
+      "selection_rank": 4,
+      "source_image_sha256": "d84c4f10bd8562c0d099feb121f5b09aab074b88b2273d154b294f6ddb6a36ab",
+      "source_mask_sha256": "a742a7d56e305c993d337f92666e58d9c0563e4ea45690348e20f8f0fa381799",
+      "source_eligible": true,
+      "exclusion_reasons": [],
+      "status": "prepared_and_verified",
+      "lower_index": [
+        128,
+        271,
+        90
+      ],
+      "upper_index_exclusive": [
+        188,
+        359,
+        121
+      ],
+      "context_mm": 10.0,
+      "original_shape": [
+        512,
+        512,
+        231
+      ],
+      "crop_shape": [
+        60,
+        88,
+        31
+      ],
+      "label": 1,
+      "image_verification": {
+        "decoded_array_equal": true,
+        "decoded_dtype_equal": true,
+        "maximum_world_error_mm": 7.996802249550068e-07,
+        "geometry_tolerance_mm": 0.0001
+      },
+      "image_sha256": "67272357976b232445fdc5ca84092d17baaf327e925512798f8172d9f7076b29",
+      "mask_verification": {
+        "decoded_array_equal": true,
+        "decoded_dtype_equal": true,
+        "maximum_world_error_mm": 7.996802249550068e-07,
+        "geometry_tolerance_mm": 0.0001,
+        "selected_roi_voxels_before": 5701,
+        "selected_roi_voxels_after": 5701,
+        "selected_roi_completely_retained": true
+      },
+      "mask_sha256": "9f180a45a22549bf2574972899cea6703ed9cc3a88e65b762d7310978fd591c6"
+    },
+    {
+      "id": "Task06_Lung_lung_038",
+      "task": "Task06_Lung",
+      "selection_rank": 5,
+      "source_image_sha256": "56540993f0df632e66f7ada2d96a6d9f87309a8a0b953b71e7e2a78d7a3a2828",
+      "source_mask_sha256": "c8b5fc964ac51acd2283de23162680a7697ad97d2cce747ab0e97786e3456a56",
+      "source_eligible": true,
+      "exclusion_reasons": [],
+      "status": "prepared_and_verified",
+      "lower_index": [
+        148,
+        199,
+        75
+      ],
+      "upper_index_exclusive": [
+        210,
+        296,
+        92
+      ],
+      "context_mm": 10.0,
+      "original_shape": [
+        512,
+        512,
+        125
+      ],
+      "crop_shape": [
+        62,
+        97,
+        17
+      ],
+      "label": 1,
+      "image_verification": {
+        "decoded_array_equal": true,
+        "decoded_dtype_equal": true,
+        "maximum_world_error_mm": 0.0,
+        "geometry_tolerance_mm": 0.0001
+      },
+      "image_sha256": "51bfe255365ee39a61c721425aa4916455d19e65a84398e837bdd727f7c19268",
+      "mask_verification": {
+        "decoded_array_equal": true,
+        "decoded_dtype_equal": true,
+        "maximum_world_error_mm": 0.0,
+        "geometry_tolerance_mm": 0.0001,
+        "selected_roi_voxels_before": 3421,
+        "selected_roi_voxels_after": 3421,
+        "selected_roi_completely_retained": true
+      },
+      "mask_sha256": "652a013d30e0bf5bde3ef2dbc9121a2d742c89e95457ef70bd6ee2432c9215f3"
+    },
+    {
+      "id": "Task06_Lung_lung_078",
+      "task": "Task06_Lung",
+      "selection_rank": 6,
+      "source_image_sha256": "47ae0d2b04bf4b11ddf320a1a2001383f88dd52572f280c5fa6b066db9e2a271",
+      "source_mask_sha256": "286a95b7b488fbb938ae79e813967c888bb1416f3f38edcd8a4f4ab97278fdc4",
+      "source_eligible": true,
+      "exclusion_reasons": [],
+      "status": "prepared_and_verified",
+      "lower_index": [
+        323,
+        117,
+        62
+      ],
+      "upper_index_exclusive": [
+        426,
+        210,
+        81
+      ],
+      "context_mm": 10.0,
+      "original_shape": [
+        512,
+        512,
+        115
+      ],
+      "crop_shape": [
+        103,
+        93,
+        19
+      ],
+      "label": 1,
+      "image_verification": {
+        "decoded_array_equal": true,
+        "decoded_dtype_equal": true,
+        "maximum_world_error_mm": 4.1053713220888525e-06,
+        "geometry_tolerance_mm": 0.0001
+      },
+      "image_sha256": "d229844a2fb84ded3520170249e8629af405d7584e86da9434c94581f01ca989",
+      "mask_verification": {
+        "decoded_array_equal": true,
+        "decoded_dtype_equal": true,
+        "maximum_world_error_mm": 4.1053713220888525e-06,
+        "geometry_tolerance_mm": 0.0001,
+        "selected_roi_voxels_before": 6275,
+        "selected_roi_voxels_after": 6275,
+        "selected_roi_completely_retained": true
+      },
+      "mask_sha256": "6bb5dbfa2c59cc32a1b475d40d49be764832c0c25c22c35764f80c86545bac46"
+    },
+    {
+      "id": "Task06_Lung_lung_028",
+      "task": "Task06_Lung",
+      "selection_rank": 7,
+      "source_image_sha256": "1852f1f0a6d31cace0f370ec71ed2b1f1eecd03dddffdcaf904c91204876ed4c",
+      "source_mask_sha256": "5ca289a70d41ec40010d90e4ea7203f5fd03fb5fadd7c917c08bf5895784e9f4",
+      "source_eligible": true,
+      "exclusion_reasons": [],
+      "status": "prepared_and_verified",
+      "lower_index": [
+        263,
+        110,
+        78
+      ],
+      "upper_index_exclusive": [
+        364,
+        233,
+        174
+      ],
+      "context_mm": 10.0,
+      "original_shape": [
+        512,
+        512,
+        251
+      ],
+      "crop_shape": [
+        101,
+        123,
+        96
+      ],
+      "label": 1,
+      "image_verification": {
+        "decoded_array_equal": true,
+        "decoded_dtype_equal": true,
+        "maximum_world_error_mm": 5.746827503773666e-06,
+        "geometry_tolerance_mm": 0.0001
+      },
+      "image_sha256": "c9534f71aaa2f0f094904b4446047d15414ba7ff66c42429e508cd70095e02b3",
+      "mask_verification": {
+        "decoded_array_equal": true,
+        "decoded_dtype_equal": true,
+        "maximum_world_error_mm": 5.746827503773666e-06,
+        "geometry_tolerance_mm": 0.0001,
+        "selected_roi_voxels_before": 146740,
+        "selected_roi_voxels_after": 146740,
+        "selected_roi_completely_retained": true
+      },
+      "mask_sha256": "a8a146820a8b3d105a7c039e6df0d89617a7df45c375d283cc6dd1c85a6aa6c7"
+    },
+    {
+      "id": "Task06_Lung_lung_020",
+      "task": "Task06_Lung",
+      "selection_rank": 8,
+      "source_image_sha256": "763fb3472d31c09b04e2a772da71effbba68f24fcd162e3aa82d289e52f26aab",
+      "source_mask_sha256": "dd3d6cab678e4982033af8723554f6ee7be2ac6532417a22ae3bb6d1b691caa7",
+      "source_eligible": true,
+      "exclusion_reasons": [],
+      "status": "prepared_and_verified",
+      "lower_index": [
+        114,
+        229,
+        198
+      ],
+      "upper_index_exclusive": [
+        176,
+        300,
+        231
+      ],
+      "context_mm": 10.0,
+      "original_shape": [
+        512,
+        512,
+        314
+      ],
+      "crop_shape": [
+        62,
+        71,
+        33
+      ],
+      "label": 1,
+      "image_verification": {
+        "decoded_array_equal": true,
+        "decoded_dtype_equal": true,
+        "maximum_world_error_mm": 0.0,
+        "geometry_tolerance_mm": 0.0001
+      },
+      "image_sha256": "210f0d7270429c7609723f17b073aa095e0457cc18ec6264c1f4a4a0619cc53f",
+      "mask_verification": {
+        "decoded_array_equal": true,
+        "decoded_dtype_equal": true,
+        "maximum_world_error_mm": 0.0,
+        "geometry_tolerance_mm": 0.0001,
+        "selected_roi_voxels_before": 6086,
+        "selected_roi_voxels_after": 6086,
+        "selected_roi_completely_retained": true
+      },
+      "mask_sha256": "6a7c49eb5276618af118c51465c0b26da73e3a664283a1edb665926c793ded10"
+    },
+    {
+      "id": "Task06_Lung_lung_025",
+      "task": "Task06_Lung",
+      "selection_rank": 9,
+      "source_image_sha256": "32a0923cdf587f650a41b8d9867d2ae2e0a83f80494c4a1b463abcbe4e90ec18",
+      "source_mask_sha256": "f96a3063eff9ef5b9a5ef96f43ef4057e7e462856ad75d8d9c78759ca7fea61b",
+      "source_eligible": true,
+      "exclusion_reasons": [],
+      "status": "prepared_and_verified",
+      "lower_index": [
+        334,
+        324,
+        208
+      ],
+      "upper_index_exclusive": [
+        392,
+        380,
+        249
+      ],
+      "context_mm": 10.0,
+      "original_shape": [
+        512,
+        512,
+        376
+      ],
+      "crop_shape": [
+        58,
+        56,
+        41
+      ],
+      "label": 1,
+      "image_verification": {
+        "decoded_array_equal": true,
+        "decoded_dtype_equal": true,
+        "maximum_world_error_mm": 5.1577824718437046e-06,
+        "geometry_tolerance_mm": 0.0001
+      },
+      "image_sha256": "b29b15141391b61dc9dafd803c3b0bc5976c7cb2b727e7c332be3ba1aaaaf901",
+      "mask_verification": {
+        "decoded_array_equal": true,
+        "decoded_dtype_equal": true,
+        "maximum_world_error_mm": 5.1577824718437046e-06,
+        "geometry_tolerance_mm": 0.0001,
+        "selected_roi_voxels_before": 6123,
+        "selected_roi_voxels_after": 6123,
+        "selected_roi_completely_retained": true
+      },
+      "mask_sha256": "ea6ed9032e047c11164ab7c331d6dc2c5ba19a19665ca4c5183ffff3b4f2c6a2"
+    },
+    {
+      "id": "Task06_Lung_lung_073",
+      "task": "Task06_Lung",
+      "selection_rank": 10,
+      "source_image_sha256": "064cecb20318094f559fd765b337193a3c92f9932b21735a91621a17860841c0",
+      "source_mask_sha256": "697f013ed440ebcb874de9c4ee4d975b30c23481e8d2c28e3acec07dfc64453b",
+      "source_eligible": true,
+      "exclusion_reasons": [],
+      "status": "prepared_and_verified",
+      "lower_index": [
+        315,
+        225,
+        294
+      ],
+      "upper_index_exclusive": [
+        390,
+        317,
+        372
+      ],
+      "context_mm": 10.0,
+      "original_shape": [
+        512,
+        512,
+        493
+      ],
+      "crop_shape": [
+        75,
+        92,
+        78
+      ],
+      "label": 1,
+      "image_verification": {
+        "decoded_array_equal": true,
+        "decoded_dtype_equal": true,
+        "maximum_world_error_mm": 1.5078914929239175e-06,
+        "geometry_tolerance_mm": 0.0001
+      },
+      "image_sha256": "959ec05abc5ed02f6f9f953f764f903dbaaa43cc5fd181dc1bd1bd88fda20f96",
+      "mask_verification": {
+        "decoded_array_equal": true,
+        "decoded_dtype_equal": true,
+        "maximum_world_error_mm": 1.5078914929239175e-06,
+        "geometry_tolerance_mm": 0.0001,
+        "selected_roi_voxels_before": 24325,
+        "selected_roi_voxels_after": 24325,
+        "selected_roi_completely_retained": true
+      },
+      "mask_sha256": "605b0eb47dd616fc8f7cfd56610c48783e27b56d9916bc74ae5c61914470605e"
+    },
+    {
+      "id": "Task06_Lung_lung_069",
+      "task": "Task06_Lung",
+      "selection_rank": 11,
+      "source_image_sha256": "317de69a4352bbba573ed3ac47e582b31f260ea3ceeb8fc2e816a940a217dd72",
+      "source_mask_sha256": "48607c9fbe5b6c27c84e887562d3f5e4019634fbf51f20072295b0bdb8ebbccd",
+      "source_eligible": true,
+      "exclusion_reasons": [],
+      "status": "prepared_and_verified",
+      "lower_index": [
+        187,
+        262,
+        82
+      ],
+      "upper_index_exclusive": [
+        230,
+        308,
+        115
+      ],
+      "context_mm": 10.0,
+      "original_shape": [
+        512,
+        512,
+        242
+      ],
+      "crop_shape": [
+        43,
+        46,
+        33
+      ],
+      "label": 1,
+      "image_verification": {
+        "decoded_array_equal": true,
+        "decoded_dtype_equal": true,
+        "maximum_world_error_mm": 4.655271575395259e-06,
+        "geometry_tolerance_mm": 0.0001
+      },
+      "image_sha256": "e4c11554bcf9c684c01b716051b69551f9723ea5849fe95b26fbc30f5d1356e5",
+      "mask_verification": {
+        "decoded_array_equal": true,
+        "decoded_dtype_equal": true,
+        "maximum_world_error_mm": 4.655271575395259e-06,
+        "geometry_tolerance_mm": 0.0001,
+        "selected_roi_voxels_before": 1079,
+        "selected_roi_voxels_after": 1079,
+        "selected_roi_completely_retained": true
+      },
+      "mask_sha256": "a2ce3fca8d7d056e9c434be0e55e996e417116aa950ad3ea74b2de59ed2a4350"
+    },
+    {
+      "id": "Task06_Lung_lung_070",
+      "task": "Task06_Lung",
+      "selection_rank": 12,
+      "source_image_sha256": "17a6f87f6a9837c9b55ba6a7d03228bbd89441cf47e3a51931f71ebbfb48e347",
+      "source_mask_sha256": "270f204f092444926a0ec44cdae9cac40d290beb3ea9397a5eb03ff8d0122432",
+      "source_eligible": true,
+      "exclusion_reasons": [],
+      "status": "prepared_and_verified",
+      "lower_index": [
+        368,
+        308,
+        140
+      ],
+      "upper_index_exclusive": [
+        421,
+        363,
+        172
+      ],
+      "context_mm": 10.0,
+      "original_shape": [
+        512,
+        512,
+        266
+      ],
+      "crop_shape": [
+        53,
+        55,
+        32
+      ],
+      "label": 1,
+      "image_verification": {
+        "decoded_array_equal": true,
+        "decoded_dtype_equal": true,
+        "maximum_world_error_mm": 4.264961199760036e-06,
+        "geometry_tolerance_mm": 0.0001
+      },
+      "image_sha256": "c58bc5812229de776924e9fa48f1aef8e1337294f8bb20b0f7377d3ec44d9251",
+      "mask_verification": {
+        "decoded_array_equal": true,
+        "decoded_dtype_equal": true,
+        "maximum_world_error_mm": 4.264961199760036e-06,
+        "geometry_tolerance_mm": 0.0001,
+        "selected_roi_voxels_before": 3080,
+        "selected_roi_voxels_after": 3080,
+        "selected_roi_completely_retained": true
+      },
+      "mask_sha256": "af1ee2e38501308fc1cafcf3f46b12328254ccb5bc0d40f87c7e1b63b9dadfe8"
+    }
+  ],
+  "planned_source_volumes": 24,
+  "source_eligible_volumes": 24,
+  "active_id": null,
+  "scope": "Direct decoded-array and geometry verification. Native feature equivalence to full volumes is not asserted."
+}

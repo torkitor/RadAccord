@@ -45,3 +45,13 @@ These optional jobs are explicitly absent from ordinary push and pull-request ru
 All workflow inputs are small generated fixtures. The workflows do not download clinical collections, run the clinical benchmark or upload images, dependency caches or raw execution files as artifacts. Checkout and Python setup actions use the same immutable revisions as the core workflow, with read-only repository permissions and checkout credentials disabled.
 
 The committed workflow is a test specification. Its presence is not evidence that GitHub Actions has passed: use the run associated with the exact commit being evaluated. Local wheel evidence is recorded separately in [WHEEL_VERIFICATION.md](WHEEL_VERIFICATION.md); installation instructions are in [INSTALL.md](INSTALL.md).
+
+## Canonical temporary paths in Windows fixtures
+
+The Windows hosted runner can expose an abbreviated 8.3 user path through TEMP.
+Production repository roots are already resolved, but test fixtures that replace
+those roots must use the same canonical spelling as their temporary files.
+The release-tool test launcher resolves `tempfile.tempdir` before constructing
+fixtures. All tests and production containment checks still execute unchanged.
+The initial 1.3.0rc1 core run exposed this fixture mismatch on Windows while the
+Ubuntu job passed; the scientific freeze and clinical analysis were not changed.
