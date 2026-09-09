@@ -1,0 +1,722 @@
+{
+  "cases": [
+    {
+      "array_exact": true,
+      "case_id": "axis_aligned",
+      "exported_affine_ras_mm": [
+        [
+          0.800000011920929,
+          0.0,
+          -0.0,
+          27.5
+        ],
+        [
+          0.0,
+          1.2999999523162842,
+          -0.0,
+          -61.25
+        ],
+        [
+          0.0,
+          0.0,
+          2.0999999046325684,
+          14.75
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "exported_mask_nifti_sha256": "daffe7bdfb50f02a5d73bb963652d503697da618273af2c6531c26ee83333980",
+      "exported_nifti_sha256": "09cb2186edafcafc5b3afd98fbe15c72335d2fc53a1d9b2c333f02b244cded5d",
+      "mask_exact": true,
+      "max_input_serialization_corner_error_mm": 9.610960191761888e-07,
+      "original_nifti_affine_ras_mm": [
+        [
+          0.800000011920929,
+          0.0,
+          0.0,
+          27.5
+        ],
+        [
+          0.0,
+          1.2999999523162842,
+          0.0,
+          -61.25
+        ],
+        [
+          0.0,
+          0.0,
+          2.0999999046325684,
+          14.75
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "paired_export_geometry_agrees": true,
+      "paired_export_max_corner_error_mm": 0.0,
+      "rotation_radians": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "shape": [
+        11,
+        13,
+        9
+      ],
+      "source_affine_ras_mm": [
+        [
+          0.8,
+          0.0,
+          0.0,
+          27.5
+        ],
+        [
+          0.0,
+          1.3,
+          0.0,
+          -61.25
+        ],
+        [
+          0.0,
+          0.0,
+          2.1,
+          14.75
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "source_mask_nifti_sha256": "acc6bfc1487208a81f56a312b112b24cf6c26a23cee52c5406952d85887cca68",
+      "source_nifti_sha256": "e2d3a8d0982cc4ffa9679e70021e1e5198d0dce28a4bf9bf5514ebd2c0e96ce6",
+      "verification": {
+        "ambiguous_intensity_voxels": 0,
+        "ambiguous_roi_voxels": 0,
+        "candidate_roi_voxels": 157,
+        "candidate_voxels_outside_source_support": 0,
+        "checks": {
+          "candidate_shape": true,
+          "intensity": true,
+          "position": true,
+          "roi": true
+        },
+        "contract": {
+          "antialias_boundary": "nearest",
+          "antialias_dtype": "float32",
+          "antialias_sigma": null,
+          "axis_order": [
+            2,
+            1,
+            0
+          ],
+          "boundary": "sitk",
+          "boundary_budget_scope": "Declared engineering bands, not certified floating-point bounds or clinical tolerances.",
+          "candidate_shape": [
+            11,
+            13,
+            9
+          ],
+          "gaussian_truncate": 4.0,
+          "index_boundary_atol": 1e-09,
+          "index_map": [
+            [
+              1.0,
+              0.0,
+              0.0,
+              0.0
+            ],
+            [
+              0.0,
+              1.0,
+              0.0,
+              0.0
+            ],
+            [
+              0.0,
+              0.0,
+              1.0,
+              0.0
+            ],
+            [
+              0.0,
+              0.0,
+              0.0,
+              1.0
+            ]
+          ],
+          "integer_cast": "truncate",
+          "intensity_atol": 0.0001,
+          "intensity_gain": 1.0,
+          "intensity_offset": 0.0,
+          "intensity_rtol": 0.0,
+          "interpolation": "nearest",
+          "mask_antialias_boundary": "nearest",
+          "mask_antialias_sigma": null,
+          "mask_boundary": "sitk",
+          "mask_interpolation": "nearest",
+          "mask_outside": 0,
+          "mask_round_decimals": null,
+          "mask_skip": false,
+          "mask_threshold": 0.5,
+          "mask_threshold_after_antialias": false,
+          "mask_threshold_atol": 1e-09,
+          "output_cast_atol": 1e-09,
+          "output_dtype": "float64",
+          "outside_value": 0.0,
+          "position_atol_mm": 0.0001,
+          "world_map": [
+            [
+              1.0,
+              0.0,
+              0.0,
+              0.0
+            ],
+            [
+              0.0,
+              1.0,
+              0.0,
+              0.0
+            ],
+            [
+              0.0,
+              0.0,
+              1.0,
+              0.0
+            ],
+            [
+              0.0,
+              0.0,
+              0.0,
+              1.0
+            ]
+          ]
+        },
+        "coverage": {
+          "candidate_roi_voxels": 157,
+          "definition": "Selected source voxel centres in declared candidate [-0.5,size-0.5) FOV; not continuous anatomical support.",
+          "exact_roi_preserved": true,
+          "expected_candidate_roi_voxels": 157,
+          "missing_roi_voxels": 0,
+          "source_roi_centres_near_fov_boundary": 0,
+          "source_roi_definitely_outside_candidate_fov": 0,
+          "source_roi_outside_candidate_fov": 0,
+          "source_roi_voxels": 157,
+          "status": "satisfied"
+        },
+        "expected_candidate_roi_voxels": 157,
+        "feature_reuse": {
+          "decision": "requires_reextraction",
+          "reason": "Operator agreement does not establish feature invariance; re-extraction is required."
+        },
+        "max_corner_error_mm": 9.610960191761888e-07,
+        "max_intensity_error": 0.0,
+        "nominal_mismatched_intensity_voxels": 0,
+        "nominal_mismatched_roi_voxels": 0,
+        "schema_version": "operators-1.0",
+        "status": "satisfied",
+        "strict_nominal_status": "satisfied",
+        "violating_intensity_voxels": 0,
+        "violating_roi_voxels": 0
+      }
+    },
+    {
+      "array_exact": true,
+      "case_id": "oblique_z",
+      "exported_affine_ras_mm": [
+        [
+          0.7618668675422668,
+          -0.3965761959552765,
+          0.0,
+          27.5
+        ],
+        [
+          0.2440469115972519,
+          1.238033652305603,
+          -0.0,
+          -61.25
+        ],
+        [
+          0.0,
+          0.0,
+          2.0999999046325684,
+          14.75
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "exported_mask_nifti_sha256": "a6d747d95b9cceb4fd4646f934e04d90bc6da684da3bec4bf45a96338d2660df",
+      "exported_nifti_sha256": "f03f9b61e4ea43ff4bdab669655e87b58a9df873181359276807ab9053f56fa6",
+      "mask_exact": true,
+      "max_input_serialization_corner_error_mm": 7.916513609880428e-07,
+      "original_nifti_affine_ras_mm": [
+        [
+          0.7618668675422668,
+          -0.3965762257575989,
+          0.0,
+          27.5
+        ],
+        [
+          0.2440469115972519,
+          1.238033652305603,
+          0.0,
+          -61.25
+        ],
+        [
+          0.0,
+          0.0,
+          2.0999999046325684,
+          14.75
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "paired_export_geometry_agrees": true,
+      "paired_export_max_corner_error_mm": 0.0,
+      "rotation_radians": [
+        0.0,
+        0.0,
+        0.31
+      ],
+      "shape": [
+        11,
+        13,
+        9
+      ],
+      "source_affine_ras_mm": [
+        [
+          0.7618668559085707,
+          -0.3965762273764766,
+          0.0,
+          27.5
+        ],
+        [
+          0.2440469091547548,
+          1.2380336408514274,
+          0.0,
+          -61.25
+        ],
+        [
+          0.0,
+          0.0,
+          2.1,
+          14.75
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "source_mask_nifti_sha256": "08a3a4ad9f8e5e119b9fd5f0e2fd36870c8b75b55657c6c1af400cc0ae157a2d",
+      "source_nifti_sha256": "f93ffb4babab6a0771e4ce64642e9349c9ba44a8a565e19b0c4e939f27472f91",
+      "verification": {
+        "ambiguous_intensity_voxels": 0,
+        "ambiguous_roi_voxels": 0,
+        "candidate_roi_voxels": 157,
+        "candidate_voxels_outside_source_support": 0,
+        "checks": {
+          "candidate_shape": true,
+          "intensity": true,
+          "position": true,
+          "roi": true
+        },
+        "contract": {
+          "antialias_boundary": "nearest",
+          "antialias_dtype": "float32",
+          "antialias_sigma": null,
+          "axis_order": [
+            2,
+            1,
+            0
+          ],
+          "boundary": "sitk",
+          "boundary_budget_scope": "Declared engineering bands, not certified floating-point bounds or clinical tolerances.",
+          "candidate_shape": [
+            11,
+            13,
+            9
+          ],
+          "gaussian_truncate": 4.0,
+          "index_boundary_atol": 1e-09,
+          "index_map": [
+            [
+              1.0,
+              0.0,
+              0.0,
+              0.0
+            ],
+            [
+              0.0,
+              1.0,
+              0.0,
+              0.0
+            ],
+            [
+              0.0,
+              0.0,
+              1.0,
+              0.0
+            ],
+            [
+              0.0,
+              0.0,
+              0.0,
+              1.0
+            ]
+          ],
+          "integer_cast": "truncate",
+          "intensity_atol": 0.0001,
+          "intensity_gain": 1.0,
+          "intensity_offset": 0.0,
+          "intensity_rtol": 0.0,
+          "interpolation": "nearest",
+          "mask_antialias_boundary": "nearest",
+          "mask_antialias_sigma": null,
+          "mask_boundary": "sitk",
+          "mask_interpolation": "nearest",
+          "mask_outside": 0,
+          "mask_round_decimals": null,
+          "mask_skip": false,
+          "mask_threshold": 0.5,
+          "mask_threshold_after_antialias": false,
+          "mask_threshold_atol": 1e-09,
+          "output_cast_atol": 1e-09,
+          "output_dtype": "float64",
+          "outside_value": 0.0,
+          "position_atol_mm": 0.0001,
+          "world_map": [
+            [
+              1.0,
+              0.0,
+              0.0,
+              0.0
+            ],
+            [
+              0.0,
+              1.0,
+              0.0,
+              0.0
+            ],
+            [
+              0.0,
+              0.0,
+              1.0,
+              0.0
+            ],
+            [
+              0.0,
+              0.0,
+              0.0,
+              1.0
+            ]
+          ]
+        },
+        "coverage": {
+          "candidate_roi_voxels": 157,
+          "definition": "Selected source voxel centres in declared candidate [-0.5,size-0.5) FOV; not continuous anatomical support.",
+          "exact_roi_preserved": true,
+          "expected_candidate_roi_voxels": 157,
+          "missing_roi_voxels": 0,
+          "source_roi_centres_near_fov_boundary": 0,
+          "source_roi_definitely_outside_candidate_fov": 0,
+          "source_roi_outside_candidate_fov": 0,
+          "source_roi_voxels": 157,
+          "status": "satisfied"
+        },
+        "expected_candidate_roi_voxels": 157,
+        "feature_reuse": {
+          "decision": "requires_reextraction",
+          "reason": "Operator agreement does not establish feature invariance; re-extraction is required."
+        },
+        "max_corner_error_mm": 9.22884167962151e-07,
+        "max_intensity_error": 0.0,
+        "nominal_mismatched_intensity_voxels": 0,
+        "nominal_mismatched_roi_voxels": 0,
+        "schema_version": "operators-1.0",
+        "status": "satisfied",
+        "strict_nominal_status": "satisfied",
+        "violating_intensity_voxels": 0,
+        "violating_roi_voxels": 0
+      }
+    },
+    {
+      "array_exact": true,
+      "case_id": "oblique_xyz",
+      "exported_affine_ras_mm": [
+        [
+          0.7508843541145325,
+          -0.4338836073875427,
+          -0.18339025974273682,
+          27.5
+        ],
+        [
+          0.2405289262533188,
+          1.1901359558105469,
+          -0.5614603757858276,
+          -61.25
+        ],
+        [
+          0.13534586131572723,
+          0.2920984923839569,
+          2.0152244567871094,
+          14.75
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "exported_mask_nifti_sha256": "f923eafb97f7f81d61a3194082c569876fa5ea6efedf8560af4e848cdb183650",
+      "exported_nifti_sha256": "b7cf45c85a4696d61ea0721b886decf50ca11d963546ce0fe651a90f4e1ab0b3",
+      "mask_exact": true,
+      "max_input_serialization_corner_error_mm": 1.086083941964432e-06,
+      "original_nifti_affine_ras_mm": [
+        [
+          0.7508843541145325,
+          -0.4338836073875427,
+          -0.183390274643898,
+          27.5
+        ],
+        [
+          0.2405289113521576,
+          1.1901359558105469,
+          -0.5614603757858276,
+          -61.25
+        ],
+        [
+          0.13534587621688843,
+          0.2920985221862793,
+          2.0152246952056885,
+          14.75
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "paired_export_geometry_agrees": true,
+      "paired_export_max_corner_error_mm": 0.0,
+      "rotation_radians": [
+        0.23,
+        -0.17,
+        0.31
+      ],
+      "shape": [
+        11,
+        13,
+        9
+      ],
+      "source_affine_ras_mm": [
+        [
+          0.7508843675967687,
+          -0.43388362210659326,
+          -0.1833902687565471,
+          27.5
+        ],
+        [
+          0.24052891607428775,
+          1.1901358969295015,
+          -0.5614603975494973,
+          -61.25
+        ],
+        [
+          0.13534587925359684,
+          0.29209852671226183,
+          2.015224610634994,
+          14.75
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "source_mask_nifti_sha256": "bb21490a5bf46aaf611887ad0b658f0c1a418c2767ec1695a63438376e7874b1",
+      "source_nifti_sha256": "ce2ca3f5cfa17084835ebb15e8837ae1622c951ee478c4bea387bab05f1b2cc8",
+      "verification": {
+        "ambiguous_intensity_voxels": 0,
+        "ambiguous_roi_voxels": 0,
+        "candidate_roi_voxels": 157,
+        "candidate_voxels_outside_source_support": 0,
+        "checks": {
+          "candidate_shape": true,
+          "intensity": true,
+          "position": true,
+          "roi": true
+        },
+        "contract": {
+          "antialias_boundary": "nearest",
+          "antialias_dtype": "float32",
+          "antialias_sigma": null,
+          "axis_order": [
+            2,
+            1,
+            0
+          ],
+          "boundary": "sitk",
+          "boundary_budget_scope": "Declared engineering bands, not certified floating-point bounds or clinical tolerances.",
+          "candidate_shape": [
+            11,
+            13,
+            9
+          ],
+          "gaussian_truncate": 4.0,
+          "index_boundary_atol": 1e-09,
+          "index_map": [
+            [
+              1.0,
+              0.0,
+              0.0,
+              0.0
+            ],
+            [
+              0.0,
+              1.0,
+              0.0,
+              0.0
+            ],
+            [
+              0.0,
+              0.0,
+              1.0,
+              0.0
+            ],
+            [
+              0.0,
+              0.0,
+              0.0,
+              1.0
+            ]
+          ],
+          "integer_cast": "truncate",
+          "intensity_atol": 0.0001,
+          "intensity_gain": 1.0,
+          "intensity_offset": 0.0,
+          "intensity_rtol": 0.0,
+          "interpolation": "nearest",
+          "mask_antialias_boundary": "nearest",
+          "mask_antialias_sigma": null,
+          "mask_boundary": "sitk",
+          "mask_interpolation": "nearest",
+          "mask_outside": 0,
+          "mask_round_decimals": null,
+          "mask_skip": false,
+          "mask_threshold": 0.5,
+          "mask_threshold_after_antialias": false,
+          "mask_threshold_atol": 1e-09,
+          "output_cast_atol": 1e-09,
+          "output_dtype": "float64",
+          "outside_value": 0.0,
+          "position_atol_mm": 0.0001,
+          "world_map": [
+            [
+              1.0,
+              0.0,
+              0.0,
+              0.0
+            ],
+            [
+              0.0,
+              1.0,
+              0.0,
+              0.0
+            ],
+            [
+              0.0,
+              0.0,
+              1.0,
+              0.0
+            ],
+            [
+              0.0,
+              0.0,
+              0.0,
+              1.0
+            ]
+          ]
+        },
+        "coverage": {
+          "candidate_roi_voxels": 157,
+          "definition": "Selected source voxel centres in declared candidate [-0.5,size-0.5) FOV; not continuous anatomical support.",
+          "exact_roi_preserved": true,
+          "expected_candidate_roi_voxels": 157,
+          "missing_roi_voxels": 0,
+          "source_roi_centres_near_fov_boundary": 0,
+          "source_roi_definitely_outside_candidate_fov": 0,
+          "source_roi_outside_candidate_fov": 0,
+          "source_roi_voxels": 157,
+          "status": "satisfied"
+        },
+        "expected_candidate_roi_voxels": 157,
+        "feature_reuse": {
+          "decision": "requires_reextraction",
+          "reason": "Operator agreement does not establish feature invariance; re-extraction is required."
+        },
+        "max_corner_error_mm": 2.073229919145303e-06,
+        "max_intensity_error": 0.0,
+        "nominal_mismatched_intensity_voxels": 0,
+        "nominal_mismatched_roi_voxels": 0,
+        "schema_version": "operators-1.0",
+        "status": "satisfied",
+        "strict_nominal_status": "satisfied",
+        "violating_intensity_voxels": 0,
+        "violating_roi_voxels": 0
+      }
+    }
+  ],
+  "environment": {
+    "packages": {
+      "itk": "5.4.6",
+      "itk-core": "5.4.6",
+      "itk-io": "5.4.6",
+      "mirp": "2.4.2",
+      "nibabel": "5.3.3",
+      "numpy": "2.2.6",
+      "pandas": "3.0.2",
+      "pydicom": "3.0.1",
+      "scikit-image": "0.26.0",
+      "scipy": "1.15.3"
+    },
+    "python": "3.13.5",
+    "system": "Windows"
+  },
+  "experiment": "MIRP issue 124 synthetic read-write boundary reproduction",
+  "implementation_sha256": {
+    "generic_image_module": "2271433284ca8efe0e51c0f651d75fb91435cf05634e13f61f4746a25148cc4c",
+    "operator_checker": "3fd1162b34ee806481a2e13daad7f8ddfae0ced3f473439582a5ffa1d5a0dbf2",
+    "reproduction_script": "7d7ce0ec09978a29c31042c78f3949dd8a08930a3b317774d3a4db97209ea6fb"
+  },
+  "provenance": {
+    "fix_commit": "172d24964a6d8ab8b264bc32650c6f09f5635805",
+    "issue_url": "https://github.com/oncoray/mirp/issues/124",
+    "release_url": "https://github.com/oncoray/mirp/releases/tag/v2.4.2"
+  },
+  "runtime_seconds": 3.667915300000459,
+  "schema_version": "historical-nifti-1",
+  "scope": "Three synthetic images and matching masks; native NIfTI write boundary only. No feature extraction, clinical accuracy, or automatic bug localisation is tested.",
+  "source_trust": "Analytical source arrays and RAS affine declared before NiBabel serialization and before MIRP import; exported files are read independently with NiBabel."
+}

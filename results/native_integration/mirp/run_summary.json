@@ -1,0 +1,14 @@
+{
+  "schema_version": "native-study-1",
+  "engine": "mirp",
+  "engine_version": "2.5.0",
+  "numpy_version": "2.2.6",
+  "development": false,
+  "finished_utc": "2026-09-09T12:24:38.738611+00:00",
+  "planned": 62,
+  "attempted": 62,
+  "completed": 61,
+  "unchanged": 61,
+  "plan_sha256": "b9128084776ef95aca598c420ed36fd41d90c09cd9b29054c891aa486e8124d2",
+  "records_sha256": "41ad66d67a0525305ae7c1c58bd1ea46ec3746ddde56f0b4380917f34f2d93e6"
+}

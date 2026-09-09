@@ -1,187 +1,89 @@
 {
   "software": "RadAccord",
-  "version": "1.0.0",
-  "date": "2026-09-07",
-  "distribution": "GitHub repository preparation",
-  "publication_status": "Prepared locally; remote repository and release not published by this preparation.",
-  "intended_repository": "https://github.com/torkitor/RadAccord",
-  "scientific_archive": {
-    "file": "data/RadAccord-1.0.0.zip",
-    "sha256": "43ff30b546e1904b1f119c6349747d3e6289b273f2b4ee18c80dc57d0b2970bd",
-    "preserved_byte_for_byte": true,
-    "original_file_count": 113
+  "version": "1.2.0rc3",
+  "date": "2026-09-09",
+  "distribution": "Research release candidate",
+  "repository": "https://github.com/torkitor/RadAccord",
+  "previous_public_head": "a6c605eaf6ff4289ddcedc6caf55df85811a0c09",
+  "verification_scope": "Local verification before publication. Current remote results are available from the linked GitHub Actions workflows.",
+  "remote_ci": {
+    "core": "https://github.com/torkitor/RadAccord/actions/workflows/ci.yml",
+    "installed_native": "https://github.com/torkitor/RadAccord/actions/workflows/native.yml"
   },
-  "scientific_freezes": [
-    {
-      "manifest": "software/protocol/final_freeze.json",
-      "files_verified": 16
-    },
-    {
-      "manifest": "software/protocol/refinement_freeze.json",
-      "files_verified": 19
-    }
-  ],
-  "scientific_results": "All 59 original study JSON/JSONL records remain byte-identical in the bundled scientific archive. Twenty large JSONL records are restored on demand; all other JSON records remain browsable.",
-  "frozen_scientific_code_modified": false,
-  "original_files_with_presentation_or_documentation_changes": [
-    "CITATION.cff",
-    "README.md",
-    "software/REPRODUCIBILITY.md",
-    "USAGE.md"
-  ],
-  "historical_root_validation": "release_history/radaccord_1_0_0",
-  "local_environment": {
-    "system": "Windows",
-    "python": "3.11.9",
-    "packages": {
-      "numpy": "2.2.6",
-      "nibabel": "5.3.3",
-      "SimpleITK": "2.5.3",
-      "packaging": "26.3",
-      "typing_extensions": "4.16.0",
-      "importlib_resources": "7.1.0"
-    }
+  "wheel": {
+    "bytes": 79836,
+    "filename": "radaccord-1.2.0rc3-py3-none-any.whl",
+    "sha256": "1976dc89877a7bed5b93dbad8fbbcf33dc4bc1bb25e781ed04a7d2e6b86644a6"
   },
-  "local_checks": {
-    "scientific_tests": {
-      "passed": 25,
-      "failed": 0,
-      "skipped": 0,
-      "seconds": 33.918,
-      "command": "python -B -m unittest discover -s tests -v",
-      "working_directory": "software"
-    },
-    "release_tool_tests": {
-      "passed": 12,
-      "failed": 0,
-      "skipped": 0,
-      "seconds": 0.138,
-      "command": "python -B -m unittest discover -s scripts/tests -v"
-    },
-    "demo": {
-      "passed": true,
-      "command": "python -B scripts/demo.py",
-      "valid_reindex": {
-        "status": "satisfied",
-        "max_corner_error_mm": 4.2700602780316664e-06,
-        "max_intensity_error": 0.0,
-        "position": true,
-        "intensity": true,
-        "roi": true
-      },
-      "origin_fault": {
-        "status": "violated",
-        "max_corner_error_mm": 1.4668418158925047,
-        "max_intensity_error": 0.0,
-        "position": false,
-        "intensity": true,
-        "roi": true
-      },
-      "native_extraction_performed": false
-    },
-    "record_restoration": {
-      "verified_records": 20,
-      "first_restored": 20,
-      "first_already_present": 0,
-      "second_restored": 0,
-      "second_already_present": 20,
-      "archive_sha256": "43ff30b546e1904b1f119c6349747d3e6289b273f2b4ee18c80dc57d0b2970bd"
-    },
-    "reproduction": {
-      "all_byte_identical": true,
-      "checks": [
-        {
-          "run": "development_final",
-          "file": "decisions.jsonl",
-          "byte_identical": true
-        },
-        {
-          "run": "development_final",
-          "file": "feature_diagnostics.jsonl",
-          "byte_identical": true
-        },
-        {
-          "run": "development_final",
-          "file": "summary.json",
-          "byte_identical": true
-        },
-        {
-          "run": "development_final",
-          "file": "output_mutants.jsonl",
-          "byte_identical": true
-        },
-        {
-          "run": "development_final",
-          "file": "output_mutants_summary.json",
-          "byte_identical": true
-        },
-        {
-          "run": "heldout",
-          "file": "decisions.jsonl",
-          "byte_identical": true
-        },
-        {
-          "run": "heldout",
-          "file": "feature_diagnostics.jsonl",
-          "byte_identical": true
-        },
-        {
-          "run": "heldout",
-          "file": "summary.json",
-          "byte_identical": true
-        },
-        {
-          "run": "refinement",
-          "file": "pyradiomics_refined_decisions.jsonl",
-          "byte_identical": true
-        },
-        {
-          "run": "refinement",
-          "file": "pyradiomics_refined_summary.json",
-          "byte_identical": true
-        }
-      ],
-      "scope": "Archived comparison arithmetic only. No input image regeneration, native extraction or fresh physical witness validation is performed."
-    }
+  "local_installed_verification": {
+    "distinct_tests_passed": 65,
+    "skipped_selected_tests": 0,
+    "full_suite_artifact": "Initial rc3 wheel; final rebuild changes only METADATA and RECORD, all Python payloads identical.",
+    "final_wheel": "Reinstalled in three isolated environments; native CLI/API evidence and feature digests agree; pip check passes.",
+    "detailed_receipt": "docs/wheel-verification-1.2.0rc3.json"
   },
-  "workflow_configuration": {
-    "yaml_parsed": true,
-    "matrix": [
-      "ubuntu-latest",
-      "windows-latest"
-    ],
-    "python": "3.11",
-    "permissions": {
-      "contents": "read"
+  "scientific_integrity": {
+    "active_scientific_files": {
+      "radaccord/evidence.py": "108c2052959453dca928080532fbdbf94292c8376d7bbd01c919e8cdb7d64491",
+      "radaccord/mirp.py": "9348124437e6bc51a92225b694ce665a0a36a8851b06d30a9d2ab27822d8c7aa",
+      "radaccord/numerics.py": "1e36f8d0e9d64a64d48c07cbdb54558a1a1f7d9e609fee08dd2c5d709bd6a5a9",
+      "radaccord/operators.py": "3fd1162b34ee806481a2e13daad7f8ddfae0ced3f473439582a5ffa1d5a0dbf2",
+      "radaccord/pyradiomics.py": "52f8419562f972206c469ca1d2ef1a21cd77556d54f0c2d71482f3f017f74629",
+      "software/physical_contracts.py": "b2ddc6b63ed65245d4c0104c72f126b01ea337d1fb393c8e2ae27477427eb6b2",
+      "software/sampling_contracts.py": "a84cb4770c80028cf529252a8a7319e870033a344bdf07628482e273731606a9"
     },
-    "triggers": [
-      "push",
-      "pull_request",
-      "workflow_dispatch"
-    ],
-    "full_sha_pins_verified_against_official_repositories": true,
-    "actions": {
-      "actions/checkout": {
-        "version": "v7.0.1",
-        "sha": "3d3c42e5aac5ba805825da76410c181273ba90b1",
-        "source": "https://github.com/actions/checkout/releases/tag/v7.0.1"
-      },
-      "actions/setup-python": {
-        "version": "v7.0.0",
-        "sha": "5fda3b95a4ea91299a34e894583c3862153e4b97",
-        "source": "https://github.com/actions/setup-python/releases/tag/v7.0.0"
-      }
-    }
+    "active_scientific_files_verified": 7,
+    "analysis_compatibility_sha256": "cef8976136b9a2797e2c753ddf5ef7de0ae5164a895a874c862121eca7b1223e",
+    "calibration": {
+      "archive_sha256": "a3e2bff93996884ca8f8c31a38dbe8f1bb75acf2e011509e4d06ca9cbfd1532f",
+      "freeze_sha256": "258e66217f03a138c7dfe07b2b16200670955d6a10f93559759cbca0d355c55b",
+      "frozen_files_verified": 15,
+      "manifest_payload_files_verified": 32,
+      "zip_extraction_performed": false
+    },
+    "refinement": {
+      "archive_sha256": "d8780b56b63c50e75631fa63ac0cb68874c60357d9ceb8828cf3d47b27ce6bb5",
+      "freeze_sha256": "8a99094b119db04275251de57f1e2915720b5bad649736e5212fcecadf6a3b4e",
+      "frozen_files_verified": 27,
+      "manifest_payload_files_verified": 45,
+      "zip_extraction_performed": false
+    },
+    "retained_provenance_pointers_verified": true,
+    "scope": "Archive integrity for both studies and identity of the seven-source union (six checking sources per engine). Current CLI/version/packaging files are outside this scientific identity check and use the release manifest. This does not assert native validity or remote CI success.",
+    "status": "passed"
   },
-  "not_executed": [
-    "Linux runner",
-    "GitHub Actions remote workflow"
-  ],
-  "citation_schema": "CFF 1.2.0; validated against the official schema.",
-  "visual_review": "Hero, social preview and checks diagram inspected; README rendered locally with pending-state preview tokens for remote widgets.",
-  "privacy_review": {
-    "findings": [],
-    "scope": "Public repository text patterns and image metadata; the bundled scientific archive is byte-identical to the previously reviewed archive. Academic author identity and AI-assistance disclosure are intentionally retained."
+  "sampling_integrity": {
+    "byte_normalization_applied": false,
+    "clinical_images_required": false,
+    "expected_frozen_files": 16,
+    "failures": [],
+    "freeze_sha256": "1618ecf0b48772dead25256a68049e6f9cae5fb5a1996b6ac8d8b89576a23059",
+    "historical_archive_sha256": "43ff30b546e1904b1f119c6349747d3e6289b273f2b4ee18c80dc57d0b2970bd",
+    "historical_archive_verified": true,
+    "location_mapping_sha256": "3a9d1d9bea8516a36a7fccb5dfc49bae4c7ae3c53caf96ed29c507d75d990418",
+    "scope": "Checks the retained internal pre-evaluation freeze, its relocated bytes and historical scientific archive; not an independent public preregistration or fresh scientific validation.",
+    "status": "passed",
+    "verified_frozen_files": 16
   },
-  "integrity": "MANIFEST.sha256 binds this repository snapshot, excluding itself. Run python -B scripts/check_release.py. Local verification records are not remote CI results or proof of clinical validity."
+  "archived_replay": {
+    "legacy_byte_identical_artifacts": 10,
+    "calibration_byte_identical_artifacts": 8,
+    "refinement_byte_identical_artifacts": 8,
+    "receipt": "RELEASE_EVIDENCE_QA.json"
+  },
+  "native_refinement": {
+    "evaluated_version": "1.2.0rc2",
+    "completed_pairs": 124,
+    "exact_native_output_pairs": 124,
+    "satisfied_pairs": 99,
+    "violated_pairs": 0,
+    "indeterminate_pairs": 19,
+    "unavailable_pairs": 6,
+    "interpretation": "Calibration-informed reevaluation on reused inputs; not independent or clinical validation.",
+    "distribution_change": "rc3 converts CLI filenames to strings; the seven scientific sources remain identical."
+  },
+  "privacy_receipt": "PRIVACY_QA.json",
+  "clinical_image_files_redistributed": 0,
+  "previous_local_validation": "release_history/sampling_1_1_0rc1/RELEASE_VALIDATION.json",
+  "manifest": "MANIFEST.sha256"
 }

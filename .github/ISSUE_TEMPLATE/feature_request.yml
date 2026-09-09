@@ -1,5 +1,5 @@
-name: Feature request
-description: Propose a supported transformation, engine or usability improvement.
+name: Engine, profile or feature request
+description: Propose a declared operation, engine integration or usability improvement.
 title: "[Feature]: "
 body:
   - type: markdown
@@ -10,14 +10,14 @@ body:
     id: need
     attributes:
       label: Integration need
-      description: What task is difficult now? For a scientific extension, state the source/candidate relationship and intended engine/settings.
+      description: What task is difficult now? State the intended engine/version, operation/settings and available source/observation boundary. For interface-only requests, describe the task directly.
     validations:
       required: true
   - type: textarea
     id: behaviour
     attributes:
       label: Proposed behaviour and scope
-      description: What should pass, fail or remain unavailable/not applicable? For a documentation or interface change, describe the expected workflow.
+      description: What should satisfy, violate or remain indeterminate/unavailable? Identify inputs the proposed profile must decline; for an interface change, describe the expected workflow.
     validations:
       required: true
   - type: textarea
@@ -25,4 +25,3 @@ body:
     attributes:
       label: Independent evidence or synthetic example
       description: If available, provide an analytical expectation, primary source, or small synthetic control and violation that could validate the proposal.
-

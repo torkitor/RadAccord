@@ -1,0 +1,149 @@
+{
+  "schema_version": "1.0",
+  "steps": [
+    {
+      "source": {
+        "image": "source_image.nii.gz",
+        "mask": "source_mask.nii.gz"
+      },
+      "candidate": {
+        "image": "crop_image.nii.gz",
+        "mask": "crop_mask.nii.gz"
+      },
+      "sampling": {
+        "index_map": [
+          [
+            1.0,
+            0.0,
+            0.0,
+            2.0
+          ],
+          [
+            0.0,
+            1.0,
+            0.0,
+            2.0
+          ],
+          [
+            0.0,
+            0.0,
+            1.0,
+            2.0
+          ],
+          [
+            0.0,
+            0.0,
+            0.0,
+            1.0
+          ]
+        ],
+        "candidate_shape": [
+          13,
+          13,
+          13
+        ],
+        "interpolation": "nearest",
+        "outside_value": 0.0,
+        "position_atol_mm": 0.0001,
+        "intensity_atol": 0.0001,
+        "index_boundary_atol": 1e-09
+      }
+    },
+    {
+      "source": {
+        "image": "crop_image.nii.gz",
+        "mask": "crop_mask.nii.gz"
+      },
+      "candidate": {
+        "image": "coarse_image.nii.gz",
+        "mask": "coarse_mask.nii.gz"
+      },
+      "sampling": {
+        "index_map": [
+          [
+            2.0,
+            0.0,
+            0.0,
+            0.0
+          ],
+          [
+            0.0,
+            2.0,
+            0.0,
+            0.0
+          ],
+          [
+            0.0,
+            0.0,
+            2.0,
+            0.0
+          ],
+          [
+            0.0,
+            0.0,
+            0.0,
+            1.0
+          ]
+        ],
+        "candidate_shape": [
+          7,
+          7,
+          7
+        ],
+        "interpolation": "linear",
+        "outside_value": 0.0,
+        "position_atol_mm": 0.0001,
+        "intensity_atol": 0.0001,
+        "index_boundary_atol": 1e-09
+      }
+    },
+    {
+      "source": {
+        "image": "coarse_image.nii.gz",
+        "mask": "coarse_mask.nii.gz"
+      },
+      "candidate": {
+        "image": "shifted_image.nii.gz",
+        "mask": "shifted_mask.nii.gz"
+      },
+      "sampling": {
+        "index_map": [
+          [
+            1.0,
+            0.0,
+            0.0,
+            0.0
+          ],
+          [
+            0.0,
+            1.0,
+            0.0,
+            0.0
+          ],
+          [
+            0.0,
+            0.0,
+            1.0,
+            0.0
+          ],
+          [
+            0.0,
+            0.0,
+            0.0,
+            1.0
+          ]
+        ],
+        "candidate_shape": [
+          7,
+          7,
+          7
+        ],
+        "interpolation": "nearest",
+        "outside_value": 0.0,
+        "position_atol_mm": 0.0001,
+        "intensity_atol": 0.0001,
+        "index_boundary_atol": 1e-09
+      }
+    }
+  ]
+}

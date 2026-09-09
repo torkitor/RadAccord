@@ -1,0 +1,207 @@
+name: Installed wheel and native integrations
+
+on:
+  push:
+    branches: [main]
+  pull_request:
+  workflow_dispatch:
+    inputs:
+      historical_mirp:
+        description: Also reproduce the synthetic MIRP 2.4.1/2.4.2 NIfTI writer regression
+        required: false
+        default: false
+        type: boolean
+
+permissions:
+  contents: read
+
+env:
+  PYTHONUTF8: '1'
+  PYTHONDONTWRITEBYTECODE: '1'
+  PYTHONNOUSERSITE: '1'
+  OPENBLAS_NUM_THREADS: '1'
+  OMP_NUM_THREADS: '1'
+  ITK_GLOBAL_DEFAULT_NUMBER_OF_THREADS: '1'
+
+jobs:
+  installed:
+    name: Wheel / ${{ matrix.profile }} / ${{ matrix.os }}
+    runs-on: ${{ matrix.os }}
+    timeout-minutes: 20
+    strategy:
+      fail-fast: false
+      matrix:
+        os: [ubuntu-latest, windows-latest]
+        profile: [pyradiomics, mirp, oracle]
+        include:
+          - profile: pyradiomics
+            python: '3.10'
+          - profile: mirp
+            python: '3.13'
+          - profile: oracle
+            python: '3.13'
+    defaults:
+      run:
+        shell: python
+        working-directory: ${{ runner.temp }}
+    env:
+      RADACCORD_CI_PROFILE: ${{ matrix.profile }}
+    steps:
+      - name: Check out repository
+        uses: actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1 # v7.0.1
+        with:
+          persist-credentials: false
+      - name: Set up Python
+        uses: actions/setup-python@5fda3b95a4ea91299a34e894583c3862153e4b97 # v7.0.0
+        with:
+          python-version: ${{ matrix.python }}
+      - name: Build wheel with an isolated PEP 517 build environment
+        run: |
+          import os, pathlib, subprocess, sys, venv
+          root = pathlib.Path(os.environ['GITHUB_WORKSPACE']).resolve()
+          temporary = pathlib.Path(os.environ['RUNNER_TEMP']).resolve()
+          dist = temporary / 'radaccord-wheel'
+          subprocess.run([sys.executable, '-m', 'pip', 'wheel', '--disable-pip-version-check',
+                          '--no-deps', '--wheel-dir', str(dist), str(root)], check=True)
+          wheels = list(dist.glob('radaccord-*.whl'))
+          assert len(wheels) == 1, 'Expected exactly one newly built wheel'
+          environment = temporary / 'radaccord-installed'
+          venv.EnvBuilder(with_pip=True, system_site_packages=False).create(environment)
+          python = environment / ('Scripts/python.exe' if os.name == 'nt' else 'bin/python')
+          with open(os.environ['GITHUB_ENV'], 'a', encoding='utf-8') as stream:
+              stream.write('RADACCORD_CI_PYTHON=' + str(python) + '\n')
+              stream.write('RADACCORD_TEST_WHEEL=' + str(wheels[0]) + '\n')
+      - name: Install pinned profile from the wheel and check dependencies
+        run: |
+          import os, subprocess
+          python = os.environ['RADACCORD_CI_PYTHON']
+          wheel = os.environ['RADACCORD_TEST_WHEEL']
+          profile = os.environ['RADACCORD_CI_PROFILE']
+          pip = [python, '-m', 'pip', '--disable-pip-version-check']
+          if profile == 'pyradiomics':
+              # PyRadiomics 3.0.1 source distributions import NumPy during their build.
+              # This bootstrap is confined to the fresh native venv, not the wheel build.
+              subprocess.run(pip + ['install', 'setuptools==80.9.0', 'wheel==0.45.1',
+                                    'numpy==1.23.5', 'SimpleITK==2.2.1'], check=True)
+              subprocess.run(pip + ['install', '--no-build-isolation',
+                                    wheel + '[pyradiomics]'], check=True)
+          elif profile == 'mirp':
+              subprocess.run(pip + ['install', wheel + '[mirp]', 'itk==5.4.6',
+                                    'pydicom==3.0.1'], check=True)
+          else:
+              subprocess.run(pip + ['install', wheel, 'numpy==2.2.6',
+                                    'scipy==1.15.3', 'SimpleITK==2.5.3'], check=True)
+          subprocess.run(pip + ['check'], check=True)
+      - name: Test installed package outside the checkout; require all selected tests to run
+        run: |
+          import os, subprocess
+          code = r'''
+          import importlib.metadata as metadata
+          import os, pathlib, unittest
+          import radaccord
+          root = pathlib.Path(os.environ['GITHUB_WORKSPACE']).resolve()
+          assert not pathlib.Path.cwd().resolve().is_relative_to(root)
+          assert not pathlib.Path(radaccord.__file__).resolve().is_relative_to(root)
+          assert radaccord.__version__ == metadata.version('radaccord')
+          profile = os.environ['RADACCORD_CI_PROFILE']
+          from packaging.requirements import Requirement
+          versions = {}
+          extra = profile if profile in ('pyradiomics', 'mirp') else ''
+          for specification in metadata.requires('radaccord') or []:
+              requirement = Requirement(specification)
+              if requirement.marker is None or requirement.marker.evaluate({'extra': extra}):
+                  actual = metadata.version(requirement.name)
+                  assert actual in requirement.specifier, requirement.name + ': unexpected version'
+                  versions[requirement.name] = actual
+          if profile == 'pyradiomics':
+              native_pattern, minimum = 'test_native_pyradiomics.py', 11
+          elif profile == 'mirp':
+              native_pattern, minimum = 'test_mirp.py', 8
+          else:
+              for package, expected in {'numpy': '2.2.6', 'scipy': '1.15.3', 'SimpleITK': '2.5.3'}.items():
+                  assert metadata.version(package) == expected, package + ': unexpected version'
+                  versions[package] = expected
+              native_pattern, minimum = 'test_operators.py', 18
+          print('Pinned versions:', versions, flush=True)
+          groups = [('test_packaging.py', 11), ('test_evidence_reporting.py', 5), (native_pattern, minimum)]
+          if profile == 'oracle':
+              groups.append(('test_numerics.py', 12))
+          for pattern, required in groups:
+              suite = unittest.TestLoader().discover(str(root / 'tests'), pattern=pattern)
+              result = unittest.TextTestRunner(verbosity=2).run(suite)
+              assert result.wasSuccessful(), pattern + ': test failure'
+              assert result.testsRun >= required, pattern + ': missing tests'
+              assert not result.skipped, pattern + ': skipped tests are not a CI pass'
+          assert not pathlib.Path(radaccord.__file__).resolve().is_relative_to(root)
+          '''
+          subprocess.run([os.environ['RADACCORD_CI_PYTHON'], '-B', '-c', code], check=True)
+
+  historical-mirp:
+    name: Optional writer regression / MIRP ${{ matrix.mirp }}
+    if: ${{ github.event_name == 'workflow_dispatch' && inputs.historical_mirp }}
+    runs-on: ubuntu-latest
+    timeout-minutes: 20
+    strategy:
+      fail-fast: false
+      matrix:
+        mirp: ['2.4.1', '2.4.2']
+    defaults:
+      run:
+        shell: python
+        working-directory: ${{ runner.temp }}
+    env:
+      RADACCORD_HISTORICAL_MIRP: ${{ matrix.mirp }}
+    steps:
+      - name: Check out repository
+        uses: actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1 # v7.0.1
+        with:
+          persist-credentials: false
+      - name: Set up Python
+        uses: actions/setup-python@5fda3b95a4ea91299a34e894583c3862153e4b97 # v7.0.0
+        with:
+          python-version: '3.13'
+      - name: Build and install a wheel in a separate historical environment
+        run: |
+          import os, pathlib, subprocess, sys, venv
+          root = pathlib.Path(os.environ['GITHUB_WORKSPACE']).resolve()
+          temporary = pathlib.Path(os.environ['RUNNER_TEMP']).resolve()
+          dist = temporary / 'historical-wheel'
+          subprocess.run([sys.executable, '-m', 'pip', 'wheel', '--disable-pip-version-check',
+                          '--no-deps', '--wheel-dir', str(dist), str(root)], check=True)
+          wheels = list(dist.glob('radaccord-*.whl'))
+          assert len(wheels) == 1
+          environment = temporary / 'historical-installed'
+          venv.EnvBuilder(with_pip=True, system_site_packages=False).create(environment)
+          python = environment / 'bin/python'
+          subprocess.run([str(python), '-m', 'pip', 'install', '--disable-pip-version-check',
+                          str(wheels[0]), 'mirp==' + os.environ['RADACCORD_HISTORICAL_MIRP'],
+                          'numpy==2.2.6', 'nibabel==5.3.3', 'scipy==1.15.3',
+                          'pandas==3.0.2', 'scikit-image==0.26.0', 'itk==5.4.6',
+                          'pydicom==3.0.1'], check=True)
+          subprocess.run([str(python), '-m', 'pip', 'check'], check=True)
+          with open(os.environ['GITHUB_ENV'], 'a', encoding='utf-8') as stream:
+              stream.write('RADACCORD_CI_PYTHON=' + str(python) + '\n')
+      - name: Reproduce three synthetic cases and verify affected and fixed behavior
+        run: |
+          import json, os, pathlib, subprocess
+          root = pathlib.Path(os.environ['GITHUB_WORKSPACE']).resolve()
+          python = os.environ['RADACCORD_CI_PYTHON']
+          version = os.environ['RADACCORD_HISTORICAL_MIRP']
+          subprocess.run([python, '-c', 'import os,pathlib,radaccord; '
+                          'assert not pathlib.Path(radaccord.__file__).resolve().is_relative_to('
+                          'pathlib.Path(os.environ["GITHUB_WORKSPACE"]).resolve())'], check=True)
+          output = pathlib.Path(os.environ['RUNNER_TEMP']) / 'writer-regression.json'
+          subprocess.run([python, '-B', str(root / 'scripts/reproduce_mirp_nifti_regression.py'),
+                          '--expected-version', version, '--out', str(output)], check=True)
+          result = json.loads(output.read_text(encoding='utf-8'))
+          assert result['environment']['packages']['mirp'] == version
+          cases = result['cases']
+          assert len(cases) == 3
+          assert {row['case_id'] for row in cases} == {'axis_aligned', 'oblique_z', 'oblique_xyz'}
+          for row in cases:
+              assert row['array_exact'] and row['mask_exact'] and row['paired_export_geometry_agrees']
+              affected = version == '2.4.1' and row['case_id'] != 'axis_aligned'
+              assert row['verification']['status'] == ('violated' if affected else 'satisfied')
+              error = row['verification']['max_corner_error_mm']
+              assert error > 1.0 if affected else error < 1e-4
+          print('Three synthetic writer cases reproduced with the expected version-specific decisions.')

@@ -1,0 +1,98 @@
+{
+  "software": "RadAccord",
+  "version": "1.1.0rc1",
+  "date": "2026-09-09",
+  "distribution": "Local reviewed candidate for GitHub update",
+  "publication_status": "Prepared locally. No remote publication or new remote CI result is claimed.",
+  "intended_repository": "https://github.com/torkitor/RadAccord",
+  "previous_public_head": "a6c605eaf6ff4289ddcedc6caf55df85811a0c09",
+  "scientific_archive": {
+    "file": "data/RadAccord-1.0.0.zip",
+    "sha256": "43ff30b546e1904b1f119c6349747d3e6289b273f2b4ee18c80dc57d0b2970bd",
+    "preserved_byte_for_byte": true
+  },
+  "sampling_freeze": {
+    "file": "protocol/sampling_freeze.json",
+    "sha256": "1618ecf0b48772dead25256a68049e6f9cae5fb5a1996b6ac8d8b89576a23059",
+    "verified_frozen_files": 16,
+    "byte_normalization_applied": false,
+    "scope": "Internal pre-evaluation freeze, not independently public preregistration"
+  },
+  "historical_freezes": {
+    "final_freeze_files": 16,
+    "refinement_freeze_files": 19,
+    "verified_by_archived_replay": true
+  },
+  "environments": {
+    "sampling": {
+      "system": "Windows",
+      "python": "3.13.5",
+      "numpy": "2.2.6",
+      "nibabel": "5.3.3",
+      "SimpleITK": "2.5.3"
+    },
+    "native_subset": {
+      "python": "3.10.11",
+      "pyradiomics": "3.0.1",
+      "numpy": "1.23.5",
+      "SimpleITK": "2.2.1"
+    },
+    "ci_target": {
+      "python": "3.11",
+      "systems": [
+        "ubuntu-latest",
+        "windows-latest"
+      ],
+      "new_remote_execution": "Not run by this local preparation"
+    }
+  },
+  "local_checks": {
+    "scientific_core_tests": 46,
+    "release_replay_and_sampling_cli_harness_tests": 25,
+    "freeze_integrity_pytest_tests": 6,
+    "summary_regression_tests": 10,
+    "total_unique_tests_passed": 87,
+    "failed_tests": 0,
+    "historical_archived_replay": {
+      "artifacts_byte_identical": 10,
+      "scope": "Recorded decision arithmetic; no fresh extraction"
+    },
+    "sampling_summary_replay": {
+      "artifacts_byte_identical": 24,
+      "cohorts": 2,
+      "scope": "Recorded descriptive arithmetic; no fresh interpolation or native extraction"
+    },
+    "sampling_demo": {
+      "crop": "input_roi_preserved",
+      "resampling": "requires_reextraction",
+      "shared_origin_fault": "blocked",
+      "first_failed_checkpoint": 3
+    },
+    "figures": {
+      "scientific_outputs_reproduced_byte_identically": 16,
+      "graphical_abstract_outputs_reproduced_byte_identically": 4,
+      "independent_visual_inspection": "passed"
+    }
+  },
+  "retained_sampling_evaluation": {
+    "reserved_volumes": 32,
+    "reserved_cases": 448,
+    "public_mri_volumes": 260,
+    "public_ct_volumes": 41,
+    "public_planned_and_completed_cases": 4214,
+    "valid_controls_satisfied": 2096,
+    "valid_controls_indeterminate": 11,
+    "valid_controls_violated": 0,
+    "active_wrapper_perturbations_detected": 1605,
+    "inactive_wrapper_perturbations_retained": 201,
+    "support_policy_controls": 301,
+    "clinical_nifti_roundtrips": 84,
+    "native_extractions": 30,
+    "native_features_per_extraction": 72,
+    "native_comparisons": 24,
+    "clinical_image_files_in_distribution": 0
+  },
+  "interpretation": "Technical controlled evaluation; not clinical sensitivity, outcome validation, universal feature equality or pipeline certification. Incompatible and indeterminate states remain explicit.",
+  "historical_root_validation": "release_history/github_1_0_0",
+  "manifest": "MANIFEST.sha256"
+}

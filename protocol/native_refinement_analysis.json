@@ -1,0 +1,17 @@
+{
+  "created_utc": "2026-09-09T13:12:19.613175+00:00",
+  "files": {
+    "scripts/summarize_native_refinement.py": "de29acfc1d81dc739416fd9858c808140b55af623920acda366cf1f66152f46d",
+    "scripts/tests/test_native_refinement_summary.py": "b152b8a7fed0784a02914b936d737f05a36ca51050c63cae95301c8260406c12"
+  },
+  "native_freeze_sha256": "8a99094b119db04275251de57f1e2915720b5bad649736e5212fcecadf6a3b4e",
+  "original_frozen_summarizer_sha256": "7f7ba24849b8c7bb1c369dd2c8a8aa5ca8751ce957f0c04feba471aeee04b642",
+  "pre_analysis_tests": {
+    "actual_refinement_records_summarized": false,
+    "native_extraction_performed": false,
+    "synthetic_unittest_methods_passed": 3
+  },
+  "reason": "The rc2 checking implementation records six source hashes, including numerics. The inherited summarizer expects five. This separate summarizer verifies all six against the unchanged rc2 freeze.",
+  "schema_version": "native-refinement-analysis-1",
+  "scope": "summary compatibility correction after native evaluation began; no change to inference, native thresholds, source/configuration or raw data"
+}

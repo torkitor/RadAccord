@@ -1,0 +1,17 @@
+{
+  "schema_version": "native-study-1",
+  "evaluation_phase": "calibration_informed_reevaluation",
+  "engine": "mirp",
+  "engine_version": "2.5.0",
+  "numpy_version": "2.2.6",
+  "development": false,
+  "started_utc": "2026-09-09T13:00:09.631344+00:00",
+  "finished_utc": "2026-09-09T13:11:24.197366+00:00",
+  "planned": 62,
+  "attempted": 62,
+  "completed": 62,
+  "unchanged": 62,
+  "plan_sha256": "b9128084776ef95aca598c420ed36fd41d90c09cd9b29054c891aa486e8124d2",
+  "freeze_sha256": "8a99094b119db04275251de57f1e2915720b5bad649736e5212fcecadf6a3b4e",
+  "records_sha256": "ee85f8b0dc3cc8d57cc079ec6bc4bbdb8fc2028d1948f4696f6b08427755d325"
+}

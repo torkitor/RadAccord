@@ -1,0 +1,73 @@
+{
+  "files": [
+    {
+      "frozen_path": "RadAccord/protocol/sampling_study.md",
+      "repository_path": "protocol/sampling_study.md"
+    },
+    {
+      "frozen_path": "RadAccord/software/sampling_contracts.py",
+      "repository_path": "software/sampling_contracts.py"
+    },
+    {
+      "frozen_path": "RadAccord/software/physical_contracts.py",
+      "repository_path": "software/physical_contracts.py"
+    },
+    {
+      "frozen_path": "RadAccord/software/adapters.py",
+      "repository_path": "software/adapters.py"
+    },
+    {
+      "frozen_path": "RadAccord/radaccord_sampling.py",
+      "repository_path": "radaccord_sampling.py"
+    },
+    {
+      "frozen_path": "RadAccord/scripts/run_sampling_study.py",
+      "repository_path": "scripts/run_sampling_study.py"
+    },
+    {
+      "frozen_path": "RadAccord/software/tests/test_sampling_contracts.py",
+      "repository_path": "software/tests/test_sampling_contracts.py"
+    },
+    {
+      "frozen_path": "RadAccord/scripts/tests/test_sampling_cli.py",
+      "repository_path": "scripts/tests/test_sampling_cli.py"
+    },
+    {
+      "frozen_path": "RadAccord/scripts/tests/test_sampling_study.py",
+      "repository_path": "scripts/tests/test_sampling_study.py"
+    },
+    {
+      "frozen_path": "work/native_feature_plan.json",
+      "repository_path": "protocol/native_feature_plan.json"
+    },
+    {
+      "frozen_path": "work/run_native_feature_subset.py",
+      "repository_path": "scripts/run_native_feature_subset.py"
+    },
+    {
+      "frozen_path": "data_private/download_provenance.json",
+      "repository_path": "protocol/sources/MSD_download_provenance.json"
+    },
+    {
+      "frozen_path": "data_private/Task04_Hippocampus/dataset.json",
+      "repository_path": "protocol/sources/Task04_Hippocampus_dataset.json"
+    },
+    {
+      "frozen_path": "data_private/Task09_Spleen/dataset.json",
+      "repository_path": "protocol/sources/Task09_Spleen_dataset.json"
+    },
+    {
+      "frozen_path": "data_private/Task04_Hippocampus_header_eligibility.json",
+      "repository_path": "protocol/sources/Task04_Hippocampus_header_eligibility.json"
+    },
+    {
+      "frozen_path": "data_private/Task09_Spleen_header_eligibility.json",
+      "repository_path": "protocol/sources/Task09_Spleen_header_eligibility.json"
+    }
+  ],
+  "freeze_file": "protocol/sampling_freeze.json",
+  "freeze_sha256": "1618ecf0b48772dead25256a68049e6f9cae5fb5a1996b6ac8d8b89576a23059",
+  "historical_archive": "data/RadAccord-1.0.0.zip",
+  "schema": "sampling-freeze-locations-1.0",
+  "scope": "Location mapping only. All sixteen payloads retain their original frozen bytes; no clinical image arrays are included."
+}

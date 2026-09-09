@@ -1,0 +1,3 @@
+dataset,volume_id,case,row_id,kind,endpoint_only_status,first_observed_failure,stage_statuses,scope
+synthetic,synthetic_31000,identity_checkpoints,"[""synthetic"",""synthetic_31000"",""identity_checkpoints""]",constructed_checkpoint_demonstration,satisfied,,"{""endpoint"":""satisfied"",""intermediate"":""satisfied""}",Supplied image states only; no unobserved internal extractor state is inferred.
+synthetic,synthetic_31000,compensated_intermediate_geometry,"[""synthetic"",""synthetic_31000"",""compensated_intermediate_geometry""]",constructed_checkpoint_demonstration,satisfied,intermediate,"{""endpoint"":""satisfied"",""intermediate"":""violated""}",Supplied image states only; no unobserved internal extractor state is inferred.

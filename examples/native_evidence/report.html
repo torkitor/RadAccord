@@ -1,0 +1,1059 @@
+<!doctype html><html lang="en"><meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<meta http-equiv="Content-Security-Policy" content="default-src 'none'; style-src 'unsafe-inline'">
+<title>RadAccord · Native evidence</title><style>
+:root{font-family:Arial,Helvetica,sans-serif;color:#203346;background:#f3f5f7}
+body{max-width:1000px;margin:0 auto;padding:48px 24px}header{border-bottom:3px solid #243e53;padding-bottom:24px}
+.brand{font-size:14px;letter-spacing:.15em;font-weight:bold}h1{font-size:36px;line-height:1.1;letter-spacing:-.03em;margin:22px 0 14px}
+h2{font-size:19px;margin-top:32px}p,li{font-size:15px;line-height:1.6}small{color:#586979}
+.status{display:inline-block;padding:8px 14px;border-radius:4px;background:#e5eaf0;font-weight:bold}
+.satisfied{background:#dbece7;color:#245247}.violated{background:#f4dcd7;color:#893d31}
+.indeterminate,.unavailable{background:#f0e7d4;color:#68552a}
+section{background:white;padding:24px;margin:20px 0;border:1px solid #dce3e8;border-radius:6px}
+table{border-collapse:collapse;width:100%;font-size:14px}th,td{text-align:left;padding:12px 8px;border-bottom:1px solid #dce3e8;vertical-align:top}
+pre{white-space:pre-wrap;overflow-wrap:anywhere;font-size:12px;line-height:1.45;max-height:650px;overflow:auto;background:#f6f8fa;padding:18px}
+.method{overflow-wrap:anywhere}footer{font-size:12px;color:#586979;margin-top:30px}
+@media print{body{padding:12px;background:white}pre{max-height:none}details{display:block}}
+</style><header><div class="brand">RADACCORD / EXECUTION EVIDENCE</div><h1>Physical consistency,<br>at observed boundaries.</h1>
+<p>pyradiomics 3.0.1</p>
+<span class="status satisfied">SATISFIED</span>
+<p>A status describes the declared relationships at the observed checkpoints. It is not a certificate of feature correctness, pipeline completeness or clinical readiness.</p></header>
+<section><h2>Observed checkpoints</h2><table><thead><tr><th>Boundary</th><th>Status</th><th>Evidence</th></tr></thead><tbody><tr><td>loaded_input</td><td>satisfied</td><td>See numerical evidence below</td></tr><tr><td>shape_dispatch</td><td>satisfied</td><td>See numerical evidence below</td></tr><tr><td>feature_input:original</td><td>satisfied</td><td>See numerical evidence below</td></tr></tbody></table></section>
+<section><h2>Outside this assessment</h2><ul><li>feature formulae</li><li>internal shape class crop</li><li>clinical validity</li><li>unobserved pipeline states</li></ul></section>
+<section><h2>Methods draft</h2><p class="method">Physical consistency at the observed native processing boundaries was assessed with RadAccord 1.2.0rc2 (https://github.com/torkitor/RadAccord), using profile pyradiomics-native-original-2 and pyradiomics 3.0.1. The declared relationships were determined before native execution. Of 3 observed checkpoints, 3 were satisfied, 0 violated, 0 indeterminate and 0 unavailable. This assessment did not validate feature formulae, unobserved states or clinical utility. Available provenance identifiers are retained in the accompanying evidence report. Configuration identifier: 3ab13e37e49935e49dab3a446840d4eb7d766f3e95252b86016741470ba8999c.</p><small>Check against your study and cite the exact released version. This draft does not replace acquisition, segmentation or statistical reporting.</small></section>
+<section><h2>Machine-readable evidence</h2><details><summary>Show complete JSON record</summary><pre>{
+  &quot;checker&quot;: {
+    &quot;backend_versions&quot;: {
+      &quot;SimpleITK&quot;: &quot;2.2.1&quot;
+    },
+    &quot;implementation_sha256&quot;: &quot;7a3680e19d85257288f68b9feb1cc36f329a1e294b34473f27b74aedba4c65f7&quot;,
+    &quot;name&quot;: &quot;RadAccord&quot;,
+    &quot;numpy_version&quot;: &quot;1.23.5&quot;,
+    &quot;source_sha256&quot;: {
+      &quot;evidence&quot;: &quot;108c2052959453dca928080532fbdbf94292c8376d7bbd01c919e8cdb7d64491&quot;,
+      &quot;numerics&quot;: &quot;1e36f8d0e9d64a64d48c07cbdb54558a1a1f7d9e609fee08dd2c5d709bd6a5a9&quot;,
+      &quot;operators&quot;: &quot;3fd1162b34ee806481a2e13daad7f8ddfae0ced3f473439582a5ffa1d5a0dbf2&quot;,
+      &quot;physical_contracts&quot;: &quot;b2ddc6b63ed65245d4c0104c72f126b01ea337d1fb393c8e2ae27477427eb6b2&quot;,
+      &quot;pyradiomics&quot;: &quot;52f8419562f972206c469ca1d2ef1a21cd77556d54f0c2d71482f3f017f74629&quot;,
+      &quot;sampling_contracts&quot;: &quot;a84cb4770c80028cf529252a8a7319e870033a344bdf07628482e273731606a9&quot;
+    },
+    &quot;version&quot;: &quot;1.2.0rc2&quot;
+  },
+  &quot;checkpoints&quot;: [
+    {
+      &quot;ambiguous_intensity_voxels&quot;: 0,
+      &quot;ambiguous_roi_voxels&quot;: 0,
+      &quot;candidate_roi_voxels&quot;: 1654,
+      &quot;candidate_voxels_outside_source_support&quot;: 0,
+      &quot;changed_declared_setting_keys&quot;: [],
+      &quot;checkpoint&quot;: &quot;loaded_input&quot;,
+      &quot;checks&quot;: {
+        &quot;candidate_shape&quot;: true,
+        &quot;intensity&quot;: true,
+        &quot;position&quot;: true,
+        &quot;roi&quot;: true
+      },
+      &quot;contract&quot;: {
+        &quot;antialias_boundary&quot;: &quot;nearest&quot;,
+        &quot;antialias_dtype&quot;: &quot;float32&quot;,
+        &quot;antialias_sigma&quot;: null,
+        &quot;axis_order&quot;: [
+          2,
+          1,
+          0
+        ],
+        &quot;boundary&quot;: &quot;sitk&quot;,
+        &quot;boundary_budget_scope&quot;: &quot;Declared engineering bands, not certified floating-point bounds or clinical tolerances.&quot;,
+        &quot;candidate_shape&quot;: [
+          28,
+          30,
+          25
+        ],
+        &quot;gaussian_truncate&quot;: 4.0,
+        &quot;index_boundary_atol&quot;: 1e-09,
+        &quot;index_map&quot;: [
+          [
+            1.0,
+            0.0,
+            0.0,
+            0.0
+          ],
+          [
+            0.0,
+            1.0,
+            0.0,
+            0.0
+          ],
+          [
+            0.0,
+            0.0,
+            1.0,
+            0.0
+          ],
+          [
+            0.0,
+            0.0,
+            0.0,
+            1.0
+          ]
+        ],
+        &quot;integer_cast&quot;: &quot;truncate&quot;,
+        &quot;intensity_atol&quot;: 0.0001,
+        &quot;intensity_gain&quot;: 1.0,
+        &quot;intensity_offset&quot;: 0.0,
+        &quot;intensity_rtol&quot;: 0.0,
+        &quot;interpolation&quot;: &quot;nearest&quot;,
+        &quot;mask_antialias_boundary&quot;: &quot;nearest&quot;,
+        &quot;mask_antialias_sigma&quot;: null,
+        &quot;mask_boundary&quot;: &quot;sitk&quot;,
+        &quot;mask_interpolation&quot;: &quot;nearest&quot;,
+        &quot;mask_outside&quot;: 0,
+        &quot;mask_round_decimals&quot;: null,
+        &quot;mask_skip&quot;: false,
+        &quot;mask_threshold&quot;: 0.5,
+        &quot;mask_threshold_after_antialias&quot;: false,
+        &quot;mask_threshold_atol&quot;: 1e-09,
+        &quot;output_cast_atol&quot;: 1e-09,
+        &quot;output_dtype&quot;: &quot;float64&quot;,
+        &quot;outside_value&quot;: 0.0,
+        &quot;position_atol_mm&quot;: 0.0001,
+        &quot;world_map&quot;: [
+          [
+            1.0,
+            0.0,
+            0.0,
+            0.0
+          ],
+          [
+            0.0,
+            1.0,
+            0.0,
+            0.0
+          ],
+          [
+            0.0,
+            0.0,
+            1.0,
+            0.0
+          ],
+          [
+            0.0,
+            0.0,
+            0.0,
+            1.0
+          ]
+        ]
+      },
+      &quot;coverage&quot;: {
+        &quot;candidate_roi_voxels&quot;: 1654,
+        &quot;definition&quot;: &quot;Selected source voxel centres in declared candidate [-0.5,size-0.5) FOV; not continuous anatomical support.&quot;,
+        &quot;exact_roi_preserved&quot;: true,
+        &quot;expected_candidate_roi_voxels&quot;: 1654,
+        &quot;missing_roi_voxels&quot;: 0,
+        &quot;source_roi_centres_near_fov_boundary&quot;: 0,
+        &quot;source_roi_definitely_outside_candidate_fov&quot;: 0,
+        &quot;source_roi_outside_candidate_fov&quot;: 0,
+        &quot;source_roi_voxels&quot;: 1654,
+        &quot;status&quot;: &quot;satisfied&quot;
+      },
+      &quot;expected_candidate_roi_voxels&quot;: 1654,
+      &quot;feature_reuse&quot;: {
+        &quot;decision&quot;: &quot;requires_reextraction&quot;,
+        &quot;reason&quot;: &quot;Operator agreement does not establish feature invariance; re-extraction is required.&quot;
+      },
+      &quot;max_corner_error_mm&quot;: 0.0,
+      &quot;max_intensity_error&quot;: 0.0,
+      &quot;missing_declared_setting_keys&quot;: [],
+      &quot;nominal_mismatched_intensity_voxels&quot;: 0,
+      &quot;nominal_mismatched_roi_voxels&quot;: 0,
+      &quot;nominal_reference&quot;: {
+        &quot;ambiguous_intensity_voxels&quot;: 0,
+        &quot;ambiguous_roi_voxels&quot;: 0,
+        &quot;candidate_roi_voxels&quot;: 1654,
+        &quot;candidate_voxels_outside_source_support&quot;: 0,
+        &quot;checks&quot;: {
+          &quot;candidate_shape&quot;: true,
+          &quot;intensity&quot;: true,
+          &quot;position&quot;: true,
+          &quot;roi&quot;: true
+        },
+        &quot;contract&quot;: {
+          &quot;antialias_boundary&quot;: &quot;nearest&quot;,
+          &quot;antialias_dtype&quot;: &quot;float32&quot;,
+          &quot;antialias_sigma&quot;: null,
+          &quot;axis_order&quot;: [
+            2,
+            1,
+            0
+          ],
+          &quot;boundary&quot;: &quot;sitk&quot;,
+          &quot;boundary_budget_scope&quot;: &quot;Declared engineering bands, not certified floating-point bounds or clinical tolerances.&quot;,
+          &quot;candidate_shape&quot;: [
+            28,
+            30,
+            25
+          ],
+          &quot;gaussian_truncate&quot;: 4.0,
+          &quot;index_boundary_atol&quot;: 1e-09,
+          &quot;index_map&quot;: [
+            [
+              1.0,
+              0.0,
+              0.0,
+              0.0
+            ],
+            [
+              0.0,
+              1.0,
+              0.0,
+              0.0
+            ],
+            [
+              0.0,
+              0.0,
+              1.0,
+              0.0
+            ],
+            [
+              0.0,
+              0.0,
+              0.0,
+              1.0
+            ]
+          ],
+          &quot;integer_cast&quot;: &quot;truncate&quot;,
+          &quot;intensity_atol&quot;: 0.0001,
+          &quot;intensity_gain&quot;: 1.0,
+          &quot;intensity_offset&quot;: 0.0,
+          &quot;intensity_rtol&quot;: 0.0,
+          &quot;interpolation&quot;: &quot;nearest&quot;,
+          &quot;mask_antialias_boundary&quot;: &quot;nearest&quot;,
+          &quot;mask_antialias_sigma&quot;: null,
+          &quot;mask_boundary&quot;: &quot;sitk&quot;,
+          &quot;mask_interpolation&quot;: &quot;nearest&quot;,
+          &quot;mask_outside&quot;: 0,
+          &quot;mask_round_decimals&quot;: null,
+          &quot;mask_skip&quot;: false,
+          &quot;mask_threshold&quot;: 0.5,
+          &quot;mask_threshold_after_antialias&quot;: false,
+          &quot;mask_threshold_atol&quot;: 1e-09,
+          &quot;output_cast_atol&quot;: 1e-09,
+          &quot;output_dtype&quot;: &quot;float64&quot;,
+          &quot;outside_value&quot;: 0.0,
+          &quot;position_atol_mm&quot;: 0.0001,
+          &quot;world_map&quot;: [
+            [
+              1.0,
+              0.0,
+              0.0,
+              0.0
+            ],
+            [
+              0.0,
+              1.0,
+              0.0,
+              0.0
+            ],
+            [
+              0.0,
+              0.0,
+              1.0,
+              0.0
+            ],
+            [
+              0.0,
+              0.0,
+              0.0,
+              1.0
+            ]
+          ]
+        },
+        &quot;coverage&quot;: {
+          &quot;candidate_roi_voxels&quot;: 1654,
+          &quot;definition&quot;: &quot;Selected source voxel centres in declared candidate [-0.5,size-0.5) FOV; not continuous anatomical support.&quot;,
+          &quot;exact_roi_preserved&quot;: true,
+          &quot;expected_candidate_roi_voxels&quot;: 1654,
+          &quot;missing_roi_voxels&quot;: 0,
+          &quot;source_roi_centres_near_fov_boundary&quot;: 0,
+          &quot;source_roi_definitely_outside_candidate_fov&quot;: 0,
+          &quot;source_roi_outside_candidate_fov&quot;: 0,
+          &quot;source_roi_voxels&quot;: 1654,
+          &quot;status&quot;: &quot;satisfied&quot;
+        },
+        &quot;expected_candidate_roi_voxels&quot;: 1654,
+        &quot;feature_reuse&quot;: {
+          &quot;decision&quot;: &quot;requires_reextraction&quot;,
+          &quot;reason&quot;: &quot;Operator agreement does not establish feature invariance; re-extraction is required.&quot;
+        },
+        &quot;max_corner_error_mm&quot;: 0.0,
+        &quot;max_intensity_error&quot;: 0.0,
+        &quot;nominal_mismatched_intensity_voxels&quot;: 0,
+        &quot;nominal_mismatched_roi_voxels&quot;: 0,
+        &quot;schema_version&quot;: &quot;operators-1.0&quot;,
+        &quot;status&quot;: &quot;satisfied&quot;,
+        &quot;strict_nominal_status&quot;: &quot;satisfied&quot;,
+        &quot;violating_intensity_voxels&quot;: 0,
+        &quot;violating_roi_voxels&quot;: 0
+      },
+      &quot;numerical_envelope&quot;: {
+        &quot;max_coordinate_radius_voxels&quot;: 3.2643063636378687e-13,
+        &quot;profile&quot;: &quot;native-conditional-envelope-1&quot;,
+        &quot;scope&quot;: &quot;Existing nearest-neighbour coordinate and cast policies&quot;,
+        &quot;status&quot;: &quot;exact_selection&quot;
+      },
+      &quot;observed&quot;: {
+        &quot;affine_sha256&quot;: &quot;e6ac38473b9f8c9a110a4806f031e8de109f98a088930d290df5e85b50fcd892&quot;,
+        &quot;frame_sha256&quot;: &quot;5ff25742d905f76a6430d13294f69f5cf55009a33e90caeee924cb68fc83e802&quot;,
+        &quot;image_sha256&quot;: &quot;f80d1630769ce2ec35320cfaff59ba50cf1931c123ede077b80b01e8c31725ce&quot;,
+        &quot;selected_roi_sha256&quot;: &quot;381bf90e598076b40daeb2b0a116b7f193debac844cf7959c4294007d6147fb8&quot;,
+        &quot;selected_voxels&quot;: 1654,
+        &quot;shape&quot;: [
+          28,
+          30,
+          25
+        ],
+        &quot;source_dtype&quot;: &quot;float64&quot;
+      },
+      &quot;schema_version&quot;: &quot;operators-1.0&quot;,
+      &quot;status&quot;: &quot;satisfied&quot;,
+      &quot;strict_nominal_status&quot;: &quot;satisfied&quot;,
+      &quot;violating_intensity_voxels&quot;: 0,
+      &quot;violating_roi_voxels&quot;: 0
+    },
+    {
+      &quot;ambiguous_intensity_voxels&quot;: 0,
+      &quot;ambiguous_roi_voxels&quot;: 0,
+      &quot;bounding_box_status&quot;: &quot;satisfied&quot;,
+      &quot;candidate_roi_voxels&quot;: 1654,
+      &quot;candidate_voxels_outside_source_support&quot;: 0,
+      &quot;changed_declared_setting_keys&quot;: [],
+      &quot;checkpoint&quot;: &quot;shape_dispatch&quot;,
+      &quot;checks&quot;: {
+        &quot;candidate_shape&quot;: true,
+        &quot;intensity&quot;: true,
+        &quot;position&quot;: true,
+        &quot;roi&quot;: true
+      },
+      &quot;contract&quot;: {
+        &quot;antialias_boundary&quot;: &quot;nearest&quot;,
+        &quot;antialias_dtype&quot;: &quot;float32&quot;,
+        &quot;antialias_sigma&quot;: null,
+        &quot;axis_order&quot;: [
+          2,
+          1,
+          0
+        ],
+        &quot;boundary&quot;: &quot;sitk&quot;,
+        &quot;boundary_budget_scope&quot;: &quot;Declared engineering bands, not certified floating-point bounds or clinical tolerances.&quot;,
+        &quot;candidate_shape&quot;: [
+          28,
+          30,
+          25
+        ],
+        &quot;gaussian_truncate&quot;: 4.0,
+        &quot;index_boundary_atol&quot;: 1e-09,
+        &quot;index_map&quot;: [
+          [
+            1.0,
+            0.0,
+            0.0,
+            0.0
+          ],
+          [
+            0.0,
+            1.0,
+            0.0,
+            0.0
+          ],
+          [
+            0.0,
+            0.0,
+            1.0,
+            0.0
+          ],
+          [
+            0.0,
+            0.0,
+            0.0,
+            1.0
+          ]
+        ],
+        &quot;integer_cast&quot;: &quot;truncate&quot;,
+        &quot;intensity_atol&quot;: 0.0001,
+        &quot;intensity_gain&quot;: 1.0,
+        &quot;intensity_offset&quot;: 0.0,
+        &quot;intensity_rtol&quot;: 0.0,
+        &quot;interpolation&quot;: &quot;nearest&quot;,
+        &quot;mask_antialias_boundary&quot;: &quot;nearest&quot;,
+        &quot;mask_antialias_sigma&quot;: null,
+        &quot;mask_boundary&quot;: &quot;sitk&quot;,
+        &quot;mask_interpolation&quot;: &quot;nearest&quot;,
+        &quot;mask_outside&quot;: 0,
+        &quot;mask_round_decimals&quot;: null,
+        &quot;mask_skip&quot;: false,
+        &quot;mask_threshold&quot;: 0.5,
+        &quot;mask_threshold_after_antialias&quot;: false,
+        &quot;mask_threshold_atol&quot;: 1e-09,
+        &quot;output_cast_atol&quot;: 1e-09,
+        &quot;output_dtype&quot;: &quot;float64&quot;,
+        &quot;outside_value&quot;: 0.0,
+        &quot;position_atol_mm&quot;: 0.0001,
+        &quot;world_map&quot;: [
+          [
+            1.0,
+            0.0,
+            0.0,
+            0.0
+          ],
+          [
+            0.0,
+            1.0,
+            0.0,
+            0.0
+          ],
+          [
+            0.0,
+            0.0,
+            1.0,
+            0.0
+          ],
+          [
+            0.0,
+            0.0,
+            0.0,
+            1.0
+          ]
+        ]
+      },
+      &quot;coverage&quot;: {
+        &quot;candidate_roi_voxels&quot;: 1654,
+        &quot;definition&quot;: &quot;Selected source voxel centres in declared candidate [-0.5,size-0.5) FOV; not continuous anatomical support.&quot;,
+        &quot;exact_roi_preserved&quot;: true,
+        &quot;expected_candidate_roi_voxels&quot;: 1654,
+        &quot;missing_roi_voxels&quot;: 0,
+        &quot;source_roi_centres_near_fov_boundary&quot;: 0,
+        &quot;source_roi_definitely_outside_candidate_fov&quot;: 0,
+        &quot;source_roi_outside_candidate_fov&quot;: 0,
+        &quot;source_roi_voxels&quot;: 1654,
+        &quot;status&quot;: &quot;satisfied&quot;
+      },
+      &quot;declared_bounding_box&quot;: [
+        6,
+        22,
+        6,
+        23,
+        6,
+        16
+      ],
+      &quot;expected_candidate_roi_voxels&quot;: 1654,
+      &quot;feature_reuse&quot;: {
+        &quot;decision&quot;: &quot;requires_reextraction&quot;,
+        &quot;reason&quot;: &quot;Operator agreement does not establish feature invariance; re-extraction is required.&quot;
+      },
+      &quot;max_corner_error_mm&quot;: 0.0,
+      &quot;max_intensity_error&quot;: 0.0,
+      &quot;missing_declared_setting_keys&quot;: [],
+      &quot;nominal_mismatched_intensity_voxels&quot;: 0,
+      &quot;nominal_mismatched_roi_voxels&quot;: 0,
+      &quot;nominal_reference&quot;: {
+        &quot;ambiguous_intensity_voxels&quot;: 0,
+        &quot;ambiguous_roi_voxels&quot;: 0,
+        &quot;candidate_roi_voxels&quot;: 1654,
+        &quot;candidate_voxels_outside_source_support&quot;: 0,
+        &quot;checks&quot;: {
+          &quot;candidate_shape&quot;: true,
+          &quot;intensity&quot;: true,
+          &quot;position&quot;: true,
+          &quot;roi&quot;: true
+        },
+        &quot;contract&quot;: {
+          &quot;antialias_boundary&quot;: &quot;nearest&quot;,
+          &quot;antialias_dtype&quot;: &quot;float32&quot;,
+          &quot;antialias_sigma&quot;: null,
+          &quot;axis_order&quot;: [
+            2,
+            1,
+            0
+          ],
+          &quot;boundary&quot;: &quot;sitk&quot;,
+          &quot;boundary_budget_scope&quot;: &quot;Declared engineering bands, not certified floating-point bounds or clinical tolerances.&quot;,
+          &quot;candidate_shape&quot;: [
+            28,
+            30,
+            25
+          ],
+          &quot;gaussian_truncate&quot;: 4.0,
+          &quot;index_boundary_atol&quot;: 1e-09,
+          &quot;index_map&quot;: [
+            [
+              1.0,
+              0.0,
+              0.0,
+              0.0
+            ],
+            [
+              0.0,
+              1.0,
+              0.0,
+              0.0
+            ],
+            [
+              0.0,
+              0.0,
+              1.0,
+              0.0
+            ],
+            [
+              0.0,
+              0.0,
+              0.0,
+              1.0
+            ]
+          ],
+          &quot;integer_cast&quot;: &quot;truncate&quot;,
+          &quot;intensity_atol&quot;: 0.0001,
+          &quot;intensity_gain&quot;: 1.0,
+          &quot;intensity_offset&quot;: 0.0,
+          &quot;intensity_rtol&quot;: 0.0,
+          &quot;interpolation&quot;: &quot;nearest&quot;,
+          &quot;mask_antialias_boundary&quot;: &quot;nearest&quot;,
+          &quot;mask_antialias_sigma&quot;: null,
+          &quot;mask_boundary&quot;: &quot;sitk&quot;,
+          &quot;mask_interpolation&quot;: &quot;nearest&quot;,
+          &quot;mask_outside&quot;: 0,
+          &quot;mask_round_decimals&quot;: null,
+          &quot;mask_skip&quot;: false,
+          &quot;mask_threshold&quot;: 0.5,
+          &quot;mask_threshold_after_antialias&quot;: false,
+          &quot;mask_threshold_atol&quot;: 1e-09,
+          &quot;output_cast_atol&quot;: 1e-09,
+          &quot;output_dtype&quot;: &quot;float64&quot;,
+          &quot;outside_value&quot;: 0.0,
+          &quot;position_atol_mm&quot;: 0.0001,
+          &quot;world_map&quot;: [
+            [
+              1.0,
+              0.0,
+              0.0,
+              0.0
+            ],
+            [
+              0.0,
+              1.0,
+              0.0,
+              0.0
+            ],
+            [
+              0.0,
+              0.0,
+              1.0,
+              0.0
+            ],
+            [
+              0.0,
+              0.0,
+              0.0,
+              1.0
+            ]
+          ]
+        },
+        &quot;coverage&quot;: {
+          &quot;candidate_roi_voxels&quot;: 1654,
+          &quot;definition&quot;: &quot;Selected source voxel centres in declared candidate [-0.5,size-0.5) FOV; not continuous anatomical support.&quot;,
+          &quot;exact_roi_preserved&quot;: true,
+          &quot;expected_candidate_roi_voxels&quot;: 1654,
+          &quot;missing_roi_voxels&quot;: 0,
+          &quot;source_roi_centres_near_fov_boundary&quot;: 0,
+          &quot;source_roi_definitely_outside_candidate_fov&quot;: 0,
+          &quot;source_roi_outside_candidate_fov&quot;: 0,
+          &quot;source_roi_voxels&quot;: 1654,
+          &quot;status&quot;: &quot;satisfied&quot;
+        },
+        &quot;expected_candidate_roi_voxels&quot;: 1654,
+        &quot;feature_reuse&quot;: {
+          &quot;decision&quot;: &quot;requires_reextraction&quot;,
+          &quot;reason&quot;: &quot;Operator agreement does not establish feature invariance; re-extraction is required.&quot;
+        },
+        &quot;max_corner_error_mm&quot;: 0.0,
+        &quot;max_intensity_error&quot;: 0.0,
+        &quot;nominal_mismatched_intensity_voxels&quot;: 0,
+        &quot;nominal_mismatched_roi_voxels&quot;: 0,
+        &quot;schema_version&quot;: &quot;operators-1.0&quot;,
+        &quot;status&quot;: &quot;satisfied&quot;,
+        &quot;strict_nominal_status&quot;: &quot;satisfied&quot;,
+        &quot;violating_intensity_voxels&quot;: 0,
+        &quot;violating_roi_voxels&quot;: 0
+      },
+      &quot;numerical_envelope&quot;: {
+        &quot;max_coordinate_radius_voxels&quot;: 3.2643063636378687e-13,
+        &quot;profile&quot;: &quot;native-conditional-envelope-1&quot;,
+        &quot;scope&quot;: &quot;Existing nearest-neighbour coordinate and cast policies&quot;,
+        &quot;status&quot;: &quot;exact_selection&quot;
+      },
+      &quot;observed&quot;: {
+        &quot;affine_sha256&quot;: &quot;e6ac38473b9f8c9a110a4806f031e8de109f98a088930d290df5e85b50fcd892&quot;,
+        &quot;frame_sha256&quot;: &quot;5ff25742d905f76a6430d13294f69f5cf55009a33e90caeee924cb68fc83e802&quot;,
+        &quot;image_sha256&quot;: &quot;f80d1630769ce2ec35320cfaff59ba50cf1931c123ede077b80b01e8c31725ce&quot;,
+        &quot;selected_roi_sha256&quot;: &quot;381bf90e598076b40daeb2b0a116b7f193debac844cf7959c4294007d6147fb8&quot;,
+        &quot;selected_voxels&quot;: 1654,
+        &quot;shape&quot;: [
+          28,
+          30,
+          25
+        ],
+        &quot;source_dtype&quot;: &quot;float64&quot;
+      },
+      &quot;observed_bounding_box&quot;: [
+        6,
+        22,
+        6,
+        23,
+        6,
+        16
+      ],
+      &quot;schema_version&quot;: &quot;operators-1.0&quot;,
+      &quot;status&quot;: &quot;satisfied&quot;,
+      &quot;strict_nominal_status&quot;: &quot;satisfied&quot;,
+      &quot;violating_intensity_voxels&quot;: 0,
+      &quot;violating_roi_voxels&quot;: 0
+    },
+    {
+      &quot;ambiguous_intensity_voxels&quot;: 0,
+      &quot;ambiguous_roi_voxels&quot;: 0,
+      &quot;candidate_roi_voxels&quot;: 1654,
+      &quot;candidate_voxels_outside_source_support&quot;: 0,
+      &quot;changed_declared_setting_keys&quot;: [],
+      &quot;checkpoint&quot;: &quot;feature_input:original&quot;,
+      &quot;checks&quot;: {
+        &quot;candidate_shape&quot;: true,
+        &quot;intensity&quot;: true,
+        &quot;position&quot;: true,
+        &quot;roi&quot;: true
+      },
+      &quot;contract&quot;: {
+        &quot;antialias_boundary&quot;: &quot;nearest&quot;,
+        &quot;antialias_dtype&quot;: &quot;float32&quot;,
+        &quot;antialias_sigma&quot;: null,
+        &quot;axis_order&quot;: [
+          2,
+          1,
+          0
+        ],
+        &quot;boundary&quot;: &quot;sitk&quot;,
+        &quot;boundary_budget_scope&quot;: &quot;Declared engineering bands, not certified floating-point bounds or clinical tolerances.&quot;,
+        &quot;candidate_shape&quot;: [
+          17,
+          18,
+          11
+        ],
+        &quot;gaussian_truncate&quot;: 4.0,
+        &quot;index_boundary_atol&quot;: 1e-09,
+        &quot;index_map&quot;: [
+          [
+            1.0,
+            0.0,
+            0.0,
+            6.0
+          ],
+          [
+            0.0,
+            1.0,
+            0.0,
+            6.0
+          ],
+          [
+            0.0,
+            0.0,
+            1.0,
+            6.0
+          ],
+          [
+            0.0,
+            0.0,
+            0.0,
+            1.0
+          ]
+        ],
+        &quot;integer_cast&quot;: &quot;truncate&quot;,
+        &quot;intensity_atol&quot;: 0.0001,
+        &quot;intensity_gain&quot;: 1.0,
+        &quot;intensity_offset&quot;: 0.0,
+        &quot;intensity_rtol&quot;: 0.0,
+        &quot;interpolation&quot;: &quot;nearest&quot;,
+        &quot;mask_antialias_boundary&quot;: &quot;nearest&quot;,
+        &quot;mask_antialias_sigma&quot;: null,
+        &quot;mask_boundary&quot;: &quot;sitk&quot;,
+        &quot;mask_interpolation&quot;: &quot;nearest&quot;,
+        &quot;mask_outside&quot;: 0,
+        &quot;mask_round_decimals&quot;: null,
+        &quot;mask_skip&quot;: false,
+        &quot;mask_threshold&quot;: 0.5,
+        &quot;mask_threshold_after_antialias&quot;: false,
+        &quot;mask_threshold_atol&quot;: 1e-09,
+        &quot;output_cast_atol&quot;: 1e-09,
+        &quot;output_dtype&quot;: &quot;float64&quot;,
+        &quot;outside_value&quot;: 0.0,
+        &quot;position_atol_mm&quot;: 0.0001,
+        &quot;world_map&quot;: [
+          [
+            1.0,
+            0.0,
+            0.0,
+            0.0
+          ],
+          [
+            0.0,
+            1.0,
+            0.0,
+            0.0
+          ],
+          [
+            0.0,
+            0.0,
+            1.0,
+            0.0
+          ],
+          [
+            0.0,
+            0.0,
+            0.0,
+            1.0
+          ]
+        ]
+      },
+      &quot;coverage&quot;: {
+        &quot;candidate_roi_voxels&quot;: 1654,
+        &quot;definition&quot;: &quot;Selected source voxel centres in declared candidate [-0.5,size-0.5) FOV; not continuous anatomical support.&quot;,
+        &quot;exact_roi_preserved&quot;: true,
+        &quot;expected_candidate_roi_voxels&quot;: 1654,
+        &quot;missing_roi_voxels&quot;: 0,
+        &quot;source_roi_centres_near_fov_boundary&quot;: 0,
+        &quot;source_roi_definitely_outside_candidate_fov&quot;: 0,
+        &quot;source_roi_outside_candidate_fov&quot;: 0,
+        &quot;source_roi_voxels&quot;: 1654,
+        &quot;status&quot;: &quot;satisfied&quot;
+      },
+      &quot;expected_candidate_roi_voxels&quot;: 1654,
+      &quot;feature_reuse&quot;: {
+        &quot;decision&quot;: &quot;requires_reextraction&quot;,
+        &quot;reason&quot;: &quot;Operator agreement does not establish feature invariance; re-extraction is required.&quot;
+      },
+      &quot;max_corner_error_mm&quot;: 7.105427357601002e-15,
+      &quot;max_intensity_error&quot;: 0.0,
+      &quot;missing_declared_setting_keys&quot;: [],
+      &quot;nominal_mismatched_intensity_voxels&quot;: 0,
+      &quot;nominal_mismatched_roi_voxels&quot;: 0,
+      &quot;nominal_reference&quot;: {
+        &quot;ambiguous_intensity_voxels&quot;: 0,
+        &quot;ambiguous_roi_voxels&quot;: 0,
+        &quot;candidate_roi_voxels&quot;: 1654,
+        &quot;candidate_voxels_outside_source_support&quot;: 0,
+        &quot;checks&quot;: {
+          &quot;candidate_shape&quot;: true,
+          &quot;intensity&quot;: true,
+          &quot;position&quot;: true,
+          &quot;roi&quot;: true
+        },
+        &quot;contract&quot;: {
+          &quot;antialias_boundary&quot;: &quot;nearest&quot;,
+          &quot;antialias_dtype&quot;: &quot;float32&quot;,
+          &quot;antialias_sigma&quot;: null,
+          &quot;axis_order&quot;: [
+            2,
+            1,
+            0
+          ],
+          &quot;boundary&quot;: &quot;sitk&quot;,
+          &quot;boundary_budget_scope&quot;: &quot;Declared engineering bands, not certified floating-point bounds or clinical tolerances.&quot;,
+          &quot;candidate_shape&quot;: [
+            17,
+            18,
+            11
+          ],
+          &quot;gaussian_truncate&quot;: 4.0,
+          &quot;index_boundary_atol&quot;: 1e-09,
+          &quot;index_map&quot;: [
+            [
+              1.0,
+              0.0,
+              0.0,
+              6.0
+            ],
+            [
+              0.0,
+              1.0,
+              0.0,
+              6.0
+            ],
+            [
+              0.0,
+              0.0,
+              1.0,
+              6.0
+            ],
+            [
+              0.0,
+              0.0,
+              0.0,
+              1.0
+            ]
+          ],
+          &quot;integer_cast&quot;: &quot;truncate&quot;,
+          &quot;intensity_atol&quot;: 0.0001,
+          &quot;intensity_gain&quot;: 1.0,
+          &quot;intensity_offset&quot;: 0.0,
+          &quot;intensity_rtol&quot;: 0.0,
+          &quot;interpolation&quot;: &quot;nearest&quot;,
+          &quot;mask_antialias_boundary&quot;: &quot;nearest&quot;,
+          &quot;mask_antialias_sigma&quot;: null,
+          &quot;mask_boundary&quot;: &quot;sitk&quot;,
+          &quot;mask_interpolation&quot;: &quot;nearest&quot;,
+          &quot;mask_outside&quot;: 0,
+          &quot;mask_round_decimals&quot;: null,
+          &quot;mask_skip&quot;: false,
+          &quot;mask_threshold&quot;: 0.5,
+          &quot;mask_threshold_after_antialias&quot;: false,
+          &quot;mask_threshold_atol&quot;: 1e-09,
+          &quot;output_cast_atol&quot;: 1e-09,
+          &quot;output_dtype&quot;: &quot;float64&quot;,
+          &quot;outside_value&quot;: 0.0,
+          &quot;position_atol_mm&quot;: 0.0001,
+          &quot;world_map&quot;: [
+            [
+              1.0,
+              0.0,
+              0.0,
+              0.0
+            ],
+            [
+              0.0,
+              1.0,
+              0.0,
+              0.0
+            ],
+            [
+              0.0,
+              0.0,
+              1.0,
+              0.0
+            ],
+            [
+              0.0,
+              0.0,
+              0.0,
+              1.0
+            ]
+          ]
+        },
+        &quot;coverage&quot;: {
+          &quot;candidate_roi_voxels&quot;: 1654,
+          &quot;definition&quot;: &quot;Selected source voxel centres in declared candidate [-0.5,size-0.5) FOV; not continuous anatomical support.&quot;,
+          &quot;exact_roi_preserved&quot;: true,
+          &quot;expected_candidate_roi_voxels&quot;: 1654,
+          &quot;missing_roi_voxels&quot;: 0,
+          &quot;source_roi_centres_near_fov_boundary&quot;: 0,
+          &quot;source_roi_definitely_outside_candidate_fov&quot;: 0,
+          &quot;source_roi_outside_candidate_fov&quot;: 0,
+          &quot;source_roi_voxels&quot;: 1654,
+          &quot;status&quot;: &quot;satisfied&quot;
+        },
+        &quot;expected_candidate_roi_voxels&quot;: 1654,
+        &quot;feature_reuse&quot;: {
+          &quot;decision&quot;: &quot;requires_reextraction&quot;,
+          &quot;reason&quot;: &quot;Operator agreement does not establish feature invariance; re-extraction is required.&quot;
+        },
+        &quot;max_corner_error_mm&quot;: 7.105427357601002e-15,
+        &quot;max_intensity_error&quot;: 0.0,
+        &quot;nominal_mismatched_intensity_voxels&quot;: 0,
+        &quot;nominal_mismatched_roi_voxels&quot;: 0,
+        &quot;schema_version&quot;: &quot;operators-1.0&quot;,
+        &quot;status&quot;: &quot;satisfied&quot;,
+        &quot;strict_nominal_status&quot;: &quot;satisfied&quot;,
+        &quot;violating_intensity_voxels&quot;: 0,
+        &quot;violating_roi_voxels&quot;: 0
+      },
+      &quot;numerical_envelope&quot;: {
+        &quot;max_coordinate_radius_voxels&quot;: 2.6436986640743414e-13,
+        &quot;profile&quot;: &quot;native-conditional-envelope-1&quot;,
+        &quot;scope&quot;: &quot;Existing nearest-neighbour coordinate and cast policies&quot;,
+        &quot;status&quot;: &quot;exact_selection&quot;
+      },
+      &quot;observed&quot;: {
+        &quot;affine_sha256&quot;: &quot;074253f3bced6deb9133b1f68372c5c3b1d8024b49ccd328629a8517320185d0&quot;,
+        &quot;frame_sha256&quot;: &quot;ef26a8c43d04ed8d4adb23b5ce3570aa013debe0de85ac2dd81acc31d3ce5bc5&quot;,
+        &quot;image_sha256&quot;: &quot;c158629b698951f889f6d133fedb7bb1798a7aab6326a7f499d933c734a4935b&quot;,
+        &quot;selected_roi_sha256&quot;: &quot;d70b6145476210aec28bdde0aafc070696fedfcf167ce5b5cc92d4de95f023b2&quot;,
+        &quot;selected_voxels&quot;: 1654,
+        &quot;shape&quot;: [
+          17,
+          18,
+          11
+        ],
+        &quot;source_dtype&quot;: &quot;float64&quot;
+      },
+      &quot;schema_version&quot;: &quot;operators-1.0&quot;,
+      &quot;status&quot;: &quot;satisfied&quot;,
+      &quot;strict_nominal_status&quot;: &quot;satisfied&quot;,
+      &quot;violating_intensity_voxels&quot;: 0,
+      &quot;violating_roi_voxels&quot;: 0
+    }
+  ],
+  &quot;configuration_sha256&quot;: &quot;3ab13e37e49935e49dab3a446840d4eb7d766f3e95252b86016741470ba8999c&quot;,
+  &quot;declaration_timing&quot;: &quot;before_native_execute&quot;,
+  &quot;declarations&quot;: {
+    &quot;feature_input:original&quot;: {
+      &quot;boundary&quot;: &quot;sitk&quot;,
+      &quot;candidate_shape&quot;: [
+        17,
+        18,
+        11
+      ],
+      &quot;index_boundary_atol&quot;: 1e-09,
+      &quot;index_map&quot;: [
+        [
+          1.0,
+          0.0,
+          0.0,
+          6.0
+        ],
+        [
+          0.0,
+          1.0,
+          0.0,
+          6.0
+        ],
+        [
+          0.0,
+          0.0,
+          1.0,
+          6.0
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      &quot;intensity_atol&quot;: 0.0001,
+      &quot;interpolation&quot;: &quot;nearest&quot;,
+      &quot;output_dtype&quot;: &quot;float64&quot;,
+      &quot;outside_value&quot;: 0.0,
+      &quot;position_atol_mm&quot;: 0.0001
+    },
+    &quot;loaded_input&quot;: {
+      &quot;boundary&quot;: &quot;sitk&quot;,
+      &quot;candidate_shape&quot;: [
+        28,
+        30,
+        25
+      ],
+      &quot;index_boundary_atol&quot;: 1e-09,
+      &quot;index_map&quot;: [
+        [
+          1.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          1.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          1.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      &quot;intensity_atol&quot;: 0.0001,
+      &quot;interpolation&quot;: &quot;nearest&quot;,
+      &quot;output_dtype&quot;: &quot;float64&quot;,
+      &quot;outside_value&quot;: 0.0,
+      &quot;position_atol_mm&quot;: 0.0001
+    },
+    &quot;shape_dispatch&quot;: {
+      &quot;boundary&quot;: &quot;sitk&quot;,
+      &quot;candidate_shape&quot;: [
+        28,
+        30,
+        25
+      ],
+      &quot;index_boundary_atol&quot;: 1e-09,
+      &quot;index_map&quot;: [
+        [
+          1.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          1.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          1.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      &quot;intensity_atol&quot;: 0.0001,
+      &quot;interpolation&quot;: &quot;nearest&quot;,
+      &quot;output_dtype&quot;: &quot;float64&quot;,
+      &quot;outside_value&quot;: 0.0,
+      &quot;position_atol_mm&quot;: 0.0001
+    }
+  },
+  &quot;elapsed_seconds&quot;: 0.0632536999983131,
+  &quot;engine&quot;: {
+    &quot;name&quot;: &quot;pyradiomics&quot;,
+    &quot;version&quot;: &quot;3.0.1&quot;
+  },
+  &quot;feature_values&quot;: {
+    &quot;count&quot;: 107,
+    &quot;nonfinite_count&quot;: 0,
+    &quot;sha256&quot;: &quot;7fc8e7d78a6ddec00eb2b40b84083d30c6ab6479eee2ae18c23df7ae1a29798d&quot;
+  },
+  &quot;profile&quot;: &quot;pyradiomics-native-original-2&quot;,
+  &quot;schema_version&quot;: &quot;radaccord-native-1&quot;,
+  &quot;scope&quot;: &quot;Post-extraction acceptance evidence for the observed native input boundaries. This does not certify all numerical features or clinical use.&quot;,
+  &quot;source&quot;: {
+    &quot;affine_sha256&quot;: &quot;e6ac38473b9f8c9a110a4806f031e8de109f98a088930d290df5e85b50fcd892&quot;,
+    &quot;frame_sha256&quot;: &quot;5ff25742d905f76a6430d13294f69f5cf55009a33e90caeee924cb68fc83e802&quot;,
+    &quot;image_sha256&quot;: &quot;f80d1630769ce2ec35320cfaff59ba50cf1931c123ede077b80b01e8c31725ce&quot;,
+    &quot;selected_roi_sha256&quot;: &quot;381bf90e598076b40daeb2b0a116b7f193debac844cf7959c4294007d6147fb8&quot;,
+    &quot;selected_voxels&quot;: 1654,
+    &quot;shape&quot;: [
+      28,
+      30,
+      25
+    ],
+    &quot;source_dtype&quot;: &quot;float64&quot;
+  },
+  &quot;status&quot;: &quot;satisfied&quot;,
+  &quot;unverified_obligations&quot;: [
+    &quot;feature_formulae&quot;,
+    &quot;internal_shape_class_crop&quot;,
+    &quot;clinical_validity&quot;,
+    &quot;unobserved_pipeline_states&quot;
+  ]
+}</pre></details></section>
+<footer>RadAccord · Research software · This local report contains no executable scripts and makes no network requests.</footer></html>

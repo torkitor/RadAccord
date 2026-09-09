@@ -1,0 +1,17 @@
+{
+  "schema_version": "native-study-1",
+  "evaluation_phase": "calibration_informed_reevaluation",
+  "engine": "pyradiomics",
+  "engine_version": "3.0.1",
+  "numpy_version": "1.23.5",
+  "development": false,
+  "started_utc": "2026-09-09T13:00:09.305138+00:00",
+  "finished_utc": "2026-09-09T13:02:48.385021+00:00",
+  "planned": 62,
+  "attempted": 62,
+  "completed": 62,
+  "unchanged": 62,
+  "plan_sha256": "b9128084776ef95aca598c420ed36fd41d90c09cd9b29054c891aa486e8124d2",
+  "freeze_sha256": "8a99094b119db04275251de57f1e2915720b5bad649736e5212fcecadf6a3b4e",
+  "records_sha256": "afe851fba15a019f84dc529a88cf6798b0380a896467a32292fcbe49f8ad6b23"
+}

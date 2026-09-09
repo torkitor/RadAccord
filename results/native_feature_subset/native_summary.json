@@ -1,0 +1,127 @@
+{
+  "adapter_sha256": "deb9bccdd4ab688f8d2e64bc8d582df5fdbe86147d9b14473faa371ca84d6083",
+  "datasets": {
+    "Task04_Hippocampus": {
+      "comparison_status": {
+        "fully_analyzed": 12
+      },
+      "extraction_status": {
+        "extracted": 15
+      },
+      "planned_comparisons": 12,
+      "planned_extractions": 15,
+      "planned_volumes": 3
+    },
+    "Task09_Spleen": {
+      "comparison_status": {
+        "fully_analyzed": 12
+      },
+      "extraction_status": {
+        "extracted": 15
+      },
+      "planned_comparisons": 12,
+      "planned_extractions": 15,
+      "planned_volumes": 3
+    }
+  },
+  "feature_names": [
+    "original_firstorder_10Percentile",
+    "original_firstorder_90Percentile",
+    "original_firstorder_Energy",
+    "original_firstorder_Entropy",
+    "original_firstorder_InterquartileRange",
+    "original_firstorder_Kurtosis",
+    "original_firstorder_Maximum",
+    "original_firstorder_Mean",
+    "original_firstorder_MeanAbsoluteDeviation",
+    "original_firstorder_Median",
+    "original_firstorder_Minimum",
+    "original_firstorder_Range",
+    "original_firstorder_RobustMeanAbsoluteDeviation",
+    "original_firstorder_RootMeanSquared",
+    "original_firstorder_Skewness",
+    "original_firstorder_TotalEnergy",
+    "original_firstorder_Uniformity",
+    "original_firstorder_Variance",
+    "original_glcm_Autocorrelation",
+    "original_glcm_ClusterProminence",
+    "original_glcm_ClusterShade",
+    "original_glcm_ClusterTendency",
+    "original_glcm_Contrast",
+    "original_glcm_Correlation",
+    "original_glcm_DifferenceAverage",
+    "original_glcm_DifferenceEntropy",
+    "original_glcm_DifferenceVariance",
+    "original_glcm_Id",
+    "original_glcm_Idm",
+    "original_glcm_Idmn",
+    "original_glcm_Idn",
+    "original_glcm_Imc1",
+    "original_glcm_Imc2",
+    "original_glcm_InverseVariance",
+    "original_glcm_JointAverage",
+    "original_glcm_JointEnergy",
+    "original_glcm_JointEntropy",
+    "original_glcm_MCC",
+    "original_glcm_MaximumProbability",
+    "original_glcm_SumAverage",
+    "original_glcm_SumEntropy",
+    "original_glcm_SumSquares",
+    "original_glrlm_GrayLevelNonUniformity",
+    "original_glrlm_GrayLevelNonUniformityNormalized",
+    "original_glrlm_GrayLevelVariance",
+    "original_glrlm_HighGrayLevelRunEmphasis",
+    "original_glrlm_LongRunEmphasis",
+    "original_glrlm_LongRunHighGrayLevelEmphasis",
+    "original_glrlm_LongRunLowGrayLevelEmphasis",
+    "original_glrlm_LowGrayLevelRunEmphasis",
+    "original_glrlm_RunEntropy",
+    "original_glrlm_RunLengthNonUniformity",
+    "original_glrlm_RunLengthNonUniformityNormalized",
+    "original_glrlm_RunPercentage",
+    "original_glrlm_RunVariance",
+    "original_glrlm_ShortRunEmphasis",
+    "original_glrlm_ShortRunHighGrayLevelEmphasis",
+    "original_glrlm_ShortRunLowGrayLevelEmphasis",
+    "original_shape_Elongation",
+    "original_shape_Flatness",
+    "original_shape_LeastAxisLength",
+    "original_shape_MajorAxisLength",
+    "original_shape_Maximum2DDiameterColumn",
+    "original_shape_Maximum2DDiameterRow",
+    "original_shape_Maximum2DDiameterSlice",
+    "original_shape_Maximum3DDiameter",
+    "original_shape_MeshVolume",
+    "original_shape_MinorAxisLength",
+    "original_shape_Sphericity",
+    "original_shape_SurfaceArea",
+    "original_shape_SurfaceVolumeRatio",
+    "original_shape_VoxelVolume"
+  ],
+  "input_manifest_sha256": "ab324a996c3373f886eca59908130ba60059f450d0f3291f655a9a2d5d5f2b23",
+  "malformed_native_record_lines": 0,
+  "native_environment": {
+    "packages": {
+      "SimpleITK": "2.2.1",
+      "numpy": "1.23.5",
+      "pyradiomics": "3.0.1",
+      "scipy": null
+    },
+    "platform": "Windows",
+    "python": "3.10.11"
+  },
+  "plan_sha256": "1e173c70efebd81b133efa950aafae4b4096b3726443158b3067717791b7a219",
+  "planned_comparisons": 24,
+  "planned_extractions": 30,
+  "raw_numeric_record_sha256": "04413ace8f250f4ac9d3bd6c1c19f5d6f3ee14556b66f85e8e9d3bffa68bd531",
+  "scalar_atol": 1e-06,
+  "scalar_rtol": 1e-05,
+  "schema": "native-sampling-feature-results-1.0",
+  "scope": "Fixed six-volume descriptive subset. Correct resampling may change features. Numerical tolerances are not clinical equivalence margins; no patient inference or extractor-defect claim.",
+  "script_sha256": "5ab4a88c4190e5c900545b16f7c31116be38595936c6b689a1883c6f3c393f05",
+  "settings": {
+    "bin_width": 25.0,
+    "label": 1,
+    "spatial_mode": "3d"
+  }
+}

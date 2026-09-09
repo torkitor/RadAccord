@@ -1,0 +1,65 @@
+{
+  "adapter_sha256": "deb9bccdd4ab688f8d2e64bc8d582df5fdbe86147d9b14473faa371ca84d6083",
+  "comparison_references": {
+    "isotropic_0p8mm": [
+      "source_working_crop"
+    ],
+    "isotropic_1mm": [
+      "source_working_crop"
+    ],
+    "isotropic_2mm": [
+      "source_working_crop"
+    ],
+    "wrong_image_kernel": [
+      "isotropic_0p8mm"
+    ]
+  },
+  "datasets": {
+    "Task04_Hippocampus": {
+      "dataset_json_sha256": "5ad98d4c7146d434badcdf4051d9ca98291056fc66083bee7904fdbceb0c356e",
+      "volume_ids": [
+        "hippocampus_001",
+        "hippocampus_003",
+        "hippocampus_004"
+      ]
+    },
+    "Task09_Spleen": {
+      "dataset_json_sha256": "919b07212b67023580b759f54a354ee93e01f26b09112ca4f3aceeed6eaa5b3f",
+      "volume_ids": [
+        "spleen_10",
+        "spleen_12",
+        "spleen_13"
+      ]
+    }
+  },
+  "engine": "pyradiomics",
+  "expected_engine_version": "3.0.1",
+  "feature_families": [
+    "shape",
+    "firstorder",
+    "glcm",
+    "glrlm"
+  ],
+  "inference": "Descriptive per released volume and feature; no participant independence, hypothesis tests, pooled sensitivity or patient-risk claims.",
+  "planned_comparisons": 24,
+  "planned_extractions": 30,
+  "relative_difference": "abs(candidate-reference)/abs(reference); undefined if reference is exactly zero, reported as null with a reference_zero flag.",
+  "roi": "Union of released annotation labels >0, supplied as label 1 by the clinical harness.",
+  "roles": [
+    "source_working_crop",
+    "isotropic_0p8mm",
+    "isotropic_1mm",
+    "isotropic_2mm",
+    "wrong_image_kernel"
+  ],
+  "scalar_atol": 1e-06,
+  "scalar_rtol": 1e-05,
+  "schema": "native-sampling-feature-plan-1.0",
+  "selection": "First three lexicographically sorted released volume IDs of each dataset, fixed before native or clinical outcomes; no replacement.",
+  "settings": {
+    "bin_width": 25.0,
+    "label": 1,
+    "spatial_mode": "3d"
+  },
+  "tolerance_interpretation": "Numerical change descriptor inherited from the historical scalar comparator, not an equivalence margin or clinical threshold."
+}

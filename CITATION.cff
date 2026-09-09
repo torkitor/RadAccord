@@ -1,15 +1,15 @@
 cff-version: 1.2.0
-message: "Please cite RadAccord 1.0.0 using this software record and cite the accompanying article when published."
+message: "Please cite the version and profile actually used. RadAccord 1.2.0rc3 is a research release candidate. Its CLI filename fix preserves the scientific modules evaluated in the retained rc2 native study."
 title: "RadAccord: software for physical consistency testing before radiomic feature reuse in research"
 type: software
-version: 1.0.0
-date-released: 2026-09-07
+version: 1.2.0rc3
+date-released: 2026-09-09
 authors:
   - family-names: García-Hidalgo
     given-names: Clemente
     orcid: "https://orcid.org/0009-0001-6672-2714"
 license: Apache-2.0
-abstract: "Executable physical correspondence, conditional measurement laws and direct numerical anchors for radiomic feature reuse, with frozen synthetic benchmark records."
+abstract: "Research software compares declared physical processing with observed image and ROI states in supported radiomics workflows. Native PyRadiomics and MIRP integrations preserve requested feature values while reporting bounded evidence; feature formulae, unobserved states and clinical validity are outside the assessment. Earlier sampling and full-grid/scalar studies are retained separately from the evolving native integration profiles."
 repository-code: "https://github.com/torkitor/RadAccord"
 url: "https://github.com/torkitor/RadAccord"
 keywords:

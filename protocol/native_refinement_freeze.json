@@ -1,0 +1,61 @@
+{
+  "schema_version": "native-freeze-1",
+  "phase": "native-refinement-2",
+  "analysis_role": "Calibration-informed reevaluation on reused inputs; not independent clinical validation.",
+  "created_utc": "2026-09-09T12:59:45.005375+00:00",
+  "candidate": "1.2.0rc2",
+  "timeout_seconds_per_pair": 300,
+  "native_threads": 1,
+  "calibration_archive_sha256": "a3e2bff93996884ca8f8c31a38dbe8f1bb75acf2e011509e4d06ca9cbfd1532f",
+  "environments": {
+    "pyradiomics": {
+      "python": "3.10.11",
+      "packages": {
+        "numpy": "1.23.5",
+        "SimpleITK": "2.2.1",
+        "nibabel": "5.3.3",
+        "pyradiomics": "3.0.1"
+      }
+    },
+    "mirp": {
+      "python": "3.13.5",
+      "packages": {
+        "numpy": "2.2.6",
+        "SimpleITK": "2.5.3",
+        "nibabel": "5.3.3",
+        "mirp": "2.5.0",
+        "pandas": "2.3.3",
+        "scipy": "1.15.3"
+      }
+    }
+  },
+  "files": {
+    "protocol/native_refinement.md": "122219460e68a6f8ff85dcac44c3527ebc76454ba2e4036dfc0b4f5ea7e0ba68",
+    "protocol/native_study.md": "e3a4f640470bb66b5f7ea0061747966617d6cbb02c515f6e7097c7d14268dbe0",
+    "protocol/native_study_plan.json": "b9128084776ef95aca598c420ed36fd41d90c09cd9b29054c891aa486e8124d2",
+    "pyproject.toml": "696511a0ff3fb772b03e19cfe7ab11ee879497f91809eb24fce157fd4f77e40e",
+    "radaccord/__init__.py": "3a032a7d9cc58f652dca754907ff4e46ea8723413e882c2242a1d872d7dd7d00",
+    "radaccord/__main__.py": "e5e93319e53fa96fabcf268f0fecfa3be1fab941d86a5ff7fb0bb438586e268e",
+    "radaccord/cli.py": "fa9eab2e0a8ccc6d499136011fe604f105e110926758be99a5f07e0a2ecf316f",
+    "radaccord/evidence.py": "108c2052959453dca928080532fbdbf94292c8376d7bbd01c919e8cdb7d64491",
+    "radaccord/legacy.py": "189bda551b5ee44831b9e82f10c17a6646875e0264978d0bd1af07cc033c9118",
+    "radaccord/mirp.py": "9348124437e6bc51a92225b694ce665a0a36a8851b06d30a9d2ab27822d8c7aa",
+    "radaccord/numerics.py": "1e36f8d0e9d64a64d48c07cbdb54558a1a1f7d9e609fee08dd2c5d709bd6a5a9",
+    "radaccord/operators.py": "3fd1162b34ee806481a2e13daad7f8ddfae0ced3f473439582a5ffa1d5a0dbf2",
+    "radaccord/pyradiomics.py": "52f8419562f972206c469ca1d2ef1a21cd77556d54f0c2d71482f3f017f74629",
+    "radaccord/reporting.py": "75922b10427e28732d292d372dff15c5e4d507408bbb19265a58610c899d15ce",
+    "scripts/run_native_refinement.py": "a90ce4eb0b4275ed28b98e257add7ca82aa6e975630ccac74de95db18ab49349",
+    "scripts/run_native_study.py": "92ad72160a04673bfaa8c1e30a44ae79494d4a022dc9fd9328b5d08a61f83130",
+    "scripts/summarize_native_study.py": "7f7ba24849b8c7bb1c369dd2c8a8aa5ca8751ce957f0c04feba471aeee04b642",
+    "scripts/tests/test_native_refinement.py": "0f98e58662486b9eccfa3c50987d8d9c5a1b23c35c1334c0c48224dc31604e60",
+    "scripts/tests/test_native_summary.py": "df5429719ef7f8ca86fbb0057a631977825d108c40cb89c955c24e5f95d0e521",
+    "software/physical_contracts.py": "b2ddc6b63ed65245d4c0104c72f126b01ea337d1fb393c8e2ae27477427eb6b2",
+    "software/sampling_contracts.py": "a84cb4770c80028cf529252a8a7319e870033a344bdf07628482e273731606a9",
+    "tests/test_evidence_reporting.py": "d27707dc72a63e1936e91099458ae039e282f951daf66e7808e37467f9f48190",
+    "tests/test_mirp.py": "b950128b57236bf0eb2dd565b19f07075ea7168cccf8c4a5192961379e5d80d8",
+    "tests/test_native_pyradiomics.py": "f75f8299a1375bed616f3a83b20805f8c33c2d703e95d81ba1183f90259f6c5a",
+    "tests/test_numerics.py": "f0dcca3f1712872cd4e9725754659e3ad551d597342dc29ae7db53a6c1d977aa",
+    "tests/test_operators.py": "f5273364f883186d79a8504a77bb5460f3c3f6a3ba6e5e59d6d606c07a6b6119",
+    "tests/test_packaging.py": "78a2a9e54da14288f4b770c595039d3c8695f885590857fa6d7d0b346f2f07e3"
+  }
+}

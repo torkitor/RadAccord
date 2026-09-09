@@ -1,0 +1,414 @@
+{
+  "artifact": {
+    "bytes": 79836,
+    "filename": "radaccord-1.2.0rc3-py3-none-any.whl",
+    "sha256": "1976dc89877a7bed5b93dbad8fbbcf33dc4bc1bb25e781ed04a7d2e6b86644a6"
+  },
+  "date": "2026-09-09",
+  "distinct_tests": 65,
+  "final_artifact_smoke": {
+    "core": {
+      "candidate": "1.2.0rc3",
+      "cli": {
+        "version": "RadAccord 1.2.0rc3"
+      },
+      "copied_test_sources_outside_checkout": true,
+      "imported_from_installation_outside_checkout": true,
+      "installed_frozen_module_sha256": {
+        "radaccord/__main__.py": "e5e93319e53fa96fabcf268f0fecfa3be1fab941d86a5ff7fb0bb438586e268e",
+        "radaccord/evidence.py": "108c2052959453dca928080532fbdbf94292c8376d7bbd01c919e8cdb7d64491",
+        "radaccord/legacy.py": "189bda551b5ee44831b9e82f10c17a6646875e0264978d0bd1af07cc033c9118",
+        "radaccord/mirp.py": "9348124437e6bc51a92225b694ce665a0a36a8851b06d30a9d2ab27822d8c7aa",
+        "radaccord/numerics.py": "1e36f8d0e9d64a64d48c07cbdb54558a1a1f7d9e609fee08dd2c5d709bd6a5a9",
+        "radaccord/operators.py": "3fd1162b34ee806481a2e13daad7f8ddfae0ced3f473439582a5ffa1d5a0dbf2",
+        "radaccord/pyradiomics.py": "52f8419562f972206c469ca1d2ef1a21cd77556d54f0c2d71482f3f017f74629",
+        "radaccord/reporting.py": "75922b10427e28732d292d372dff15c5e4d507408bbb19265a58610c899d15ce"
+      },
+      "isolated_venv": true,
+      "packages": {
+        "nibabel": "5.3.3",
+        "numpy": "2.2.6",
+        "radaccord": "1.2.0rc3"
+      },
+      "pip_check": "passed",
+      "profile": "core",
+      "python": "3.12.14",
+      "schema": "installed-wheel-qa-1",
+      "source_freeze_sha256": "8a99094b119db04275251de57f1e2915720b5bad649736e5212fcecadf6a3b4e",
+      "system": "Windows",
+      "tests": [],
+      "wheel_sha256": "1976dc89877a7bed5b93dbad8fbbcf33dc4bc1bb25e781ed04a7d2e6b86644a6"
+    },
+    "mirp": {
+      "candidate": "1.2.0rc3",
+      "cli": {
+        "native_cases": [
+          {
+            "case": "generated_demo",
+            "checkpoints": 1,
+            "cli_status": "unavailable",
+            "evidence_matches_string_api_except_timing": true,
+            "expected_api_status": "unavailable",
+            "html_and_methods": true,
+            "input_identifiers_absent": true,
+            "native_feature_digest_matches": true,
+            "returncode": 2
+          },
+          {
+            "case": "supported_mirp",
+            "checkpoints": 1,
+            "cli_status": "satisfied",
+            "evidence_matches_string_api_except_timing": true,
+            "expected_api_status": "satisfied",
+            "html_and_methods": true,
+            "input_identifiers_absent": true,
+            "native_feature_digest_matches": true,
+            "returncode": 0
+          }
+        ],
+        "version": "RadAccord 1.2.0rc3"
+      },
+      "copied_test_sources_outside_checkout": true,
+      "imported_from_installation_outside_checkout": true,
+      "installed_frozen_module_sha256": {
+        "radaccord/__main__.py": "e5e93319e53fa96fabcf268f0fecfa3be1fab941d86a5ff7fb0bb438586e268e",
+        "radaccord/evidence.py": "108c2052959453dca928080532fbdbf94292c8376d7bbd01c919e8cdb7d64491",
+        "radaccord/legacy.py": "189bda551b5ee44831b9e82f10c17a6646875e0264978d0bd1af07cc033c9118",
+        "radaccord/mirp.py": "9348124437e6bc51a92225b694ce665a0a36a8851b06d30a9d2ab27822d8c7aa",
+        "radaccord/numerics.py": "1e36f8d0e9d64a64d48c07cbdb54558a1a1f7d9e609fee08dd2c5d709bd6a5a9",
+        "radaccord/operators.py": "3fd1162b34ee806481a2e13daad7f8ddfae0ced3f473439582a5ffa1d5a0dbf2",
+        "radaccord/pyradiomics.py": "52f8419562f972206c469ca1d2ef1a21cd77556d54f0c2d71482f3f017f74629",
+        "radaccord/reporting.py": "75922b10427e28732d292d372dff15c5e4d507408bbb19265a58610c899d15ce"
+      },
+      "isolated_venv": true,
+      "packages": {
+        "SimpleITK": "2.5.3",
+        "itk": "5.4.6",
+        "mirp": "2.5.0",
+        "nibabel": "5.3.3",
+        "numpy": "2.2.6",
+        "pandas": "2.3.3",
+        "pydicom": "3.0.1",
+        "radaccord": "1.2.0rc3",
+        "scikit-image": "0.26.0",
+        "scipy": "1.15.3"
+      },
+      "pip_check": "passed",
+      "profile": "mirp",
+      "python": "3.13.5",
+      "schema": "installed-wheel-qa-1",
+      "source_freeze_sha256": "8a99094b119db04275251de57f1e2915720b5bad649736e5212fcecadf6a3b4e",
+      "system": "Windows",
+      "tests": [],
+      "wheel_sha256": "1976dc89877a7bed5b93dbad8fbbcf33dc4bc1bb25e781ed04a7d2e6b86644a6"
+    },
+    "pyradiomics": {
+      "candidate": "1.2.0rc3",
+      "cli": {
+        "native_cases": [
+          {
+            "case": "generated_demo",
+            "checkpoints": 3,
+            "cli_status": "satisfied",
+            "evidence_matches_string_api_except_timing": true,
+            "expected_api_status": "satisfied",
+            "html_and_methods": true,
+            "input_identifiers_absent": true,
+            "native_feature_digest_matches": true,
+            "returncode": 0
+          }
+        ],
+        "version": "RadAccord 1.2.0rc3"
+      },
+      "copied_test_sources_outside_checkout": true,
+      "imported_from_installation_outside_checkout": true,
+      "installed_frozen_module_sha256": {
+        "radaccord/__main__.py": "e5e93319e53fa96fabcf268f0fecfa3be1fab941d86a5ff7fb0bb438586e268e",
+        "radaccord/evidence.py": "108c2052959453dca928080532fbdbf94292c8376d7bbd01c919e8cdb7d64491",
+        "radaccord/legacy.py": "189bda551b5ee44831b9e82f10c17a6646875e0264978d0bd1af07cc033c9118",
+        "radaccord/mirp.py": "9348124437e6bc51a92225b694ce665a0a36a8851b06d30a9d2ab27822d8c7aa",
+        "radaccord/numerics.py": "1e36f8d0e9d64a64d48c07cbdb54558a1a1f7d9e609fee08dd2c5d709bd6a5a9",
+        "radaccord/operators.py": "3fd1162b34ee806481a2e13daad7f8ddfae0ced3f473439582a5ffa1d5a0dbf2",
+        "radaccord/pyradiomics.py": "52f8419562f972206c469ca1d2ef1a21cd77556d54f0c2d71482f3f017f74629",
+        "radaccord/reporting.py": "75922b10427e28732d292d372dff15c5e4d507408bbb19265a58610c899d15ce"
+      },
+      "isolated_venv": true,
+      "packages": {
+        "SimpleITK": "2.2.1",
+        "nibabel": "5.3.3",
+        "numpy": "1.23.5",
+        "pyradiomics": "3.0.1",
+        "radaccord": "1.2.0rc3"
+      },
+      "pip_check": "passed",
+      "profile": "pyradiomics",
+      "python": "3.10.11",
+      "schema": "installed-wheel-qa-1",
+      "source_freeze_sha256": "8a99094b119db04275251de57f1e2915720b5bad649736e5212fcecadf6a3b4e",
+      "system": "Windows",
+      "tests": [],
+      "wheel_sha256": "1976dc89877a7bed5b93dbad8fbbcf33dc4bc1bb25e781ed04a7d2e6b86644a6"
+    }
+  },
+  "fresh_pyradiomics_source_install": {
+    "bootstrap": {
+      "SimpleITK": "2.2.1",
+      "numpy": "1.23.5",
+      "setuptools": "80.9.0",
+      "wheel": "0.45.1"
+    },
+    "build_isolation": false,
+    "cold_native_compilation_tested": false,
+    "pip_check": "passed",
+    "platform": "Windows",
+    "python": "3.10.11",
+    "used_cached_pyradiomics_native_wheel": true,
+    "version_command": "RadAccord 1.2.0rc3"
+  },
+  "intentional_current_differences_from_rc2_freeze": [
+    "pyproject.toml",
+    "radaccord/__init__.py",
+    "radaccord/cli.py",
+    "tests/test_packaging.py"
+  ],
+  "limits": [
+    "Local Windows verification; remote native CI remains unverified in this record.",
+    "The full 65-test suite ran on the initial rc3 wheel. The final wheel changes only METADATA and RECORD; all Python payloads are byte-identical.",
+    "Final-wheel checks repeated installation, source integrity, version dispatch, native CLI/API evidence and feature-digest comparisons, and pip check.",
+    "Input-relation evidence does not certify feature formulae or clinical validity."
+  ],
+  "metadata_only_rebuild": {
+    "all_python_payloads_byte_identical": true,
+    "changed_members": [
+      "radaccord-1.2.0rc3.dist-info/METADATA",
+      "radaccord-1.2.0rc3.dist-info/RECORD"
+    ],
+    "final_bytes": 79836,
+    "final_sha256": "1976dc89877a7bed5b93dbad8fbbcf33dc4bc1bb25e781ed04a7d2e6b86644a6",
+    "old_sha256": "0b33fac37d11f8c5cdfdf97f99434ce2b28f1cd06d4e63932e08d65fe427b746"
+  },
+  "native_rc2_freeze_sha256": "8a99094b119db04275251de57f1e2915720b5bad649736e5212fcecadf6a3b4e",
+  "schema": "radaccord-wheel-verification-2",
+  "test_groups": {
+    "test_evidence_reporting.py": 5,
+    "test_mirp.py": 8,
+    "test_native_pyradiomics.py": 11,
+    "test_numerics.py": 12,
+    "test_operators.py": 18,
+    "test_packaging.py": 11
+  },
+  "tested_initial_rc3": {
+    "core": {
+      "candidate": "1.2.0rc3",
+      "cli": {
+        "version": "RadAccord 1.2.0rc3"
+      },
+      "copied_test_sources_outside_checkout": true,
+      "imported_from_installation_outside_checkout": true,
+      "installed_frozen_module_sha256": {
+        "radaccord/__main__.py": "e5e93319e53fa96fabcf268f0fecfa3be1fab941d86a5ff7fb0bb438586e268e",
+        "radaccord/evidence.py": "108c2052959453dca928080532fbdbf94292c8376d7bbd01c919e8cdb7d64491",
+        "radaccord/legacy.py": "189bda551b5ee44831b9e82f10c17a6646875e0264978d0bd1af07cc033c9118",
+        "radaccord/mirp.py": "9348124437e6bc51a92225b694ce665a0a36a8851b06d30a9d2ab27822d8c7aa",
+        "radaccord/numerics.py": "1e36f8d0e9d64a64d48c07cbdb54558a1a1f7d9e609fee08dd2c5d709bd6a5a9",
+        "radaccord/operators.py": "3fd1162b34ee806481a2e13daad7f8ddfae0ced3f473439582a5ffa1d5a0dbf2",
+        "radaccord/pyradiomics.py": "52f8419562f972206c469ca1d2ef1a21cd77556d54f0c2d71482f3f017f74629",
+        "radaccord/reporting.py": "75922b10427e28732d292d372dff15c5e4d507408bbb19265a58610c899d15ce"
+      },
+      "isolated_venv": true,
+      "packages": {
+        "nibabel": "5.3.3",
+        "numpy": "2.2.6",
+        "radaccord": "1.2.0rc3"
+      },
+      "profile": "core",
+      "python": "3.12.14",
+      "schema": "installed-wheel-qa-1",
+      "source_freeze_sha256": "8a99094b119db04275251de57f1e2915720b5bad649736e5212fcecadf6a3b4e",
+      "system": "Windows",
+      "tests": [
+        {
+          "errors": 0,
+          "failures": 0,
+          "group": "test_packaging.py",
+          "skipped": 0,
+          "tests": 11
+        },
+        {
+          "errors": 0,
+          "failures": 0,
+          "group": "test_evidence_reporting.py",
+          "skipped": 0,
+          "tests": 5
+        }
+      ],
+      "wheel_sha256": "0b33fac37d11f8c5cdfdf97f99434ce2b28f1cd06d4e63932e08d65fe427b746"
+    },
+    "mirp": {
+      "candidate": "1.2.0rc3",
+      "cli": {
+        "native_cases": [
+          {
+            "case": "generated_demo",
+            "checkpoints": 1,
+            "cli_status": "unavailable",
+            "evidence_matches_string_api_except_timing": true,
+            "expected_api_status": "unavailable",
+            "html_and_methods": true,
+            "input_identifiers_absent": true,
+            "native_feature_digest_matches": true,
+            "returncode": 2
+          },
+          {
+            "case": "supported_mirp",
+            "checkpoints": 1,
+            "cli_status": "satisfied",
+            "evidence_matches_string_api_except_timing": true,
+            "expected_api_status": "satisfied",
+            "html_and_methods": true,
+            "input_identifiers_absent": true,
+            "native_feature_digest_matches": true,
+            "returncode": 0
+          }
+        ],
+        "version": "RadAccord 1.2.0rc3"
+      },
+      "copied_test_sources_outside_checkout": true,
+      "imported_from_installation_outside_checkout": true,
+      "installed_frozen_module_sha256": {
+        "radaccord/__main__.py": "e5e93319e53fa96fabcf268f0fecfa3be1fab941d86a5ff7fb0bb438586e268e",
+        "radaccord/evidence.py": "108c2052959453dca928080532fbdbf94292c8376d7bbd01c919e8cdb7d64491",
+        "radaccord/legacy.py": "189bda551b5ee44831b9e82f10c17a6646875e0264978d0bd1af07cc033c9118",
+        "radaccord/mirp.py": "9348124437e6bc51a92225b694ce665a0a36a8851b06d30a9d2ab27822d8c7aa",
+        "radaccord/numerics.py": "1e36f8d0e9d64a64d48c07cbdb54558a1a1f7d9e609fee08dd2c5d709bd6a5a9",
+        "radaccord/operators.py": "3fd1162b34ee806481a2e13daad7f8ddfae0ced3f473439582a5ffa1d5a0dbf2",
+        "radaccord/pyradiomics.py": "52f8419562f972206c469ca1d2ef1a21cd77556d54f0c2d71482f3f017f74629",
+        "radaccord/reporting.py": "75922b10427e28732d292d372dff15c5e4d507408bbb19265a58610c899d15ce"
+      },
+      "isolated_venv": true,
+      "packages": {
+        "SimpleITK": "2.5.3",
+        "itk": "5.4.6",
+        "mirp": "2.5.0",
+        "nibabel": "5.3.3",
+        "numpy": "2.2.6",
+        "pandas": "2.3.3",
+        "pydicom": "3.0.1",
+        "radaccord": "1.2.0rc3",
+        "scikit-image": "0.26.0",
+        "scipy": "1.15.3"
+      },
+      "profile": "mirp",
+      "python": "3.13.5",
+      "schema": "installed-wheel-qa-1",
+      "source_freeze_sha256": "8a99094b119db04275251de57f1e2915720b5bad649736e5212fcecadf6a3b4e",
+      "system": "Windows",
+      "tests": [
+        {
+          "errors": 0,
+          "failures": 0,
+          "group": "test_packaging.py",
+          "skipped": 0,
+          "tests": 11
+        },
+        {
+          "errors": 0,
+          "failures": 0,
+          "group": "test_evidence_reporting.py",
+          "skipped": 0,
+          "tests": 5
+        },
+        {
+          "errors": 0,
+          "failures": 0,
+          "group": "test_mirp.py",
+          "skipped": 0,
+          "tests": 8
+        },
+        {
+          "errors": 0,
+          "failures": 0,
+          "group": "test_operators.py",
+          "skipped": 0,
+          "tests": 18
+        },
+        {
+          "errors": 0,
+          "failures": 0,
+          "group": "test_numerics.py",
+          "skipped": 0,
+          "tests": 12
+        }
+      ],
+      "wheel_sha256": "0b33fac37d11f8c5cdfdf97f99434ce2b28f1cd06d4e63932e08d65fe427b746"
+    },
+    "pyradiomics": {
+      "candidate": "1.2.0rc3",
+      "cli": {
+        "native_cases": [
+          {
+            "case": "generated_demo",
+            "checkpoints": 3,
+            "cli_status": "satisfied",
+            "evidence_matches_string_api_except_timing": true,
+            "expected_api_status": "satisfied",
+            "html_and_methods": true,
+            "input_identifiers_absent": true,
+            "native_feature_digest_matches": true,
+            "returncode": 0
+          }
+        ],
+        "version": "RadAccord 1.2.0rc3"
+      },
+      "copied_test_sources_outside_checkout": true,
+      "imported_from_installation_outside_checkout": true,
+      "installed_frozen_module_sha256": {
+        "radaccord/__main__.py": "e5e93319e53fa96fabcf268f0fecfa3be1fab941d86a5ff7fb0bb438586e268e",
+        "radaccord/evidence.py": "108c2052959453dca928080532fbdbf94292c8376d7bbd01c919e8cdb7d64491",
+        "radaccord/legacy.py": "189bda551b5ee44831b9e82f10c17a6646875e0264978d0bd1af07cc033c9118",
+        "radaccord/mirp.py": "9348124437e6bc51a92225b694ce665a0a36a8851b06d30a9d2ab27822d8c7aa",
+        "radaccord/numerics.py": "1e36f8d0e9d64a64d48c07cbdb54558a1a1f7d9e609fee08dd2c5d709bd6a5a9",
+        "radaccord/operators.py": "3fd1162b34ee806481a2e13daad7f8ddfae0ced3f473439582a5ffa1d5a0dbf2",
+        "radaccord/pyradiomics.py": "52f8419562f972206c469ca1d2ef1a21cd77556d54f0c2d71482f3f017f74629",
+        "radaccord/reporting.py": "75922b10427e28732d292d372dff15c5e4d507408bbb19265a58610c899d15ce"
+      },
+      "isolated_venv": true,
+      "packages": {
+        "SimpleITK": "2.2.1",
+        "nibabel": "5.3.3",
+        "numpy": "1.23.5",
+        "pyradiomics": "3.0.1",
+        "radaccord": "1.2.0rc3"
+      },
+      "profile": "pyradiomics",
+      "python": "3.10.11",
+      "schema": "installed-wheel-qa-1",
+      "source_freeze_sha256": "8a99094b119db04275251de57f1e2915720b5bad649736e5212fcecadf6a3b4e",
+      "system": "Windows",
+      "tests": [
+        {
+          "errors": 0,
+          "failures": 0,
+          "group": "test_packaging.py",
+          "skipped": 0,
+          "tests": 11
+        },
+        {
+          "errors": 0,
+          "failures": 0,
+          "group": "test_evidence_reporting.py",
+          "skipped": 0,
+          "tests": 5
+        },
+        {
+          "errors": 0,
+          "failures": 0,
+          "group": "test_native_pyradiomics.py",
+          "skipped": 0,
+          "tests": 11
+        }
+      ],
+      "wheel_sha256": "0b33fac37d11f8c5cdfdf97f99434ce2b28f1cd06d4e63932e08d65fe427b746"
+    }
+  }
+}

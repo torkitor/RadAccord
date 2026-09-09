@@ -11,15 +11,28 @@ body:
     id: versions
     attributes:
       label: Version, profile and environment
-      description: Include RadAccord version, original/revised profile, engine version, Python version and operating system. Add the freeze identifier if relevant.
-      placeholder: RadAccord 1.0.0; revised profile; PyRadiomics 3.0.1; Python ...; OS ...
+      description: Include RadAccord version, exact profile, engine/version, Python and OS. Add the release or freeze identifier if relevant.
+      placeholder: RadAccord 1.2.0rc3; pyradiomics-native-original-2; PyRadiomics 3.0.1; Python ...; OS ...
+    validations:
+      required: true
+  - type: dropdown
+    id: area
+    attributes:
+      label: Affected interface
+      options:
+        - Installation or command interface
+        - Declared sampling plan
+        - Native PyRadiomics profile
+        - Native MIRP profile
+        - Historical full-grid profile
+        - Other or not yet known
     validations:
       required: true
   - type: textarea
     id: reproduction
     attributes:
       label: Minimal synthetic reproduction
-      description: Give the command and a small synthetic generator or bundled example name. Use relative placeholder paths and include the transformation manifest.
+      description: Give a minimal command and synthetic generator or bundled example. Use relative placeholder paths; include the relevant configuration/declaration and indicate whether the native engine also fails without the audit.
       render: text
     validations:
       required: true
@@ -37,4 +50,3 @@ body:
       options:
         - label: I checked that this issue contains only shareable synthetic examples and no patient data, private paths, account information or raw worker logs.
           required: true
-

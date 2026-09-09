@@ -1,0 +1,1772 @@
+{
+  "comparison_status": {
+    "fully_analyzed": 24
+  },
+  "extraction_status": {
+    "extracted": 30
+  },
+  "feature_pairs_beyond_tolerance": 1418,
+  "features_per_complete_extraction": 72,
+  "finite_comparable_feature_pairs": 1728,
+  "finite_extracted_values": 2160,
+  "groups": [
+    {
+      "candidate_role": "isotropic_0p8mm",
+      "comparison_status": {
+        "fully_analyzed": 3
+      },
+      "dataset": "Task04_Hippocampus",
+      "features_beyond_tolerance_count": {
+        "available": 3,
+        "maximum": 72,
+        "median": 72,
+        "minimum": 71,
+        "unavailable": 0
+      },
+      "finite_comparable_feature_count": {
+        "available": 3,
+        "maximum": 72,
+        "median": 72,
+        "minimum": 72,
+        "unavailable": 0
+      },
+      "landmarks": {
+        "original_firstorder_Mean": {
+          "absolute_difference": {
+            "available": 3,
+            "maximum": 6.16427223831181,
+            "median": 3.978107935720004,
+            "minimum": 0.32133920969899776,
+            "unavailable": 0
+          },
+          "relative_absolute_difference": {
+            "available": 3,
+            "maximum": 0.01723059935643115,
+            "median": 0.01199521128472282,
+            "minimum": 0.006253724874026402,
+            "unavailable": 0
+          },
+          "signed_difference": {
+            "available": 3,
+            "maximum": 6.16427223831181,
+            "median": 3.978107935720004,
+            "minimum": 0.32133920969899776,
+            "unavailable": 0
+          }
+        },
+        "original_firstorder_Variance": {
+          "absolute_difference": {
+            "available": 3,
+            "maximum": 2167.254810996673,
+            "median": 1639.942130721387,
+            "minimum": 11.325059272117343,
+            "unavailable": 0
+          },
+          "relative_absolute_difference": {
+            "available": 3,
+            "maximum": 0.21408349141981597,
+            "median": 0.20289973165783798,
+            "minimum": 0.09383146138984605,
+            "unavailable": 0
+          },
+          "signed_difference": {
+            "available": 3,
+            "maximum": -11.325059272117343,
+            "median": -1639.942130721387,
+            "minimum": -2167.254810996673,
+            "unavailable": 0
+          }
+        },
+        "original_shape_VoxelVolume": {
+          "absolute_difference": {
+            "available": 3,
+            "maximum": 34.127836212156126,
+            "median": 24.479869308469915,
+            "minimum": 19.87985099792286,
+            "unavailable": 0
+          },
+          "relative_absolute_difference": {
+            "available": 3,
+            "maximum": 0.009228728018430537,
+            "median": 0.008303890538829687,
+            "minimum": 0.0059289743507076826,
+            "unavailable": 0
+          },
+          "signed_difference": {
+            "available": 3,
+            "maximum": -19.87985099792286,
+            "median": -24.479869308469915,
+            "minimum": -34.127836212156126,
+            "unavailable": 0
+          }
+        }
+      },
+      "planned_volumes": 3,
+      "reference_role": "source_working_crop"
+    },
+    {
+      "candidate_role": "isotropic_1mm",
+      "comparison_status": {
+        "fully_analyzed": 3
+      },
+      "dataset": "Task04_Hippocampus",
+      "features_beyond_tolerance_count": {
+        "available": 3,
+        "maximum": 0,
+        "median": 0,
+        "minimum": 0,
+        "unavailable": 0
+      },
+      "finite_comparable_feature_count": {
+        "available": 3,
+        "maximum": 72,
+        "median": 72,
+        "minimum": 72,
+        "unavailable": 0
+      },
+      "landmarks": {
+        "original_firstorder_Mean": {
+          "absolute_difference": {
+            "available": 3,
+            "maximum": 0.0,
+            "median": 0.0,
+            "minimum": 0.0,
+            "unavailable": 0
+          },
+          "relative_absolute_difference": {
+            "available": 3,
+            "maximum": 0.0,
+            "median": 0.0,
+            "minimum": 0.0,
+            "unavailable": 0
+          },
+          "signed_difference": {
+            "available": 3,
+            "maximum": 0.0,
+            "median": 0.0,
+            "minimum": 0.0,
+            "unavailable": 0
+          }
+        },
+        "original_firstorder_Variance": {
+          "absolute_difference": {
+            "available": 3,
+            "maximum": 0.0,
+            "median": 0.0,
+            "minimum": 0.0,
+            "unavailable": 0
+          },
+          "relative_absolute_difference": {
+            "available": 3,
+            "maximum": 0.0,
+            "median": 0.0,
+            "minimum": 0.0,
+            "unavailable": 0
+          },
+          "signed_difference": {
+            "available": 3,
+            "maximum": 0.0,
+            "median": 0.0,
+            "minimum": 0.0,
+            "unavailable": 0
+          }
+        },
+        "original_shape_VoxelVolume": {
+          "absolute_difference": {
+            "available": 3,
+            "maximum": 0.0,
+            "median": 0.0,
+            "minimum": 0.0,
+            "unavailable": 0
+          },
+          "relative_absolute_difference": {
+            "available": 3,
+            "maximum": 0.0,
+            "median": 0.0,
+            "minimum": 0.0,
+            "unavailable": 0
+          },
+          "signed_difference": {
+            "available": 3,
+            "maximum": 0.0,
+            "median": 0.0,
+            "minimum": 0.0,
+            "unavailable": 0
+          }
+        }
+      },
+      "planned_volumes": 3,
+      "reference_role": "source_working_crop"
+    },
+    {
+      "candidate_role": "isotropic_2mm",
+      "comparison_status": {
+        "fully_analyzed": 3
+      },
+      "dataset": "Task04_Hippocampus",
+      "features_beyond_tolerance_count": {
+        "available": 3,
+        "maximum": 70,
+        "median": 69,
+        "minimum": 69,
+        "unavailable": 0
+      },
+      "finite_comparable_feature_count": {
+        "available": 3,
+        "maximum": 72,
+        "median": 72,
+        "minimum": 72,
+        "unavailable": 0
+      },
+      "landmarks": {
+        "original_firstorder_Mean": {
+          "absolute_difference": {
+            "available": 3,
+            "maximum": 3.7257152428697395,
+            "median": 1.3714840923039446,
+            "minimum": 0.12108009975516154,
+            "unavailable": 0
+          },
+          "relative_absolute_difference": {
+            "available": 3,
+            "maximum": 0.010414255598097711,
+            "median": 0.004135443715114928,
+            "minimum": 0.0023563935204101967,
+            "unavailable": 0
+          },
+          "signed_difference": {
+            "available": 3,
+            "maximum": 3.7257152428697395,
+            "median": -0.12108009975516154,
+            "minimum": -1.3714840923039446,
+            "unavailable": 0
+          }
+        },
+        "original_firstorder_Variance": {
+          "absolute_difference": {
+            "available": 3,
+            "maximum": 450.5930075691913,
+            "median": 13.51293051515131,
+            "minimum": 10.652968171931718,
+            "unavailable": 0
+          },
+          "relative_absolute_difference": {
+            "available": 3,
+            "maximum": 0.0882629880951596,
+            "median": 0.055749040536247726,
+            "minimum": 0.0013348201278956147,
+            "unavailable": 0
+          },
+          "signed_difference": {
+            "available": 3,
+            "maximum": 450.5930075691913,
+            "median": -10.652968171931718,
+            "minimum": -13.51293051515131,
+            "unavailable": 0
+          }
+        },
+        "original_shape_VoxelVolume": {
+          "absolute_difference": {
+            "available": 3,
+            "maximum": 84.0,
+            "median": 49.0,
+            "minimum": 38.0,
+            "unavailable": 0
+          },
+          "relative_absolute_difference": {
+            "available": 3,
+            "maximum": 0.028493894165535955,
+            "median": 0.014613778705636743,
+            "minimum": 0.010275824770146024,
+            "unavailable": 0
+          },
+          "signed_difference": {
+            "available": 3,
+            "maximum": 38.0,
+            "median": -49.0,
+            "minimum": -84.0,
+            "unavailable": 0
+          }
+        }
+      },
+      "planned_volumes": 3,
+      "reference_role": "source_working_crop"
+    },
+    {
+      "candidate_role": "wrong_image_kernel",
+      "comparison_status": {
+        "fully_analyzed": 3
+      },
+      "dataset": "Task04_Hippocampus",
+      "features_beyond_tolerance_count": {
+        "available": 3,
+        "maximum": 58,
+        "median": 58,
+        "minimum": 57,
+        "unavailable": 0
+      },
+      "finite_comparable_feature_count": {
+        "available": 3,
+        "maximum": 72,
+        "median": 72,
+        "minimum": 72,
+        "unavailable": 0
+      },
+      "landmarks": {
+        "original_firstorder_Mean": {
+          "absolute_difference": {
+            "available": 3,
+            "maximum": 6.22284169037755,
+            "median": 5.033174729306154,
+            "minimum": 0.2820469352014001,
+            "unavailable": 0
+          },
+          "relative_absolute_difference": {
+            "available": 3,
+            "maximum": 0.017099677146298647,
+            "median": 0.014996671887389337,
+            "minimum": 0.005454926881960731,
+            "unavailable": 0
+          },
+          "signed_difference": {
+            "available": 3,
+            "maximum": -0.2820469352014001,
+            "median": -5.033174729306154,
+            "minimum": -6.22284169037755,
+            "unavailable": 0
+          }
+        },
+        "original_firstorder_Variance": {
+          "absolute_difference": {
+            "available": 3,
+            "maximum": 2181.218019304307,
+            "median": 1740.1653194615628,
+            "minimum": 9.338513131628972,
+            "unavailable": 0
+          },
+          "relative_absolute_difference": {
+            "available": 3,
+            "maximum": 0.27415480914829443,
+            "median": 0.27010368127969064,
+            "minimum": 0.0853840499988665,
+            "unavailable": 0
+          },
+          "signed_difference": {
+            "available": 3,
+            "maximum": 2181.218019304307,
+            "median": 1740.1653194615628,
+            "minimum": 9.338513131628972,
+            "unavailable": 0
+          }
+        },
+        "original_shape_VoxelVolume": {
+          "absolute_difference": {
+            "available": 3,
+            "maximum": 0.0,
+            "median": 0.0,
+            "minimum": 0.0,
+            "unavailable": 0
+          },
+          "relative_absolute_difference": {
+            "available": 3,
+            "maximum": 0.0,
+            "median": 0.0,
+            "minimum": 0.0,
+            "unavailable": 0
+          },
+          "signed_difference": {
+            "available": 3,
+            "maximum": 0.0,
+            "median": 0.0,
+            "minimum": 0.0,
+            "unavailable": 0
+          }
+        }
+      },
+      "planned_volumes": 3,
+      "reference_role": "isotropic_0p8mm"
+    },
+    {
+      "candidate_role": "isotropic_0p8mm",
+      "comparison_status": {
+        "fully_analyzed": 3
+      },
+      "dataset": "Task09_Spleen",
+      "features_beyond_tolerance_count": {
+        "available": 3,
+        "maximum": 72,
+        "median": 72,
+        "minimum": 72,
+        "unavailable": 0
+      },
+      "finite_comparable_feature_count": {
+        "available": 3,
+        "maximum": 72,
+        "median": 72,
+        "minimum": 72,
+        "unavailable": 0
+      },
+      "landmarks": {
+        "original_firstorder_Mean": {
+          "absolute_difference": {
+            "available": 3,
+            "maximum": 4.324744228616851,
+            "median": 1.906156899690572,
+            "minimum": 0.7313722001348424,
+            "unavailable": 0
+          },
+          "relative_absolute_difference": {
+            "available": 3,
+            "maximum": 0.04802469148075597,
+            "median": 0.018018141325001878,
+            "minimum": 0.005896673191046814,
+            "unavailable": 0
+          },
+          "signed_difference": {
+            "available": 3,
+            "maximum": -0.7313722001348424,
+            "median": -1.906156899690572,
+            "minimum": -4.324744228616851,
+            "unavailable": 0
+          }
+        },
+        "original_firstorder_Variance": {
+          "absolute_difference": {
+            "available": 3,
+            "maximum": 189.3800512189332,
+            "median": 127.33877116399185,
+            "minimum": 21.228717214296694,
+            "unavailable": 0
+          },
+          "relative_absolute_difference": {
+            "available": 3,
+            "maximum": 0.18913174507041827,
+            "median": 0.11274145465913613,
+            "minimum": 0.030647140399245633,
+            "unavailable": 0
+          },
+          "signed_difference": {
+            "available": 3,
+            "maximum": 189.3800512189332,
+            "median": 127.33877116399185,
+            "minimum": -21.228717214296694,
+            "unavailable": 0
+          }
+        },
+        "original_shape_VoxelVolume": {
+          "absolute_difference": {
+            "available": 3,
+            "maximum": 229.0384423044743,
+            "median": 164.70979354943847,
+            "minimum": 88.58598209166666,
+            "unavailable": 0
+          },
+          "relative_absolute_difference": {
+            "available": 3,
+            "maximum": 0.0008156745796874733,
+            "median": 0.0006508673480576892,
+            "minimum": 0.00019324639971619694,
+            "unavailable": 0
+          },
+          "signed_difference": {
+            "available": 3,
+            "maximum": 88.58598209166666,
+            "median": -164.70979354943847,
+            "minimum": -229.0384423044743,
+            "unavailable": 0
+          }
+        }
+      },
+      "planned_volumes": 3,
+      "reference_role": "source_working_crop"
+    },
+    {
+      "candidate_role": "isotropic_1mm",
+      "comparison_status": {
+        "fully_analyzed": 3
+      },
+      "dataset": "Task09_Spleen",
+      "features_beyond_tolerance_count": {
+        "available": 3,
+        "maximum": 72,
+        "median": 72,
+        "minimum": 72,
+        "unavailable": 0
+      },
+      "finite_comparable_feature_count": {
+        "available": 3,
+        "maximum": 72,
+        "median": 72,
+        "minimum": 72,
+        "unavailable": 0
+      },
+      "landmarks": {
+        "original_firstorder_Mean": {
+          "absolute_difference": {
+            "available": 3,
+            "maximum": 4.155910478552514,
+            "median": 2.0155461267201957,
+            "minimum": 0.7903319881991848,
+            "unavailable": 0
+          },
+          "relative_absolute_difference": {
+            "available": 3,
+            "maximum": 0.04614985488239093,
+            "median": 0.01905215408248917,
+            "minimum": 0.006372035259176709,
+            "unavailable": 0
+          },
+          "signed_difference": {
+            "available": 3,
+            "maximum": -0.7903319881991848,
+            "median": -2.0155461267201957,
+            "minimum": -4.155910478552514,
+            "unavailable": 0
+          }
+        },
+        "original_firstorder_Variance": {
+          "absolute_difference": {
+            "available": 3,
+            "maximum": 237.20929705073308,
+            "median": 126.54476422694938,
+            "minimum": 9.679293957409413,
+            "unavailable": 0
+          },
+          "relative_absolute_difference": {
+            "available": 3,
+            "maximum": 0.23689827946169195,
+            "median": 0.11203846768766355,
+            "minimum": 0.013973650780863912,
+            "unavailable": 0
+          },
+          "signed_difference": {
+            "available": 3,
+            "maximum": 237.20929705073308,
+            "median": 126.54476422694938,
+            "minimum": -9.679293957409413,
+            "unavailable": 0
+          }
+        },
+        "original_shape_VoxelVolume": {
+          "absolute_difference": {
+            "available": 3,
+            "maximum": 912.517485631397,
+            "median": 527.0010989390139,
+            "minimum": 80.34698464017129,
+            "unavailable": 0
+          },
+          "relative_absolute_difference": {
+            "available": 3,
+            "maximum": 0.002082497951689608,
+            "median": 0.0019906165130491047,
+            "minimum": 0.0002861397076670885,
+            "unavailable": 0
+          },
+          "signed_difference": {
+            "available": 3,
+            "maximum": 912.517485631397,
+            "median": -80.34698464017129,
+            "minimum": -527.0010989390139,
+            "unavailable": 0
+          }
+        }
+      },
+      "planned_volumes": 3,
+      "reference_role": "source_working_crop"
+    },
+    {
+      "candidate_role": "isotropic_2mm",
+      "comparison_status": {
+        "fully_analyzed": 3
+      },
+      "dataset": "Task09_Spleen",
+      "features_beyond_tolerance_count": {
+        "available": 3,
+        "maximum": 72,
+        "median": 72,
+        "minimum": 72,
+        "unavailable": 0
+      },
+      "finite_comparable_feature_count": {
+        "available": 3,
+        "maximum": 72,
+        "median": 72,
+        "minimum": 72,
+        "unavailable": 0
+      },
+      "landmarks": {
+        "original_firstorder_Mean": {
+          "absolute_difference": {
+            "available": 3,
+            "maximum": 4.324516766858906,
+            "median": 1.7064179883926016,
+            "minimum": 0.8133501564588244,
+            "unavailable": 0
+          },
+          "relative_absolute_difference": {
+            "available": 3,
+            "maximum": 0.04802216560172787,
+            "median": 0.016130089018052192,
+            "minimum": 0.0065576187632511,
+            "unavailable": 0
+          },
+          "signed_difference": {
+            "available": 3,
+            "maximum": -0.8133501564588244,
+            "median": -1.7064179883926016,
+            "minimum": -4.324516766858906,
+            "unavailable": 0
+          }
+        },
+        "original_firstorder_Variance": {
+          "absolute_difference": {
+            "available": 3,
+            "maximum": 179.17064332565155,
+            "median": 172.78519312321146,
+            "minimum": 4.2448838073501065,
+            "unavailable": 0
+          },
+          "relative_absolute_difference": {
+            "available": 3,
+            "maximum": 0.17893572326894663,
+            "median": 0.15297818439902683,
+            "minimum": 0.006128187054784933,
+            "unavailable": 0
+          },
+          "signed_difference": {
+            "available": 3,
+            "maximum": 179.17064332565155,
+            "median": 172.78519312321146,
+            "minimum": 4.2448838073501065,
+            "unavailable": 0
+          }
+        },
+        "original_shape_VoxelVolume": {
+          "absolute_difference": {
+            "available": 3,
+            "maximum": 452.3469846401713,
+            "median": 430.517485631397,
+            "minimum": 358.0010989390139,
+            "unavailable": 0
+          },
+          "relative_absolute_difference": {
+            "available": 3,
+            "maximum": 0.0016109432672388544,
+            "median": 0.0014146774204913013,
+            "minimum": 0.0009391548431110446,
+            "unavailable": 0
+          },
+          "signed_difference": {
+            "available": 3,
+            "maximum": 430.517485631397,
+            "median": -358.0010989390139,
+            "minimum": -452.3469846401713,
+            "unavailable": 0
+          }
+        }
+      },
+      "planned_volumes": 3,
+      "reference_role": "source_working_crop"
+    },
+    {
+      "candidate_role": "wrong_image_kernel",
+      "comparison_status": {
+        "fully_analyzed": 3
+      },
+      "dataset": "Task09_Spleen",
+      "features_beyond_tolerance_count": {
+        "available": 3,
+        "maximum": 58,
+        "median": 58,
+        "minimum": 58,
+        "unavailable": 0
+      },
+      "finite_comparable_feature_count": {
+        "available": 3,
+        "maximum": 72,
+        "median": 72,
+        "minimum": 72,
+        "unavailable": 0
+      },
+      "landmarks": {
+        "original_firstorder_Mean": {
+          "absolute_difference": {
+            "available": 3,
+            "maximum": 4.5016684708792525,
+            "median": 1.9284427061593448,
+            "minimum": 0.7678931344707678,
+            "unavailable": 0
+          },
+          "relative_absolute_difference": {
+            "available": 3,
+            "maximum": 0.052511204405403626,
+            "median": 0.018563275898393943,
+            "minimum": 0.006227846039269971,
+            "unavailable": 0
+          },
+          "signed_difference": {
+            "available": 3,
+            "maximum": 4.5016684708792525,
+            "median": 1.9284427061593448,
+            "minimum": 0.7678931344707678,
+            "unavailable": 0
+          }
+        },
+        "original_firstorder_Variance": {
+          "absolute_difference": {
+            "available": 3,
+            "maximum": 182.91094688398937,
+            "median": 133.63766108978166,
+            "minimum": 20.27539103962215,
+            "unavailable": 0
+          },
+          "relative_absolute_difference": {
+            "available": 3,
+            "maximum": 0.1536172282640497,
+            "median": 0.10633043186435082,
+            "minimum": 0.030196287326782607,
+            "unavailable": 0
+          },
+          "signed_difference": {
+            "available": 3,
+            "maximum": 20.27539103962215,
+            "median": -133.63766108978166,
+            "minimum": -182.91094688398937,
+            "unavailable": 0
+          }
+        },
+        "original_shape_VoxelVolume": {
+          "absolute_difference": {
+            "available": 3,
+            "maximum": 0.0,
+            "median": 0.0,
+            "minimum": 0.0,
+            "unavailable": 0
+          },
+          "relative_absolute_difference": {
+            "available": 3,
+            "maximum": 0.0,
+            "median": 0.0,
+            "minimum": 0.0,
+            "unavailable": 0
+          },
+          "signed_difference": {
+            "available": 3,
+            "maximum": 0.0,
+            "median": 0.0,
+            "minimum": 0.0,
+            "unavailable": 0
+          }
+        }
+      },
+      "planned_volumes": 3,
+      "reference_role": "isotropic_0p8mm"
+    }
+  ],
+  "interpretation": "Medians and ranges describe three released volumes per collection and operation; features and transformations are not independent participants. Numerical changes are not clinical harm or extractor defects.",
+  "landmark_complete_rows": [
+    {
+      "candidate_role": "isotropic_0p8mm",
+      "dataset": "Task04_Hippocampus",
+      "landmarks": {
+        "original_firstorder_Mean": {
+          "absolute_difference": 0.32133920969899776,
+          "beyond_tolerance": true,
+          "candidate": 51.704989141856394,
+          "reference": 51.3836499321574,
+          "reference_zero": false,
+          "relative_absolute_difference": 0.006253724874026402,
+          "signed_difference": 0.32133920969899776,
+          "status": "comparable",
+          "tolerance": 0.0005148364993215741
+        },
+        "original_firstorder_Variance": {
+          "absolute_difference": 11.325059272117343,
+          "beyond_tolerance": true,
+          "candidate": 109.37069782650205,
+          "reference": 120.6957570986194,
+          "reference_zero": false,
+          "relative_absolute_difference": 0.09383146138984605,
+          "signed_difference": -11.325059272117343,
+          "status": "comparable",
+          "tolerance": 0.001207957570986194
+        },
+        "original_shape_VoxelVolume": {
+          "absolute_difference": 24.479869308469915,
+          "beyond_tolerance": true,
+          "candidate": 2923.52013069153,
+          "reference": 2948.0,
+          "reference_zero": false,
+          "relative_absolute_difference": 0.008303890538829687,
+          "signed_difference": -24.479869308469915,
+          "status": "comparable",
+          "tolerance": 0.029481000000000004
+        }
+      },
+      "reference_role": "source_working_crop",
+      "volume_id": "hippocampus_001"
+    },
+    {
+      "candidate_role": "isotropic_1mm",
+      "dataset": "Task04_Hippocampus",
+      "landmarks": {
+        "original_firstorder_Mean": {
+          "absolute_difference": 0.0,
+          "beyond_tolerance": false,
+          "candidate": 51.3836499321574,
+          "reference": 51.3836499321574,
+          "reference_zero": false,
+          "relative_absolute_difference": 0.0,
+          "signed_difference": 0.0,
+          "status": "comparable",
+          "tolerance": 0.0005148364993215741
+        },
+        "original_firstorder_Variance": {
+          "absolute_difference": 0.0,
+          "beyond_tolerance": false,
+          "candidate": 120.6957570986194,
+          "reference": 120.6957570986194,
+          "reference_zero": false,
+          "relative_absolute_difference": 0.0,
+          "signed_difference": 0.0,
+          "status": "comparable",
+          "tolerance": 0.001207957570986194
+        },
+        "original_shape_VoxelVolume": {
+          "absolute_difference": 0.0,
+          "beyond_tolerance": false,
+          "candidate": 2948.0,
+          "reference": 2948.0,
+          "reference_zero": false,
+          "relative_absolute_difference": 0.0,
+          "signed_difference": 0.0,
+          "status": "comparable",
+          "tolerance": 0.029481000000000004
+        }
+      },
+      "reference_role": "source_working_crop",
+      "volume_id": "hippocampus_001"
+    },
+    {
+      "candidate_role": "isotropic_2mm",
+      "dataset": "Task04_Hippocampus",
+      "landmarks": {
+        "original_firstorder_Mean": {
+          "absolute_difference": 0.12108009975516154,
+          "beyond_tolerance": true,
+          "candidate": 51.262569832402235,
+          "reference": 51.3836499321574,
+          "reference_zero": false,
+          "relative_absolute_difference": 0.0023563935204101967,
+          "signed_difference": -0.12108009975516154,
+          "status": "comparable",
+          "tolerance": 0.0005148364993215741
+        },
+        "original_firstorder_Variance": {
+          "absolute_difference": 10.652968171931718,
+          "beyond_tolerance": true,
+          "candidate": 110.04278892668768,
+          "reference": 120.6957570986194,
+          "reference_zero": false,
+          "relative_absolute_difference": 0.0882629880951596,
+          "signed_difference": -10.652968171931718,
+          "status": "comparable",
+          "tolerance": 0.001207957570986194
+        },
+        "original_shape_VoxelVolume": {
+          "absolute_difference": 84.0,
+          "beyond_tolerance": true,
+          "candidate": 2864.0,
+          "reference": 2948.0,
+          "reference_zero": false,
+          "relative_absolute_difference": 0.028493894165535955,
+          "signed_difference": -84.0,
+          "status": "comparable",
+          "tolerance": 0.029481000000000004
+        }
+      },
+      "reference_role": "source_working_crop",
+      "volume_id": "hippocampus_001"
+    },
+    {
+      "candidate_role": "wrong_image_kernel",
+      "dataset": "Task04_Hippocampus",
+      "landmarks": {
+        "original_firstorder_Mean": {
+          "absolute_difference": 0.2820469352014001,
+          "beyond_tolerance": true,
+          "candidate": 51.422942206654994,
+          "reference": 51.704989141856394,
+          "reference_zero": false,
+          "relative_absolute_difference": 0.005454926881960731,
+          "signed_difference": -0.2820469352014001,
+          "status": "comparable",
+          "tolerance": 0.000518049891418564
+        },
+        "original_firstorder_Variance": {
+          "absolute_difference": 9.338513131628972,
+          "beyond_tolerance": true,
+          "candidate": 118.70921095813102,
+          "reference": 109.37069782650205,
+          "reference_zero": false,
+          "relative_absolute_difference": 0.0853840499988665,
+          "signed_difference": 9.338513131628972,
+          "status": "comparable",
+          "tolerance": 0.0010947069782650206
+        },
+        "original_shape_VoxelVolume": {
+          "absolute_difference": 0.0,
+          "beyond_tolerance": false,
+          "candidate": 2923.52013069153,
+          "reference": 2923.52013069153,
+          "reference_zero": false,
+          "relative_absolute_difference": 0.0,
+          "signed_difference": 0.0,
+          "status": "comparable",
+          "tolerance": 0.029236201306915306
+        }
+      },
+      "reference_role": "isotropic_0p8mm",
+      "volume_id": "hippocampus_001"
+    },
+    {
+      "candidate_role": "isotropic_0p8mm",
+      "dataset": "Task04_Hippocampus",
+      "landmarks": {
+        "original_firstorder_Mean": {
+          "absolute_difference": 6.16427223831181,
+          "beyond_tolerance": true,
+          "candidate": 363.9157416328489,
+          "reference": 357.7514693945371,
+          "reference_zero": false,
+          "relative_absolute_difference": 0.01723059935643115,
+          "signed_difference": 6.16427223831181,
+          "status": "comparable",
+          "tolerance": 0.0035785146939453713
+        },
+        "original_firstorder_Variance": {
+          "absolute_difference": 1639.942130721387,
+          "beyond_tolerance": true,
+          "candidate": 6442.582756432826,
+          "reference": 8082.524887154213,
+          "reference_zero": false,
+          "relative_absolute_difference": 0.20289973165783798,
+          "signed_difference": -1639.942130721387,
+          "status": "comparable",
+          "tolerance": 0.08082624887154213
+        },
+        "original_shape_VoxelVolume": {
+          "absolute_difference": 19.87985099792286,
+          "beyond_tolerance": true,
+          "candidate": 3333.120149002077,
+          "reference": 3353.0,
+          "reference_zero": false,
+          "relative_absolute_difference": 0.0059289743507076826,
+          "signed_difference": -19.87985099792286,
+          "status": "comparable",
+          "tolerance": 0.033531000000000005
+        }
+      },
+      "reference_role": "source_working_crop",
+      "volume_id": "hippocampus_003"
+    },
+    {
+      "candidate_role": "isotropic_1mm",
+      "dataset": "Task04_Hippocampus",
+      "landmarks": {
+        "original_firstorder_Mean": {
+          "absolute_difference": 0.0,
+          "beyond_tolerance": false,
+          "candidate": 357.7514693945371,
+          "reference": 357.7514693945371,
+          "reference_zero": false,
+          "relative_absolute_difference": 0.0,
+          "signed_difference": 0.0,
+          "status": "comparable",
+          "tolerance": 0.0035785146939453713
+        },
+        "original_firstorder_Variance": {
+          "absolute_difference": 0.0,
+          "beyond_tolerance": false,
+          "candidate": 8082.524887154213,
+          "reference": 8082.524887154213,
+          "reference_zero": false,
+          "relative_absolute_difference": 0.0,
+          "signed_difference": 0.0,
+          "status": "comparable",
+          "tolerance": 0.08082624887154213
+        },
+        "original_shape_VoxelVolume": {
+          "absolute_difference": 0.0,
+          "beyond_tolerance": false,
+          "candidate": 3353.0,
+          "reference": 3353.0,
+          "reference_zero": false,
+          "relative_absolute_difference": 0.0,
+          "signed_difference": 0.0,
+          "status": "comparable",
+          "tolerance": 0.033531000000000005
+        }
+      },
+      "reference_role": "source_working_crop",
+      "volume_id": "hippocampus_003"
+    },
+    {
+      "candidate_role": "isotropic_2mm",
+      "dataset": "Task04_Hippocampus",
+      "landmarks": {
+        "original_firstorder_Mean": {
+          "absolute_difference": 3.7257152428697395,
+          "beyond_tolerance": true,
+          "candidate": 361.4771846374068,
+          "reference": 357.7514693945371,
+          "reference_zero": false,
+          "relative_absolute_difference": 0.010414255598097711,
+          "signed_difference": 3.7257152428697395,
+          "status": "comparable",
+          "tolerance": 0.0035785146939453713
+        },
+        "original_firstorder_Variance": {
+          "absolute_difference": 450.5930075691913,
+          "beyond_tolerance": true,
+          "candidate": 8533.117894723404,
+          "reference": 8082.524887154213,
+          "reference_zero": false,
+          "relative_absolute_difference": 0.055749040536247726,
+          "signed_difference": 450.5930075691913,
+          "status": "comparable",
+          "tolerance": 0.08082624887154213
+        },
+        "original_shape_VoxelVolume": {
+          "absolute_difference": 49.0,
+          "beyond_tolerance": true,
+          "candidate": 3304.0,
+          "reference": 3353.0,
+          "reference_zero": false,
+          "relative_absolute_difference": 0.014613778705636743,
+          "signed_difference": -49.0,
+          "status": "comparable",
+          "tolerance": 0.033531000000000005
+        }
+      },
+      "reference_role": "source_working_crop",
+      "volume_id": "hippocampus_003"
+    },
+    {
+      "candidate_role": "wrong_image_kernel",
+      "dataset": "Task04_Hippocampus",
+      "landmarks": {
+        "original_firstorder_Mean": {
+          "absolute_difference": 6.22284169037755,
+          "beyond_tolerance": true,
+          "candidate": 357.69289994247134,
+          "reference": 363.9157416328489,
+          "reference_zero": false,
+          "relative_absolute_difference": 0.017099677146298647,
+          "signed_difference": -6.22284169037755,
+          "status": "comparable",
+          "tolerance": 0.0036401574163284892
+        },
+        "original_firstorder_Variance": {
+          "absolute_difference": 1740.1653194615628,
+          "beyond_tolerance": true,
+          "candidate": 8182.748075894388,
+          "reference": 6442.582756432826,
+          "reference_zero": false,
+          "relative_absolute_difference": 0.27010368127969064,
+          "signed_difference": 1740.1653194615628,
+          "status": "comparable",
+          "tolerance": 0.06442682756432826
+        },
+        "original_shape_VoxelVolume": {
+          "absolute_difference": 0.0,
+          "beyond_tolerance": false,
+          "candidate": 3333.120149002077,
+          "reference": 3333.120149002077,
+          "reference_zero": false,
+          "relative_absolute_difference": 0.0,
+          "signed_difference": 0.0,
+          "status": "comparable",
+          "tolerance": 0.03333220149002077
+        }
+      },
+      "reference_role": "isotropic_0p8mm",
+      "volume_id": "hippocampus_003"
+    },
+    {
+      "candidate_role": "isotropic_0p8mm",
+      "dataset": "Task04_Hippocampus",
+      "landmarks": {
+        "original_firstorder_Mean": {
+          "absolute_difference": 3.978107935720004,
+          "beyond_tolerance": true,
+          "candidate": 335.61944724139346,
+          "reference": 331.64133930567345,
+          "reference_zero": false,
+          "relative_absolute_difference": 0.01199521128472282,
+          "signed_difference": 3.978107935720004,
+          "status": "comparable",
+          "tolerance": 0.003317413393056735
+        },
+        "original_firstorder_Variance": {
+          "absolute_difference": 2167.254810996673,
+          "beyond_tolerance": true,
+          "candidate": 7956.154502927043,
+          "reference": 10123.409313923716,
+          "reference_zero": false,
+          "relative_absolute_difference": 0.21408349141981597,
+          "signed_difference": -2167.254810996673,
+          "status": "comparable",
+          "tolerance": 0.10123509313923716
+        },
+        "original_shape_VoxelVolume": {
+          "absolute_difference": 34.127836212156126,
+          "beyond_tolerance": true,
+          "candidate": 3663.872163787844,
+          "reference": 3698.0,
+          "reference_zero": false,
+          "relative_absolute_difference": 0.009228728018430537,
+          "signed_difference": -34.127836212156126,
+          "status": "comparable",
+          "tolerance": 0.03698100000000001
+        }
+      },
+      "reference_role": "source_working_crop",
+      "volume_id": "hippocampus_004"
+    },
+    {
+      "candidate_role": "isotropic_1mm",
+      "dataset": "Task04_Hippocampus",
+      "landmarks": {
+        "original_firstorder_Mean": {
+          "absolute_difference": 0.0,
+          "beyond_tolerance": false,
+          "candidate": 331.64133930567345,
+          "reference": 331.64133930567345,
+          "reference_zero": false,
+          "relative_absolute_difference": 0.0,
+          "signed_difference": 0.0,
+          "status": "comparable",
+          "tolerance": 0.003317413393056735
+        },
+        "original_firstorder_Variance": {
+          "absolute_difference": 0.0,
+          "beyond_tolerance": false,
+          "candidate": 10123.409313923716,
+          "reference": 10123.409313923716,
+          "reference_zero": false,
+          "relative_absolute_difference": 0.0,
+          "signed_difference": 0.0,
+          "status": "comparable",
+          "tolerance": 0.10123509313923716
+        },
+        "original_shape_VoxelVolume": {
+          "absolute_difference": 0.0,
+          "beyond_tolerance": false,
+          "candidate": 3698.0,
+          "reference": 3698.0,
+          "reference_zero": false,
+          "relative_absolute_difference": 0.0,
+          "signed_difference": 0.0,
+          "status": "comparable",
+          "tolerance": 0.03698100000000001
+        }
+      },
+      "reference_role": "source_working_crop",
+      "volume_id": "hippocampus_004"
+    },
+    {
+      "candidate_role": "isotropic_2mm",
+      "dataset": "Task04_Hippocampus",
+      "landmarks": {
+        "original_firstorder_Mean": {
+          "absolute_difference": 1.3714840923039446,
+          "beyond_tolerance": true,
+          "candidate": 330.2698552133695,
+          "reference": 331.64133930567345,
+          "reference_zero": false,
+          "relative_absolute_difference": 0.004135443715114928,
+          "signed_difference": -1.3714840923039446,
+          "status": "comparable",
+          "tolerance": 0.003317413393056735
+        },
+        "original_firstorder_Variance": {
+          "absolute_difference": 13.51293051515131,
+          "beyond_tolerance": true,
+          "candidate": 10109.896383408564,
+          "reference": 10123.409313923716,
+          "reference_zero": false,
+          "relative_absolute_difference": 0.0013348201278956147,
+          "signed_difference": -13.51293051515131,
+          "status": "comparable",
+          "tolerance": 0.10123509313923716
+        },
+        "original_shape_VoxelVolume": {
+          "absolute_difference": 38.0,
+          "beyond_tolerance": true,
+          "candidate": 3736.0,
+          "reference": 3698.0,
+          "reference_zero": false,
+          "relative_absolute_difference": 0.010275824770146024,
+          "signed_difference": 38.0,
+          "status": "comparable",
+          "tolerance": 0.03698100000000001
+        }
+      },
+      "reference_role": "source_working_crop",
+      "volume_id": "hippocampus_004"
+    },
+    {
+      "candidate_role": "wrong_image_kernel",
+      "dataset": "Task04_Hippocampus",
+      "landmarks": {
+        "original_firstorder_Mean": {
+          "absolute_difference": 5.033174729306154,
+          "beyond_tolerance": true,
+          "candidate": 330.5862725120873,
+          "reference": 335.61944724139346,
+          "reference_zero": false,
+          "relative_absolute_difference": 0.014996671887389337,
+          "signed_difference": -5.033174729306154,
+          "status": "comparable",
+          "tolerance": 0.003357194472413935
+        },
+        "original_firstorder_Variance": {
+          "absolute_difference": 2181.218019304307,
+          "beyond_tolerance": true,
+          "candidate": 10137.37252223135,
+          "reference": 7956.154502927043,
+          "reference_zero": false,
+          "relative_absolute_difference": 0.27415480914829443,
+          "signed_difference": 2181.218019304307,
+          "status": "comparable",
+          "tolerance": 0.07956254502927043
+        },
+        "original_shape_VoxelVolume": {
+          "absolute_difference": 0.0,
+          "beyond_tolerance": false,
+          "candidate": 3663.872163787844,
+          "reference": 3663.872163787844,
+          "reference_zero": false,
+          "relative_absolute_difference": 0.0,
+          "signed_difference": 0.0,
+          "status": "comparable",
+          "tolerance": 0.036639721637878445
+        }
+      },
+      "reference_role": "isotropic_0p8mm",
+      "volume_id": "hippocampus_004"
+    },
+    {
+      "candidate_role": "isotropic_0p8mm",
+      "dataset": "Task09_Spleen",
+      "landmarks": {
+        "original_firstorder_Mean": {
+          "absolute_difference": 4.324744228616851,
+          "beyond_tolerance": true,
+          "candidate": 85.72777032735534,
+          "reference": 90.0525145559722,
+          "reference_zero": false,
+          "relative_absolute_difference": 0.04802469148075597,
+          "signed_difference": -4.324744228616851,
+          "status": "comparable",
+          "tolerance": 0.0009015251455597221
+        },
+        "original_firstorder_Variance": {
+          "absolute_difference": 127.33877116399185,
+          "beyond_tolerance": true,
+          "candidate": 1256.8148059463124,
+          "reference": 1129.4760347823205,
+          "reference_zero": false,
+          "relative_absolute_difference": 0.11274145465913613,
+          "signed_difference": 127.33877116399185,
+          "status": "comparable",
+          "tolerance": 0.011295760347823206
+        },
+        "original_shape_VoxelVolume": {
+          "absolute_difference": 164.70979354943847,
+          "beyond_tolerance": true,
+          "candidate": 252897.29130538958,
+          "reference": 253062.001098939,
+          "reference_zero": false,
+          "relative_absolute_difference": 0.0006508673480576892,
+          "signed_difference": -164.70979354943847,
+          "status": "comparable",
+          "tolerance": 2.5306210109893903
+        }
+      },
+      "reference_role": "source_working_crop",
+      "volume_id": "spleen_10"
+    },
+    {
+      "candidate_role": "isotropic_1mm",
+      "dataset": "Task09_Spleen",
+      "landmarks": {
+        "original_firstorder_Mean": {
+          "absolute_difference": 4.155910478552514,
+          "beyond_tolerance": true,
+          "candidate": 85.89660407741968,
+          "reference": 90.0525145559722,
+          "reference_zero": false,
+          "relative_absolute_difference": 0.04614985488239093,
+          "signed_difference": -4.155910478552514,
+          "status": "comparable",
+          "tolerance": 0.0009015251455597221
+        },
+        "original_firstorder_Variance": {
+          "absolute_difference": 126.54476422694938,
+          "beyond_tolerance": true,
+          "candidate": 1256.02079900927,
+          "reference": 1129.4760347823205,
+          "reference_zero": false,
+          "relative_absolute_difference": 0.11203846768766355,
+          "signed_difference": 126.54476422694938,
+          "status": "comparable",
+          "tolerance": 0.011295760347823206
+        },
+        "original_shape_VoxelVolume": {
+          "absolute_difference": 527.0010989390139,
+          "beyond_tolerance": true,
+          "candidate": 252535.0,
+          "reference": 253062.001098939,
+          "reference_zero": false,
+          "relative_absolute_difference": 0.002082497951689608,
+          "signed_difference": -527.0010989390139,
+          "status": "comparable",
+          "tolerance": 2.5306210109893903
+        }
+      },
+      "reference_role": "source_working_crop",
+      "volume_id": "spleen_10"
+    },
+    {
+      "candidate_role": "isotropic_2mm",
+      "dataset": "Task09_Spleen",
+      "landmarks": {
+        "original_firstorder_Mean": {
+          "absolute_difference": 4.324516766858906,
+          "beyond_tolerance": true,
+          "candidate": 85.72799778911329,
+          "reference": 90.0525145559722,
+          "reference_zero": false,
+          "relative_absolute_difference": 0.04802216560172787,
+          "signed_difference": -4.324516766858906,
+          "status": "comparable",
+          "tolerance": 0.0009015251455597221
+        },
+        "original_firstorder_Variance": {
+          "absolute_difference": 172.78519312321146,
+          "beyond_tolerance": true,
+          "candidate": 1302.261227905532,
+          "reference": 1129.4760347823205,
+          "reference_zero": false,
+          "relative_absolute_difference": 0.15297818439902683,
+          "signed_difference": 172.78519312321146,
+          "status": "comparable",
+          "tolerance": 0.011295760347823206
+        },
+        "original_shape_VoxelVolume": {
+          "absolute_difference": 358.0010989390139,
+          "beyond_tolerance": true,
+          "candidate": 252704.0,
+          "reference": 253062.001098939,
+          "reference_zero": false,
+          "relative_absolute_difference": 0.0014146774204913013,
+          "signed_difference": -358.0010989390139,
+          "status": "comparable",
+          "tolerance": 2.5306210109893903
+        }
+      },
+      "reference_role": "source_working_crop",
+      "volume_id": "spleen_10"
+    },
+    {
+      "candidate_role": "wrong_image_kernel",
+      "dataset": "Task09_Spleen",
+      "landmarks": {
+        "original_firstorder_Mean": {
+          "absolute_difference": 4.5016684708792525,
+          "beyond_tolerance": true,
+          "candidate": 90.2294387982346,
+          "reference": 85.72777032735534,
+          "reference_zero": false,
+          "relative_absolute_difference": 0.052511204405403626,
+          "signed_difference": 4.5016684708792525,
+          "status": "comparable",
+          "tolerance": 0.0008582777032735535
+        },
+        "original_firstorder_Variance": {
+          "absolute_difference": 133.63766108978166,
+          "beyond_tolerance": true,
+          "candidate": 1123.1771448565307,
+          "reference": 1256.8148059463124,
+          "reference_zero": false,
+          "relative_absolute_difference": 0.10633043186435082,
+          "signed_difference": -133.63766108978166,
+          "status": "comparable",
+          "tolerance": 0.012569148059463124
+        },
+        "original_shape_VoxelVolume": {
+          "absolute_difference": 0.0,
+          "beyond_tolerance": false,
+          "candidate": 252897.29130538958,
+          "reference": 252897.29130538958,
+          "reference_zero": false,
+          "relative_absolute_difference": 0.0,
+          "signed_difference": 0.0,
+          "status": "comparable",
+          "tolerance": 2.528973913053896
+        }
+      },
+      "reference_role": "isotropic_0p8mm",
+      "volume_id": "spleen_10"
+    },
+    {
+      "candidate_role": "isotropic_0p8mm",
+      "dataset": "Task09_Spleen",
+      "landmarks": {
+        "original_firstorder_Mean": {
+          "absolute_difference": 0.7313722001348424,
+          "beyond_tolerance": true,
+          "candidate": 123.2999546920046,
+          "reference": 124.03132689213945,
+          "reference_zero": false,
+          "relative_absolute_difference": 0.005896673191046814,
+          "signed_difference": -0.7313722001348424,
+          "status": "comparable",
+          "tolerance": 0.0012413132689213944
+        },
+        "original_firstorder_Variance": {
+          "absolute_difference": 21.228717214296694,
+          "beyond_tolerance": true,
+          "candidate": 671.4531101192326,
+          "reference": 692.6818273335293,
+          "reference_zero": false,
+          "relative_absolute_difference": 0.030647140399245633,
+          "signed_difference": -21.228717214296694,
+          "status": "comparable",
+          "tolerance": 0.006927818273335294
+        },
+        "original_shape_VoxelVolume": {
+          "absolute_difference": 88.58598209166666,
+          "beyond_tolerance": true,
+          "candidate": 458498.06849646027,
+          "reference": 458409.4825143686,
+          "reference_zero": false,
+          "relative_absolute_difference": 0.00019324639971619694,
+          "signed_difference": 88.58598209166666,
+          "status": "comparable",
+          "tolerance": 4.584095825143686
+        }
+      },
+      "reference_role": "source_working_crop",
+      "volume_id": "spleen_12"
+    },
+    {
+      "candidate_role": "isotropic_1mm",
+      "dataset": "Task09_Spleen",
+      "landmarks": {
+        "original_firstorder_Mean": {
+          "absolute_difference": 0.7903319881991848,
+          "beyond_tolerance": true,
+          "candidate": 123.24099490394026,
+          "reference": 124.03132689213945,
+          "reference_zero": false,
+          "relative_absolute_difference": 0.006372035259176709,
+          "signed_difference": -0.7903319881991848,
+          "status": "comparable",
+          "tolerance": 0.0012413132689213944
+        },
+        "original_firstorder_Variance": {
+          "absolute_difference": 9.679293957409413,
+          "beyond_tolerance": true,
+          "candidate": 683.0025333761199,
+          "reference": 692.6818273335293,
+          "reference_zero": false,
+          "relative_absolute_difference": 0.013973650780863912,
+          "signed_difference": -9.679293957409413,
+          "status": "comparable",
+          "tolerance": 0.006927818273335294
+        },
+        "original_shape_VoxelVolume": {
+          "absolute_difference": 912.517485631397,
+          "beyond_tolerance": true,
+          "candidate": 459322.0,
+          "reference": 458409.4825143686,
+          "reference_zero": false,
+          "relative_absolute_difference": 0.0019906165130491047,
+          "signed_difference": 912.517485631397,
+          "status": "comparable",
+          "tolerance": 4.584095825143686
+        }
+      },
+      "reference_role": "source_working_crop",
+      "volume_id": "spleen_12"
+    },
+    {
+      "candidate_role": "isotropic_2mm",
+      "dataset": "Task09_Spleen",
+      "landmarks": {
+        "original_firstorder_Mean": {
+          "absolute_difference": 0.8133501564588244,
+          "beyond_tolerance": true,
+          "candidate": 123.21797673568062,
+          "reference": 124.03132689213945,
+          "reference_zero": false,
+          "relative_absolute_difference": 0.0065576187632511,
+          "signed_difference": -0.8133501564588244,
+          "status": "comparable",
+          "tolerance": 0.0012413132689213944
+        },
+        "original_firstorder_Variance": {
+          "absolute_difference": 4.2448838073501065,
+          "beyond_tolerance": true,
+          "candidate": 696.9267111408794,
+          "reference": 692.6818273335293,
+          "reference_zero": false,
+          "relative_absolute_difference": 0.006128187054784933,
+          "signed_difference": 4.2448838073501065,
+          "status": "comparable",
+          "tolerance": 0.006927818273335294
+        },
+        "original_shape_VoxelVolume": {
+          "absolute_difference": 430.517485631397,
+          "beyond_tolerance": true,
+          "candidate": 458840.0,
+          "reference": 458409.4825143686,
+          "reference_zero": false,
+          "relative_absolute_difference": 0.0009391548431110446,
+          "signed_difference": 430.517485631397,
+          "status": "comparable",
+          "tolerance": 4.584095825143686
+        }
+      },
+      "reference_role": "source_working_crop",
+      "volume_id": "spleen_12"
+    },
+    {
+      "candidate_role": "wrong_image_kernel",
+      "dataset": "Task09_Spleen",
+      "landmarks": {
+        "original_firstorder_Mean": {
+          "absolute_difference": 0.7678931344707678,
+          "beyond_tolerance": true,
+          "candidate": 124.06784782647537,
+          "reference": 123.2999546920046,
+          "reference_zero": false,
+          "relative_absolute_difference": 0.006227846039269971,
+          "signed_difference": 0.7678931344707678,
+          "status": "comparable",
+          "tolerance": 0.001233999546920046
+        },
+        "original_firstorder_Variance": {
+          "absolute_difference": 20.27539103962215,
+          "beyond_tolerance": true,
+          "candidate": 691.7285011588548,
+          "reference": 671.4531101192326,
+          "reference_zero": false,
+          "relative_absolute_difference": 0.030196287326782607,
+          "signed_difference": 20.27539103962215,
+          "status": "comparable",
+          "tolerance": 0.006715531101192327
+        },
+        "original_shape_VoxelVolume": {
+          "absolute_difference": 0.0,
+          "beyond_tolerance": false,
+          "candidate": 458498.06849646027,
+          "reference": 458498.06849646027,
+          "reference_zero": false,
+          "relative_absolute_difference": 0.0,
+          "signed_difference": 0.0,
+          "status": "comparable",
+          "tolerance": 4.584981684964603
+        }
+      },
+      "reference_role": "isotropic_0p8mm",
+      "volume_id": "spleen_12"
+    },
+    {
+      "candidate_role": "isotropic_0p8mm",
+      "dataset": "Task09_Spleen",
+      "landmarks": {
+        "original_firstorder_Mean": {
+          "absolute_difference": 1.906156899690572,
+          "beyond_tolerance": true,
+          "candidate": 103.88482704855933,
+          "reference": 105.7909839482499,
+          "reference_zero": false,
+          "relative_absolute_difference": 0.018018141325001878,
+          "signed_difference": -1.906156899690572,
+          "status": "comparable",
+          "tolerance": 0.001058909839482499
+        },
+        "original_firstorder_Variance": {
+          "absolute_difference": 189.3800512189332,
+          "beyond_tolerance": true,
+          "candidate": 1190.6929252074985,
+          "reference": 1001.3128739885653,
+          "reference_zero": false,
+          "relative_absolute_difference": 0.18913174507041827,
+          "signed_difference": 189.3800512189332,
+          "status": "comparable",
+          "tolerance": 0.010014128739885653
+        },
+        "original_shape_VoxelVolume": {
+          "absolute_difference": 229.0384423044743,
+          "beyond_tolerance": true,
+          "candidate": 280567.3085423357,
+          "reference": 280796.3469846402,
+          "reference_zero": false,
+          "relative_absolute_difference": 0.0008156745796874733,
+          "signed_difference": -229.0384423044743,
+          "status": "comparable",
+          "tolerance": 2.807964469846402
+        }
+      },
+      "reference_role": "source_working_crop",
+      "volume_id": "spleen_13"
+    },
+    {
+      "candidate_role": "isotropic_1mm",
+      "dataset": "Task09_Spleen",
+      "landmarks": {
+        "original_firstorder_Mean": {
+          "absolute_difference": 2.0155461267201957,
+          "beyond_tolerance": true,
+          "candidate": 103.7754378215297,
+          "reference": 105.7909839482499,
+          "reference_zero": false,
+          "relative_absolute_difference": 0.01905215408248917,
+          "signed_difference": -2.0155461267201957,
+          "status": "comparable",
+          "tolerance": 0.001058909839482499
+        },
+        "original_firstorder_Variance": {
+          "absolute_difference": 237.20929705073308,
+          "beyond_tolerance": true,
+          "candidate": 1238.5221710392984,
+          "reference": 1001.3128739885653,
+          "reference_zero": false,
+          "relative_absolute_difference": 0.23689827946169195,
+          "signed_difference": 237.20929705073308,
+          "status": "comparable",
+          "tolerance": 0.010014128739885653
+        },
+        "original_shape_VoxelVolume": {
+          "absolute_difference": 80.34698464017129,
+          "beyond_tolerance": true,
+          "candidate": 280716.0,
+          "reference": 280796.3469846402,
+          "reference_zero": false,
+          "relative_absolute_difference": 0.0002861397076670885,
+          "signed_difference": -80.34698464017129,
+          "status": "comparable",
+          "tolerance": 2.807964469846402
+        }
+      },
+      "reference_role": "source_working_crop",
+      "volume_id": "spleen_13"
+    },
+    {
+      "candidate_role": "isotropic_2mm",
+      "dataset": "Task09_Spleen",
+      "landmarks": {
+        "original_firstorder_Mean": {
+          "absolute_difference": 1.7064179883926016,
+          "beyond_tolerance": true,
+          "candidate": 104.0845659598573,
+          "reference": 105.7909839482499,
+          "reference_zero": false,
+          "relative_absolute_difference": 0.016130089018052192,
+          "signed_difference": -1.7064179883926016,
+          "status": "comparable",
+          "tolerance": 0.001058909839482499
+        },
+        "original_firstorder_Variance": {
+          "absolute_difference": 179.17064332565155,
+          "beyond_tolerance": true,
+          "candidate": 1180.483517314217,
+          "reference": 1001.3128739885653,
+          "reference_zero": false,
+          "relative_absolute_difference": 0.17893572326894663,
+          "signed_difference": 179.17064332565155,
+          "status": "comparable",
+          "tolerance": 0.010014128739885653
+        },
+        "original_shape_VoxelVolume": {
+          "absolute_difference": 452.3469846401713,
+          "beyond_tolerance": true,
+          "candidate": 280344.0,
+          "reference": 280796.3469846402,
+          "reference_zero": false,
+          "relative_absolute_difference": 0.0016109432672388544,
+          "signed_difference": -452.3469846401713,
+          "status": "comparable",
+          "tolerance": 2.807964469846402
+        }
+      },
+      "reference_role": "source_working_crop",
+      "volume_id": "spleen_13"
+    },
+    {
+      "candidate_role": "wrong_image_kernel",
+      "dataset": "Task09_Spleen",
+      "landmarks": {
+        "original_firstorder_Mean": {
+          "absolute_difference": 1.9284427061593448,
+          "beyond_tolerance": true,
+          "candidate": 105.81326975471868,
+          "reference": 103.88482704855933,
+          "reference_zero": false,
+          "relative_absolute_difference": 0.018563275898393943,
+          "signed_difference": 1.9284427061593448,
+          "status": "comparable",
+          "tolerance": 0.0010398482704855932
+        },
+        "original_firstorder_Variance": {
+          "absolute_difference": 182.91094688398937,
+          "beyond_tolerance": true,
+          "candidate": 1007.7819783235092,
+          "reference": 1190.6929252074985,
+          "reference_zero": false,
+          "relative_absolute_difference": 0.1536172282640497,
+          "signed_difference": -182.91094688398937,
+          "status": "comparable",
+          "tolerance": 0.011907929252074985
+        },
+        "original_shape_VoxelVolume": {
+          "absolute_difference": 0.0,
+          "beyond_tolerance": false,
+          "candidate": 280567.3085423357,
+          "reference": 280567.3085423357,
+          "reference_zero": false,
+          "relative_absolute_difference": 0.0,
+          "signed_difference": 0.0,
+          "status": "comparable",
+          "tolerance": 2.8056740854233575
+        }
+      },
+      "reference_role": "isotropic_0p8mm",
+      "volume_id": "spleen_13"
+    }
+  ],
+  "native_execution": {
+    "native_threads": 1,
+    "processes": 1,
+    "returncode": 0,
+    "status": "completed",
+    "timeout_seconds": 7200
+  },
+  "native_job_seconds_sum": 63.92545859999882,
+  "planned_comparisons": 24,
+  "planned_extractions": 30,
+  "public_record_sha256": {
+    "native_comparisons.jsonl": "d0c7f5c0dd43023636ffee296be89b0db2a03b01fe144d0a736cca0f08f05182",
+    "native_differences.jsonl": "f497f06473804350560940d28fcf20081a6e14953ffa6f98ef5bc17766578e90",
+    "native_features.jsonl": "160027934c47fe27771ffc8151f1cf9a552b951986c325ee75aa9213d05fc966",
+    "native_summary.json": "cbf708391613e4af91b84c43f825902633e3f981332c4633e5ff400325fb66e3"
+  },
+  "scope": "Independent arithmetic and record audit only; no imaging input reopened and no frozen code modified.",
+  "status": "PASS",
+  "warning_count": 30
+}

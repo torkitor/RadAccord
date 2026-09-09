@@ -1,0 +1,11 @@
+engine,unit,dimension,state,count
+mirp,recorded_checkpoint,coverage_status,satisfied,59
+mirp,recorded_checkpoint,coverage_status,unobserved,2
+mirp,recorded_checkpoint,feature_reuse_decision,blocked,5
+mirp,recorded_checkpoint,feature_reuse_decision,requires_reextraction,54
+mirp,recorded_checkpoint,feature_reuse_decision,unobserved,2
+pyradiomics,recorded_checkpoint,coverage_status,indeterminate,8
+pyradiomics,recorded_checkpoint,coverage_status,satisfied,133
+pyradiomics,recorded_checkpoint,coverage_status,violated,12
+pyradiomics,recorded_checkpoint,feature_reuse_decision,blocked,27
+pyradiomics,recorded_checkpoint,feature_reuse_decision,requires_reextraction,126

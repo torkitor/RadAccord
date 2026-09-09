@@ -1,0 +1,20 @@
+{
+  "dataset": "Task09_Spleen",
+  "pairs": 41,
+  "header_only_eligible_under_legacy_geometry": 41,
+  "failures": [],
+  "header_codes": {
+    "image:qcode=1:scode=1": 41,
+    "label:qcode=1:scode=1": 41
+  },
+  "max_qform_sform_element_difference": 0.0,
+  "max_normalized_axis_orthogonality_error": 0.0,
+  "criteria": {
+    "qform_sform_atol": 0.0001,
+    "orthogonality_atol": 1e-06,
+    "paired_affine_atol": 0.0001,
+    "units": "mm",
+    "dimensions": 3
+  },
+  "scope": "Header-only eligibility before benchmark freeze. No voxel intensities, mask occupancy, transformations, feature outcomes or sampling decisions inspected."
+}

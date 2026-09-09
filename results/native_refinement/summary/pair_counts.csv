@@ -1,0 +1,17 @@
+grouping,engine,source_kind,modality,operation,planned,attempted,candidate_attempts_including_interrupted_slot,completed,exact_native_values,numeric_digest_equal,satisfied,violated,indeterminate,unavailable,not_completed,interrupted_unrecorded,not_reached
+engine,mirp,all,all,all,62,62,62,62,62,62,47,0,11,4,0,0,0
+engine,pyradiomics,all,all,all,62,62,62,62,62,62,52,0,8,2,0,0,0
+engine_kind_modality_operation,mirp,public_anatomical,ct,identity,2,2,2,2,2,2,0,0,0,2,0,0,0
+engine_kind_modality_operation,mirp,public_anatomical,mr,cubic_1p3,12,12,12,12,12,12,7,0,4,1,0,0,0
+engine_kind_modality_operation,mirp,public_anatomical,mr,identity,12,12,12,12,12,12,12,0,0,0,0,0,0
+engine_kind_modality_operation,mirp,public_anatomical,mr,linear_1p3,12,12,12,12,12,12,4,0,7,1,0,0,0
+engine_kind_modality_operation,mirp,synthetic,mr,cubic_1p3,8,8,8,8,8,8,8,0,0,0,0,0,0
+engine_kind_modality_operation,mirp,synthetic,mr,identity,8,8,8,8,8,8,8,0,0,0,0,0,0
+engine_kind_modality_operation,mirp,synthetic,mr,linear_1p3,8,8,8,8,8,8,8,0,0,0,0,0,0
+engine_kind_modality_operation,pyradiomics,public_anatomical,ct,identity,2,2,2,2,2,2,2,0,0,0,0,0,0
+engine_kind_modality_operation,pyradiomics,public_anatomical,mr,cubic_1p3,12,12,12,12,12,12,8,0,3,1,0,0,0
+engine_kind_modality_operation,pyradiomics,public_anatomical,mr,identity,12,12,12,12,12,12,12,0,0,0,0,0,0
+engine_kind_modality_operation,pyradiomics,public_anatomical,mr,linear_1p3,12,12,12,12,12,12,6,0,5,1,0,0,0
+engine_kind_modality_operation,pyradiomics,synthetic,mr,cubic_1p3,8,8,8,8,8,8,8,0,0,0,0,0,0
+engine_kind_modality_operation,pyradiomics,synthetic,mr,identity,8,8,8,8,8,8,8,0,0,0,0,0,0
+engine_kind_modality_operation,pyradiomics,synthetic,mr,linear_1p3,8,8,8,8,8,8,8,0,0,0,0,0,0

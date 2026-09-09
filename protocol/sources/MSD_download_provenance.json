@@ -1,0 +1,39 @@
+{
+  "accessed_utc": "2026-09-09T10:33:49.818035+00:00",
+  "registry_url": "https://registry.opendata.aws/msd/",
+  "dataset_license": "CC-BY-SA-4.0",
+  "monai_source_url": "https://raw.githubusercontent.com/Project-MONAI/MONAI/20df60253d364be69601114adae3bd609e0cb6f6/monai/apps/datasets.py",
+  "monai_source_sha256": "9ac4f9f01a07950150a43e13c7e09387002491a528c283593a0707d131e0d2ed",
+  "archives": [
+    {
+      "task": "Task04_Hippocampus",
+      "url": "https://msd-for-monai.s3-us-west-2.amazonaws.com/Task04_Hippocampus.tar",
+      "bytes": 28425216,
+      "published_md5": "9d24dba78a72977dbd1d2e110310f31b",
+      "observed_md5": "9d24dba78a72977dbd1d2e110310f31b",
+      "observed_sha256": "282d808a3e84e5a52f090d9dd4c0b0057b94a6bd51ad41569aef5ff303287771",
+      "response_headers": {
+        "Content-Length": "28425216",
+        "Last-Modified": "Fri, 14 Aug 2020 09:11:06 GMT",
+        "ETag": "\"81aa748a1df6d95ecb6f1b5812f132b1-4\""
+      },
+      "training_pairs": 260,
+      "test_images": 130
+    },
+    {
+      "task": "Task09_Spleen",
+      "url": "https://msd-for-monai-eu.s3.eu-west-2.amazonaws.com/Task09_Spleen.tar",
+      "bytes": 1610352640,
+      "published_md5": "410d4a301da4e5b2f6f86ec3ddba524e",
+      "observed_md5": "410d4a301da4e5b2f6f86ec3ddba524e",
+      "observed_sha256": "dfeba347daae4fb08c38f4d243ab606b28b91b206ffc445ec55c35489fa65e60",
+      "response_headers": {
+        "Content-Length": "1610352640",
+        "Last-Modified": "Fri, 14 Aug 2020 14:24:32 GMT",
+        "ETag": "\"e13dc1c89ee3d3c06bb205f386d8c8ac-96\""
+      },
+      "training_pairs": 41,
+      "test_images": 20
+    }
+  ]
+}

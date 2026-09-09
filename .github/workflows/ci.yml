@@ -2,6 +2,7 @@ name: Core verification
 
 on:
   push:
+    branches: [main]
   pull_request:
   workflow_dispatch:
 
@@ -33,15 +34,41 @@ jobs:
           python-version: '3.11'
       - name: Verify release manifest
         run: python -B scripts/check_release.py
+      - name: Verify sampling freeze and immutable historical archive
+        run: python -B scripts/verify_sampling_freeze.py
+      - name: Verify both native archives and retained scientific sources
+        run: python -B scripts/verify_native_freeze.py
       - name: Install pinned core and independent image reader
-        run: python -m pip install --disable-pip-version-check -r software/requirements-core.txt SimpleITK==2.5.3
+        run: python -m pip install --disable-pip-version-check -r software/requirements-core.txt SimpleITK==2.5.3 pytest==9.0.2
       - name: Test release tools
         run: python -B -m unittest discover -s scripts/tests -v
+      - name: Test sampling freeze verification
+        run: python -B -m pytest -q -p no:cacheprovider scripts/tests/test_sampling_freeze.py
       - name: Test physical and feature contracts
         working-directory: software
         run: python -B -m unittest discover -s tests -v
       - name: Run real-input demo without extractors
         run: python -B scripts/demo.py
+      - name: Run generated sampling and checkpoint demo
+        run: python -B scripts/demo_sampling.py --output outputs/sampling_demo
+      - name: Replay retained sampling summaries byte for byte
+        shell: python
+        run: |
+          from pathlib import Path
+          import subprocess
+          import sys
+          for cohort in ('reserved', 'clinical'):
+              source = Path('results') / ('sampling_' + cohort)
+              output = Path('reproduced') / ('sampling_' + cohort)
+              subprocess.run([sys.executable, '-B', 'scripts/summarize_sampling_study.py',
+                              '--input', str(source), '--output', str(output)], check=True)
+              expected = source / 'summary'
+              names = sorted(path.name for path in expected.iterdir() if path.is_file())
+              assert len(names) == 12, 'Unexpected archived summary file count'
+              assert names == sorted(path.name for path in output.iterdir() if path.is_file())
+              for name in names:
+                  assert (expected / name).read_bytes() == (output / name).read_bytes(), (cohort, name)
+              print(cohort + ': 12/12 summary files byte-identical')
       - name: Restore hash-verified study records
         run: python -B scripts/restore_records.py
       - name: Reproduce archived decisions in a fresh directory

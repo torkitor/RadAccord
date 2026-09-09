@@ -1,0 +1,102 @@
+{
+  "clinical_information_seen": "Archive inventory and header eligibility only; no clinical transformations or feature outcomes.",
+  "clinical_planned_volumes": {
+    "Task04_Hippocampus": 260,
+    "Task09_Spleen": 41
+  },
+  "created_utc": "2026-09-09T10:52:14.428874+00:00",
+  "development": {
+    "additional": "Analytic and adversarial half-voxel fixtures retained separately.",
+    "seeds": [
+      30000,
+      30011
+    ]
+  },
+  "files": [
+    {
+      "path": "RadAccord/protocol/sampling_study.md",
+      "sha256": "b2d7330f0a7d4a0a34c043b83804416028813ad2c8541d50b693c9ddb4b95070"
+    },
+    {
+      "path": "RadAccord/software/sampling_contracts.py",
+      "sha256": "a84cb4770c80028cf529252a8a7319e870033a344bdf07628482e273731606a9"
+    },
+    {
+      "path": "RadAccord/software/physical_contracts.py",
+      "sha256": "b2ddc6b63ed65245d4c0104c72f126b01ea337d1fb393c8e2ae27477427eb6b2"
+    },
+    {
+      "path": "RadAccord/software/adapters.py",
+      "sha256": "deb9bccdd4ab688f8d2e64bc8d582df5fdbe86147d9b14473faa371ca84d6083"
+    },
+    {
+      "path": "RadAccord/radaccord_sampling.py",
+      "sha256": "d48a7804f5ab3dd0e45cb752834e7565578ff49cfb3a5ff3c263575b357525a7"
+    },
+    {
+      "path": "RadAccord/scripts/run_sampling_study.py",
+      "sha256": "ef8c820bd7c87f918173d87ddf235496df6c121c75fffc8351b9a4e9582b9d6e"
+    },
+    {
+      "path": "RadAccord/software/tests/test_sampling_contracts.py",
+      "sha256": "abc87a3d30d197f84fcb2dbddfbdc8621e6d282f38acff47aa8c7929044272ed"
+    },
+    {
+      "path": "RadAccord/scripts/tests/test_sampling_cli.py",
+      "sha256": "36477b8c5ffabd3bc1fd3306473b3eeab7ed394c7be3eb026df0f293e7efa578"
+    },
+    {
+      "path": "RadAccord/scripts/tests/test_sampling_study.py",
+      "sha256": "25ae5c50b0a92cf45908fd61c332578956ec06103a4871058e997f57335f4eaf"
+    },
+    {
+      "path": "work/native_feature_plan.json",
+      "sha256": "1e173c70efebd81b133efa950aafae4b4096b3726443158b3067717791b7a219"
+    },
+    {
+      "path": "work/run_native_feature_subset.py",
+      "sha256": "5ab4a88c4190e5c900545b16f7c31116be38595936c6b689a1883c6f3c393f05"
+    },
+    {
+      "path": "data_private/download_provenance.json",
+      "sha256": "97fbddaa498e47fd0e182ff875d9c126e8bd579b69c25ca1d64e252251372a79"
+    },
+    {
+      "path": "data_private/Task04_Hippocampus/dataset.json",
+      "sha256": "5ad98d4c7146d434badcdf4051d9ca98291056fc66083bee7904fdbceb0c356e"
+    },
+    {
+      "path": "data_private/Task09_Spleen/dataset.json",
+      "sha256": "919b07212b67023580b759f54a354ee93e01f26b09112ca4f3aceeed6eaa5b3f"
+    },
+    {
+      "path": "data_private/Task04_Hippocampus_header_eligibility.json",
+      "sha256": "90316cd3b1f2d36a6735a5157a071bf52b3466f2c244fe1668e9b04ed659c88c"
+    },
+    {
+      "path": "data_private/Task09_Spleen_header_eligibility.json",
+      "sha256": "e2633570fcba3b87ea268dab967df525767a931218a62ce0efd31e993a246047"
+    }
+  ],
+  "historical_scientific_archive_sha256": "43ff30b546e1904b1f119c6349747d3e6289b273f2b4ee18c80dc57d0b2970bd",
+  "reserved_seeds_inclusive": [
+    31000,
+    31031
+  ],
+  "schema": "local-pre-evaluation-freeze-1.0",
+  "source_archives": [
+    {
+      "bytes": 28425216,
+      "observed_md5": "9d24dba78a72977dbd1d2e110310f31b",
+      "observed_sha256": "282d808a3e84e5a52f090d9dd4c0b0057b94a6bd51ad41569aef5ff303287771",
+      "task": "Task04_Hippocampus"
+    },
+    {
+      "bytes": 1610352640,
+      "observed_md5": "410d4a301da4e5b2f6f86ec3ddba524e",
+      "observed_sha256": "dfeba347daae4fb08c38f4d243ab606b28b91b206ffc445ec55c35489fa65e60",
+      "task": "Task09_Spleen"
+    }
+  ],
+  "status": "Internal timestamped analysis freeze; not public preregistration."
+}

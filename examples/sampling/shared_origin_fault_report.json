@@ -1,0 +1,247 @@
+{
+  "schema_version": "1.0",
+  "profile": "declared_sampling_candidate",
+  "decision": "review_required",
+  "feature_reuse": "blocked",
+  "first_failed_checkpoint": 3,
+  "first_unverified_checkpoint": null,
+  "first_review_checkpoint": 3,
+  "checkpoints": [
+    {
+      "decision": "input_roi_preserved",
+      "paired_geometry": {
+        "source": {
+          "same_shape": true,
+          "same_affine": true,
+          "physical_corner_agreement": true
+        },
+        "candidate": {
+          "same_shape": true,
+          "same_affine": true,
+          "physical_corner_agreement": true
+        }
+      },
+      "paired_max_corner_error_mm": {
+        "source": 0.0,
+        "candidate": 0.0
+      },
+      "sampling": {
+        "schema_version": "sampling-1.0",
+        "status": "satisfied",
+        "checks": {
+          "candidate_shape": true,
+          "position": true,
+          "intensity": true,
+          "roi": true
+        },
+        "max_corner_error_mm": 0.0,
+        "max_intensity_error": 0.0,
+        "mismatched_roi_voxels": 0,
+        "strict_nominal_status": "satisfied",
+        "nominal_mismatched_intensity_voxels": 0,
+        "nominal_mismatched_roi_voxels": 0,
+        "ambiguous_intensity_voxels": 0,
+        "ambiguous_roi_voxels": 0,
+        "violating_intensity_voxels": 0,
+        "violating_roi_voxels": 0,
+        "candidate_voxels_outside_source_support": 0,
+        "coverage": {
+          "status": "satisfied",
+          "definition": "Source selected-ROI voxel centres mapped by declared B inverse into candidate [-0.5,size-0.5) FOV; not continuous anatomical support.",
+          "source_roi_voxels": 343,
+          "source_roi_outside_candidate_fov": 0,
+          "source_roi_definitely_outside_candidate_fov": 0,
+          "source_roi_centres_near_fov_boundary": 0,
+          "expected_candidate_roi_voxels": 343,
+          "candidate_roi_voxels": 343,
+          "missing_roi_voxels": 0,
+          "exact_roi_preserved": true,
+          "exact_roi_scope": "Declared integral mapping only; observed correspondence is checked separately."
+        },
+        "feature_reuse": {
+          "decision": "input_roi_preserved",
+          "reason": "Integral-grid selected-input correspondence within declared tolerances; measurement reuse still depends on feature, settings and context/halo requirements. No universal feature equality is asserted."
+        },
+        "contract": {
+          "interpolation": "nearest",
+          "outside_value": 0.0,
+          "mask_outside": 0,
+          "position_atol_mm": 0.0001,
+          "intensity_atol": 0.0001,
+          "intensity_rtol": 0.0,
+          "index_boundary_atol": 1e-09,
+          "support": "source indices in [-0.5, size-0.5)",
+          "nearest_ties": "nominal floor(index+0.5); differing boundary alternatives are indeterminate, never satisfied",
+          "linear_rim": "clamp to edge centres",
+          "boundary_budget_scope": "Declared engineering band in index units, not a certified floating-point bound or a clinical tolerance."
+        }
+      },
+      "input_sha256": {
+        "source_image": "7c41fe022cbc8ac33a534fef8a720dc95226767cac8c3472f8e726ba704b72db",
+        "source_mask": "46e04051bdb7cfde81201c3a5f8317ed96c34901c454efe9cce231229eb2c406",
+        "candidate_image": "70a62c6abbb21a2c25f77990d30ed7e1feada523f8ea68e8019a1ca35a99cd36",
+        "candidate_mask": "111755d99cd7cb8e95e8844ac0f0acb24e2be0bc47809ca46333a272f071a7db"
+      },
+      "linked_to_previous_checkpoint": true,
+      "checkpoint": 1
+    },
+    {
+      "decision": "sampling_satisfied_reextract",
+      "paired_geometry": {
+        "source": {
+          "same_shape": true,
+          "same_affine": true,
+          "physical_corner_agreement": true
+        },
+        "candidate": {
+          "same_shape": true,
+          "same_affine": true,
+          "physical_corner_agreement": true
+        }
+      },
+      "paired_max_corner_error_mm": {
+        "source": 0.0,
+        "candidate": 0.0
+      },
+      "sampling": {
+        "schema_version": "sampling-1.0",
+        "status": "satisfied",
+        "checks": {
+          "candidate_shape": true,
+          "position": true,
+          "intensity": true,
+          "roi": true
+        },
+        "max_corner_error_mm": 0.0,
+        "max_intensity_error": 0.0,
+        "mismatched_roi_voxels": 0,
+        "strict_nominal_status": "satisfied",
+        "nominal_mismatched_intensity_voxels": 0,
+        "nominal_mismatched_roi_voxels": 0,
+        "ambiguous_intensity_voxels": 0,
+        "ambiguous_roi_voxels": 0,
+        "violating_intensity_voxels": 0,
+        "violating_roi_voxels": 0,
+        "candidate_voxels_outside_source_support": 0,
+        "coverage": {
+          "status": "satisfied",
+          "definition": "Source selected-ROI voxel centres mapped by declared B inverse into candidate [-0.5,size-0.5) FOV; not continuous anatomical support.",
+          "source_roi_voxels": 343,
+          "source_roi_outside_candidate_fov": 0,
+          "source_roi_definitely_outside_candidate_fov": 0,
+          "source_roi_centres_near_fov_boundary": 0,
+          "expected_candidate_roi_voxels": 27,
+          "candidate_roi_voxels": 27,
+          "missing_roi_voxels": null,
+          "exact_roi_preserved": null,
+          "exact_roi_scope": "Declared integral mapping only; observed correspondence is checked separately."
+        },
+        "feature_reuse": {
+          "decision": "requires_reextraction",
+          "reason": "Sampling or physical/intensity change has no assigned feature-reuse equality; correct execution does not imply feature invariance."
+        },
+        "contract": {
+          "interpolation": "linear",
+          "outside_value": 0.0,
+          "mask_outside": 0,
+          "position_atol_mm": 0.0001,
+          "intensity_atol": 0.0001,
+          "intensity_rtol": 0.0,
+          "index_boundary_atol": 1e-09,
+          "support": "source indices in [-0.5, size-0.5)",
+          "nearest_ties": "nominal floor(index+0.5); differing boundary alternatives are indeterminate, never satisfied",
+          "linear_rim": "clamp to edge centres",
+          "boundary_budget_scope": "Declared engineering band in index units, not a certified floating-point bound or a clinical tolerance."
+        }
+      },
+      "input_sha256": {
+        "source_image": "70a62c6abbb21a2c25f77990d30ed7e1feada523f8ea68e8019a1ca35a99cd36",
+        "source_mask": "111755d99cd7cb8e95e8844ac0f0acb24e2be0bc47809ca46333a272f071a7db",
+        "candidate_image": "346a437da1eb68a80153aa160952e2a26a90449e065a2c5d451e2f4512a91b92",
+        "candidate_mask": "2bd816ff355c4e82d659fd745d3a93a1b752e3fec39579fcdd4353e4c4ae2f7c"
+      },
+      "linked_to_previous_checkpoint": true,
+      "checkpoint": 2
+    },
+    {
+      "decision": "violated",
+      "paired_geometry": {
+        "source": {
+          "same_shape": true,
+          "same_affine": true,
+          "physical_corner_agreement": true
+        },
+        "candidate": {
+          "same_shape": true,
+          "same_affine": true,
+          "physical_corner_agreement": true
+        }
+      },
+      "paired_max_corner_error_mm": {
+        "source": 0.0,
+        "candidate": 0.0
+      },
+      "sampling": {
+        "schema_version": "sampling-1.0",
+        "status": "violated",
+        "checks": {
+          "candidate_shape": true,
+          "position": false,
+          "intensity": true,
+          "roi": true
+        },
+        "max_corner_error_mm": 11.0,
+        "max_intensity_error": 0.0,
+        "mismatched_roi_voxels": 0,
+        "strict_nominal_status": "violated",
+        "nominal_mismatched_intensity_voxels": 0,
+        "nominal_mismatched_roi_voxels": 0,
+        "ambiguous_intensity_voxels": 0,
+        "ambiguous_roi_voxels": 0,
+        "violating_intensity_voxels": 0,
+        "violating_roi_voxels": 0,
+        "candidate_voxels_outside_source_support": 0,
+        "coverage": {
+          "status": "satisfied",
+          "definition": "Source selected-ROI voxel centres mapped by declared B inverse into candidate [-0.5,size-0.5) FOV; not continuous anatomical support.",
+          "source_roi_voxels": 27,
+          "source_roi_outside_candidate_fov": 0,
+          "source_roi_definitely_outside_candidate_fov": 0,
+          "source_roi_centres_near_fov_boundary": 0,
+          "expected_candidate_roi_voxels": 27,
+          "candidate_roi_voxels": 27,
+          "missing_roi_voxels": 0,
+          "exact_roi_preserved": true,
+          "exact_roi_scope": "Declared integral mapping only; observed correspondence is checked separately."
+        },
+        "feature_reuse": {
+          "decision": "blocked",
+          "reason": "Sampling is violated or boundary-indeterminate; no approval or feature reuse is inferred."
+        },
+        "contract": {
+          "interpolation": "nearest",
+          "outside_value": 0.0,
+          "mask_outside": 0,
+          "position_atol_mm": 0.0001,
+          "intensity_atol": 0.0001,
+          "intensity_rtol": 0.0,
+          "index_boundary_atol": 1e-09,
+          "support": "source indices in [-0.5, size-0.5)",
+          "nearest_ties": "nominal floor(index+0.5); differing boundary alternatives are indeterminate, never satisfied",
+          "linear_rim": "clamp to edge centres",
+          "boundary_budget_scope": "Declared engineering band in index units, not a certified floating-point bound or a clinical tolerance."
+        }
+      },
+      "input_sha256": {
+        "source_image": "346a437da1eb68a80153aa160952e2a26a90449e065a2c5d451e2f4512a91b92",
+        "source_mask": "2bd816ff355c4e82d659fd745d3a93a1b752e3fec39579fcdd4353e4c4ae2f7c",
+        "candidate_image": "0d6f5a088d35fd5c8ad37819fb64ccd388f080ea064cac1ba4daaccd325acdb6",
+        "candidate_mask": "556974eca6b6e18a1cd115cad2c0057dcb0b263fb84c64a402081b4457332991"
+      },
+      "linked_to_previous_checkpoint": true,
+      "checkpoint": 3
+    }
+  ],
+  "plan_sha256": "2597a17bd2c6918cde1fcf9f5482c406da354d5936c4e44ab9eb9eb8206dfbbb",
+  "scope": "Fidelity to the declared discrete sampling operation and stated ROI support. The source and plan are trusted. Correct resampling requires new feature extraction. Input ROI preservation does not establish equivalence of all features. Only supplied checkpoints are observed; clinical validity is not assessed."
+}

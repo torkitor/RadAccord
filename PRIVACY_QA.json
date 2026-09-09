@@ -1,0 +1,57 @@
+{
+  "counts": {
+    "archived_synthetic_nifti_byte_identical": 6,
+    "clinical_raw_image_files": 0,
+    "credential_or_authorization_hits": 0,
+    "distribution_wheels_scanned": 1,
+    "excluded_restored_records": 20,
+    "figure_pdfs_single_page_each": 5,
+    "manuscript_or_titlepage_documents": 0,
+    "metadata_hits": 0,
+    "nested_scientific_archives": 0,
+    "png_tiff_pixel_identical_pairs": 5,
+    "pngs_visually_reviewed": 13,
+    "private_email_hits": 0,
+    "private_path_hits": 0,
+    "public_files_reviewed_excluding_this_receipt": 322,
+    "public_text_files_freshly_scanned": 281,
+    "raster_metadata_checked": 18,
+    "raw_prompt_or_traceback_hits": 0,
+    "scientific_archives_recursively_scanned": 3,
+    "synthetic_nifti_files_verified_against_generators": 14,
+    "text_files_or_archive_members_scanned": 494,
+    "uncompressed_text_bytes_scanned": 419863062,
+    "wheel_image_or_manuscript_files": 0,
+    "wheel_members_verified": 27,
+    "wheel_private_pattern_hits": 0,
+    "wheel_record_hashes_verified": 26
+  },
+  "distribution_packages": [
+    {
+      "bytes": 79836,
+      "members": 27,
+      "record_hashes_verified": 26,
+      "sha256": "1976dc89877a7bed5b93dbad8fbbcf33dc4bc1bb25e781ed04a7d2e6b86644a6"
+    }
+  ],
+  "hashes": {
+    "reviewed_inventory_sha256": "fb7df10162c47782395ef025d6fda4c5277ce032d110fa82788a8dbb70011a76"
+  },
+  "schema_version": "public-privacy-qa-1",
+  "scientific_archives": [
+    {
+      "members": 113,
+      "sha256": "43ff30b546e1904b1f119c6349747d3e6289b273f2b4ee18c80dc57d0b2970bd"
+    },
+    {
+      "members": 33,
+      "sha256": "a3e2bff93996884ca8f8c31a38dbe8f1bb75acf2e011509e4d06ca9cbfd1532f"
+    },
+    {
+      "members": 46,
+      "sha256": "d8780b56b63c50e75631fa63ac0cb68874c60357d9ceb8828cf3d47b27ce6bb5"
+    }
+  ],
+  "scope": "Pre-manifest public-candidate content review. Restored legacy records, build products and ignored local files are excluded. Honest AI-assistance disclosure and legitimate author/source attribution are retained. This receipt is not an authenticity guarantee.",
+  "status": "passed"
+}

@@ -1,0 +1,69 @@
+{
+  "candidate_attempt_count": 52,
+  "cause": "Undetermined. No out-of-memory or other causal diagnosis is asserted.",
+  "completed_records": 51,
+  "designation": "First development evaluation; original frozen execution retained.",
+  "engine": "pyradiomics",
+  "engine_version": "3.0.1",
+  "evidence": "The process ended after 51 complete ordered records and did not write run_summary.json. The next scheduled pair has no persisted result.",
+  "freeze_sha256": "258e66217f03a138c7dfe07b2b16200670955d6a10f93559759cbca0d355c55b",
+  "interruption_reason_code": "process_ended_without_run_summary",
+  "not_reached": [
+    {
+      "input_id": "hippocampus_193",
+      "operation": "cubic_1p3"
+    },
+    {
+      "input_id": "hippocampus_193",
+      "operation": "linear_1p3"
+    },
+    {
+      "input_id": "hippocampus_169",
+      "operation": "identity"
+    },
+    {
+      "input_id": "hippocampus_169",
+      "operation": "cubic_1p3"
+    },
+    {
+      "input_id": "hippocampus_169",
+      "operation": "linear_1p3"
+    },
+    {
+      "input_id": "hippocampus_248",
+      "operation": "identity"
+    },
+    {
+      "input_id": "hippocampus_248",
+      "operation": "cubic_1p3"
+    },
+    {
+      "input_id": "hippocampus_248",
+      "operation": "linear_1p3"
+    },
+    {
+      "input_id": "spleen_22",
+      "operation": "identity"
+    },
+    {
+      "input_id": "spleen_28",
+      "operation": "identity"
+    }
+  ],
+  "not_reached_count": 10,
+  "numpy_version": "1.23.5",
+  "plan_sha256": "b9128084776ef95aca598c420ed36fd41d90c09cd9b29054c891aa486e8124d2",
+  "planned": 62,
+  "recorded_attempts": 51,
+  "records_sha256": "9569a6fb64256ca1f8c46c6b663b616a7cf32e56c64c3350b5d4b69e6eaf7fa7",
+  "schema_version": "native-interruption-1",
+  "unchanged_records": 51,
+  "unrecorded_next_pair": {
+    "input_id": "hippocampus_193",
+    "operation": "identity",
+    "planned_ordinal": 52,
+    "record_present": false,
+    "state": "completion_unknown"
+  },
+  "unrecorded_scope": "The next scheduled slot is retained as an interrupted candidate attempt; its start and completion are not established by a case record. Ten later planned slots were not reached. No feature values, timings or checkpoints are fabricated."
+}

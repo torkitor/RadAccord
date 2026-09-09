@@ -84,7 +84,8 @@ class ReleaseToolTests(unittest.TestCase):
         for name in ('.git/config', '__pycache__/cache.pyc', 'software/__pycache__/cache.pyc',
                      'outputs/report.json', 'reproduced/report.json', 'generated_inputs/image.nii',
                      'reports/report.json', '.venv-test/pyvenv.cfg', 'venv/pyvenv.cfg',
-                     'software/runs/log.txt', 'work/pilot/inputs/volume.nii', 'figures/P2_Fig1.png'):
+                     'software/runs/log.txt', 'work/pilot/inputs/volume.nii', 'figures/P2_Fig1.png',
+                     'build/lib/radaccord/__init__.py', 'dist/radaccord.whl', 'radaccord.egg-info/SOURCES.txt'):
             target = self.root / name
             target.parent.mkdir(parents=True, exist_ok=True)
             target.write_text('local')

@@ -12,7 +12,8 @@ from pathlib import Path
 from restore_records import archive_records, file_sha256, parse_manifest, safe_file
 
 ROOT = Path(__file__).resolve().parents[1]
-LOCAL_DIRECTORIES = {'outputs', 'reproduced', 'generated_inputs', 'reports', 'venv'}
+LOCAL_DIRECTORIES = {'outputs', 'reproduced', 'generated_inputs', 'reports', 'venv',
+                     'build', 'dist', 'radaccord.egg-info'}
 
 
 def ignored(parts, directory=False):

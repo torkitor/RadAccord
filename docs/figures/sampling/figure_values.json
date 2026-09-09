@@ -1,0 +1,671 @@
+{
+  "input_sha256": {
+    "cases.jsonl": "946342347683afbdd4d9c2a20b8c782fa1462a6dc7390366d837ad9f08a9a453",
+    "native_comparisons.jsonl": "d0c7f5c0dd43023636ffee296be89b0db2a03b01fe144d0a736cca0f08f05182",
+    "checkpoint_demo.jsonl": "fb076d29ca14b2a17bd3dbcbef240e3b0ab5144bae2e88cd6d79f0f4be9f689a"
+  },
+  "figure2": [
+    {
+      "dataset": "Task04_Hippocampus",
+      "case": "stale_crop_origin",
+      "comparator": "paired_QA",
+      "active": 59,
+      "violated": 0,
+      "unavailable": 0,
+      "indeterminate": 0
+    },
+    {
+      "dataset": "Task04_Hippocampus",
+      "case": "stale_crop_origin",
+      "comparator": "source_aware_geometry",
+      "active": 59,
+      "violated": 59,
+      "unavailable": 0,
+      "indeterminate": 0
+    },
+    {
+      "dataset": "Task04_Hippocampus",
+      "case": "stale_crop_origin",
+      "comparator": "legacy_full_grid",
+      "active": 59,
+      "violated": 0,
+      "unavailable": 59,
+      "indeterminate": 0
+    },
+    {
+      "dataset": "Task04_Hippocampus",
+      "case": "stale_crop_origin",
+      "comparator": "sampling",
+      "active": 59,
+      "violated": 59,
+      "unavailable": 0,
+      "indeterminate": 0
+    },
+    {
+      "dataset": "Task04_Hippocampus",
+      "case": "shared_origin_shift",
+      "comparator": "paired_QA",
+      "active": 260,
+      "violated": 0,
+      "unavailable": 0,
+      "indeterminate": 0
+    },
+    {
+      "dataset": "Task04_Hippocampus",
+      "case": "shared_origin_shift",
+      "comparator": "source_aware_geometry",
+      "active": 260,
+      "violated": 260,
+      "unavailable": 0,
+      "indeterminate": 0
+    },
+    {
+      "dataset": "Task04_Hippocampus",
+      "case": "shared_origin_shift",
+      "comparator": "legacy_full_grid",
+      "active": 260,
+      "violated": 260,
+      "unavailable": 0,
+      "indeterminate": 0
+    },
+    {
+      "dataset": "Task04_Hippocampus",
+      "case": "shared_origin_shift",
+      "comparator": "sampling",
+      "active": 260,
+      "violated": 260,
+      "unavailable": 0,
+      "indeterminate": 0
+    },
+    {
+      "dataset": "Task04_Hippocampus",
+      "case": "half_voxel_sampling_displacement",
+      "comparator": "paired_QA",
+      "active": 260,
+      "violated": 0,
+      "unavailable": 0,
+      "indeterminate": 0
+    },
+    {
+      "dataset": "Task04_Hippocampus",
+      "case": "half_voxel_sampling_displacement",
+      "comparator": "source_aware_geometry",
+      "active": 260,
+      "violated": 0,
+      "unavailable": 0,
+      "indeterminate": 0
+    },
+    {
+      "dataset": "Task04_Hippocampus",
+      "case": "half_voxel_sampling_displacement",
+      "comparator": "legacy_full_grid",
+      "active": 260,
+      "violated": 0,
+      "unavailable": 260,
+      "indeterminate": 0
+    },
+    {
+      "dataset": "Task04_Hippocampus",
+      "case": "half_voxel_sampling_displacement",
+      "comparator": "sampling",
+      "active": 260,
+      "violated": 260,
+      "unavailable": 0,
+      "indeterminate": 0
+    },
+    {
+      "dataset": "Task04_Hippocampus",
+      "case": "wrong_image_kernel",
+      "comparator": "paired_QA",
+      "active": 260,
+      "violated": 0,
+      "unavailable": 0,
+      "indeterminate": 0
+    },
+    {
+      "dataset": "Task04_Hippocampus",
+      "case": "wrong_image_kernel",
+      "comparator": "source_aware_geometry",
+      "active": 260,
+      "violated": 0,
+      "unavailable": 0,
+      "indeterminate": 0
+    },
+    {
+      "dataset": "Task04_Hippocampus",
+      "case": "wrong_image_kernel",
+      "comparator": "legacy_full_grid",
+      "active": 260,
+      "violated": 0,
+      "unavailable": 260,
+      "indeterminate": 0
+    },
+    {
+      "dataset": "Task04_Hippocampus",
+      "case": "wrong_image_kernel",
+      "comparator": "sampling",
+      "active": 260,
+      "violated": 260,
+      "unavailable": 0,
+      "indeterminate": 0
+    },
+    {
+      "dataset": "Task04_Hippocampus",
+      "case": "linear_mask_threshold",
+      "comparator": "paired_QA",
+      "active": 260,
+      "violated": 0,
+      "unavailable": 0,
+      "indeterminate": 0
+    },
+    {
+      "dataset": "Task04_Hippocampus",
+      "case": "linear_mask_threshold",
+      "comparator": "source_aware_geometry",
+      "active": 260,
+      "violated": 0,
+      "unavailable": 0,
+      "indeterminate": 0
+    },
+    {
+      "dataset": "Task04_Hippocampus",
+      "case": "linear_mask_threshold",
+      "comparator": "legacy_full_grid",
+      "active": 260,
+      "violated": 0,
+      "unavailable": 260,
+      "indeterminate": 0
+    },
+    {
+      "dataset": "Task04_Hippocampus",
+      "case": "linear_mask_threshold",
+      "comparator": "sampling",
+      "active": 260,
+      "violated": 260,
+      "unavailable": 0,
+      "indeterminate": 0
+    },
+    {
+      "dataset": "Task04_Hippocampus",
+      "case": "premature_integer_storage",
+      "comparator": "paired_QA",
+      "active": 260,
+      "violated": 0,
+      "unavailable": 0,
+      "indeterminate": 0
+    },
+    {
+      "dataset": "Task04_Hippocampus",
+      "case": "premature_integer_storage",
+      "comparator": "source_aware_geometry",
+      "active": 260,
+      "violated": 0,
+      "unavailable": 0,
+      "indeterminate": 0
+    },
+    {
+      "dataset": "Task04_Hippocampus",
+      "case": "premature_integer_storage",
+      "comparator": "legacy_full_grid",
+      "active": 260,
+      "violated": 0,
+      "unavailable": 260,
+      "indeterminate": 0
+    },
+    {
+      "dataset": "Task04_Hippocampus",
+      "case": "premature_integer_storage",
+      "comparator": "sampling",
+      "active": 260,
+      "violated": 260,
+      "unavailable": 0,
+      "indeterminate": 0
+    },
+    {
+      "dataset": "Task09_Spleen",
+      "case": "stale_crop_origin",
+      "comparator": "paired_QA",
+      "active": 41,
+      "violated": 0,
+      "unavailable": 0,
+      "indeterminate": 0
+    },
+    {
+      "dataset": "Task09_Spleen",
+      "case": "stale_crop_origin",
+      "comparator": "source_aware_geometry",
+      "active": 41,
+      "violated": 41,
+      "unavailable": 0,
+      "indeterminate": 0
+    },
+    {
+      "dataset": "Task09_Spleen",
+      "case": "stale_crop_origin",
+      "comparator": "legacy_full_grid",
+      "active": 41,
+      "violated": 0,
+      "unavailable": 41,
+      "indeterminate": 0
+    },
+    {
+      "dataset": "Task09_Spleen",
+      "case": "stale_crop_origin",
+      "comparator": "sampling",
+      "active": 41,
+      "violated": 41,
+      "unavailable": 0,
+      "indeterminate": 0
+    },
+    {
+      "dataset": "Task09_Spleen",
+      "case": "shared_origin_shift",
+      "comparator": "paired_QA",
+      "active": 41,
+      "violated": 0,
+      "unavailable": 0,
+      "indeterminate": 0
+    },
+    {
+      "dataset": "Task09_Spleen",
+      "case": "shared_origin_shift",
+      "comparator": "source_aware_geometry",
+      "active": 41,
+      "violated": 41,
+      "unavailable": 0,
+      "indeterminate": 0
+    },
+    {
+      "dataset": "Task09_Spleen",
+      "case": "shared_origin_shift",
+      "comparator": "legacy_full_grid",
+      "active": 41,
+      "violated": 41,
+      "unavailable": 0,
+      "indeterminate": 0
+    },
+    {
+      "dataset": "Task09_Spleen",
+      "case": "shared_origin_shift",
+      "comparator": "sampling",
+      "active": 41,
+      "violated": 41,
+      "unavailable": 0,
+      "indeterminate": 0
+    },
+    {
+      "dataset": "Task09_Spleen",
+      "case": "half_voxel_sampling_displacement",
+      "comparator": "paired_QA",
+      "active": 41,
+      "violated": 0,
+      "unavailable": 0,
+      "indeterminate": 0
+    },
+    {
+      "dataset": "Task09_Spleen",
+      "case": "half_voxel_sampling_displacement",
+      "comparator": "source_aware_geometry",
+      "active": 41,
+      "violated": 0,
+      "unavailable": 0,
+      "indeterminate": 0
+    },
+    {
+      "dataset": "Task09_Spleen",
+      "case": "half_voxel_sampling_displacement",
+      "comparator": "legacy_full_grid",
+      "active": 41,
+      "violated": 0,
+      "unavailable": 41,
+      "indeterminate": 0
+    },
+    {
+      "dataset": "Task09_Spleen",
+      "case": "half_voxel_sampling_displacement",
+      "comparator": "sampling",
+      "active": 41,
+      "violated": 41,
+      "unavailable": 0,
+      "indeterminate": 0
+    },
+    {
+      "dataset": "Task09_Spleen",
+      "case": "wrong_image_kernel",
+      "comparator": "paired_QA",
+      "active": 41,
+      "violated": 0,
+      "unavailable": 0,
+      "indeterminate": 0
+    },
+    {
+      "dataset": "Task09_Spleen",
+      "case": "wrong_image_kernel",
+      "comparator": "source_aware_geometry",
+      "active": 41,
+      "violated": 0,
+      "unavailable": 0,
+      "indeterminate": 0
+    },
+    {
+      "dataset": "Task09_Spleen",
+      "case": "wrong_image_kernel",
+      "comparator": "legacy_full_grid",
+      "active": 41,
+      "violated": 0,
+      "unavailable": 41,
+      "indeterminate": 0
+    },
+    {
+      "dataset": "Task09_Spleen",
+      "case": "wrong_image_kernel",
+      "comparator": "sampling",
+      "active": 41,
+      "violated": 41,
+      "unavailable": 0,
+      "indeterminate": 0
+    },
+    {
+      "dataset": "Task09_Spleen",
+      "case": "linear_mask_threshold",
+      "comparator": "paired_QA",
+      "active": 41,
+      "violated": 0,
+      "unavailable": 0,
+      "indeterminate": 0
+    },
+    {
+      "dataset": "Task09_Spleen",
+      "case": "linear_mask_threshold",
+      "comparator": "source_aware_geometry",
+      "active": 41,
+      "violated": 0,
+      "unavailable": 0,
+      "indeterminate": 0
+    },
+    {
+      "dataset": "Task09_Spleen",
+      "case": "linear_mask_threshold",
+      "comparator": "legacy_full_grid",
+      "active": 41,
+      "violated": 0,
+      "unavailable": 41,
+      "indeterminate": 0
+    },
+    {
+      "dataset": "Task09_Spleen",
+      "case": "linear_mask_threshold",
+      "comparator": "sampling",
+      "active": 41,
+      "violated": 41,
+      "unavailable": 0,
+      "indeterminate": 0
+    },
+    {
+      "dataset": "Task09_Spleen",
+      "case": "premature_integer_storage",
+      "comparator": "paired_QA",
+      "active": 41,
+      "violated": 0,
+      "unavailable": 0,
+      "indeterminate": 0
+    },
+    {
+      "dataset": "Task09_Spleen",
+      "case": "premature_integer_storage",
+      "comparator": "source_aware_geometry",
+      "active": 41,
+      "violated": 0,
+      "unavailable": 0,
+      "indeterminate": 0
+    },
+    {
+      "dataset": "Task09_Spleen",
+      "case": "premature_integer_storage",
+      "comparator": "legacy_full_grid",
+      "active": 41,
+      "violated": 0,
+      "unavailable": 41,
+      "indeterminate": 0
+    },
+    {
+      "dataset": "Task09_Spleen",
+      "case": "premature_integer_storage",
+      "comparator": "sampling",
+      "active": 41,
+      "violated": 41,
+      "unavailable": 0,
+      "indeterminate": 0
+    }
+  ],
+  "figure3": [
+    {
+      "dataset": "Task04_Hippocampus",
+      "volume_id": "hippocampus_001",
+      "role": "isotropic_0p8mm",
+      "changed": 71,
+      "comparable": 72
+    },
+    {
+      "dataset": "Task04_Hippocampus",
+      "volume_id": "hippocampus_001",
+      "role": "isotropic_1mm",
+      "changed": 0,
+      "comparable": 72
+    },
+    {
+      "dataset": "Task04_Hippocampus",
+      "volume_id": "hippocampus_001",
+      "role": "isotropic_2mm",
+      "changed": 69,
+      "comparable": 72
+    },
+    {
+      "dataset": "Task04_Hippocampus",
+      "volume_id": "hippocampus_001",
+      "role": "wrong_image_kernel",
+      "changed": 57,
+      "comparable": 72
+    },
+    {
+      "dataset": "Task04_Hippocampus",
+      "volume_id": "hippocampus_003",
+      "role": "isotropic_0p8mm",
+      "changed": 72,
+      "comparable": 72
+    },
+    {
+      "dataset": "Task04_Hippocampus",
+      "volume_id": "hippocampus_003",
+      "role": "isotropic_1mm",
+      "changed": 0,
+      "comparable": 72
+    },
+    {
+      "dataset": "Task04_Hippocampus",
+      "volume_id": "hippocampus_003",
+      "role": "isotropic_2mm",
+      "changed": 69,
+      "comparable": 72
+    },
+    {
+      "dataset": "Task04_Hippocampus",
+      "volume_id": "hippocampus_003",
+      "role": "wrong_image_kernel",
+      "changed": 58,
+      "comparable": 72
+    },
+    {
+      "dataset": "Task04_Hippocampus",
+      "volume_id": "hippocampus_004",
+      "role": "isotropic_0p8mm",
+      "changed": 72,
+      "comparable": 72
+    },
+    {
+      "dataset": "Task04_Hippocampus",
+      "volume_id": "hippocampus_004",
+      "role": "isotropic_1mm",
+      "changed": 0,
+      "comparable": 72
+    },
+    {
+      "dataset": "Task04_Hippocampus",
+      "volume_id": "hippocampus_004",
+      "role": "isotropic_2mm",
+      "changed": 70,
+      "comparable": 72
+    },
+    {
+      "dataset": "Task04_Hippocampus",
+      "volume_id": "hippocampus_004",
+      "role": "wrong_image_kernel",
+      "changed": 58,
+      "comparable": 72
+    },
+    {
+      "dataset": "Task09_Spleen",
+      "volume_id": "spleen_10",
+      "role": "isotropic_0p8mm",
+      "changed": 72,
+      "comparable": 72
+    },
+    {
+      "dataset": "Task09_Spleen",
+      "volume_id": "spleen_10",
+      "role": "isotropic_1mm",
+      "changed": 72,
+      "comparable": 72
+    },
+    {
+      "dataset": "Task09_Spleen",
+      "volume_id": "spleen_10",
+      "role": "isotropic_2mm",
+      "changed": 72,
+      "comparable": 72
+    },
+    {
+      "dataset": "Task09_Spleen",
+      "volume_id": "spleen_10",
+      "role": "wrong_image_kernel",
+      "changed": 58,
+      "comparable": 72
+    },
+    {
+      "dataset": "Task09_Spleen",
+      "volume_id": "spleen_12",
+      "role": "isotropic_0p8mm",
+      "changed": 72,
+      "comparable": 72
+    },
+    {
+      "dataset": "Task09_Spleen",
+      "volume_id": "spleen_12",
+      "role": "isotropic_1mm",
+      "changed": 72,
+      "comparable": 72
+    },
+    {
+      "dataset": "Task09_Spleen",
+      "volume_id": "spleen_12",
+      "role": "isotropic_2mm",
+      "changed": 72,
+      "comparable": 72
+    },
+    {
+      "dataset": "Task09_Spleen",
+      "volume_id": "spleen_12",
+      "role": "wrong_image_kernel",
+      "changed": 58,
+      "comparable": 72
+    },
+    {
+      "dataset": "Task09_Spleen",
+      "volume_id": "spleen_13",
+      "role": "isotropic_0p8mm",
+      "changed": 72,
+      "comparable": 72
+    },
+    {
+      "dataset": "Task09_Spleen",
+      "volume_id": "spleen_13",
+      "role": "isotropic_1mm",
+      "changed": 72,
+      "comparable": 72
+    },
+    {
+      "dataset": "Task09_Spleen",
+      "volume_id": "spleen_13",
+      "role": "isotropic_2mm",
+      "changed": 72,
+      "comparable": 72
+    },
+    {
+      "dataset": "Task09_Spleen",
+      "volume_id": "spleen_13",
+      "role": "wrong_image_kernel",
+      "changed": 58,
+      "comparable": 72
+    }
+  ],
+  "figure4": [
+    {
+      "case": "isotropic_0p8mm",
+      "satisfied": 40,
+      "indeterminate_boundary": 1,
+      "violated": 0
+    },
+    {
+      "case": "isotropic_1mm",
+      "satisfied": 36,
+      "indeterminate_boundary": 5,
+      "violated": 0
+    },
+    {
+      "case": "isotropic_2mm",
+      "satisfied": 36,
+      "indeterminate_boundary": 5,
+      "violated": 0
+    },
+    {
+      "dataset": "Task04_Hippocampus",
+      "volume_id": "hippocampus_001",
+      "case": "identity_checkpoints",
+      "corner_errors_mm": [
+        0.0,
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "dataset": "Task04_Hippocampus",
+      "volume_id": "hippocampus_001",
+      "case": "compensated_intermediate_geometry",
+      "corner_errors_mm": [
+        0.0,
+        11.0,
+        0.0
+      ]
+    },
+    {
+      "dataset": "Task09_Spleen",
+      "volume_id": "spleen_10",
+      "case": "identity_checkpoints",
+      "corner_errors_mm": [
+        0.0,
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "dataset": "Task09_Spleen",
+      "volume_id": "spleen_10",
+      "case": "compensated_intermediate_geometry",
+      "corner_errors_mm": [
+        0.0,
+        11.0,
+        0.0
+      ]
+    }
+  ]
+}

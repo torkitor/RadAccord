@@ -1,0 +1,303 @@
+{
+  "schema_version": "native-plan-1",
+  "phase": "internal_pre_evaluation_freeze",
+  "selection": "Eight fixed new generator seeds; smallest salted filename SHA-256 after excluding six previous native subset images.",
+  "label": 1,
+  "clinical_status": "Public-image reuse; these images were previously in the sampling study, not an independent clinical cohort.",
+  "inputs": [
+    {
+      "id": "synthetic_921101",
+      "kind": "synthetic",
+      "seed": 921101,
+      "modality": "mr",
+      "operations": [
+        "identity",
+        "cubic_1p3",
+        "linear_1p3"
+      ]
+    },
+    {
+      "id": "synthetic_921102",
+      "kind": "synthetic",
+      "seed": 921102,
+      "modality": "mr",
+      "operations": [
+        "identity",
+        "cubic_1p3",
+        "linear_1p3"
+      ]
+    },
+    {
+      "id": "synthetic_921103",
+      "kind": "synthetic",
+      "seed": 921103,
+      "modality": "mr",
+      "operations": [
+        "identity",
+        "cubic_1p3",
+        "linear_1p3"
+      ]
+    },
+    {
+      "id": "synthetic_921104",
+      "kind": "synthetic",
+      "seed": 921104,
+      "modality": "mr",
+      "operations": [
+        "identity",
+        "cubic_1p3",
+        "linear_1p3"
+      ]
+    },
+    {
+      "id": "synthetic_921105",
+      "kind": "synthetic",
+      "seed": 921105,
+      "modality": "mr",
+      "operations": [
+        "identity",
+        "cubic_1p3",
+        "linear_1p3"
+      ]
+    },
+    {
+      "id": "synthetic_921106",
+      "kind": "synthetic",
+      "seed": 921106,
+      "modality": "mr",
+      "operations": [
+        "identity",
+        "cubic_1p3",
+        "linear_1p3"
+      ]
+    },
+    {
+      "id": "synthetic_921107",
+      "kind": "synthetic",
+      "seed": 921107,
+      "modality": "mr",
+      "operations": [
+        "identity",
+        "cubic_1p3",
+        "linear_1p3"
+      ]
+    },
+    {
+      "id": "synthetic_921108",
+      "kind": "synthetic",
+      "seed": 921108,
+      "modality": "mr",
+      "operations": [
+        "identity",
+        "cubic_1p3",
+        "linear_1p3"
+      ]
+    },
+    {
+      "id": "hippocampus_287",
+      "kind": "public_anatomical",
+      "modality": "mr",
+      "dataset": "Task04_Hippocampus",
+      "image": "imagesTr/hippocampus_287.nii.gz",
+      "mask": "labelsTr/hippocampus_287.nii.gz",
+      "image_sha256": "37f36e91204c248e525c39b3054a9ba2dce9763256859403b044ec61577490aa",
+      "mask_sha256": "740d4e7587c00af4d1bfac9a9fe15ad29dfc9c0e0834c3f4b33d998ec7b55878",
+      "operations": [
+        "identity",
+        "cubic_1p3",
+        "linear_1p3"
+      ]
+    },
+    {
+      "id": "hippocampus_332",
+      "kind": "public_anatomical",
+      "modality": "mr",
+      "dataset": "Task04_Hippocampus",
+      "image": "imagesTr/hippocampus_332.nii.gz",
+      "mask": "labelsTr/hippocampus_332.nii.gz",
+      "image_sha256": "068b421bbfc0a78f9b3121358e72f728411949acf40da27d528915fa10ef5176",
+      "mask_sha256": "4ec5f551b48a1c3230f0cec08236ab96371da6b4ec2d7eb499b7ac0cde16978f",
+      "operations": [
+        "identity",
+        "cubic_1p3",
+        "linear_1p3"
+      ]
+    },
+    {
+      "id": "hippocampus_155",
+      "kind": "public_anatomical",
+      "modality": "mr",
+      "dataset": "Task04_Hippocampus",
+      "image": "imagesTr/hippocampus_155.nii.gz",
+      "mask": "labelsTr/hippocampus_155.nii.gz",
+      "image_sha256": "a4cd90272f953fdb479d4bca34df8fb37f166a2702a9d96b06fa5f968348563d",
+      "mask_sha256": "fa79e1d6917dfc60855ee4c44b2a855ef25a5d1568f74e3523a9296c8919b5f6",
+      "operations": [
+        "identity",
+        "cubic_1p3",
+        "linear_1p3"
+      ]
+    },
+    {
+      "id": "hippocampus_238",
+      "kind": "public_anatomical",
+      "modality": "mr",
+      "dataset": "Task04_Hippocampus",
+      "image": "imagesTr/hippocampus_238.nii.gz",
+      "mask": "labelsTr/hippocampus_238.nii.gz",
+      "image_sha256": "20e53968d1ba96b78d3e030226117be093b2dd8645ea814730561f7efe1084b2",
+      "mask_sha256": "62d4ad5cf3d1b7c26cd3a5ea6c4b9b374d73f14798516ab20a5beaab4869f55d",
+      "operations": [
+        "identity",
+        "cubic_1p3",
+        "linear_1p3"
+      ]
+    },
+    {
+      "id": "hippocampus_288",
+      "kind": "public_anatomical",
+      "modality": "mr",
+      "dataset": "Task04_Hippocampus",
+      "image": "imagesTr/hippocampus_288.nii.gz",
+      "mask": "labelsTr/hippocampus_288.nii.gz",
+      "image_sha256": "d4eec9dddf2655a0f0c90e19e3353cf4a3340bee9e80b3da1bbc0a54abe5f7b4",
+      "mask_sha256": "498838cd9b9554f44c4e1bf753bd8c4a50e8f562c7f9a5bb35ff0f03d13f24cd",
+      "operations": [
+        "identity",
+        "cubic_1p3",
+        "linear_1p3"
+      ]
+    },
+    {
+      "id": "hippocampus_393",
+      "kind": "public_anatomical",
+      "modality": "mr",
+      "dataset": "Task04_Hippocampus",
+      "image": "imagesTr/hippocampus_393.nii.gz",
+      "mask": "labelsTr/hippocampus_393.nii.gz",
+      "image_sha256": "5abb1be0cd3243cb7fbf6fb702fb39c8ef3c8d4ebefc48c7f6403d1bf2f96785",
+      "mask_sha256": "a69ec88d5debb3c657dd9a59c5031b473b37b2df1f77c002cf6f200769653a72",
+      "operations": [
+        "identity",
+        "cubic_1p3",
+        "linear_1p3"
+      ]
+    },
+    {
+      "id": "hippocampus_172",
+      "kind": "public_anatomical",
+      "modality": "mr",
+      "dataset": "Task04_Hippocampus",
+      "image": "imagesTr/hippocampus_172.nii.gz",
+      "mask": "labelsTr/hippocampus_172.nii.gz",
+      "image_sha256": "c9e13609db1ddaf5c280b93b66d58446fb2fd7e3deeba9fbe6157de2042702f7",
+      "mask_sha256": "24a93bbbbaba6080ddf550aca5078019777cd86b7a27f78d453402a55dddcd56",
+      "operations": [
+        "identity",
+        "cubic_1p3",
+        "linear_1p3"
+      ]
+    },
+    {
+      "id": "hippocampus_244",
+      "kind": "public_anatomical",
+      "modality": "mr",
+      "dataset": "Task04_Hippocampus",
+      "image": "imagesTr/hippocampus_244.nii.gz",
+      "mask": "labelsTr/hippocampus_244.nii.gz",
+      "image_sha256": "e2618998819ab603299d2ed015823773ee9a37a6f20b82f90404e3d0f2da2b92",
+      "mask_sha256": "deb950902847ba8ba045257337fdde15f51aa8a031de03b8f4007e71a868799a",
+      "operations": [
+        "identity",
+        "cubic_1p3",
+        "linear_1p3"
+      ]
+    },
+    {
+      "id": "hippocampus_224",
+      "kind": "public_anatomical",
+      "modality": "mr",
+      "dataset": "Task04_Hippocampus",
+      "image": "imagesTr/hippocampus_224.nii.gz",
+      "mask": "labelsTr/hippocampus_224.nii.gz",
+      "image_sha256": "df17d83811a3a88276c6f46a9dc1644cfd457238f50452bd8ce5930d2c67b5f5",
+      "mask_sha256": "2ce233a307deb76671179f8968251b1a3423bd9b85eeb74e5a1d59a5534703f1",
+      "operations": [
+        "identity",
+        "cubic_1p3",
+        "linear_1p3"
+      ]
+    },
+    {
+      "id": "hippocampus_193",
+      "kind": "public_anatomical",
+      "modality": "mr",
+      "dataset": "Task04_Hippocampus",
+      "image": "imagesTr/hippocampus_193.nii.gz",
+      "mask": "labelsTr/hippocampus_193.nii.gz",
+      "image_sha256": "dbdb5aec3400d6537881e9583ebfc6e991ea3dbf1e57e99a248b000f294b6019",
+      "mask_sha256": "643e86022cdc2220d33d776aca544f976c581f6a0ad435772facd832d719b428",
+      "operations": [
+        "identity",
+        "cubic_1p3",
+        "linear_1p3"
+      ]
+    },
+    {
+      "id": "hippocampus_169",
+      "kind": "public_anatomical",
+      "modality": "mr",
+      "dataset": "Task04_Hippocampus",
+      "image": "imagesTr/hippocampus_169.nii.gz",
+      "mask": "labelsTr/hippocampus_169.nii.gz",
+      "image_sha256": "b0039fc7e3955275351d39a36193cde7b0e623821431a88dc6ed0df4ae6008a2",
+      "mask_sha256": "bab66b107ab5adc1dd06ff316211081e7949bc34a900ccdaad4f552f55b88eb2",
+      "operations": [
+        "identity",
+        "cubic_1p3",
+        "linear_1p3"
+      ]
+    },
+    {
+      "id": "hippocampus_248",
+      "kind": "public_anatomical",
+      "modality": "mr",
+      "dataset": "Task04_Hippocampus",
+      "image": "imagesTr/hippocampus_248.nii.gz",
+      "mask": "labelsTr/hippocampus_248.nii.gz",
+      "image_sha256": "b4c8e9acb46dc48e9d873594ab6d8380920d1f8dbd7ebab4f80045577f615ee5",
+      "mask_sha256": "83b048e0a3536059ba4301f3fbd5168c9f5f3bfd1dcbaec0b69dd5a97f682fcd",
+      "operations": [
+        "identity",
+        "cubic_1p3",
+        "linear_1p3"
+      ]
+    },
+    {
+      "id": "spleen_22",
+      "kind": "public_anatomical",
+      "modality": "ct",
+      "dataset": "Task09_Spleen",
+      "image": "imagesTr/spleen_22.nii.gz",
+      "mask": "labelsTr/spleen_22.nii.gz",
+      "image_sha256": "e2d12bf008afbbbcde50b3817b63e92fda3593999c944be0b52382b62d8cda9d",
+      "mask_sha256": "6400cedfa2e5baf1e9edef22de0a6c6a46b1326eaf9f36da0af5eb6d4faf6c85",
+      "operations": [
+        "identity"
+      ]
+    },
+    {
+      "id": "spleen_28",
+      "kind": "public_anatomical",
+      "modality": "ct",
+      "dataset": "Task09_Spleen",
+      "image": "imagesTr/spleen_28.nii.gz",
+      "mask": "labelsTr/spleen_28.nii.gz",
+      "image_sha256": "33fd3856277a4b1b0e930c279f4b737e35af9a1ad9910700b0f8a2739aa31028",
+      "mask_sha256": "428f1e12a79a05e242d1d367315f5c0ce11d6054cc892f8a274fb23710268c4b",
+      "operations": [
+        "identity"
+      ]
+    }
+  ]
+}

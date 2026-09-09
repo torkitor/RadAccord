@@ -1,0 +1,22 @@
+{
+  "schema_version": "native-freeze-1",
+  "created_utc": "2026-09-09T12:13:58.407085+00:00",
+  "designation": "Internal pre-evaluation freeze; not public preregistration",
+  "files": {
+    "radaccord/__init__.py": "7a85d8234a3ce84b423c8d187c3f80b6e55e0e316eb7238787d1f4365c8d0768",
+    "radaccord/legacy.py": "189bda551b5ee44831b9e82f10c17a6646875e0264978d0bd1af07cc033c9118",
+    "radaccord/evidence.py": "d7aa9fac26119503d4da1828cc1cac26ef7129c9594f02a659576887640bc34a",
+    "radaccord/operators.py": "3fd1162b34ee806481a2e13daad7f8ddfae0ced3f473439582a5ffa1d5a0dbf2",
+    "radaccord/pyradiomics.py": "52c386823944e32459db75cf09a3a752d3a145befc925290ed588acf7eb9ccfa",
+    "radaccord/mirp.py": "8b7fb7ea6300497f1016ac180a32a79673d49aa5cf55946a044562c6ea0fca68",
+    "scripts/run_native_study.py": "92ad72160a04673bfaa8c1e30a44ae79494d4a022dc9fd9328b5d08a61f83130",
+    "scripts/verify_native_freeze.py": "80a8f33e8f01154a7ee637cadeb03081d3a17348ec89f90687b890da7d4691bc",
+    "protocol/native_study.md": "e3a4f640470bb66b5f7ea0061747966617d6cbb02c515f6e7097c7d14268dbe0",
+    "protocol/native_study_plan.json": "b9128084776ef95aca598c420ed36fd41d90c09cd9b29054c891aa486e8124d2",
+    "software/physical_contracts.py": "b2ddc6b63ed65245d4c0104c72f126b01ea337d1fb393c8e2ae27477427eb6b2",
+    "software/sampling_contracts.py": "a84cb4770c80028cf529252a8a7319e870033a344bdf07628482e273731606a9",
+    "tests/test_operators.py": "f5273364f883186d79a8504a77bb5460f3c3f6a3ba6e5e59d6d606c07a6b6119",
+    "tests/test_mirp.py": "d7f52b0a3d13299f0ac2d67b6d5573f9152d8cf77c27776388b0779e76306ab2",
+    "tests/test_native_pyradiomics.py": "976472a81b5fff443e3ee9b132f4409c55dbe2f6a7c587ae3a891ff8fe737772"
+  }
+}

@@ -1,0 +1,141 @@
+{
+  "audit_passed": true,
+  "scope": "Record-level arithmetic, accounting, status logic and freeze hashes; no native operator rerun.",
+  "freeze_sha256": "1618ecf0b48772dead25256a68049e6f9cae5fb5a1996b6ac8d8b89576a23059",
+  "source_hash_checks": {
+    "RadAccord/protocol/sampling_study.md": true,
+    "RadAccord/software/sampling_contracts.py": true,
+    "RadAccord/software/physical_contracts.py": true,
+    "RadAccord/software/adapters.py": true,
+    "RadAccord/radaccord_sampling.py": true,
+    "RadAccord/scripts/run_sampling_study.py": true,
+    "RadAccord/software/tests/test_sampling_contracts.py": true,
+    "RadAccord/scripts/tests/test_sampling_cli.py": true,
+    "RadAccord/scripts/tests/test_sampling_study.py": true,
+    "work/native_feature_plan.json": true,
+    "work/run_native_feature_subset.py": true,
+    "data_private/download_provenance.json": true,
+    "data_private/Task04_Hippocampus/dataset.json": true,
+    "data_private/Task09_Spleen/dataset.json": true,
+    "data_private/Task04_Hippocampus_header_eligibility.json": true,
+    "data_private/Task09_Spleen_header_eligibility.json": true
+  },
+  "input_sha256": {
+    "cases.jsonl": "4beb4d8ca341be3612b6c14b3df5625e5ac0669c448ca80d5df7a13211f6e05d",
+    "checkpoint_demo.jsonl": "377014f63f8d0a12dffb588fad4bd36c7c17ba1d1ae7c10a1241997303205e98",
+    "run_summary.json": "b05b65c49caa07dee8dd269407b7d980395f1a39633f50e92f79f9a344b00f74",
+    "volumes.jsonl": "510c675dc931496665c676d2e9a3dccd34b7ce0b7b55e50fe472b9907264327d"
+  },
+  "summary_sha256": "621852869702842d9e3ff5218206567c9ba5d4de9548921f0f564b98d3519e94",
+  "audit_script_sha256": "3fb2fe5cc9fc7a3fb38f359754cd1f8b5a801946a509052a91345df887f8299d",
+  "records": 448,
+  "volumes": 32,
+  "logical_sampling_checks": 448,
+  "mutation_activity_checks": 192,
+  "direct_difference_checks": 3584,
+  "voxel_volume_scaling_checks": 448,
+  "counts": {
+    "valid_control:satisfied": 224,
+    "roundtrip:satisfied": 258,
+    "roundtrip_comparable": 448,
+    "own_wrapper_mutation:violated": 190,
+    "mutation_active": 190,
+    "active:paired_QA:satisfied": 190,
+    "active:source_aware_geometry:violated": 62,
+    "active:legacy_full_grid:not_applicable": 158,
+    "active:sampling:violated": 190,
+    "roundtrip:violated": 190,
+    "active:legacy_full_grid:violated": 32,
+    "active:source_aware_geometry:satisfied": 128,
+    "support_policy_control:satisfied": 32,
+    "own_wrapper_mutation:satisfied": 2,
+    "mutation_inactive": 2
+  },
+  "inactive_mutants": [
+    {
+      "id": [
+        "synthetic",
+        "synthetic_31001",
+        "stale_crop_origin"
+      ],
+      "activity": {
+        "active": false,
+        "any_exact_decoded_change": false,
+        "changed_intensity_voxels": 0,
+        "changed_roi_voxels": 0,
+        "definition": "Decoded intensities or geometry differ beyond declared absolute tolerances, or any selected ROI membership differs, relative to the correct operation. Exact numerical changes are also retained.",
+        "max_changed_header_displacement_mm": 0.0,
+        "max_changed_intensity": 0.0
+      },
+      "declared_index_map": [
+        [
+          1.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          1.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          1.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ]
+    },
+    {
+      "id": [
+        "synthetic",
+        "synthetic_31023",
+        "stale_crop_origin"
+      ],
+      "activity": {
+        "active": false,
+        "any_exact_decoded_change": false,
+        "changed_intensity_voxels": 0,
+        "changed_roi_voxels": 0,
+        "definition": "Decoded intensities or geometry differ beyond declared absolute tolerances, or any selected ROI membership differs, relative to the correct operation. Exact numerical changes are also retained.",
+        "max_changed_header_displacement_mm": 0.0,
+        "max_changed_intensity": 0.0
+      },
+      "declared_index_map": [
+        [
+          1.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          1.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          1.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ]
+    }
+  ],
+  "roundtrip_disagreements": []
+}
