@@ -1,4 +1,21 @@
-# Wheel and candidate verification
+# Installed wheel verification
+
+## Current 1.3.0rc1 artifact
+
+Three fresh Windows environments tested the installed package outside the source
+checkout: 52 oracle/core checks, 27 PyRadiomics/core checks and 32 MIRP/core checks.
+These comprise 79 distinct tests and 111 executions, with no selected test skipped.
+The final wheel updates installation prose in METADATA and RECORD only; every
+Python payload is byte-identical to the fully tested wheel. It was reinstalled
+in all three environments, with installed payload identity and pip check passing.
+The [machine-readable receipt](wheel-verification-1.3.0rc1.json) retains both hashes.
+Remote CI is a separate verification and must be checked for the particular commit.
+Clinical evaluation is separate from installation and unit-test success.
+
+## Historical verification records
+
+The following entries describe their named earlier artifacts and remain historical.
+
 
 ## Final 1.2.0rc3 artifact
 

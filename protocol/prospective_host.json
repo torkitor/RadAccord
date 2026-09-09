@@ -1,0 +1,9 @@
+{
+  "os": "Microsoft Windows NT 10.0.26100.0",
+  "processor": "AMD Ryzen AI 9 HX 370 w/ Radeon 890M           ",
+  "physical_memory_bytes": 33412722688,
+  "native_threads": 1,
+  "clock_measurement": "time.perf_counter",
+  "memory_measurement": "Windows PeakWorkingSetSize for whole worker",
+  "no_hostname_or_hardware_serial_recorded": true
+}

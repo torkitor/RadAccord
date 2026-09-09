@@ -1,0 +1,1618 @@
+{
+  "schema": "radaccord-new-clinical-eligibility-1",
+  "inspection_scope": "Source headers, finite values and selected-label occupancy only; no transformations, RadAccord decisions or native feature outcomes.",
+  "selection_sha256": "4d205d8edb72289f4eb50c708e15203b942b057b8a11ebc01b9a6dbb2cadd593",
+  "selected_slots": 24,
+  "eligible_slots": 24,
+  "excluded_slots": 0,
+  "records": [
+    {
+      "task": "Task02_Heart",
+      "source_basename": "la_014.nii.gz",
+      "selection_hash": "08ad9969079582a90c627e1b2c1b939756349f45e66d986ab2b9379af4bb9d46",
+      "image_relative": "./imagesTr/la_014.nii.gz",
+      "mask_relative": "./labelsTr/la_014.nii.gz",
+      "selection_rank": 1,
+      "selected": true,
+      "case_id": "Task02_Heart:la_014",
+      "image_sha256": "478c4347fa0dd5432ceb06674b411543b7ab65d44e76cf7ddc5421d495f98486",
+      "mask_sha256": "0a59d41146b4c1f68b4fa01199829636258123a8a5cd9eeaa15543b75f7e6667",
+      "label": 1,
+      "source_eligible": true,
+      "exclusion_reasons": [],
+      "source_metadata": {
+        "image_dtype": "float32",
+        "image_shape": [
+          320,
+          320,
+          120
+        ],
+        "image_units": "mm",
+        "image_spacing_mm": [
+          1.25,
+          1.25,
+          1.3700000047683716
+        ],
+        "image_orthogonality_error": 0.0,
+        "image_qform_code": 1,
+        "image_sform_code": 1,
+        "image_qform_sform_corner_error_mm": 0.0,
+        "mask_dtype": "uint8",
+        "mask_shape": [
+          320,
+          320,
+          120
+        ],
+        "mask_units": "mm",
+        "mask_spacing_mm": [
+          1.25,
+          1.25,
+          1.3700000047683716
+        ],
+        "mask_orthogonality_error": 0.0,
+        "mask_qform_code": 1,
+        "mask_sform_code": 1,
+        "mask_qform_sform_corner_error_mm": 0.0,
+        "paired_corner_error_mm": 0.0,
+        "label": 1,
+        "foreground_voxels": 68148,
+        "foreground_bbox_extent_voxels": [
+          54,
+          57,
+          66
+        ],
+        "proposed_10mm_crop_lower_index": [
+          113,
+          138,
+          25
+        ],
+        "proposed_10mm_crop_shape": [
+          70,
+          73,
+          82
+        ]
+      }
+    },
+    {
+      "task": "Task02_Heart",
+      "source_basename": "la_007.nii.gz",
+      "selection_hash": "0bdd77b871edb5da09619730eceb0fdaa7cbae40860a1fda093e2a3a806b7dc5",
+      "image_relative": "./imagesTr/la_007.nii.gz",
+      "mask_relative": "./labelsTr/la_007.nii.gz",
+      "selection_rank": 2,
+      "selected": true,
+      "case_id": "Task02_Heart:la_007",
+      "image_sha256": "4ab0c2f2e1697b77a390660b4f647f4cc3b40a02532b55ce355f3736f911eff2",
+      "mask_sha256": "1d70e6ba71e8a06e462d27a4b81b25ee32b81a7d2f6b7839e853a3eceed3fffa",
+      "label": 1,
+      "source_eligible": true,
+      "exclusion_reasons": [],
+      "source_metadata": {
+        "image_dtype": "float32",
+        "image_shape": [
+          320,
+          320,
+          130
+        ],
+        "image_units": "mm",
+        "image_spacing_mm": [
+          1.25,
+          1.25,
+          1.3700000047683716
+        ],
+        "image_orthogonality_error": 0.0,
+        "image_qform_code": 1,
+        "image_sform_code": 1,
+        "image_qform_sform_corner_error_mm": 0.0,
+        "mask_dtype": "uint8",
+        "mask_shape": [
+          320,
+          320,
+          130
+        ],
+        "mask_units": "mm",
+        "mask_spacing_mm": [
+          1.25,
+          1.25,
+          1.3700000047683716
+        ],
+        "mask_orthogonality_error": 0.0,
+        "mask_qform_code": 1,
+        "mask_sform_code": 1,
+        "mask_qform_sform_corner_error_mm": 0.0,
+        "paired_corner_error_mm": 0.0,
+        "label": 1,
+        "foreground_voxels": 55444,
+        "foreground_bbox_extent_voxels": [
+          42,
+          62,
+          76
+        ],
+        "proposed_10mm_crop_lower_index": [
+          115,
+          140,
+          32
+        ],
+        "proposed_10mm_crop_shape": [
+          58,
+          78,
+          92
+        ]
+      }
+    },
+    {
+      "task": "Task02_Heart",
+      "source_basename": "la_029.nii.gz",
+      "selection_hash": "11c4d55c64fbfec3483825e29af1d74ab7f91631ab130e20f519747ad8a58678",
+      "image_relative": "./imagesTr/la_029.nii.gz",
+      "mask_relative": "./labelsTr/la_029.nii.gz",
+      "selection_rank": 3,
+      "selected": true,
+      "case_id": "Task02_Heart:la_029",
+      "image_sha256": "a5ef5bd7ebf3cf04036f4a654ecd4875ab25833fab211d1fcf3bf279d4294d79",
+      "mask_sha256": "f90dcb604e7b5a14aaea4021640e7384f20e6211046251ce26f4ec9782c23355",
+      "label": 1,
+      "source_eligible": true,
+      "exclusion_reasons": [],
+      "source_metadata": {
+        "image_dtype": "float32",
+        "image_shape": [
+          320,
+          320,
+          109
+        ],
+        "image_units": "mm",
+        "image_spacing_mm": [
+          1.25,
+          1.25,
+          1.3700000047683716
+        ],
+        "image_orthogonality_error": 0.0,
+        "image_qform_code": 1,
+        "image_sform_code": 1,
+        "image_qform_sform_corner_error_mm": 0.0,
+        "mask_dtype": "uint8",
+        "mask_shape": [
+          320,
+          320,
+          109
+        ],
+        "mask_units": "mm",
+        "mask_spacing_mm": [
+          1.25,
+          1.25,
+          1.3700000047683716
+        ],
+        "mask_orthogonality_error": 0.0,
+        "mask_qform_code": 1,
+        "mask_sform_code": 1,
+        "mask_qform_sform_corner_error_mm": 0.0,
+        "paired_corner_error_mm": 0.0,
+        "label": 1,
+        "foreground_voxels": 32607,
+        "foreground_bbox_extent_voxels": [
+          34,
+          49,
+          60
+        ],
+        "proposed_10mm_crop_lower_index": [
+          119,
+          121,
+          25
+        ],
+        "proposed_10mm_crop_shape": [
+          50,
+          65,
+          76
+        ]
+      }
+    },
+    {
+      "task": "Task02_Heart",
+      "source_basename": "la_009.nii.gz",
+      "selection_hash": "1cc55e39fb585b3affd6a1caa800bfbb71f203aec07d024b4b40fbba0486f090",
+      "image_relative": "./imagesTr/la_009.nii.gz",
+      "mask_relative": "./labelsTr/la_009.nii.gz",
+      "selection_rank": 4,
+      "selected": true,
+      "case_id": "Task02_Heart:la_009",
+      "image_sha256": "0f8606cd46ab9c46d22278c9b772c6e6678a3a94d80a41096ed92229cb82616d",
+      "mask_sha256": "a1dcc0b9d06f02a521271bf9ee94b94e9cc11a1e072ef89892ec13742fb73f61",
+      "label": 1,
+      "source_eligible": true,
+      "exclusion_reasons": [],
+      "source_metadata": {
+        "image_dtype": "float32",
+        "image_shape": [
+          320,
+          320,
+          100
+        ],
+        "image_units": "mm",
+        "image_spacing_mm": [
+          1.25,
+          1.25,
+          1.3700000047683716
+        ],
+        "image_orthogonality_error": 0.0,
+        "image_qform_code": 1,
+        "image_sform_code": 1,
+        "image_qform_sform_corner_error_mm": 0.0,
+        "mask_dtype": "uint8",
+        "mask_shape": [
+          320,
+          320,
+          100
+        ],
+        "mask_units": "mm",
+        "mask_spacing_mm": [
+          1.25,
+          1.25,
+          1.3700000047683716
+        ],
+        "mask_orthogonality_error": 0.0,
+        "mask_qform_code": 1,
+        "mask_sform_code": 1,
+        "mask_qform_sform_corner_error_mm": 0.0,
+        "paired_corner_error_mm": 0.0,
+        "label": 1,
+        "foreground_voxels": 47111,
+        "foreground_bbox_extent_voxels": [
+          48,
+          64,
+          79
+        ],
+        "proposed_10mm_crop_lower_index": [
+          109,
+          119,
+          5
+        ],
+        "proposed_10mm_crop_shape": [
+          64,
+          80,
+          95
+        ]
+      }
+    },
+    {
+      "task": "Task02_Heart",
+      "source_basename": "la_003.nii.gz",
+      "selection_hash": "4113313be947a9fe0a4d53543eb6c86aae3555e758d701b9e6894977bf4e5b99",
+      "image_relative": "./imagesTr/la_003.nii.gz",
+      "mask_relative": "./labelsTr/la_003.nii.gz",
+      "selection_rank": 5,
+      "selected": true,
+      "case_id": "Task02_Heart:la_003",
+      "image_sha256": "035de3923ffe7a8bd5e1d8ad8eefb57eeaf9a98074a8f70825aab88464e4e098",
+      "mask_sha256": "c91fea6782a75ae98de74bdbdd3a9ae4e68998e7dca65b2174cc4d0ecf16e913",
+      "label": 1,
+      "source_eligible": true,
+      "exclusion_reasons": [],
+      "source_metadata": {
+        "image_dtype": "float32",
+        "image_shape": [
+          320,
+          320,
+          130
+        ],
+        "image_units": "mm",
+        "image_spacing_mm": [
+          1.25,
+          1.25,
+          1.3700000047683716
+        ],
+        "image_orthogonality_error": 0.0,
+        "image_qform_code": 1,
+        "image_sform_code": 1,
+        "image_qform_sform_corner_error_mm": 0.0,
+        "mask_dtype": "uint8",
+        "mask_shape": [
+          320,
+          320,
+          130
+        ],
+        "mask_units": "mm",
+        "mask_spacing_mm": [
+          1.25,
+          1.25,
+          1.3700000047683716
+        ],
+        "mask_orthogonality_error": 0.0,
+        "mask_qform_code": 1,
+        "mask_sform_code": 1,
+        "mask_qform_sform_corner_error_mm": 0.0,
+        "paired_corner_error_mm": 0.0,
+        "label": 1,
+        "foreground_voxels": 45003,
+        "foreground_bbox_extent_voxels": [
+          45,
+          59,
+          66
+        ],
+        "proposed_10mm_crop_lower_index": [
+          107,
+          143,
+          37
+        ],
+        "proposed_10mm_crop_shape": [
+          61,
+          75,
+          82
+        ]
+      }
+    },
+    {
+      "task": "Task02_Heart",
+      "source_basename": "la_017.nii.gz",
+      "selection_hash": "4a216e19edfc499cd3923faf6485acf6c52f1110b77cbfac55d567907c6534e8",
+      "image_relative": "./imagesTr/la_017.nii.gz",
+      "mask_relative": "./labelsTr/la_017.nii.gz",
+      "selection_rank": 6,
+      "selected": true,
+      "case_id": "Task02_Heart:la_017",
+      "image_sha256": "981d220f34111b6bd252c002debd54098a532f36ea26db02707a9db2287cc41b",
+      "mask_sha256": "82a4a515ec2c384eb9fd53d0185e778c34c78689509a82ffffc02c31e4d1894b",
+      "label": 1,
+      "source_eligible": true,
+      "exclusion_reasons": [],
+      "source_metadata": {
+        "image_dtype": "float32",
+        "image_shape": [
+          320,
+          320,
+          120
+        ],
+        "image_units": "mm",
+        "image_spacing_mm": [
+          1.25,
+          1.25,
+          1.3700000047683716
+        ],
+        "image_orthogonality_error": 0.0,
+        "image_qform_code": 1,
+        "image_sform_code": 1,
+        "image_qform_sform_corner_error_mm": 0.0,
+        "mask_dtype": "uint8",
+        "mask_shape": [
+          320,
+          320,
+          120
+        ],
+        "mask_units": "mm",
+        "mask_spacing_mm": [
+          1.25,
+          1.25,
+          1.3700000047683716
+        ],
+        "mask_orthogonality_error": 0.0,
+        "mask_qform_code": 1,
+        "mask_sform_code": 1,
+        "mask_qform_sform_corner_error_mm": 0.0,
+        "paired_corner_error_mm": 0.0,
+        "label": 1,
+        "foreground_voxels": 37779,
+        "foreground_bbox_extent_voxels": [
+          44,
+          47,
+          64
+        ],
+        "proposed_10mm_crop_lower_index": [
+          123,
+          157,
+          35
+        ],
+        "proposed_10mm_crop_shape": [
+          60,
+          63,
+          80
+        ]
+      }
+    },
+    {
+      "task": "Task02_Heart",
+      "source_basename": "la_011.nii.gz",
+      "selection_hash": "50cf7cf2b3ff5962ef32aa91bb97e49b1d9cc3a80cc16c950c95404b452b6889",
+      "image_relative": "./imagesTr/la_011.nii.gz",
+      "mask_relative": "./labelsTr/la_011.nii.gz",
+      "selection_rank": 7,
+      "selected": true,
+      "case_id": "Task02_Heart:la_011",
+      "image_sha256": "f74304a7601d7178a8ab21553e152427f2da076c7ac8883e6c7338c589939131",
+      "mask_sha256": "65085606ccd8a3ea7e0e6beb6595679e009a3ee3c5463f337b1abd41f8a87ea0",
+      "label": 1,
+      "source_eligible": true,
+      "exclusion_reasons": [],
+      "source_metadata": {
+        "image_dtype": "float32",
+        "image_shape": [
+          320,
+          320,
+          120
+        ],
+        "image_units": "mm",
+        "image_spacing_mm": [
+          1.25,
+          1.25,
+          1.3700000047683716
+        ],
+        "image_orthogonality_error": 0.0,
+        "image_qform_code": 1,
+        "image_sform_code": 1,
+        "image_qform_sform_corner_error_mm": 0.0,
+        "mask_dtype": "uint8",
+        "mask_shape": [
+          320,
+          320,
+          120
+        ],
+        "mask_units": "mm",
+        "mask_spacing_mm": [
+          1.25,
+          1.25,
+          1.3700000047683716
+        ],
+        "mask_orthogonality_error": 0.0,
+        "mask_qform_code": 1,
+        "mask_sform_code": 1,
+        "mask_qform_sform_corner_error_mm": 0.0,
+        "paired_corner_error_mm": 0.0,
+        "label": 1,
+        "foreground_voxels": 58455,
+        "foreground_bbox_extent_voxels": [
+          41,
+          67,
+          68
+        ],
+        "proposed_10mm_crop_lower_index": [
+          116,
+          130,
+          34
+        ],
+        "proposed_10mm_crop_shape": [
+          57,
+          83,
+          84
+        ]
+      }
+    },
+    {
+      "task": "Task02_Heart",
+      "source_basename": "la_030.nii.gz",
+      "selection_hash": "6d0bff2ac9a856730b349e8ef068dc3af28a780021eb33e938a1dc48dcd0341a",
+      "image_relative": "./imagesTr/la_030.nii.gz",
+      "mask_relative": "./labelsTr/la_030.nii.gz",
+      "selection_rank": 8,
+      "selected": true,
+      "case_id": "Task02_Heart:la_030",
+      "image_sha256": "2fddf07fe1e6ce51ea70a4fcaf47662f454a7e0c9f0995bc2f63ccc4c24cf2a1",
+      "mask_sha256": "b4838f3ced97dd4861b1d8e56332d15464a34556d745938ac6012d20e077c271",
+      "label": 1,
+      "source_eligible": true,
+      "exclusion_reasons": [],
+      "source_metadata": {
+        "image_dtype": "float32",
+        "image_shape": [
+          320,
+          320,
+          110
+        ],
+        "image_units": "mm",
+        "image_spacing_mm": [
+          1.25,
+          1.25,
+          1.3700000047683716
+        ],
+        "image_orthogonality_error": 0.0,
+        "image_qform_code": 1,
+        "image_sform_code": 1,
+        "image_qform_sform_corner_error_mm": 0.0,
+        "mask_dtype": "uint8",
+        "mask_shape": [
+          320,
+          320,
+          110
+        ],
+        "mask_units": "mm",
+        "mask_spacing_mm": [
+          1.25,
+          1.25,
+          1.3700000047683716
+        ],
+        "mask_orthogonality_error": 0.0,
+        "mask_qform_code": 1,
+        "mask_sform_code": 1,
+        "mask_qform_sform_corner_error_mm": 0.0,
+        "paired_corner_error_mm": 0.0,
+        "label": 1,
+        "foreground_voxels": 44982,
+        "foreground_bbox_extent_voxels": [
+          37,
+          54,
+          69
+        ],
+        "proposed_10mm_crop_lower_index": [
+          123,
+          137,
+          25
+        ],
+        "proposed_10mm_crop_shape": [
+          53,
+          70,
+          85
+        ]
+      }
+    },
+    {
+      "task": "Task02_Heart",
+      "source_basename": "la_020.nii.gz",
+      "selection_hash": "6e81ea082f4dc488c59e7639e0f2040fdf72b64e2c594b10015cec55e934c1d0",
+      "image_relative": "./imagesTr/la_020.nii.gz",
+      "mask_relative": "./labelsTr/la_020.nii.gz",
+      "selection_rank": 9,
+      "selected": true,
+      "case_id": "Task02_Heart:la_020",
+      "image_sha256": "d09261de17cd568e82bce71c9fc9dd1b15ebd191e29e312e729f5d0dae1b5364",
+      "mask_sha256": "c09f40ba759955ae77d384d3c49ba6a28ed007f51707ee848c1cdcd0a9ae9e9f",
+      "label": 1,
+      "source_eligible": true,
+      "exclusion_reasons": [],
+      "source_metadata": {
+        "image_dtype": "float32",
+        "image_shape": [
+          320,
+          320,
+          110
+        ],
+        "image_units": "mm",
+        "image_spacing_mm": [
+          1.25,
+          1.25,
+          1.3700000047683716
+        ],
+        "image_orthogonality_error": 0.0,
+        "image_qform_code": 1,
+        "image_sform_code": 1,
+        "image_qform_sform_corner_error_mm": 0.0,
+        "mask_dtype": "uint8",
+        "mask_shape": [
+          320,
+          320,
+          110
+        ],
+        "mask_units": "mm",
+        "mask_spacing_mm": [
+          1.25,
+          1.25,
+          1.3700000047683716
+        ],
+        "mask_orthogonality_error": 0.0,
+        "mask_qform_code": 1,
+        "mask_sform_code": 1,
+        "mask_qform_sform_corner_error_mm": 0.0,
+        "paired_corner_error_mm": 0.0,
+        "label": 1,
+        "foreground_voxels": 32040,
+        "foreground_bbox_extent_voxels": [
+          38,
+          44,
+          70
+        ],
+        "proposed_10mm_crop_lower_index": [
+          125,
+          169,
+          20
+        ],
+        "proposed_10mm_crop_shape": [
+          54,
+          60,
+          86
+        ]
+      }
+    },
+    {
+      "task": "Task02_Heart",
+      "source_basename": "la_021.nii.gz",
+      "selection_hash": "7163aa32369e7e5d4247dafdf50bd09a776e11be3dbed69778e35ed673e87f7a",
+      "image_relative": "./imagesTr/la_021.nii.gz",
+      "mask_relative": "./labelsTr/la_021.nii.gz",
+      "selection_rank": 10,
+      "selected": true,
+      "case_id": "Task02_Heart:la_021",
+      "image_sha256": "7f77e09d51e4343465b860b041790df3d56af8df507aa365f18a53a67173ca94",
+      "mask_sha256": "b50bd990c4212bce61f7482a70cd016247460cc52540a662c3365606a5dff66c",
+      "label": 1,
+      "source_eligible": true,
+      "exclusion_reasons": [],
+      "source_metadata": {
+        "image_dtype": "float32",
+        "image_shape": [
+          320,
+          320,
+          100
+        ],
+        "image_units": "mm",
+        "image_spacing_mm": [
+          1.25,
+          1.25,
+          1.3700000047683716
+        ],
+        "image_orthogonality_error": 0.0,
+        "image_qform_code": 1,
+        "image_sform_code": 1,
+        "image_qform_sform_corner_error_mm": 0.0,
+        "mask_dtype": "uint8",
+        "mask_shape": [
+          320,
+          320,
+          100
+        ],
+        "mask_units": "mm",
+        "mask_spacing_mm": [
+          1.25,
+          1.25,
+          1.3700000047683716
+        ],
+        "mask_orthogonality_error": 0.0,
+        "mask_qform_code": 1,
+        "mask_sform_code": 1,
+        "mask_qform_sform_corner_error_mm": 0.0,
+        "paired_corner_error_mm": 0.0,
+        "label": 1,
+        "foreground_voxels": 39164,
+        "foreground_bbox_extent_voxels": [
+          42,
+          54,
+          71
+        ],
+        "proposed_10mm_crop_lower_index": [
+          117,
+          135,
+          10
+        ],
+        "proposed_10mm_crop_shape": [
+          58,
+          70,
+          87
+        ]
+      }
+    },
+    {
+      "task": "Task02_Heart",
+      "source_basename": "la_026.nii.gz",
+      "selection_hash": "82e4c50187c84c47146c05471a92408b5ad2b009c29e04d2e2fe4a32307b6f41",
+      "image_relative": "./imagesTr/la_026.nii.gz",
+      "mask_relative": "./labelsTr/la_026.nii.gz",
+      "selection_rank": 11,
+      "selected": true,
+      "case_id": "Task02_Heart:la_026",
+      "image_sha256": "b7788f025ddce3b1d44c50f18f6fa7cc8299c507d46e251b7245e17b361864d0",
+      "mask_sha256": "a65f46b2f09bb165aa0528ab54ce880f9eb4942fe14f7551de90bfce2c99212d",
+      "label": 1,
+      "source_eligible": true,
+      "exclusion_reasons": [],
+      "source_metadata": {
+        "image_dtype": "float32",
+        "image_shape": [
+          320,
+          320,
+          120
+        ],
+        "image_units": "mm",
+        "image_spacing_mm": [
+          1.25,
+          1.25,
+          1.3700000047683716
+        ],
+        "image_orthogonality_error": 0.0,
+        "image_qform_code": 1,
+        "image_sform_code": 1,
+        "image_qform_sform_corner_error_mm": 0.0,
+        "mask_dtype": "uint8",
+        "mask_shape": [
+          320,
+          320,
+          120
+        ],
+        "mask_units": "mm",
+        "mask_spacing_mm": [
+          1.25,
+          1.25,
+          1.3700000047683716
+        ],
+        "mask_orthogonality_error": 0.0,
+        "mask_qform_code": 1,
+        "mask_sform_code": 1,
+        "mask_qform_sform_corner_error_mm": 0.0,
+        "paired_corner_error_mm": 0.0,
+        "label": 1,
+        "foreground_voxels": 53865,
+        "foreground_bbox_extent_voxels": [
+          34,
+          65,
+          73
+        ],
+        "proposed_10mm_crop_lower_index": [
+          120,
+          137,
+          33
+        ],
+        "proposed_10mm_crop_shape": [
+          50,
+          81,
+          87
+        ]
+      }
+    },
+    {
+      "task": "Task02_Heart",
+      "source_basename": "la_023.nii.gz",
+      "selection_hash": "8c80ab7a5b5d5e16fc8a8abae21869f060ba77b1cd89e3eba7752bd5252e428e",
+      "image_relative": "./imagesTr/la_023.nii.gz",
+      "mask_relative": "./labelsTr/la_023.nii.gz",
+      "selection_rank": 12,
+      "selected": true,
+      "case_id": "Task02_Heart:la_023",
+      "image_sha256": "3e23b9a8b24eaa1eef6367da1a1f8ea66ae09037169ee1be8c25fd681e97520b",
+      "mask_sha256": "fa59479b2e3afdabe94a89c431d3180599b1c8a485c14a5342b761e519335578",
+      "label": 1,
+      "source_eligible": true,
+      "exclusion_reasons": [],
+      "source_metadata": {
+        "image_dtype": "float32",
+        "image_shape": [
+          320,
+          320,
+          110
+        ],
+        "image_units": "mm",
+        "image_spacing_mm": [
+          1.25,
+          1.25,
+          1.3700000047683716
+        ],
+        "image_orthogonality_error": 0.0,
+        "image_qform_code": 1,
+        "image_sform_code": 1,
+        "image_qform_sform_corner_error_mm": 0.0,
+        "mask_dtype": "uint8",
+        "mask_shape": [
+          320,
+          320,
+          110
+        ],
+        "mask_units": "mm",
+        "mask_spacing_mm": [
+          1.25,
+          1.25,
+          1.3700000047683716
+        ],
+        "mask_orthogonality_error": 0.0,
+        "mask_qform_code": 1,
+        "mask_sform_code": 1,
+        "mask_qform_sform_corner_error_mm": 0.0,
+        "paired_corner_error_mm": 0.0,
+        "label": 1,
+        "foreground_voxels": 43204,
+        "foreground_bbox_extent_voxels": [
+          46,
+          57,
+          54
+        ],
+        "proposed_10mm_crop_lower_index": [
+          111,
+          129,
+          29
+        ],
+        "proposed_10mm_crop_shape": [
+          62,
+          73,
+          70
+        ]
+      }
+    },
+    {
+      "task": "Task06_Lung",
+      "source_basename": "lung_037.nii.gz",
+      "selection_hash": "0b97164a42385a81243963e3de2a9995bffc30c9c0d188a84d992ac1e518a762",
+      "image_relative": "./imagesTr/lung_037.nii.gz",
+      "mask_relative": "./labelsTr/lung_037.nii.gz",
+      "selection_rank": 1,
+      "selected": true,
+      "case_id": "Task06_Lung:lung_037",
+      "image_sha256": "8108470d127a2e5792cb55a4d8c9b22ae110e6d35b98d2bf3d31df4f5d113144",
+      "mask_sha256": "3c8b693ca29041667340edfef0d9ed3e9810ac61524784cb38cbe049202c954d",
+      "label": 1,
+      "source_eligible": true,
+      "exclusion_reasons": [],
+      "source_metadata": {
+        "image_dtype": "float32",
+        "image_shape": [
+          512,
+          512,
+          126
+        ],
+        "image_units": "mm",
+        "image_spacing_mm": [
+          0.78125,
+          0.78125,
+          2.5
+        ],
+        "image_orthogonality_error": 0.0,
+        "image_qform_code": 1,
+        "image_sform_code": 1,
+        "image_qform_sform_corner_error_mm": 0.0,
+        "mask_dtype": "uint8",
+        "mask_shape": [
+          512,
+          512,
+          126
+        ],
+        "mask_units": "mm",
+        "mask_spacing_mm": [
+          0.78125,
+          0.78125,
+          2.5
+        ],
+        "mask_orthogonality_error": 0.0,
+        "mask_qform_code": 1,
+        "mask_sform_code": 1,
+        "mask_qform_sform_corner_error_mm": 0.0,
+        "paired_corner_error_mm": 0.0,
+        "label": 1,
+        "foreground_voxels": 756,
+        "foreground_bbox_extent_voxels": [
+          20,
+          20,
+          6
+        ],
+        "proposed_10mm_crop_lower_index": [
+          206,
+          222,
+          103
+        ],
+        "proposed_10mm_crop_shape": [
+          46,
+          46,
+          14
+        ]
+      }
+    },
+    {
+      "task": "Task06_Lung",
+      "source_basename": "lung_029.nii.gz",
+      "selection_hash": "0d940c2e5fa14449a98f06ca560451517ab85a04228d9fa5c3af29b02a9d204f",
+      "image_relative": "./imagesTr/lung_029.nii.gz",
+      "mask_relative": "./labelsTr/lung_029.nii.gz",
+      "selection_rank": 2,
+      "selected": true,
+      "case_id": "Task06_Lung:lung_029",
+      "image_sha256": "6f5f3350cb37087a9a8f9c0bea516a1ced9f05dd93b9988d7727b34ba636da64",
+      "mask_sha256": "1ef21e3c9e281e275c6a15c0c2db8b28f68d7b27771937fd85db65707d26e5a2",
+      "label": 1,
+      "source_eligible": true,
+      "exclusion_reasons": [],
+      "source_metadata": {
+        "image_dtype": "float32",
+        "image_shape": [
+          512,
+          512,
+          255
+        ],
+        "image_units": "mm",
+        "image_spacing_mm": [
+          0.8457030057907104,
+          0.8457030057907104,
+          1.2450979948043823
+        ],
+        "image_orthogonality_error": 0.0,
+        "image_qform_code": 1,
+        "image_sform_code": 1,
+        "image_qform_sform_corner_error_mm": 0.0,
+        "mask_dtype": "uint8",
+        "mask_shape": [
+          512,
+          512,
+          255
+        ],
+        "mask_units": "mm",
+        "mask_spacing_mm": [
+          0.8457030057907104,
+          0.8457030057907104,
+          1.2450979948043823
+        ],
+        "mask_orthogonality_error": 0.0,
+        "mask_qform_code": 1,
+        "mask_sform_code": 1,
+        "mask_qform_sform_corner_error_mm": 0.0,
+        "paired_corner_error_mm": 0.0,
+        "label": 1,
+        "foreground_voxels": 3924,
+        "foreground_bbox_extent_voxels": [
+          28,
+          26,
+          17
+        ],
+        "proposed_10mm_crop_lower_index": [
+          306,
+          191,
+          195
+        ],
+        "proposed_10mm_crop_shape": [
+          52,
+          50,
+          35
+        ]
+      }
+    },
+    {
+      "task": "Task06_Lung",
+      "source_basename": "lung_074.nii.gz",
+      "selection_hash": "0e3f5ab446314e108ad9aa0fd3abda93dcb81110539011302305786a7a756c1e",
+      "image_relative": "./imagesTr/lung_074.nii.gz",
+      "mask_relative": "./labelsTr/lung_074.nii.gz",
+      "selection_rank": 3,
+      "selected": true,
+      "case_id": "Task06_Lung:lung_074",
+      "image_sha256": "15ef7af033be9bb53cb409cfdbee6cc519af9ff79472ad3afbd14b32b783b271",
+      "mask_sha256": "655da2704a1096a1737aae8bf5b2ad3fc3ba4effbe2c4b0b298bc56770dcb08e",
+      "label": 1,
+      "source_eligible": true,
+      "exclusion_reasons": [],
+      "source_metadata": {
+        "image_dtype": "float32",
+        "image_shape": [
+          512,
+          512,
+          369
+        ],
+        "image_units": "mm",
+        "image_spacing_mm": [
+          0.625,
+          0.625,
+          1.0
+        ],
+        "image_orthogonality_error": 0.0,
+        "image_qform_code": 1,
+        "image_sform_code": 1,
+        "image_qform_sform_corner_error_mm": 0.0,
+        "mask_dtype": "uint8",
+        "mask_shape": [
+          512,
+          512,
+          369
+        ],
+        "mask_units": "mm",
+        "mask_spacing_mm": [
+          0.625,
+          0.625,
+          1.0
+        ],
+        "mask_orthogonality_error": 0.0,
+        "mask_qform_code": 1,
+        "mask_sform_code": 1,
+        "mask_qform_sform_corner_error_mm": 0.0,
+        "paired_corner_error_mm": 0.0,
+        "label": 1,
+        "foreground_voxels": 71076,
+        "foreground_bbox_extent_voxels": [
+          80,
+          140,
+          77
+        ],
+        "proposed_10mm_crop_lower_index": [
+          291,
+          178,
+          249
+        ],
+        "proposed_10mm_crop_shape": [
+          112,
+          172,
+          97
+        ]
+      }
+    },
+    {
+      "task": "Task06_Lung",
+      "source_basename": "lung_095.nii.gz",
+      "selection_hash": "166bc4d935975c2777f983000a5754cc9f67b4e9b44a8b2c4060c49646acab6f",
+      "image_relative": "./imagesTr/lung_095.nii.gz",
+      "mask_relative": "./labelsTr/lung_095.nii.gz",
+      "selection_rank": 4,
+      "selected": true,
+      "case_id": "Task06_Lung:lung_095",
+      "image_sha256": "d84c4f10bd8562c0d099feb121f5b09aab074b88b2273d154b294f6ddb6a36ab",
+      "mask_sha256": "a742a7d56e305c993d337f92666e58d9c0563e4ea45690348e20f8f0fa381799",
+      "label": 1,
+      "source_eligible": true,
+      "exclusion_reasons": [],
+      "source_metadata": {
+        "image_dtype": "float32",
+        "image_shape": [
+          512,
+          512,
+          231
+        ],
+        "image_units": "mm",
+        "image_spacing_mm": [
+          0.7714840173721313,
+          0.7714840173721313,
+          1.2445887327194214
+        ],
+        "image_orthogonality_error": 0.0,
+        "image_qform_code": 1,
+        "image_sform_code": 1,
+        "image_qform_sform_corner_error_mm": 0.0,
+        "mask_dtype": "uint8",
+        "mask_shape": [
+          512,
+          512,
+          231
+        ],
+        "mask_units": "mm",
+        "mask_spacing_mm": [
+          0.7714840173721313,
+          0.7714840173721313,
+          1.2445887327194214
+        ],
+        "mask_orthogonality_error": 0.0,
+        "mask_qform_code": 1,
+        "mask_sform_code": 1,
+        "mask_qform_sform_corner_error_mm": 0.0,
+        "paired_corner_error_mm": 0.0,
+        "label": 1,
+        "foreground_voxels": 5701,
+        "foreground_bbox_extent_voxels": [
+          34,
+          62,
+          13
+        ],
+        "proposed_10mm_crop_lower_index": [
+          128,
+          271,
+          90
+        ],
+        "proposed_10mm_crop_shape": [
+          60,
+          88,
+          31
+        ]
+      }
+    },
+    {
+      "task": "Task06_Lung",
+      "source_basename": "lung_038.nii.gz",
+      "selection_hash": "186723e23e122872b84469d9dd44575093c6fdfaa77cee94f1ac7720982037a6",
+      "image_relative": "./imagesTr/lung_038.nii.gz",
+      "mask_relative": "./labelsTr/lung_038.nii.gz",
+      "selection_rank": 5,
+      "selected": true,
+      "case_id": "Task06_Lung:lung_038",
+      "image_sha256": "56540993f0df632e66f7ada2d96a6d9f87309a8a0b953b71e7e2a78d7a3a2828",
+      "mask_sha256": "c8b5fc964ac51acd2283de23162680a7697ad97d2cce747ab0e97786e3456a56",
+      "label": 1,
+      "source_eligible": true,
+      "exclusion_reasons": [],
+      "source_metadata": {
+        "image_dtype": "float32",
+        "image_shape": [
+          512,
+          512,
+          125
+        ],
+        "image_units": "mm",
+        "image_spacing_mm": [
+          0.78125,
+          0.78125,
+          2.5
+        ],
+        "image_orthogonality_error": 0.0,
+        "image_qform_code": 1,
+        "image_sform_code": 1,
+        "image_qform_sform_corner_error_mm": 0.0,
+        "mask_dtype": "uint8",
+        "mask_shape": [
+          512,
+          512,
+          125
+        ],
+        "mask_units": "mm",
+        "mask_spacing_mm": [
+          0.78125,
+          0.78125,
+          2.5
+        ],
+        "mask_orthogonality_error": 0.0,
+        "mask_qform_code": 1,
+        "mask_sform_code": 1,
+        "mask_qform_sform_corner_error_mm": 0.0,
+        "paired_corner_error_mm": 0.0,
+        "label": 1,
+        "foreground_voxels": 3421,
+        "foreground_bbox_extent_voxels": [
+          36,
+          71,
+          9
+        ],
+        "proposed_10mm_crop_lower_index": [
+          148,
+          199,
+          75
+        ],
+        "proposed_10mm_crop_shape": [
+          62,
+          97,
+          17
+        ]
+      }
+    },
+    {
+      "task": "Task06_Lung",
+      "source_basename": "lung_078.nii.gz",
+      "selection_hash": "1921737f05205ef3f5fec345cb1531c5042baa0c81cd1b55a676baae963b1f18",
+      "image_relative": "./imagesTr/lung_078.nii.gz",
+      "mask_relative": "./labelsTr/lung_078.nii.gz",
+      "selection_rank": 6,
+      "selected": true,
+      "case_id": "Task06_Lung:lung_078",
+      "image_sha256": "47ae0d2b04bf4b11ddf320a1a2001383f88dd52572f280c5fa6b066db9e2a271",
+      "mask_sha256": "286a95b7b488fbb938ae79e813967c888bb1416f3f38edcd8a4f4ab97278fdc4",
+      "label": 1,
+      "source_eligible": true,
+      "exclusion_reasons": [],
+      "source_metadata": {
+        "image_dtype": "float32",
+        "image_shape": [
+          512,
+          512,
+          115
+        ],
+        "image_units": "mm",
+        "image_spacing_mm": [
+          0.6035159826278687,
+          0.6035159826278687,
+          2.4782607555389404
+        ],
+        "image_orthogonality_error": 0.0,
+        "image_qform_code": 1,
+        "image_sform_code": 1,
+        "image_qform_sform_corner_error_mm": 0.0,
+        "mask_dtype": "uint8",
+        "mask_shape": [
+          512,
+          512,
+          115
+        ],
+        "mask_units": "mm",
+        "mask_spacing_mm": [
+          0.6035159826278687,
+          0.6035159826278687,
+          2.4782607555389404
+        ],
+        "mask_orthogonality_error": 0.0,
+        "mask_qform_code": 1,
+        "mask_sform_code": 1,
+        "mask_qform_sform_corner_error_mm": 0.0,
+        "paired_corner_error_mm": 0.0,
+        "label": 1,
+        "foreground_voxels": 6275,
+        "foreground_bbox_extent_voxels": [
+          69,
+          59,
+          9
+        ],
+        "proposed_10mm_crop_lower_index": [
+          323,
+          117,
+          62
+        ],
+        "proposed_10mm_crop_shape": [
+          103,
+          93,
+          19
+        ]
+      }
+    },
+    {
+      "task": "Task06_Lung",
+      "source_basename": "lung_028.nii.gz",
+      "selection_hash": "197aeccae6268cf694f82cf30c3f39e2771f0174e61857491ff4ac04d3ac47ac",
+      "image_relative": "./imagesTr/lung_028.nii.gz",
+      "mask_relative": "./labelsTr/lung_028.nii.gz",
+      "selection_rank": 7,
+      "selected": true,
+      "case_id": "Task06_Lung:lung_028",
+      "image_sha256": "1852f1f0a6d31cace0f370ec71ed2b1f1eecd03dddffdcaf904c91204876ed4c",
+      "mask_sha256": "5ca289a70d41ec40010d90e4ea7203f5fd03fb5fadd7c917c08bf5895784e9f4",
+      "label": 1,
+      "source_eligible": true,
+      "exclusion_reasons": [],
+      "source_metadata": {
+        "image_dtype": "float32",
+        "image_shape": [
+          512,
+          512,
+          251
+        ],
+        "image_units": "mm",
+        "image_spacing_mm": [
+          0.9101560115814209,
+          0.9101560115814209,
+          1.2450199127197266
+        ],
+        "image_orthogonality_error": 0.0,
+        "image_qform_code": 1,
+        "image_sform_code": 1,
+        "image_qform_sform_corner_error_mm": 0.0,
+        "mask_dtype": "uint8",
+        "mask_shape": [
+          512,
+          512,
+          251
+        ],
+        "mask_units": "mm",
+        "mask_spacing_mm": [
+          0.9101560115814209,
+          0.9101560115814209,
+          1.2450199127197266
+        ],
+        "mask_orthogonality_error": 0.0,
+        "mask_qform_code": 1,
+        "mask_sform_code": 1,
+        "mask_qform_sform_corner_error_mm": 0.0,
+        "paired_corner_error_mm": 0.0,
+        "label": 1,
+        "foreground_voxels": 146740,
+        "foreground_bbox_extent_voxels": [
+          79,
+          101,
+          78
+        ],
+        "proposed_10mm_crop_lower_index": [
+          263,
+          110,
+          78
+        ],
+        "proposed_10mm_crop_shape": [
+          101,
+          123,
+          96
+        ]
+      }
+    },
+    {
+      "task": "Task06_Lung",
+      "source_basename": "lung_020.nii.gz",
+      "selection_hash": "1ede3014b06e33e9e3465e5b0e22daa04f08f26dd1a825581751a85c4380951f",
+      "image_relative": "./imagesTr/lung_020.nii.gz",
+      "mask_relative": "./labelsTr/lung_020.nii.gz",
+      "selection_rank": 8,
+      "selected": true,
+      "case_id": "Task06_Lung:lung_020",
+      "image_sha256": "763fb3472d31c09b04e2a772da71effbba68f24fcd162e3aa82d289e52f26aab",
+      "mask_sha256": "dd3d6cab678e4982033af8723554f6ee7be2ac6532417a22ae3bb6d1b691caa7",
+      "label": 1,
+      "source_eligible": true,
+      "exclusion_reasons": [],
+      "source_metadata": {
+        "image_dtype": "float32",
+        "image_shape": [
+          512,
+          512,
+          314
+        ],
+        "image_units": "mm",
+        "image_spacing_mm": [
+          0.677734375,
+          0.677734375,
+          1.0
+        ],
+        "image_orthogonality_error": 0.0,
+        "image_qform_code": 1,
+        "image_sform_code": 1,
+        "image_qform_sform_corner_error_mm": 0.0,
+        "mask_dtype": "uint8",
+        "mask_shape": [
+          512,
+          512,
+          314
+        ],
+        "mask_units": "mm",
+        "mask_spacing_mm": [
+          0.677734375,
+          0.677734375,
+          1.0
+        ],
+        "mask_orthogonality_error": 0.0,
+        "mask_qform_code": 1,
+        "mask_sform_code": 1,
+        "mask_qform_sform_corner_error_mm": 0.0,
+        "paired_corner_error_mm": 0.0,
+        "label": 1,
+        "foreground_voxels": 6086,
+        "foreground_bbox_extent_voxels": [
+          32,
+          41,
+          13
+        ],
+        "proposed_10mm_crop_lower_index": [
+          114,
+          229,
+          198
+        ],
+        "proposed_10mm_crop_shape": [
+          62,
+          71,
+          33
+        ]
+      }
+    },
+    {
+      "task": "Task06_Lung",
+      "source_basename": "lung_025.nii.gz",
+      "selection_hash": "1f4ab5589f7eda4216d5d14580fe1cb90a3efc43e6b0b47b4fb8bb91c631d6f1",
+      "image_relative": "./imagesTr/lung_025.nii.gz",
+      "mask_relative": "./labelsTr/lung_025.nii.gz",
+      "selection_rank": 9,
+      "selected": true,
+      "case_id": "Task06_Lung:lung_025",
+      "image_sha256": "32a0923cdf587f650a41b8d9867d2ae2e0a83f80494c4a1b463abcbe4e90ec18",
+      "mask_sha256": "f96a3063eff9ef5b9a5ef96f43ef4057e7e462856ad75d8d9c78759ca7fea61b",
+      "label": 1,
+      "source_eligible": true,
+      "exclusion_reasons": [],
+      "source_metadata": {
+        "image_dtype": "float32",
+        "image_shape": [
+          512,
+          512,
+          376
+        ],
+        "image_units": "mm",
+        "image_spacing_mm": [
+          0.8007810115814209,
+          0.8007810115814209,
+          0.9973404407501221
+        ],
+        "image_orthogonality_error": 0.0,
+        "image_qform_code": 1,
+        "image_sform_code": 1,
+        "image_qform_sform_corner_error_mm": 0.0,
+        "mask_dtype": "uint8",
+        "mask_shape": [
+          512,
+          512,
+          376
+        ],
+        "mask_units": "mm",
+        "mask_spacing_mm": [
+          0.8007810115814209,
+          0.8007810115814209,
+          0.9973404407501221
+        ],
+        "mask_orthogonality_error": 0.0,
+        "mask_qform_code": 1,
+        "mask_sform_code": 1,
+        "mask_qform_sform_corner_error_mm": 0.0,
+        "paired_corner_error_mm": 0.0,
+        "label": 1,
+        "foreground_voxels": 6123,
+        "foreground_bbox_extent_voxels": [
+          32,
+          30,
+          19
+        ],
+        "proposed_10mm_crop_lower_index": [
+          334,
+          324,
+          208
+        ],
+        "proposed_10mm_crop_shape": [
+          58,
+          56,
+          41
+        ]
+      }
+    },
+    {
+      "task": "Task06_Lung",
+      "source_basename": "lung_073.nii.gz",
+      "selection_hash": "20eeaff9faa6a835889a07eed85911ad257087745d4aaca9e51cfd18bfff0387",
+      "image_relative": "./imagesTr/lung_073.nii.gz",
+      "mask_relative": "./labelsTr/lung_073.nii.gz",
+      "selection_rank": 10,
+      "selected": true,
+      "case_id": "Task06_Lung:lung_073",
+      "image_sha256": "064cecb20318094f559fd765b337193a3c92f9932b21735a91621a17860841c0",
+      "mask_sha256": "697f013ed440ebcb874de9c4ee4d975b30c23481e8d2c28e3acec07dfc64453b",
+      "label": 1,
+      "source_eligible": true,
+      "exclusion_reasons": [],
+      "source_metadata": {
+        "image_dtype": "float32",
+        "image_shape": [
+          512,
+          512,
+          493
+        ],
+        "image_units": "mm",
+        "image_spacing_mm": [
+          0.7890620231628418,
+          0.7890620231628418,
+          0.625
+        ],
+        "image_orthogonality_error": 0.0,
+        "image_qform_code": 1,
+        "image_sform_code": 1,
+        "image_qform_sform_corner_error_mm": 0.0,
+        "mask_dtype": "uint8",
+        "mask_shape": [
+          512,
+          512,
+          493
+        ],
+        "mask_units": "mm",
+        "mask_spacing_mm": [
+          0.7890620231628418,
+          0.7890620231628418,
+          0.625
+        ],
+        "mask_orthogonality_error": 0.0,
+        "mask_qform_code": 1,
+        "mask_sform_code": 1,
+        "mask_qform_sform_corner_error_mm": 0.0,
+        "paired_corner_error_mm": 0.0,
+        "label": 1,
+        "foreground_voxels": 24325,
+        "foreground_bbox_extent_voxels": [
+          49,
+          66,
+          46
+        ],
+        "proposed_10mm_crop_lower_index": [
+          315,
+          225,
+          294
+        ],
+        "proposed_10mm_crop_shape": [
+          75,
+          92,
+          78
+        ]
+      }
+    },
+    {
+      "task": "Task06_Lung",
+      "source_basename": "lung_069.nii.gz",
+      "selection_hash": "23d2df34b22e7e62b13c34efc0672234714145333673f060661b5789c4d05669",
+      "image_relative": "./imagesTr/lung_069.nii.gz",
+      "mask_relative": "./labelsTr/lung_069.nii.gz",
+      "selection_rank": 11,
+      "selected": true,
+      "case_id": "Task06_Lung:lung_069",
+      "image_sha256": "317de69a4352bbba573ed3ac47e582b31f260ea3ceeb8fc2e816a940a217dd72",
+      "mask_sha256": "48607c9fbe5b6c27c84e887562d3f5e4019634fbf51f20072295b0bdb8ebbccd",
+      "label": 1,
+      "source_eligible": true,
+      "exclusion_reasons": [],
+      "source_metadata": {
+        "image_dtype": "float32",
+        "image_shape": [
+          512,
+          512,
+          242
+        ],
+        "image_units": "mm",
+        "image_spacing_mm": [
+          0.7871090173721313,
+          0.7871090173721313,
+          1.2448346614837646
+        ],
+        "image_orthogonality_error": 0.0,
+        "image_qform_code": 1,
+        "image_sform_code": 1,
+        "image_qform_sform_corner_error_mm": 0.0,
+        "mask_dtype": "uint8",
+        "mask_shape": [
+          512,
+          512,
+          242
+        ],
+        "mask_units": "mm",
+        "mask_spacing_mm": [
+          0.7871090173721313,
+          0.7871090173721313,
+          1.2448346614837646
+        ],
+        "mask_orthogonality_error": 0.0,
+        "mask_qform_code": 1,
+        "mask_sform_code": 1,
+        "mask_qform_sform_corner_error_mm": 0.0,
+        "paired_corner_error_mm": 0.0,
+        "label": 1,
+        "foreground_voxels": 1079,
+        "foreground_bbox_extent_voxels": [
+          17,
+          20,
+          15
+        ],
+        "proposed_10mm_crop_lower_index": [
+          187,
+          262,
+          82
+        ],
+        "proposed_10mm_crop_shape": [
+          43,
+          46,
+          33
+        ]
+      }
+    },
+    {
+      "task": "Task06_Lung",
+      "source_basename": "lung_070.nii.gz",
+      "selection_hash": "26a6478a59dc665ab6e4d55eb8f556f5902c3ff758957b76a30518e24d45385e",
+      "image_relative": "./imagesTr/lung_070.nii.gz",
+      "mask_relative": "./labelsTr/lung_070.nii.gz",
+      "selection_rank": 12,
+      "selected": true,
+      "case_id": "Task06_Lung:lung_070",
+      "image_sha256": "17a6f87f6a9837c9b55ba6a7d03228bbd89441cf47e3a51931f71ebbfb48e347",
+      "mask_sha256": "270f204f092444926a0ec44cdae9cac40d290beb3ea9397a5eb03ff8d0122432",
+      "label": 1,
+      "source_eligible": true,
+      "exclusion_reasons": [],
+      "source_metadata": {
+        "image_dtype": "float32",
+        "image_shape": [
+          512,
+          512,
+          266
+        ],
+        "image_units": "mm",
+        "image_spacing_mm": [
+          0.7617189884185791,
+          0.7617189884185791,
+          1.2453007698059082
+        ],
+        "image_orthogonality_error": 0.0,
+        "image_qform_code": 1,
+        "image_sform_code": 1,
+        "image_qform_sform_corner_error_mm": 0.0,
+        "mask_dtype": "uint8",
+        "mask_shape": [
+          512,
+          512,
+          266
+        ],
+        "mask_units": "mm",
+        "mask_spacing_mm": [
+          0.7617189884185791,
+          0.7617189884185791,
+          1.2453007698059082
+        ],
+        "mask_orthogonality_error": 0.0,
+        "mask_qform_code": 1,
+        "mask_sform_code": 1,
+        "mask_qform_sform_corner_error_mm": 0.0,
+        "paired_corner_error_mm": 0.0,
+        "label": 1,
+        "foreground_voxels": 3080,
+        "foreground_bbox_extent_voxels": [
+          25,
+          27,
+          14
+        ],
+        "proposed_10mm_crop_lower_index": [
+          368,
+          308,
+          140
+        ],
+        "proposed_10mm_crop_shape": [
+          53,
+          55,
+          32
+        ]
+      }
+    }
+  ]
+}

@@ -1,0 +1,39 @@
+{
+  "accessed_utc": "2026-09-09T14:58:13.070567+00:00",
+  "registry_url": "https://registry.opendata.aws/msd/",
+  "dataset_license": "CC-BY-SA-4.0",
+  "monai_source_url": "https://raw.githubusercontent.com/Project-MONAI/MONAI/20df60253d364be69601114adae3bd609e0cb6f6/monai/apps/datasets.py",
+  "monai_source_sha256": "9ac4f9f01a07950150a43e13c7e09387002491a528c283593a0707d131e0d2ed",
+  "archives": [
+    {
+      "task": "Task02_Heart",
+      "url": "https://msd-for-monai-eu.s3.eu-west-2.amazonaws.com/Task02_Heart.tar",
+      "bytes": 455721472,
+      "published_md5": "06ee59366e1e5124267b774dbd654057",
+      "observed_md5": "06ee59366e1e5124267b774dbd654057",
+      "observed_sha256": "4277dc6dfe100142aa8060e895f6ff0f81c5b733703ea250bd294df8f820bcba",
+      "response_headers": {
+        "Content-Length": "455721472",
+        "Last-Modified": "Fri, 14 Aug 2020 14:24:32 GMT",
+        "ETag": "\"4b8fc8fb39aced547c9052af31d6aee4-28\""
+      },
+      "training_pairs": 20,
+      "test_images": 10
+    },
+    {
+      "task": "Task06_Lung",
+      "url": "https://msd-for-monai-eu.s3.eu-west-2.amazonaws.com/Task06_Lung.tar",
+      "bytes": 9163696640,
+      "published_md5": "8afd997733c7fc0432f71255ba4e52dc",
+      "observed_md5": "8afd997733c7fc0432f71255ba4e52dc",
+      "observed_sha256": "f782cd09da9cf7a3128475d4a53650d371db10f0427aa76e166fccfcb2654161",
+      "response_headers": {
+        "Content-Length": "9163696640",
+        "Last-Modified": "Fri, 14 Aug 2020 14:24:32 GMT",
+        "ETag": "\"83f5754339d705db77102b7de15a4115-547\""
+      },
+      "training_pairs": 63,
+      "test_images": 32
+    }
+  ]
+}

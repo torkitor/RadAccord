@@ -1,10 +1,12 @@
 # Install and run RadAccord
 
-RadAccord 1.2.0rc3 is a local release candidate for physical consistency checks in radiomics research. These instructions install the supplied source checkout or wheel; they do not imply that this version has been published on PyPI. The code is licensed under Apache-2.0.
+RadAccord 1.3.0rc1 is a research release candidate for physical consistency checks in radiomics research. These instructions install the supplied source checkout or wheel; they do not imply that this version has been published on PyPI. The code is licensed under Apache-2.0.
 
-The rc3 change normalizes CLI filenames to strings for native dispatch. The
-scientific native modules and their rc2 evaluation remain unchanged and are
-preserved in the [refinement archive](../data/RadAccord-native-refinement-2.zip).
+The current MIRP profile observes inputs before feature calculation and models
+native CT quantization. Earlier scientific modules and their development
+evaluation remain preserved in the [refinement archive](../data/RadAccord-native-refinement-2.zip).
+The [current protocol](../protocol/prospective_native_validation.md) identifies
+the new evaluation separately from those reused development inputs.
 
 ## Core installation
 
@@ -98,9 +100,9 @@ also replace prior positive reports before starting their child process.
 python -m pip wheel --no-deps /path/to/RadAccord --wheel-dir ./dist
 python -m venv .venv-wheel
 # Activate this new environment, then install the generated wheel:
-python -m pip install ./dist/radaccord-1.2.0rc3-py3-none-any.whl
+python -m pip install ./data/packages/radaccord-1.3.0rc1-py3-none-any.whl
 radaccord version
 radaccord demo --output ./installed-demo
 ```
 
-Run the installed checks from outside the source checkout. A wheel contains the Python interfaces and unchanged scientific source modules, but excludes the clinical images, stored study records and archival ZIP. Use the source release and [reproducibility guide](REPRODUCIBILITY.md) to reproduce archived results. The frozen sources remain in `software/` in the checkout and are packaged byte-identically under the private `radaccord._frozen` namespace; the sampling command runs its historical wrapper in a subprocess.
+Run the installed checks from outside the source checkout. A wheel contains the current Python interfaces and historical physical/sampling modules, but excludes clinical images, stored study records and archival ZIP files. Use the source release and [reproducibility guide](REPRODUCIBILITY.md) to reproduce archived results. The historical sources remain in `software/` in the checkout and are packaged byte-identically under the private `radaccord._frozen` namespace; the sampling command runs its historical wrapper in a subprocess.

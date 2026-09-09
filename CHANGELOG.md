@@ -1,6 +1,21 @@
 # Changelog
 
-## 1.2.0rc3 — 2026-09-09 (unpublished CLI compatibility candidate)
+## 1.3.0rc1 — 2026-09-09 (prospective evaluation candidate)
+
+- Observe the actual original-image/ROI arguments at MIRP feature dispatch,
+  alongside its final native export, using a temporary instance-level observer.
+  The native feature calculation and returned DataFrames remain unchanged.
+- Declare native CT nearest-even quantization after Gaussian antialiasing and
+  final interpolation. Propagate quantized uncertainty without widening the
+  original tolerance or converting uncertain alternatives into acceptance.
+- Add previously unused Heart MRI and Lung CT collection protocols, fixed
+  source preparation, complete-attempt ledgers and a counterbalanced native
+  timing harness with per-process warmup and exact-output comparisons.
+- Preserve earlier development archives and add separate prospective integrity
+  verification. The empty external-evaluation kit supports independent groups;
+  it does not claim completed participation or clinical benefit.
+
+## 1.2.0rc3 — 2026-09-09 (published CLI compatibility candidate)
 
 - Convert CLI image/mask filenames to strings before native dispatch. An actual
   MIRP CLI test exposed that `pathlib.Path` arguments raised `NotImplementedError`

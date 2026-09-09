@@ -26,7 +26,8 @@ _KEYS = set('index_map candidate_shape interpolation boundary outside_value worl
             'output_dtype integer_cast output_cast_atol antialias_sigma antialias_dtype antialias_boundary '
             'axis_order gaussian_truncate mask_outside mask_interpolation mask_boundary '
             'mask_threshold mask_round_decimals mask_threshold_atol mask_antialias_sigma '
-            'mask_antialias_boundary mask_threshold_after_antialias mask_skip'.split())
+            'mask_antialias_boundary mask_threshold_after_antialias mask_skip '
+            'antialias_quantisation output_quantisation'.split())
 
 
 def _parse(source, spec):
@@ -54,7 +55,7 @@ def _parse(source, spec):
                     mask_interpolation='nearest', mask_threshold=.5, mask_round_decimals=None,
                     mask_threshold_atol=1e-9, mask_antialias_sigma=None,
                     mask_antialias_boundary='nearest', mask_threshold_after_antialias=False,
-                    mask_skip=False)
+                    mask_skip=False, antialias_quantisation=None, output_quantisation=None)
     for key, value in defaults.items():
         p.setdefault(key, value)
     p.setdefault('mask_boundary', p['boundary'])
@@ -70,6 +71,13 @@ def _parse(source, spec):
         raise ValueError('integer_cast must be truncate or round_half_away')
     if p['antialias_dtype'] not in ('float32', 'float64'):
         raise ValueError('antialias_dtype must be float32 or float64')
+    for key in ('antialias_quantisation', 'output_quantisation'):
+        if p[key] not in (None, 'nearest_even'):
+            raise ValueError(key + ' must be None or nearest_even')
+    if p['antialias_quantisation'] is not None and p['antialias_sigma'] is None:
+        raise ValueError('Antialias quantisation requires an antialias stage')
+    if p['output_quantisation'] is not None and np.dtype(p['output_dtype']).kind != 'f':
+        raise ValueError('Output quantisation is declared only for floating storage')
     if sorted(p['axis_order']) != [0, 1, 2] or len(p['axis_order']) != 3:
         raise ValueError('axis_order must be a permutation of XYZ axes 0,1,2')
     for key in ('antialias_boundary', 'mask_antialias_boundary'):
@@ -229,6 +237,9 @@ def _prepare(source, p):
     if p['antialias_sigma'] is not None:
         data = _gaussian(data, p['antialias_sigma'], p['antialias_dtype'], p['axis_order'],
                          p['gaussian_truncate'], p['antialias_boundary'])
+        if p['antialias_quantisation'] == 'nearest_even':
+            # CT quantises once after the complete separable Gaussian stage.
+            data = np.rint(data)
     roi = (source.mask == source.label).astype(np.float64)
     lower_roi = upper_roi = None
     if p['mask_antialias_sigma'] is not None and not p['mask_skip']:
@@ -260,6 +271,9 @@ def _cast(values, p):
         if np.any(values < limits.min) or np.any(values > limits.max):
             raise ValueError('Integer output overflow is outside the verified cast profile')
     out = values.astype(dtype)
+    if p['output_quantisation'] == 'nearest_even':
+        # Storage conversion precedes CT's final nearest-even quantisation.
+        out = np.rint(out)
     if not np.all(np.isfinite(out)):
         raise ValueError('The declared output cast overflows')
     return out

@@ -3,7 +3,7 @@
 Importing this module does not import or initialise a radiomics engine.
 """
 
-__version__ = "1.2.0rc3"
+__version__ = "1.3.0rc1"
 __all__ = ["__version__", "audit_pyradiomics", "audit_mirp"]
 
 

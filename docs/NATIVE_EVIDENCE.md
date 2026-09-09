@@ -2,17 +2,18 @@
 
 The two native evaluations are preserved in separate immutable archives. The first is development/calibration; the second is calibration-informed reevaluation on the same inputs. Neither is independent clinical validation. Later command-line and package-version changes do not replace either scientific snapshot.
 
-## Verify the archives and retained scientific sources
+## Verify the historical archives and current implementation separately
 
 From the current repository root, using Python 3.10 or later:
 
 ```sh
-python -B scripts/verify_native_freeze.py
+python -B scripts/verify_native_freeze.py --archives-only
+python -B scripts/verify_prospective_freeze.py
 ```
 
-This reads the ZIP files without extracting them, verifies their pinned SHA-256 values, every manifest entry, and the embedded scientific freezes. It verifies 15 frozen files in calibration and 27 in refinement. It also checks the seven-file union of the current scientific checking sources against archived rc2: evidence, operators, numerics, both native adapters, and the frozen physical/sampling contracts. Each engine's report binds six of those files.
+The first command reads the ZIP files without extracting them and verifies their pinned SHA-256 values, every manifest entry, and the embedded scientific freezes: 15 frozen files in calibration and 27 in refinement. Its explicit archives-only mode makes no claim that current source files remain identical to rc2. The second command checks the new implementation and protocol against the separately identified prospective freeze. Omitting archives-only retains the strict rc2 source-identity check and correctly rejects the changed 1.3.0 implementation.
 
-The retained `protocol/native_freeze.json` and `protocol/native_refinement_freeze.json` are provenance pointers to the archived studies. Current CLI, version and packaging files are checked by the final release manifest; they are deliberately outside the seven-source scientific identity check. The verifier does not claim that all 27 active files remain identical after a later release change, or that remote CI has run.
+The retained `protocol/native_freeze.json` and `protocol/native_refinement_freeze.json` are unchanged provenance pointers to the archived studies. The final release manifest binds all distributed files; the prospective freeze binds the declared new implementation, preparation and analysis. Neither integrity check by itself establishes scientific validity or completed remote CI.
 
 | Archive | SHA-256 | Payload entries excluding manifest |
 |---|---|---:|

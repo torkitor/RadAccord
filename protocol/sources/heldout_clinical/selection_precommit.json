@@ -1,0 +1,10 @@
+{
+  "schema": "radaccord-acquisition-preselection-1",
+  "recorded_utc": "2026-09-09T14:28:20.291409+00:00",
+  "stage": "Before selection or source-content inspection; no RadAccord evaluation",
+  "files": {
+    "RadAccord/protocol/new_cohort_selection.md": "b039bf2361e520ab1e45b4b3226be8bbdcefcc142352ce9f80fa16a2e00ac25c",
+    "work/select_new_cohorts.py": "0cb925df9d95de20e9ef4632aa9b63f482f28a71f08feeba940f8287a98ead31",
+    "work/download_msd_new_cohorts.py": "241241bdcda23b981b3b12470ce922b4d205463300ab6f5d54ffdfb1439094cf"
+  }
+}

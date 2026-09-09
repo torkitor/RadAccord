@@ -1,0 +1,9 @@
+{
+  "utc": "2026-09-09T14:30:34.929251+00:00",
+  "reason": "EU range throughput limitation; same source/archive/checksum/selection",
+  "previous_script_sha256": "241241bdcda23b981b3b12470ce922b4d205463300ab6f5d54ffdfb1439094cf",
+  "revised_script_sha256": "0285ee4d3191f7ec14192acc1986e465a240b7670b867e44091deb356b468a9d",
+  "prior_partial_retained": "Task06_Lung.attempt1.part",
+  "concurrency": 32,
+  "range_bytes": 16777216
+}

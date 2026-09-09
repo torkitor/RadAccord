@@ -5,7 +5,8 @@ import numpy as np
 from radaccord.legacy import Frame
 from radaccord import operators as op
 from radaccord.numerics import (verify_native_operation, _itk_tail,
-                               _coefficient_envelope, _gaussian_envelope)
+                               _coefficient_envelope, _gaussian_envelope,
+                               _cast_interval, _quantised_interval)
 
 
 def source_frame(shape=(7, 8, 9), dtype='float32'):
@@ -39,6 +40,93 @@ def native_sitk_image(frame):
 
 
 class NumericalEnvelopeTests(unittest.TestCase):
+    def test_ct_final_rounding_follows_storage_conversion(self):
+        source = source_frame((2, 2, 2))
+        values = np.array([.50000001, -.50000001, 1.5, 2.5, -1.5, -2.5])
+        spec = specification(source, output_quantisation='nearest_even')
+        parsed = op._parse(source, spec)
+        np.testing.assert_array_equal(op._cast(values, parsed), [0., 0., 2., 2., -2., -2.])
+        parsed['output_dtype'] = 'float64'
+        np.testing.assert_array_equal(op._cast(values, parsed), [1., -1., 2., 2., -2., -2.])
+
+    def test_quantised_endpoint_set_crosses_positive_and_negative_half_ties(self):
+        raw = np.array([-.5, .5, 1.5, 2.5])
+        low, high = _cast_interval(raw, np.full(4, 1e-12), 'float64')
+        low, high = _quantised_interval(low, high, 'nearest_even')
+        np.testing.assert_array_equal(low, [-1., 0., 1., 2.])
+        np.testing.assert_array_equal(high, [0., 1., 2., 3.])
+        # A representable float32 half tie has a deterministic even result when
+        # its preceding storage interval collapses to that same float32 value.
+        lo32, hi32 = _cast_interval(raw, np.full(4, 1e-12), 'float32')
+        lo32, hi32 = _quantised_interval(lo32, hi32, 'nearest_even')
+        np.testing.assert_array_equal(lo32, [0., 0., 2., 2.])
+        np.testing.assert_array_equal(hi32, lo32)
+
+    def test_final_ct_quantisation_ambiguity_blocks_both_compatible_outputs(self):
+        source = source_frame((2, 2, 2), 'float64')
+        source.data[0] = 0.
+        source.data[1] = 1.
+        b = np.eye(4)
+        b[:3, 3] = [.5, .13, .23]
+        spec = specification(source, index_map=b.tolist(), candidate_shape=[1, 1, 1],
+                             output_quantisation='nearest_even')
+        candidate = op.expected_operation(source, spec)
+        for value in (0., 1.):
+            candidate.data[:] = value
+            report = verify_native_operation(source, candidate, spec)
+            self.assertEqual(report['status'], 'indeterminate', report)
+            self.assertEqual(report['feature_reuse']['decision'], 'blocked')
+            self.assertEqual(report['numerical_envelope']['intensity_atol_unchanged'], 1e-4)
+        candidate.data[:] = 2.
+        self.assertEqual(verify_native_operation(source, candidate, spec)['status'], 'violated')
+
+    def test_stable_ct_rounding_still_rejects_one_hu_changes(self):
+        source = source_frame(dtype='float32')
+        spec = specification(source, output_quantisation='nearest_even')
+        candidate = op.expected_operation(source, spec)
+        first = verify_native_operation(source, candidate, spec)
+        self.assertEqual(first['status'], 'satisfied', first)
+        candidate.data[2, 3, 4] += 1.
+        second = verify_native_operation(source, candidate, spec)
+        self.assertEqual(second['status'], 'violated', second)
+        self.assertEqual(first['numerical_envelope'], second['numerical_envelope'])
+
+    @unittest.skipUnless(importlib.util.find_spec('scipy'), 'Independent SciPy comparison')
+    def test_ct_antialias_and_final_quantisation_against_scipy(self):
+        from scipy.ndimage import gaussian_filter, map_coordinates
+        rng = np.random.default_rng(438107)
+        source = source_frame((9, 10, 11), 'float32')
+        source.data[:] = rng.integers(-1024, 1700, source.data.shape)
+        for order in (1, 3):
+            spec = specification(source, interpolation='linear' if order == 1 else 'bspline3',
+                antialias_sigma=[.73, 1.14, .91], antialias_quantisation='nearest_even',
+                output_quantisation='nearest_even')
+            candidate = op.expected_operation(source, spec)
+            axes = (2, 1, 0)
+            smoothed = gaussian_filter(source.data, [spec['antialias_sigma'][a] for a in axes],
+                                       axes=axes, mode='nearest', truncate=4.)
+            intermediate = np.rint(smoothed)
+            indices = np.indices(source.data.shape).reshape(3, -1)
+            b = np.asarray(spec['index_map'])
+            q = b[:3, :3] @ indices + b[:3, 3, None]
+            expected = np.rint(map_coordinates(intermediate, q, order=order,
+                                               mode='nearest', prefilter=True))
+            candidate.data[:] = expected.reshape(source.data.shape)
+            report = verify_native_operation(source, candidate, spec)
+            self.assertIn(report['status'], ('satisfied', 'indeterminate'), report)
+            self.assertEqual(report['violating_intensity_voxels'], 0)
+            candidate.data[3, 4, 5] += 25.
+            self.assertEqual(verify_native_operation(source, candidate, spec)['status'], 'violated')
+
+    def test_undeclared_or_inapplicable_quantisation_is_not_accepted(self):
+        source = source_frame()
+        candidate = op.expected_operation(source, specification(source))
+        for change in ({'output_quantisation': 'nearest'},
+                       {'antialias_quantisation': 'nearest_even'},
+                       {'output_quantisation': 'nearest_even', 'output_dtype': 'int16'}):
+            result = verify_native_operation(source, candidate, specification(source, **change))
+            self.assertEqual(result['status'], 'unavailable', result)
+
     def test_exact_float32_midpoint_blocks_both_adjacent_outputs(self):
         source = source_frame((2, 2, 2))
         lower = np.float32(262144.)

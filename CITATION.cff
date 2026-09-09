@@ -1,8 +1,8 @@
 cff-version: 1.2.0
-message: "Please cite the version and profile actually used. RadAccord 1.2.0rc3 is a research release candidate. Its CLI filename fix preserves the scientific modules evaluated in the retained rc2 native study."
+message: "Please cite the version and profile actually used. RadAccord 1.3.0rc1 is a research release candidate with explicit CT quantization and observation before native MIRP feature calculation. Earlier scientific phases remain separately archived."
 title: "RadAccord: software for physical consistency testing before radiomic feature reuse in research"
 type: software
-version: 1.2.0rc3
+version: 1.3.0rc1
 date-released: 2026-09-09
 authors:
   - family-names: García-Hidalgo

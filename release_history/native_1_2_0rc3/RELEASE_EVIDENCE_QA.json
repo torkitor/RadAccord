@@ -1,0 +1,265 @@
+{
+  "environment": {
+    "python": "3.13.5",
+    "system": "Windows"
+  },
+  "large_restored_records": "Twenty work/**/*.jsonl files were restored for verification. They remain ignored generated records and must not be added to the distributable manifest.",
+  "legacy_replay": {
+    "all_byte_identical": true,
+    "checks": [
+      {
+        "byte_identical": true,
+        "file": "decisions.jsonl",
+        "run": "development_final"
+      },
+      {
+        "byte_identical": true,
+        "file": "feature_diagnostics.jsonl",
+        "run": "development_final"
+      },
+      {
+        "byte_identical": true,
+        "file": "summary.json",
+        "run": "development_final"
+      },
+      {
+        "byte_identical": true,
+        "file": "output_mutants.jsonl",
+        "run": "development_final"
+      },
+      {
+        "byte_identical": true,
+        "file": "output_mutants_summary.json",
+        "run": "development_final"
+      },
+      {
+        "byte_identical": true,
+        "file": "decisions.jsonl",
+        "run": "heldout"
+      },
+      {
+        "byte_identical": true,
+        "file": "feature_diagnostics.jsonl",
+        "run": "heldout"
+      },
+      {
+        "byte_identical": true,
+        "file": "summary.json",
+        "run": "heldout"
+      },
+      {
+        "byte_identical": true,
+        "file": "pyradiomics_refined_decisions.jsonl",
+        "run": "refinement"
+      },
+      {
+        "byte_identical": true,
+        "file": "pyradiomics_refined_summary.json",
+        "run": "refinement"
+      }
+    ],
+    "scope": "Archived comparison arithmetic only. No input image regeneration, native extraction or fresh physical witness validation is performed."
+  },
+  "legacy_restore": {
+    "already_present": 20,
+    "archive_sha256": "43ff30b546e1904b1f119c6349747d3e6289b273f2b4ee18c80dc57d0b2970bd",
+    "restored": 0,
+    "scope": "Only archived work/**/*.jsonl records are restored. No analysis is rerun.",
+    "verified_records": 20
+  },
+  "native_analysis_compatibility": {
+    "freeze": "protocol/native_refinement_analysis.json",
+    "scope": "Six-source record integrity compatibility; no frozen native inference or original record changes.",
+    "sha256": "cef8976136b9a2797e2c753ddf5ef7de0ae5164a895a874c862121eca7b1223e",
+    "synthetic_tests_passed": 3
+  },
+  "native_archived_replay": {
+    "calibration": {
+      "all_payload_and_manifest_hashes_pass": true,
+      "archive": "RadAccord-native-calibration-1.zip",
+      "archive_sha256": "a3e2bff93996884ca8f8c31a38dbe8f1bb75acf2e011509e4d06ca9cbfd1532f",
+      "extracted_archive_freeze_verified": 15,
+      "extracted_archive_replayed_files_byte_identical": 8,
+      "extracted_archive_summary_tests_pass": 8,
+      "freeze_sha256": "258e66217f03a138c7dfe07b2b16200670955d6a10f93559759cbca0d355c55b",
+      "frozen_files_verified": 15,
+      "manifest_payload_entries": 32,
+      "members": 33,
+      "original_case_hashes": {
+        "mirp": "41ad66d67a0525305ae7c1c58bd1ea46ec3746ddde56f0b4380917f34f2d93e6",
+        "pyradiomics": "9569a6fb64256ca1f8c46c6b663b616a7cf32e56c64c3350b5d4b69e6eaf7fa7"
+      },
+      "size_bytes": 167760,
+      "two_independent_zip_builds_byte_identical": true
+    },
+    "refinement": {
+      "analysis_sha256": "cef8976136b9a2797e2c753ddf5ef7de0ae5164a895a874c862121eca7b1223e",
+      "archive_bytes": 234402,
+      "archive_members": 46,
+      "archive_sha256": "d8780b56b63c50e75631fa63ac0cb68874c60357d9ceb8828cf3d47b27ce6bb5",
+      "checks": [
+        {
+          "command": "python -B -m unittest scripts.tests.test_native_refinement_summary",
+          "exit_code": 0
+        },
+        {
+          "command": "python -B scripts/summarize_native_refinement.py --run results/native_refinement/mirp --run results/native_refinement/pyradiomics --freeze protocol/native_refinement_freeze.json --out reproduced_summary",
+          "exit_code": 0
+        }
+      ],
+      "deterministic_rebuild": true,
+      "frozen_files_verified": 27,
+      "manifest_payload_files": 45,
+      "native_extraction_performed": false,
+      "public_path_scan_passed": true,
+      "summary_replay": [
+        {
+          "byte_identical": true,
+          "file": "checkpoint_counts.csv",
+          "sha256": "2b643792b6e823fe546e7fc4aa6fddc9d984db47be490710d88992ccd44f0237"
+        },
+        {
+          "byte_identical": true,
+          "file": "checkpoints.csv",
+          "sha256": "4a98a3fefd6dbd560a1ba77e3341ca547447a345f454ff0bbaa921a79667c452"
+        },
+        {
+          "byte_identical": true,
+          "file": "coverage_and_reuse_counts.csv",
+          "sha256": "a361bfd15195c8b1c80ea92559c93e82cc43fed5590242a387dec2b77c90e685"
+        },
+        {
+          "byte_identical": true,
+          "file": "pair_counts.csv",
+          "sha256": "a70fb4485e8b7fe1523eeff21cddbd7c928bbe5aeec8d000ed8bfc000c253d6b"
+        },
+        {
+          "byte_identical": true,
+          "file": "pairs.csv",
+          "sha256": "b5e8242c32693b86d67f7c1f676c6fc8039bcfde08664a64c4ba0f8e2bfb3324"
+        },
+        {
+          "byte_identical": true,
+          "file": "summary.json",
+          "sha256": "542c8fd5024d9525a9f6c4cda6c8288f37a4e88c45cff6807db023afa8c1274c"
+        },
+        {
+          "byte_identical": true,
+          "file": "summary.md",
+          "sha256": "e58152309c602f54698ee6497244864dc7c39ba2b3a7cf5b13ab5bb68f31594f"
+        },
+        {
+          "byte_identical": true,
+          "file": "timings.csv",
+          "sha256": "5eb1def87b8258fe830fd8b8de0bc9b19af9b6a799312cce2d1d63adc3238fef"
+        }
+      ]
+    }
+  },
+  "native_integrity": {
+    "active_scientific_files": {
+      "radaccord/evidence.py": "108c2052959453dca928080532fbdbf94292c8376d7bbd01c919e8cdb7d64491",
+      "radaccord/mirp.py": "9348124437e6bc51a92225b694ce665a0a36a8851b06d30a9d2ab27822d8c7aa",
+      "radaccord/numerics.py": "1e36f8d0e9d64a64d48c07cbdb54558a1a1f7d9e609fee08dd2c5d709bd6a5a9",
+      "radaccord/operators.py": "3fd1162b34ee806481a2e13daad7f8ddfae0ced3f473439582a5ffa1d5a0dbf2",
+      "radaccord/pyradiomics.py": "52f8419562f972206c469ca1d2ef1a21cd77556d54f0c2d71482f3f017f74629",
+      "software/physical_contracts.py": "b2ddc6b63ed65245d4c0104c72f126b01ea337d1fb393c8e2ae27477427eb6b2",
+      "software/sampling_contracts.py": "a84cb4770c80028cf529252a8a7319e870033a344bdf07628482e273731606a9"
+    },
+    "active_scientific_files_verified": 7,
+    "analysis_compatibility_sha256": "cef8976136b9a2797e2c753ddf5ef7de0ae5164a895a874c862121eca7b1223e",
+    "calibration": {
+      "archive_sha256": "a3e2bff93996884ca8f8c31a38dbe8f1bb75acf2e011509e4d06ca9cbfd1532f",
+      "freeze_sha256": "258e66217f03a138c7dfe07b2b16200670955d6a10f93559759cbca0d355c55b",
+      "frozen_files_verified": 15,
+      "manifest_payload_files_verified": 32,
+      "zip_extraction_performed": false
+    },
+    "refinement": {
+      "archive_sha256": "d8780b56b63c50e75631fa63ac0cb68874c60357d9ceb8828cf3d47b27ce6bb5",
+      "freeze_sha256": "8a99094b119db04275251de57f1e2915720b5bad649736e5212fcecadf6a3b4e",
+      "frozen_files_verified": 27,
+      "manifest_payload_files_verified": 45,
+      "zip_extraction_performed": false
+    },
+    "retained_provenance_pointers_verified": true,
+    "scope": "Archive integrity for both studies and identity of the seven-source union (six checking sources per engine). Current CLI/version/packaging files are outside this scientific identity check and use the release manifest. This does not assert native validity or remote CI success.",
+    "status": "passed"
+  },
+  "native_verifier_guard_checks": [
+    {
+      "check": "unaltered_scientific_and_archive_copy",
+      "passed": true
+    },
+    {
+      "check": "reject_modified_data/RadAccord-native-calibration-1.zip",
+      "passed": true
+    },
+    {
+      "check": "reject_modified_data/RadAccord-native-refinement-2.zip",
+      "passed": true
+    },
+    {
+      "check": "reject_modified_protocol/native_freeze.json",
+      "passed": true
+    },
+    {
+      "check": "reject_modified_protocol/native_refinement_freeze.json",
+      "passed": true
+    },
+    {
+      "check": "reject_modified_radaccord/operators.py",
+      "passed": true
+    },
+    {
+      "check": "reject_modified_radaccord/numerics.py",
+      "passed": true
+    },
+    {
+      "check": "later_cli_outside_scientific_identity_check",
+      "passed": true
+    }
+  ],
+  "packaging_scope": "Final release manifest is generated separately; this receipt is not a check of the previous root MANIFEST.",
+  "platform_execution": {
+    "github_actions": "not_executed_for_this_candidate",
+    "linux": "not_executed_for_this_candidate",
+    "local_windows": "executed"
+  },
+  "sampling_integrity": {
+    "byte_normalization_applied": false,
+    "clinical_images_required": false,
+    "expected_frozen_files": 16,
+    "failures": [],
+    "freeze_sha256": "1618ecf0b48772dead25256a68049e6f9cae5fb5a1996b6ac8d8b89576a23059",
+    "historical_archive_sha256": "43ff30b546e1904b1f119c6349747d3e6289b273f2b4ee18c80dc57d0b2970bd",
+    "historical_archive_verified": true,
+    "location_mapping_sha256": "3a9d1d9bea8516a36a7fccb5dfc49bae4c7ae3c53caf96ed29c507d75d990418",
+    "scope": "Checks the retained internal pre-evaluation freeze, its relocated bytes and historical scientific archive; not an independent public preregistration or fresh scientific validation.",
+    "status": "passed",
+    "verified_frozen_files": 16
+  },
+  "schema_version": "release-evidence-qa-1",
+  "scientific_sources_unchanged": {
+    "active_scientific_union_verified": 7,
+    "archived_refinement_frozen_files_verified": 27,
+    "physical_contracts_sha256": "b2ddc6b63ed65245d4c0104c72f126b01ea337d1fb393c8e2ae27477427eb6b2",
+    "sampling_contracts_sha256": "a84cb4770c80028cf529252a8a7319e870033a344bdf07628482e273731606a9"
+  },
+  "scope": "Local integrity and archived reproducibility of both native phases and legacy studies; no independent validation or remote CI claim.",
+  "status": "passed",
+  "tests": {
+    "archived_replay_unittest": {
+      "passed": 6
+    },
+    "native_refinement_analysis_unittest": {
+      "passed": 3
+    },
+    "release_tools_unittest": {
+      "passed": 12
+    },
+    "sampling_freeze_pytest": {
+      "passed": 6
+    }
+  }
+}

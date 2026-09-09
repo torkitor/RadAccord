@@ -22,7 +22,7 @@ import numpy as np
 from . import operators as op
 
 _U = np.finfo(np.float64).eps / 2.
-_PROFILE = 'native-conditional-envelope-1'
+_PROFILE = 'native-conditional-envelope-2'
 
 
 def _gamma(n):
@@ -40,6 +40,18 @@ def _cast_interval(raw, error, dtype):
         low, high = low.astype(dtype).astype(float), high.astype(dtype).astype(float)
     if not np.all(np.isfinite(low)) or not np.all(np.isfinite(high)):
         raise ValueError('Envelope overflow is outside the numerical profile')
+    return low, high
+
+
+def _quantised_interval(low, high, quantisation):
+    """Nearest-even rounding is monotone, so endpoint images enclose the set.
+
+    Endpoints already include arithmetic uncertainty and the declared floating
+    storage conversion. Different rounded endpoints remain an unresolved set;
+    they do not enlarge the comparison tolerance or select an observed value.
+    """
+    if quantisation == 'nearest_even':
+        return np.rint(low), np.rint(high)
     return low, high
 
 
@@ -215,6 +227,7 @@ def _image_interval(prepared, field_error, q, q_error, p):
     radius = e+arithmetic+coordinate
     radius[~inside] = 0.
     lo, hi = _cast_interval(raw, radius, p['output_dtype'])
+    lo, hi = _quantised_interval(lo, hi, p['output_quantisation'])
     return lo, hi, radius
 
 
@@ -299,6 +312,11 @@ def verify_native_operation(source, candidate, spec):
         else:
             data, data_error = _gaussian_envelope(source.data, p['antialias_sigma'], p['antialias_dtype'],
                                                 p['axis_order'], p['gaussian_truncate'], p['antialias_boundary'])
+            if p['antialias_quantisation'] == 'nearest_even':
+                lo, hi = _cast_interval(data.astype(float), data_error, p['antialias_dtype'])
+                lo, hi = _quantised_interval(lo, hi, p['antialias_quantisation'])
+                data = np.rint(data)
+                data_error = np.maximum(np.abs(lo-data.astype(float)), np.abs(hi-data.astype(float)))
             if not np.array_equal(data, prepared[0]):
                 return _unavailable(nominal, 'Gaussian envelope and nominal stage differ')
         field_error, tail_max = data_error, 0.
@@ -366,6 +384,8 @@ def verify_native_operation(source, candidate, spec):
             'formal_backend_certificate': False, 'intensity_atol_unchanged': p['intensity_atol'],
             'max_precast_radius': raw_max, 'max_storage_interval_width': width_max,
             'max_coordinate_radius_voxels': coordinate_max, 'max_image_antialias_radius': float(data_error.max()),
+            'antialias_quantisation': p['antialias_quantisation'],
+            'output_quantisation': p['output_quantisation'],
             'max_mask_antialias_radius': mask_aa_max, 'max_single_axis_itk_tail_radius': tail_max,
             'itk_cubic_horizon': 18 if p['interpolation'] == 'bspline3' and p['boundary'] == 'sitk' else None,
             'assumptions': ['IEEE round-to-nearest, normal finite binary64 intermediates',

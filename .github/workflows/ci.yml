@@ -36,14 +36,18 @@ jobs:
         run: python -B scripts/check_release.py
       - name: Verify sampling freeze and immutable historical archive
         run: python -B scripts/verify_sampling_freeze.py
-      - name: Verify both native archives and retained scientific sources
-        run: python -B scripts/verify_native_freeze.py
+      - name: Verify both immutable native development archives
+        run: python -B scripts/verify_native_freeze.py --archives-only
+      - name: Verify current prospective implementation and protocol freeze
+        run: python -B scripts/verify_prospective_freeze.py
       - name: Install pinned core and independent image reader
         run: python -m pip install --disable-pip-version-check -r software/requirements-core.txt SimpleITK==2.5.3 pytest==9.0.2
       - name: Test release tools
         run: python -B -m unittest discover -s scripts/tests -v
       - name: Test sampling freeze verification
         run: python -B -m pytest -q -p no:cacheprovider scripts/tests/test_sampling_freeze.py
+      - name: Test public clinical source acquisition using synthetic fixtures
+        run: python -B -m pytest -q -p no:cacheprovider tests/test_msd_validation_sources.py
       - name: Test physical and feature contracts
         working-directory: software
         run: python -B -m unittest discover -s tests -v

@@ -122,7 +122,7 @@ jobs:
           if profile == 'pyradiomics':
               native_pattern, minimum = 'test_native_pyradiomics.py', 11
           elif profile == 'mirp':
-              native_pattern, minimum = 'test_mirp.py', 8
+              native_pattern, minimum = 'test_mirp.py', 16
           else:
               for package, expected in {'numpy': '2.2.6', 'scipy': '1.15.3', 'SimpleITK': '2.5.3'}.items():
                   assert metadata.version(package) == expected, package + ': unexpected version'
@@ -131,7 +131,7 @@ jobs:
           print('Pinned versions:', versions, flush=True)
           groups = [('test_packaging.py', 11), ('test_evidence_reporting.py', 5), (native_pattern, minimum)]
           if profile == 'oracle':
-              groups.append(('test_numerics.py', 12))
+              groups.append(('test_numerics.py', 18))
           for pattern, required in groups:
               suite = unittest.TestLoader().discover(str(root / 'tests'), pattern=pattern)
               result = unittest.TextTestRunner(verbosity=2).run(suite)

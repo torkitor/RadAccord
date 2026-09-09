@@ -1,8 +1,9 @@
-"""Post-extraction evidence for the original-image export of native MIRP 2.5.0.
+"""Original-feature dispatch and export evidence for native MIRP 2.5.0.
 
 The declaration uses the decoded source and resolved configuration before native
 execution. No preprocessing is substituted and native feature tables are returned
-unchanged. Decoding and unobserved internal feature-class states are outside scope.
+unchanged. Instance-local observation precedes the unchanged native feature
+generator. Decoding and feature-class internal states remain outside scope.
 """
 from __future__ import annotations
 
@@ -20,7 +21,7 @@ from .evidence import (config_digest, frame_record, implementation_record,
 from .legacy import Frame
 
 
-PROFILE = 'mirp-native-original-2'
+PROFILE = 'mirp-native-original-3'
 TESTED_VERSIONS = {'2.5.0'}
 
 
@@ -43,7 +44,7 @@ def _frame(image, mask):
 def _supported_settings(settings, modality):
     """Admissibility depends on resolved intent, never observed feature values."""
     g, p, a = settings.general, settings.post_process, settings.perturbation
-    if modality not in ('mr', 'generic'):
+    if modality not in ('mr', 'generic', 'ct'):
         raise ValueError('unsupported_modality')
     if g.by_slice or any((g.mask_merge, g.mask_split, g.mask_select_largest_region,
                           g.mask_select_largest_slice)):
@@ -107,12 +108,24 @@ def declare_mirp(source, settings, modality='mr', *, native_spacing=None):
     aa = interpolation.interpolate and interpolation.anti_aliasing
     sigma = np.sqrt(-8*scale**2*np.log(interpolation.smoothing_beta)) if aa else None
     dtype = 'float32' if aa else str(source.data.dtype)
+    if modality == 'ct':
+        # Native promotion has already applied CTImage.update_image_data. The
+        # retained boundary must therefore contain integral values. The two
+        # subsequent quantisers are declared at their actual native positions:
+        # after the whole Gaussian stage, and after interpolation storage.
+        if not np.array_equal(source.data, np.round(source.data)):
+            raise ValueError('ct_source_not_native_rounded')
     if source.data.dtype.kind in 'iu':
-        # Integer storage is admitted only for unchanged samples. Do not infer
-        # support for integer interpolation or its antialias/casting pipeline.
+        # CT AA explicitly converts its source to float32 before convolution;
+        # its later interpolation has floating output and the declared two
+        # quantisers. Weighted integer output without AA remains unsupported.
+        integer_identity = (not interpolation.interpolate and mask_skip
+                            and np.array_equal(index_map, np.eye(4)))
+        ct_nearest = (modality == 'ct' and image_order == 0 and not aa
+                      and (mask_skip or mask_order == 0))
+        ct_floating_antialias = modality == 'ct' and aa
         if (str(source.data.dtype) not in ('uint8', 'uint16', 'int16', 'int32')
-                or interpolation.interpolate or aa or not mask_skip
-                or not np.array_equal(index_map, np.eye(4))):
+                or not (integer_identity or ct_nearest or ct_floating_antialias)):
             raise ValueError('unsupported_integer_processing')
     elif dtype not in ('float32', 'float64'):
         raise ValueError('unsupported_source_storage_dtype')
@@ -120,6 +133,9 @@ def declare_mirp(source, settings, modality='mr', *, native_spacing=None):
             'world_map': np.eye(4).tolist(), 'interpolation': orders[image_order],
             'boundary': 'nearest', 'outside_value': 0., 'output_dtype': dtype,
             'integer_cast': 'round_half_away',
+            'antialias_quantisation': 'nearest_even' if modality == 'ct' and aa else None,
+            'output_quantisation': 'nearest_even' if modality == 'ct' and dtype in
+                                   ('float32', 'float64') else None,
             'antialias_sigma': None if sigma is None else sigma.tolist(),
             'antialias_dtype': 'float32', 'antialias_boundary': 'nearest',
             'gaussian_truncate': 4., 'axis_order': [2, 1, 0],
@@ -129,13 +145,87 @@ def declare_mirp(source, settings, modality='mr', *, native_spacing=None):
             'mask_threshold_after_antialias': True, 'mask_threshold': .5,
             'mask_round_decimals': 6, 'mask_threshold_atol': 1e-9,
             'position_atol_mm': 1e-4,
-            'intensity_atol': 0. if source.data.dtype.kind in 'iu' else 1e-4,
+            'intensity_atol': 0. if source.data.dtype.kind in 'iu' or modality == 'ct' else 1e-4,
             'index_boundary_atol': 1e-9}
 
 
-def _unavailable(reason):
-    return {'checkpoint': 'original_image_export_after_extraction',
+def _unavailable(reason, checkpoint='original_image_export_after_extraction'):
+    return {'checkpoint': checkpoint,
             'status': 'unavailable', 'reason_code': reason}
+
+
+def _check_native_boundary(image, mask, source, declaration, checkpoint):
+    """Copy the actual dispatch/export state, then run the independent checker."""
+    from .numerics import verify_native_operation
+    if declaration is None:
+        return _unavailable('source_or_configuration_outside_native_profile', checkpoint)
+    try:
+        observed = _frame(image, mask.roi)
+        check = verify_native_operation(source, observed, declaration)
+        observed_record = frame_record(observed)
+        check.update(checkpoint=checkpoint, observed=observed_record)
+        memberships = {}
+        for name in ('roi_intensity', 'roi_morphology'):
+            component = getattr(mask, name)
+            memberships[name] = component is not None and \
+                frame_record(_frame(image, component))['selected_roi_sha256'] == \
+                observed_record['selected_roi_sha256']
+        check['feature_roi_agreement'] = memberships
+        if not all(memberships.values()):
+            check['status'] = 'violated'
+            check['feature_reuse'] = {'decision': 'blocked',
+                                     'reason': 'Feature ROI differs at the observed boundary.'}
+        return check
+    except (ValueError, TypeError, RuntimeError, KeyError, AttributeError):
+        return _unavailable('observed_boundary_outside_native_profile', checkpoint)
+
+
+def _execute_observed(image, mask, options, source, declaration):
+    """Use the native sequential loop with a temporary per-instance observer.
+
+    The generator, its feature objects/caches, and standard_extraction remain
+    native. No class/global method is replaced and the original callable is
+    restored even when native extraction raises. Unsupported parallel execution
+    remains the public function's responsibility and has no dispatch evidence.
+    """
+    from mirp import extract_features_and_images
+    from mirp.extract_features_and_images import _base_extract_features_and_images
+    checkpoints = []
+    execution = dict(export_features=True, export_images=True,
+                     write_features=False, write_images=False)
+    sequential = options.get('parallel_backend') in (None, 'none') and \
+        options.get('num_cpus') is None
+    if not sequential or version('mirp') not in TESTED_VERSIONS:
+        native = extract_features_and_images(image=image, mask=mask, **options,
+            **execution, image_export_format='native')
+        checkpoints.append(_unavailable('sequential_observer_not_available',
+                                        'original_feature_input'))
+        return native, checkpoints
+    native = []
+    # The public function uses exactly this factory and standard_extraction
+    # loop for its sequential backend; only its scheduler/log setup is omitted.
+    for workflow in _base_extract_features_and_images(image=image, mask=mask,
+                                                       **options, **execution):
+        original = workflow._compute_radiomics_features
+        had_local = '_compute_radiomics_features' in vars(workflow)
+
+        def observe_features(image, mask, original=original):
+            checkpoints.append(_check_native_boundary(image, mask, source, declaration,
+                                                       'original_feature_input'))
+            yield from original(image=image, mask=mask)
+
+        workflow._compute_radiomics_features = observe_features
+        try:
+            native.append(workflow.standard_extraction(image_export_format='native'))
+        finally:
+            if had_local:
+                workflow._compute_radiomics_features = original
+            else:
+                del workflow._compute_radiomics_features
+    if len(checkpoints) != 1:
+        checkpoints.append(_unavailable('single_original_feature_dispatch_not_observed',
+                                        'original_feature_input'))
+    return native, checkpoints
 
 
 def _tables_record(tables):
@@ -160,12 +250,10 @@ def audit_mirp(image, mask, *, config=None, label=1):
     A single workflow returns its exact DataFrame. Multiple workflows return a
     list of their exact tables and unavailable evidence for this bounded profile.
     """
-    from mirp import extract_features_and_images
     from mirp._data_import.read_data import read_image_and_masks
     from mirp._masks.base_mask import BaseMask
     from mirp.data_import.import_image_and_mask import import_image_and_mask
     from mirp.settings.import_config_parameters import import_configuration_settings
-    from .numerics import verify_native_operation
 
     if config is not None and not isinstance(config, dict):
         raise TypeError('config must be a MIRP keyword-argument dictionary.')
@@ -185,7 +273,7 @@ def audit_mirp(image, mask, *, config=None, label=1):
     engine_version = version('mirp')
     configuration_hash = config_digest(options)
     start = time.perf_counter()
-    source = source_record = declaration = None
+    source = source_record = declaration = source_modality = None
     reason = 'source_or_configuration_outside_native_profile'
     try:
         settings = import_configuration_settings(compute_features=True, **options)
@@ -202,6 +290,7 @@ def audit_mirp(image, mask, *, config=None, label=1):
             raise ValueError('multiple_or_missing_selected_masks')
         source = _frame(retained_image, retained_masks[0].roi)
         source_record = frame_record(source)
+        source_modality = retained_image.modality
         # One Frame has one affine. Coalescing merely close source image/ROI
         # geometries would change the expected registration intensities.
         if not np.array_equal(retained_image.get_affine_matrix(),
@@ -213,11 +302,8 @@ def audit_mirp(image, mask, *, config=None, label=1):
         # Native exception strings can include directories and identifiers.
         declaration = None
 
-    native = extract_features_and_images(image=image, mask=mask, **options,
-        export_features=True, export_images=True, write_features=False, write_images=False,
-        image_export_format='native')
+    native, checks = _execute_observed(image, mask, options, source, declaration)
     tables = [result[0] for result in native]
-    checks = []
     if declaration is None or len(native) != 1:
         checks.append(_unavailable(reason if declaration is None else 'multiple_native_workflows'))
     else:
@@ -225,21 +311,8 @@ def audit_mirp(image, mask, *, config=None, label=1):
             images, masks = native[0][1], native[0][2]
             if len(images) != 1 or len(masks) != 1:
                 raise ValueError('multiple_or_missing_native_exports')
-            exported_mask = masks[0]
-            observed = _frame(images[0], exported_mask.roi)
-            check = verify_native_operation(source, observed, declaration)
-            check.update(checkpoint='original_image_export_after_extraction',
-                         observed=frame_record(observed))
-            memberships = {}
-            for name in ('roi_intensity', 'roi_morphology'):
-                component = getattr(exported_mask, name)
-                memberships[name] = component is not None and \
-                    frame_record(_frame(images[0], component))['selected_roi_sha256'] == \
-                    frame_record(observed)['selected_roi_sha256']
-            check['exported_feature_roi_agreement'] = memberships
-            if not all(memberships.values()):
-                check['status'] = 'violated'
-            checks.append(check)
+            checks.append(_check_native_boundary(images[0], masks[0], source, declaration,
+                                                 'original_image_export_after_extraction'))
         except (ValueError, TypeError, RuntimeError, KeyError, AttributeError):
             checks.append(_unavailable('observed_export_outside_native_profile'))
     status = overall_status(checks)
@@ -250,17 +323,24 @@ def audit_mirp(image, mask, *, config=None, label=1):
               'checker': implementation_record('mirp'),
               'engine': {'name': 'mirp', 'version': engine_version}, 'status': status,
               'configuration_sha256': configuration_hash, 'source': source_record,
+              'source_boundary': {'stage': 'native_decoded_and_promoted',
+                  'modality': source_modality,
+                  'ct_promotion_rounding': 'numpy_nearest_even' if source_modality == 'ct' else None,
+                  'decoding_or_promotion_independently_verified': False},
               'feature_tables': _tables_record(tables),
               'declaration_timing': 'before_native_execute',
-              'declarations': {} if declaration is None else {'original_image_export': declaration},
+              'declarations': {} if declaration is None else {
+                  'original_feature_input': declaration, 'original_image_export': declaration},
               'checkpoints': checks,
               'relationship_acceptance': accepted,
-              'acceptance_scope': 'post_extraction_original_input_and_source_centre_coverage',
+              'acceptance_scope': 'original_feature_dispatch_and_export_with_source_centre_coverage',
               'unverified_obligations': ['input_decoding', 'feature_formulae',
-                                        'unobserved_internal_feature_states', 'feature_value_validity',
+                                        'feature_class_internal_states', 'feature_value_validity',
                                         'clinical_validity'],
-              'scope': 'The decoded source and original image/ROI export are observed. '
-                       'No internal pre-feature checkpoint or clinical validity is certified.',
+              'scope': 'The decoded source (after native CT promotion when applicable), '
+                       'the original-image/ROI arguments at native feature dispatch, and '
+                       'the later export are observed. Feature-class internals, decoding '
+                       'and clinical validity are not certified.',
               'elapsed_seconds': time.perf_counter()-start}
     return {'features': tables[0] if len(tables) == 1 else tables, 'report': json_value(report)}
 

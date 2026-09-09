@@ -69,7 +69,7 @@ def _archive(root, name, archive_sha, freeze_path, freeze_sha, frozen_count):
              'zip_extraction_performed': False}, freeze, payload)
 
 
-def verify(root):
+def verify(root, *, archives_only=False):
     root = Path(root).resolve()
     calibration, _, _ = _archive(root, 'RadAccord-native-calibration-1', CALIBRATION_SHA256,
                                  'protocol/native_freeze.json', CALIBRATION_FREEZE_SHA256, 15)
@@ -88,16 +88,20 @@ def verify(root):
         if relative not in payload or _bytes_sha(payload[relative]) != expected:
             raise ValueError('The archived analysis compatibility payload differs: '+relative)
     active = {}
-    for relative in SCIENTIFIC_FILES:
+    for relative in (() if archives_only else SCIENTIFIC_FILES):
         actual = file_sha256(safe_file(root, relative))
         if actual != freeze['files'][relative]:
             raise ValueError('Retained scientific source differs from archived rc2: '+relative)
         active[relative] = actual
     return {'status': 'passed', 'calibration': calibration, 'refinement': refinement,
+            'mode': 'archives_only' if archives_only else 'archives_and_retained_rc2_sources',
             'analysis_compatibility_sha256': ANALYSIS_SHA256,
             'retained_provenance_pointers_verified': True,
             'active_scientific_files': active, 'active_scientific_files_verified': len(active),
-            'scope': ('Archive integrity for both studies and identity of the seven-source union '
+            'scope': ('Archive integrity and retained provenance pointers only; active scientific '
+                      'sources are not compared with historical rc2 in this explicit mode. '
+                      'This does not assert native validity or remote CI success.' if archives_only else
+                      'Archive integrity for both studies and identity of the seven-source union '
                       '(six checking sources per engine). Current CLI/version/packaging files '
                       'are outside this scientific identity check and use the release manifest. '
                       'This does not assert native validity or remote CI success.')}
@@ -106,5 +110,7 @@ def verify(root):
 if __name__ == '__main__':
     parser = argparse.ArgumentParser(description=__doc__)
     parser.add_argument('--root', type=Path, default=ROOT)
+    parser.add_argument('--archives-only', action='store_true',
+                        help='Verify immutable archives/pointers without asserting current rc2 source identity.')
     args = parser.parse_args()
-    print(json.dumps(verify(args.root), indent=2, sort_keys=True))
+    print(json.dumps(verify(args.root, archives_only=args.archives_only), indent=2, sort_keys=True))

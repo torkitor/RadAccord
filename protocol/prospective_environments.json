@@ -1,0 +1,61 @@
+{
+  "mirp": {
+    "packages": {
+      "ImageIO": "2.37.4",
+      "PyWavelets": "1.10.0",
+      "SimpleITK": "2.5.3",
+      "contourpy": "1.3.3",
+      "cycler": "0.12.1",
+      "fonttools": "4.64.0",
+      "itk": "5.4.6",
+      "itk-core": "5.4.6",
+      "itk-filtering": "5.4.6",
+      "itk-io": "5.4.6",
+      "itk-numerics": "5.4.6",
+      "itk-registration": "5.4.6",
+      "itk-segmentation": "5.4.6",
+      "kiwisolver": "1.5.1",
+      "lazy-loader": "0.5",
+      "matplotlib": "3.11.1",
+      "mirp": "2.5.0",
+      "networkx": "3.6.1",
+      "nibabel": "5.3.3",
+      "numpy": "2.2.6",
+      "packaging": "26.3",
+      "pandas": "2.3.3",
+      "pillow": "12.3.0",
+      "pip": "25.1.1",
+      "pydicom": "3.0.1",
+      "pyparsing": "3.3.2",
+      "python-dateutil": "2.9.0.post0",
+      "pytz": "2026.3.post1",
+      "scikit-image": "0.26.0",
+      "scipy": "1.15.3",
+      "six": "1.17.0",
+      "tifffile": "2026.9.9",
+      "tzdata": "2026.3"
+    },
+    "python": "3.13.5"
+  },
+  "pyradiomics": {
+    "packages": {
+      "PyWavelets": "1.4.1",
+      "SimpleITK": "2.2.1",
+      "docopt": "0.6.2",
+      "importlib_resources": "7.1.0",
+      "nibabel": "5.3.3",
+      "numpy": "1.23.5",
+      "packaging": "26.2",
+      "pip": "23.3.2",
+      "pykwalify": "1.8.0",
+      "pyradiomics": "3.0.1",
+      "python-dateutil": "2.9.0.post0",
+      "ruamel.yaml": "0.19.1",
+      "setuptools": "65.5.0",
+      "six": "1.17.0",
+      "typing_extensions": "4.16.0",
+      "wheel": "0.47.0"
+    },
+    "python": "3.10.11"
+  }
+}

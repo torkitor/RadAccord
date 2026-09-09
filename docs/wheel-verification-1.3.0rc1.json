@@ -1,0 +1,217 @@
+{
+  "software": "RadAccord",
+  "version": "1.3.0rc1",
+  "verified_at_utc": "2026-09-09T15:02:40.638327+00:00",
+  "artifact": {
+    "file": "data/packages/radaccord-1.3.0rc1-py3-none-any.whl",
+    "sha256": "f58e91262f56890fe8b330fecf38bcc5cb43179bd95ff3d8f40ec299dea170f7",
+    "bytes": 81560
+  },
+  "distinct_tests_passed": 79,
+  "test_executions_passed": 111,
+  "selected_skips": 0,
+  "initial_tested_wheel_sha256": "83750a6b417f691a6d5ec218ff0d90c02e3cfba0ecff3bb0fe2e621701f84e9d",
+  "final_rebuild_difference": [
+    "radaccord-1.3.0rc1.dist-info/METADATA",
+    "radaccord-1.3.0rc1.dist-info/RECORD"
+  ],
+  "all_python_payloads_byte_identical": true,
+  "final_reinstalled_profiles": [
+    "oracle",
+    "pyradiomics",
+    "mirp"
+  ],
+  "final_installed_payload_identity_verified": true,
+  "final_pip_check_passed_profiles": 3,
+  "profiles": [
+    {
+      "version": "1.3.0rc1",
+      "profile": "oracle",
+      "python": "3.13.5",
+      "outside_checkout": true,
+      "isolated_environment": true,
+      "packages": {
+        "numpy": "2.2.6",
+        "nibabel": "5.3.3"
+      },
+      "wheel_sha256": "83750a6b417f691a6d5ec218ff0d90c02e3cfba0ecff3bb0fe2e621701f84e9d",
+      "python_payloads_verified": [
+        "radaccord_sampling.py",
+        "radaccord/__init__.py",
+        "radaccord/__main__.py",
+        "radaccord/cli.py",
+        "radaccord/evidence.py",
+        "radaccord/legacy.py",
+        "radaccord/mirp.py",
+        "radaccord/numerics.py",
+        "radaccord/operators.py",
+        "radaccord/pyradiomics.py",
+        "radaccord/reporting.py",
+        "radaccord/_frozen/adapters.py",
+        "radaccord/_frozen/benchmark.py",
+        "radaccord/_frozen/faultinjectors.py",
+        "radaccord/_frozen/output_mutants.py",
+        "radaccord/_frozen/physical_contracts.py",
+        "radaccord/_frozen/relations.py",
+        "radaccord/_frozen/sampling_contracts.py",
+        "radaccord/_frozen/validation_refinement.py",
+        "radaccord/_frozen/verify.py",
+        "radaccord/_frozen/verify_refined.py"
+      ],
+      "tests": [
+        {
+          "pattern": "test_packaging.py",
+          "tests": 11,
+          "skipped": 0,
+          "errors": 0,
+          "failures": 0
+        },
+        {
+          "pattern": "test_evidence_reporting.py",
+          "tests": 5,
+          "skipped": 0,
+          "errors": 0,
+          "failures": 0
+        },
+        {
+          "pattern": "test_operators.py",
+          "tests": 18,
+          "skipped": 0,
+          "errors": 0,
+          "failures": 0
+        },
+        {
+          "pattern": "test_numerics.py",
+          "tests": 18,
+          "skipped": 0,
+          "errors": 0,
+          "failures": 0
+        }
+      ]
+    },
+    {
+      "version": "1.3.0rc1",
+      "profile": "pyradiomics",
+      "python": "3.10.11",
+      "outside_checkout": true,
+      "isolated_environment": true,
+      "packages": {
+        "numpy": "1.23.5",
+        "nibabel": "5.3.3",
+        "SimpleITK": "2.2.1",
+        "pyradiomics": "3.0.1"
+      },
+      "wheel_sha256": "83750a6b417f691a6d5ec218ff0d90c02e3cfba0ecff3bb0fe2e621701f84e9d",
+      "python_payloads_verified": [
+        "radaccord_sampling.py",
+        "radaccord/__init__.py",
+        "radaccord/__main__.py",
+        "radaccord/cli.py",
+        "radaccord/evidence.py",
+        "radaccord/legacy.py",
+        "radaccord/mirp.py",
+        "radaccord/numerics.py",
+        "radaccord/operators.py",
+        "radaccord/pyradiomics.py",
+        "radaccord/reporting.py",
+        "radaccord/_frozen/adapters.py",
+        "radaccord/_frozen/benchmark.py",
+        "radaccord/_frozen/faultinjectors.py",
+        "radaccord/_frozen/output_mutants.py",
+        "radaccord/_frozen/physical_contracts.py",
+        "radaccord/_frozen/relations.py",
+        "radaccord/_frozen/sampling_contracts.py",
+        "radaccord/_frozen/validation_refinement.py",
+        "radaccord/_frozen/verify.py",
+        "radaccord/_frozen/verify_refined.py"
+      ],
+      "tests": [
+        {
+          "pattern": "test_packaging.py",
+          "tests": 11,
+          "skipped": 0,
+          "errors": 0,
+          "failures": 0
+        },
+        {
+          "pattern": "test_evidence_reporting.py",
+          "tests": 5,
+          "skipped": 0,
+          "errors": 0,
+          "failures": 0
+        },
+        {
+          "pattern": "test_native_pyradiomics.py",
+          "tests": 11,
+          "skipped": 0,
+          "errors": 0,
+          "failures": 0
+        }
+      ]
+    },
+    {
+      "version": "1.3.0rc1",
+      "profile": "mirp",
+      "python": "3.13.5",
+      "outside_checkout": true,
+      "isolated_environment": true,
+      "packages": {
+        "numpy": "2.2.6",
+        "nibabel": "5.3.3",
+        "scipy": "1.15.3",
+        "pandas": "2.3.3",
+        "scikit-image": "0.26.0",
+        "SimpleITK": "2.5.3",
+        "mirp": "2.5.0"
+      },
+      "wheel_sha256": "83750a6b417f691a6d5ec218ff0d90c02e3cfba0ecff3bb0fe2e621701f84e9d",
+      "python_payloads_verified": [
+        "radaccord_sampling.py",
+        "radaccord/__init__.py",
+        "radaccord/__main__.py",
+        "radaccord/cli.py",
+        "radaccord/evidence.py",
+        "radaccord/legacy.py",
+        "radaccord/mirp.py",
+        "radaccord/numerics.py",
+        "radaccord/operators.py",
+        "radaccord/pyradiomics.py",
+        "radaccord/reporting.py",
+        "radaccord/_frozen/adapters.py",
+        "radaccord/_frozen/benchmark.py",
+        "radaccord/_frozen/faultinjectors.py",
+        "radaccord/_frozen/output_mutants.py",
+        "radaccord/_frozen/physical_contracts.py",
+        "radaccord/_frozen/relations.py",
+        "radaccord/_frozen/sampling_contracts.py",
+        "radaccord/_frozen/validation_refinement.py",
+        "radaccord/_frozen/verify.py",
+        "radaccord/_frozen/verify_refined.py"
+      ],
+      "tests": [
+        {
+          "pattern": "test_packaging.py",
+          "tests": 11,
+          "skipped": 0,
+          "errors": 0,
+          "failures": 0
+        },
+        {
+          "pattern": "test_evidence_reporting.py",
+          "tests": 5,
+          "skipped": 0,
+          "errors": 0,
+          "failures": 0
+        },
+        {
+          "pattern": "test_mirp.py",
+          "tests": 16,
+          "skipped": 0,
+          "errors": 0,
+          "failures": 0
+        }
+      ]
+    }
+  ],
+  "scope": "Local Windows installed-wheel verification outside the checkout. Full suites tested identical Python payloads; the final metadata-only rebuild was reinstalled and checked in all three clean environments. This receipt does not claim current remote CI or clinical outcomes."
+}

@@ -1,0 +1,32 @@
+{
+  "schema_version": "external-evaluation-template-1",
+  "status": "unfilled_template_not_executed",
+  "study_code": null,
+  "site_code": null,
+  "independence_from_radaccord_development": null,
+  "software_version": null,
+  "wheel_sha256": null,
+  "engine_and_dependency_versions": {},
+  "supported_profile": null,
+  "configuration_sha256": null,
+  "consecutive_sampling_rule": null,
+  "planned_attempt_count_or_interval": null,
+  "source_eligibility": null,
+  "retained_source_and_declared_operation": null,
+  "routine_qa_comparator": null,
+  "paired_and_source_aware_geometry_comparators": null,
+  "independent_reference_and_adjudication_procedure": null,
+  "adjudicator_codes": [],
+  "primary_endpoint": null,
+  "analysis_unit_and_grouping": null,
+  "timing_and_manual_review_measurement": null,
+  "data_governance_and_permitted_sharing": null,
+  "freeze_utc": null,
+  "rules": {
+    "retain_all_attempts": true,
+    "replace_failed_cases": false,
+    "tune_on_evaluation_results": false,
+    "raw_inputs_and_linking_keys_remain_local": true,
+    "indeterminate_or_unavailable_authorises_reuse": false
+  }
+}

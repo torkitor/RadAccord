@@ -35,8 +35,9 @@ universal feature equivalence, clinical validation or permission to reuse every
 measurement. The source and declaration must be trustworthy; numerical boundary
 ambiguity and unavailable inputs remain explicit.
 
-This **1.2.0rc3 research candidate** adds an installable package, native integrations,
-execution records and a reproduced historical writing regression. Its exact
+This **1.3.0rc1 research candidate** adds observation before MIRP feature calculation
+and an explicit model of native CT quantization to the installable package,
+native integrations, execution records and historical writing regression. Its exact
 version is in [CITATION.cff](CITATION.cff). Local verification and remote CI are
 distinguished in the [package verification](docs/WHEEL_VERIFICATION.md).
 The historical 1.0.0 archive and frozen sampling experiments remain identifiable.
@@ -63,7 +64,7 @@ evidence = result["report"]
 | Integration | Observed boundary | Guide |
 | :--- | :--- | :--- |
 | PyRadiomics | Loaded inputs, shape dispatcher and original-image feature dispatcher | [Python, CLI and supported settings](docs/PYRADIOMICS.md) |
-| MIRP | Original image and ROI export after extraction | [Python, CLI and supported settings](docs/MIRP.md) |
+| MIRP | Original-image feature dispatcher and final image/ROI export | [Python, CLI and supported settings](docs/MIRP.md) |
 | Saved processing pipeline | Source/candidate files at each recorded boundary | [Declared sampling](docs/SAMPLING.md) |
 
 The native extension checks applicable cubic/B-spline, antialiasing and
@@ -71,8 +72,10 @@ thresholded mask policies. The second native profiles retain nominal reference
 decisions and use a source-derived conditional numerical envelope; unresolved
 rounding cases are indeterminate, even when they match the nominal reference.
 The envelope has explicit numerical assumptions and is not a certified bound on
-an entire backend. MIRP's bounded integer identity profile preserves unchanged
-samples; integer resampling remains unavailable. Unsupported configurations and unobserved states
+an entire backend. MIRP CT profiles declare nearest-even quantization after
+antialiasing and final interpolation. Integer-source CT resampling is supported
+when native antialiasing promotes its working data to floating point; weighted
+integer output without that promotion remains unavailable. Unsupported configurations and unobserved states
 remain explicit. Reports bind source, configuration, implementation and output
 hashes to a particular execution. Matching inputs do not validate feature
 formulae, unobserved operations or clinical utility.
@@ -116,7 +119,7 @@ from other documented antecedents.
 
 ## Try it
 
-Download the [verified 1.2.0rc3 wheel](data/packages/radaccord-1.2.0rc3-py3-none-any.whl)
+Download the [verified 1.3.0rc1 wheel](data/packages/radaccord-1.3.0rc1-py3-none-any.whl)
 and follow the [installation guide](docs/INSTALL.md). Its checksum is in
 [the download record](data/packages/README.md). No account or patient upload is needed.
 
@@ -270,7 +273,7 @@ candidate has no new DOI or published article citation.
   author  = {García-Hidalgo, Clemente},
   title   = {RadAccord: software for physical consistency testing before radiomic feature reuse in research},
   year    = {2026},
-  version = {1.2.0rc3},
+  version = {1.3.0rc1},
   note    = {Local release candidate; declared-sampling extension not yet published},
   url     = {https://github.com/torkitor/RadAccord}
 }

@@ -13,6 +13,44 @@ run `python -B scripts/restore_records.py` before commands that read JSONL recor
 The archive's validation inventories are retained under
 [release_history/radaccord_1_0_0/](../release_history/radaccord_1_0_0/).
 
+## Historical archives and the prospective validation candidate
+
+The original archives remain immutable when the active implementation evolves.
+From the current validation checkout, verify both native archives and their
+retained provenance pointers with:
+
+```shell
+python -B scripts/verify_native_freeze.py --archives-only
+```
+
+This explicit mode checks the pinned archive bytes, every manifested payload,
+the archived 15-file calibration and 27-file refinement freezes, and the bound
+analysis correction. It reports **zero active scientific files verified**;
+archive integrity does not certify the new implementation. The default command
+without `--archives-only` is unchanged in purpose: it also requires the active
+seven-source scientific union to match historical rc2 and rejects changed
+sources. Do not change historical hashes to make an evolved implementation pass.
+
+After the prospective freeze has been created, separately verify its declared
+active implementation and protocol files with:
+
+```shell
+python -B scripts/verify_prospective_freeze.py
+```
+
+The default input is `protocol/prospective_freeze.json`, with schema
+`prospective-validation-1`, phase `prospective-native-validation-1`, and a
+nonempty `files` map from canonical relative paths to lowercase SHA-256 values.
+The map must include the 17 required scientific implementation, package,
+preparation/controller and prospective protocol/environment/host files listed
+in `verify_prospective_freeze.py`; omitting one is rejected.
+An alternative freeze uses `--freeze` with a relative path inside `--root`.
+Duplicate JSON keys, case-colliding paths, symlinks, path traversal, invalid
+hashes and modified or missing files are rejected. This verifies the declared
+file map; it does not establish completeness of a scientific protocol, completed
+clinical evaluation or remote CI success. Input-realisation attestations must
+retain their link to this general freeze, rather than replacing it.
+
 ## Start here
 
 Run from this directory with your core Python environment:
