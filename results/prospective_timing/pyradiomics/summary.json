@@ -1,0 +1,841 @@
+{
+  "schema_version": "operational-benchmark-1",
+  "analysis_role": "controlled_operational_benchmark",
+  "engine": "pyradiomics",
+  "engine_version": "3.0.1",
+  "python_version": "3.10.11",
+  "numpy_version": "1.23.5",
+  "started_utc": "2026-09-09T15:29:36.097186+00:00",
+  "finished_utc": "2026-09-09T15:43:25.834179+00:00",
+  "plan_sha256": "23822e1bf96b23eee769fb9221ed50a7a02f5c0448d71b85e08546090f0cf756",
+  "freeze_sha256": "2b22246a7e951b61f32359e11f59dbc15de66fee8a00b1f60960b04e6ea12627",
+  "records_sha256": "ebf834f11f36afaf883de28787527860901a624befadd027326e8fc7a440594f",
+  "mode": "timing",
+  "planned": 64,
+  "completed": 64,
+  "unchanged": 64,
+  "volume_workflow_summaries": [
+    {
+      "input_id": "Task02_Heart_la_007",
+      "workflow": "cubic_2_mr",
+      "planned": 4,
+      "completed": 4,
+      "unchanged": 4,
+      "orders": {
+        "AB": 2,
+        "BA": 2
+      },
+      "baseline_seconds": {
+        "n": 4,
+        "median": 0.14465994999955,
+        "q1": 0.14359267500003625,
+        "q3": 0.14588267499948415
+      },
+      "audited_seconds": {
+        "n": 4,
+        "median": 13.741364299999987,
+        "q1": 13.695459399998981,
+        "q3": 13.77958105000107
+      },
+      "absolute_overhead_seconds": {
+        "n": 4,
+        "median": 13.596303199999966,
+        "q1": 13.549175574999026,
+        "q3": 13.635988375001034
+      },
+      "paired_log_ratio": {
+        "n": 4,
+        "median": 4.551058642899594,
+        "q1": 4.5392638937681165,
+        "q3": 4.563956777332531
+      },
+      "pair_lifetime_peak_bytes": {
+        "n": 4,
+        "median": 152012800.0,
+        "q1": 151966720.0,
+        "q3": 152068096.0
+      },
+      "relationship_outcomes": {
+        "satisfied": 0,
+        "violated": 0,
+        "indeterminate": 0,
+        "unavailable": 4
+      }
+    },
+    {
+      "input_id": "Task02_Heart_la_007",
+      "workflow": "identity_mr",
+      "planned": 4,
+      "completed": 4,
+      "unchanged": 4,
+      "orders": {
+        "AB": 2,
+        "BA": 2
+      },
+      "baseline_seconds": {
+        "n": 4,
+        "median": 0.25764299999900686,
+        "q1": 0.25730174999989686,
+        "q3": 0.2579538499985574
+      },
+      "audited_seconds": {
+        "n": 4,
+        "median": 0.643448549999448,
+        "q1": 0.6417674249978518,
+        "q3": 0.6444799750024686
+      },
+      "absolute_overhead_seconds": {
+        "n": 4,
+        "median": 0.3859564499998669,
+        "q1": 0.38405710000370163,
+        "q3": 0.3870855999975902
+      },
+      "paired_log_ratio": {
+        "n": 4,
+        "median": 0.9158543080607986,
+        "q1": 0.911815365478204,
+        "q3": 0.9183998114481129
+      },
+      "pair_lifetime_peak_bytes": {
+        "n": 4,
+        "median": 122867712.0,
+        "q1": 122705920.0,
+        "q3": 122943488.0
+      },
+      "relationship_outcomes": {
+        "satisfied": 4,
+        "violated": 0,
+        "indeterminate": 0,
+        "unavailable": 0
+      }
+    },
+    {
+      "input_id": "Task02_Heart_la_009",
+      "workflow": "cubic_2_mr",
+      "planned": 4,
+      "completed": 4,
+      "unchanged": 4,
+      "orders": {
+        "AB": 2,
+        "BA": 2
+      },
+      "baseline_seconds": {
+        "n": 4,
+        "median": 0.1574031499985722,
+        "q1": 0.15116267499979585,
+        "q3": 0.16352287499921658
+      },
+      "audited_seconds": {
+        "n": 4,
+        "median": 19.473103950000223,
+        "q1": 19.408882175001963,
+        "q3": 20.341994049997993
+      },
+      "absolute_overhead_seconds": {
+        "n": 4,
+        "median": 19.31570080000165,
+        "q1": 19.257719500002167,
+        "q3": 20.178471174998776
+      },
+      "paired_log_ratio": {
+        "n": 4,
+        "median": 4.857001359137756,
+        "q1": 4.835966048711341,
+        "q3": 4.8786561777671285
+      },
+      "pair_lifetime_peak_bytes": {
+        "n": 4,
+        "median": 164007936.0,
+        "q1": 163896320.0,
+        "q3": 164174848.0
+      },
+      "relationship_outcomes": {
+        "satisfied": 0,
+        "violated": 0,
+        "indeterminate": 0,
+        "unavailable": 4
+      }
+    },
+    {
+      "input_id": "Task02_Heart_la_009",
+      "workflow": "identity_mr",
+      "planned": 4,
+      "completed": 4,
+      "unchanged": 4,
+      "orders": {
+        "AB": 2,
+        "BA": 2
+      },
+      "baseline_seconds": {
+        "n": 4,
+        "median": 0.25241380000079516,
+        "q1": 0.2513154250000298,
+        "q3": 0.2534542750008768
+      },
+      "audited_seconds": {
+        "n": 4,
+        "median": 0.7045485500020732,
+        "q1": 0.7033664250011498,
+        "q3": 0.7125467000023491
+      },
+      "absolute_overhead_seconds": {
+        "n": 4,
+        "median": 0.4532103500005178,
+        "q1": 0.45244552500116697,
+        "q3": 0.4597735000006651
+      },
+      "paired_log_ratio": {
+        "n": 4,
+        "median": 1.0318450955929583,
+        "q1": 1.0265032544473165,
+        "q3": 1.041565618813432
+      },
+      "pair_lifetime_peak_bytes": {
+        "n": 4,
+        "median": 125095936.0,
+        "q1": 124940288.0,
+        "q3": 125242368.0
+      },
+      "relationship_outcomes": {
+        "satisfied": 4,
+        "violated": 0,
+        "indeterminate": 0,
+        "unavailable": 0
+      }
+    },
+    {
+      "input_id": "Task02_Heart_la_014",
+      "workflow": "cubic_2_mr",
+      "planned": 4,
+      "completed": 4,
+      "unchanged": 4,
+      "orders": {
+        "AB": 2,
+        "BA": 2
+      },
+      "baseline_seconds": {
+        "n": 4,
+        "median": 0.14261590000023716,
+        "q1": 0.14116550000017014,
+        "q3": 0.14468537500033563
+      },
+      "audited_seconds": {
+        "n": 4,
+        "median": 14.188821550000284,
+        "q1": 13.939733100000922,
+        "q3": 14.798885500000324
+      },
+      "absolute_overhead_seconds": {
+        "n": 4,
+        "median": 14.046205650000047,
+        "q1": 13.795047725000586,
+        "q3": 14.657720000000154
+      },
+      "paired_log_ratio": {
+        "n": 4,
+        "median": 4.59998762229571,
+        "q1": 4.567971973914769,
+        "q3": 4.651291762109178
+      },
+      "pair_lifetime_peak_bytes": {
+        "n": 4,
+        "median": 152526848.0,
+        "q1": 152437760.0,
+        "q3": 152629248.0
+      },
+      "relationship_outcomes": {
+        "satisfied": 0,
+        "violated": 0,
+        "indeterminate": 0,
+        "unavailable": 4
+      }
+    },
+    {
+      "input_id": "Task02_Heart_la_014",
+      "workflow": "identity_mr",
+      "planned": 4,
+      "completed": 4,
+      "unchanged": 4,
+      "orders": {
+        "AB": 2,
+        "BA": 2
+      },
+      "baseline_seconds": {
+        "n": 4,
+        "median": 0.26590475000011793,
+        "q1": 0.2646740250011135,
+        "q3": 0.2669639499990808
+      },
+      "audited_seconds": {
+        "n": 4,
+        "median": 0.6599878999986686,
+        "q1": 0.6575112000000445,
+        "q3": 0.6628172999980961
+      },
+      "absolute_overhead_seconds": {
+        "n": 4,
+        "median": 0.39408314999855065,
+        "q1": 0.392837174998931,
+        "q3": 0.39585334999901534
+      },
+      "paired_log_ratio": {
+        "n": 4,
+        "median": 0.9104468229067297,
+        "q1": 0.9092837964226665,
+        "q3": 0.9114263626334287
+      },
+      "pair_lifetime_peak_bytes": {
+        "n": 4,
+        "median": 122804224.0,
+        "q1": 122738688.0,
+        "q3": 122905600.0
+      },
+      "relationship_outcomes": {
+        "satisfied": 4,
+        "violated": 0,
+        "indeterminate": 0,
+        "unavailable": 0
+      }
+    },
+    {
+      "input_id": "Task02_Heart_la_029",
+      "workflow": "cubic_2_mr",
+      "planned": 4,
+      "completed": 4,
+      "unchanged": 4,
+      "orders": {
+        "AB": 2,
+        "BA": 2
+      },
+      "baseline_seconds": {
+        "n": 4,
+        "median": 0.09377619999941089,
+        "q1": 0.09303022499989311,
+        "q3": 0.09503927499918063
+      },
+      "audited_seconds": {
+        "n": 4,
+        "median": 8.018419250000079,
+        "q1": 7.847796424999615,
+        "q3": 8.153842475000602
+      },
+      "absolute_overhead_seconds": {
+        "n": 4,
+        "median": 7.925776800000676,
+        "q1": 7.75589994999973,
+        "q3": 8.058803200001421
+      },
+      "paired_log_ratio": {
+        "n": 4,
+        "median": 4.4424816295626615,
+        "q1": 4.420715920165876,
+        "q3": 4.460477454490573
+      },
+      "pair_lifetime_peak_bytes": {
+        "n": 4,
+        "median": 120156160.0,
+        "q1": 120047616.0,
+        "q3": 120256512.0
+      },
+      "relationship_outcomes": {
+        "satisfied": 0,
+        "violated": 0,
+        "indeterminate": 0,
+        "unavailable": 4
+      }
+    },
+    {
+      "input_id": "Task02_Heart_la_029",
+      "workflow": "identity_mr",
+      "planned": 4,
+      "completed": 4,
+      "unchanged": 4,
+      "orders": {
+        "AB": 2,
+        "BA": 2
+      },
+      "baseline_seconds": {
+        "n": 4,
+        "median": 0.14894364999963727,
+        "q1": 0.14857309999842983,
+        "q3": 0.14998805000050197
+      },
+      "audited_seconds": {
+        "n": 4,
+        "median": 0.375614949998635,
+        "q1": 0.3753157499995723,
+        "q3": 0.3758466999970551
+      },
+      "absolute_overhead_seconds": {
+        "n": 4,
+        "median": 0.22640359999786597,
+        "q1": 0.22549492500002088,
+        "q3": 0.22683867499654298
+      },
+      "paired_log_ratio": {
+        "n": 4,
+        "median": 0.9242847802912862,
+        "q1": 0.9182666352550577,
+        "q3": 0.9263740512022365
+      },
+      "pair_lifetime_peak_bytes": {
+        "n": 4,
+        "median": 116307968.0,
+        "q1": 116263936.0,
+        "q3": 116362240.0
+      },
+      "relationship_outcomes": {
+        "satisfied": 4,
+        "violated": 0,
+        "indeterminate": 0,
+        "unavailable": 0
+      }
+    },
+    {
+      "input_id": "Task06_Lung_lung_029",
+      "workflow": "cubic_2_ct",
+      "planned": 4,
+      "completed": 4,
+      "unchanged": 4,
+      "orders": {
+        "AB": 2,
+        "BA": 2
+      },
+      "baseline_seconds": {
+        "n": 4,
+        "median": 0.04579430000012508,
+        "q1": 0.04429972500201984,
+        "q3": 0.047516624998934276
+      },
+      "audited_seconds": {
+        "n": 4,
+        "median": 0.5200070999981108,
+        "q1": 0.5165966499980641,
+        "q3": 0.5205795499987289
+      },
+      "absolute_overhead_seconds": {
+        "n": 4,
+        "median": 0.47282554999947024,
+        "q1": 0.47021604999827105,
+        "q3": 0.47375654999905237
+      },
+      "paired_log_ratio": {
+        "n": 4,
+        "median": 2.423353561021551,
+        "q1": 2.3939346277602755,
+        "q3": 2.449451899324711
+      },
+      "pair_lifetime_peak_bytes": {
+        "n": 4,
+        "median": 85180416.0,
+        "q1": 85120000.0,
+        "q3": 85239808.0
+      },
+      "relationship_outcomes": {
+        "satisfied": 4,
+        "violated": 0,
+        "indeterminate": 0,
+        "unavailable": 0
+      }
+    },
+    {
+      "input_id": "Task06_Lung_lung_029",
+      "workflow": "identity_ct",
+      "planned": 4,
+      "completed": 4,
+      "unchanged": 4,
+      "orders": {
+        "AB": 2,
+        "BA": 2
+      },
+      "baseline_seconds": {
+        "n": 4,
+        "median": 0.0537831500005268,
+        "q1": 0.05357869999988907,
+        "q3": 0.054042900001149974
+      },
+      "audited_seconds": {
+        "n": 4,
+        "median": 0.13563070000054722,
+        "q1": 0.13490295000156038,
+        "q3": 0.13681604999965202
+      },
+      "absolute_overhead_seconds": {
+        "n": 4,
+        "median": 0.08151159999943047,
+        "q1": 0.08102802500070538,
+        "q3": 0.08273342499887804
+      },
+      "paired_log_ratio": {
+        "n": 4,
+        "median": 0.918747811658277,
+        "q1": 0.9178868638926976,
+        "q3": 0.9280957990965573
+      },
+      "pair_lifetime_peak_bytes": {
+        "n": 4,
+        "median": 100608000.0,
+        "q1": 100541440.0,
+        "q3": 100695040.0
+      },
+      "relationship_outcomes": {
+        "satisfied": 4,
+        "violated": 0,
+        "indeterminate": 0,
+        "unavailable": 0
+      }
+    },
+    {
+      "input_id": "Task06_Lung_lung_037",
+      "workflow": "cubic_2_ct",
+      "planned": 4,
+      "completed": 4,
+      "unchanged": 4,
+      "orders": {
+        "AB": 2,
+        "BA": 2
+      },
+      "baseline_seconds": {
+        "n": 4,
+        "median": 0.03020470000046771,
+        "q1": 0.030120399999759684,
+        "q3": 0.0305540250010381
+      },
+      "audited_seconds": {
+        "n": 4,
+        "median": 0.5684792500014737,
+        "q1": 0.5674281750016235,
+        "q3": 0.5693396750011743
+      },
+      "absolute_overhead_seconds": {
+        "n": 4,
+        "median": 0.5376123000005464,
+        "q1": 0.5373077750018638,
+        "q3": 0.5381233999996766
+      },
+      "paired_log_ratio": {
+        "n": 4,
+        "median": 2.9352695503244988,
+        "q1": 2.9238640921196524,
+        "q3": 2.937511773810722
+      },
+      "pair_lifetime_peak_bytes": {
+        "n": 4,
+        "median": 78637056.0,
+        "q1": 78576640.0,
+        "q3": 78653440.0
+      },
+      "relationship_outcomes": {
+        "satisfied": 0,
+        "violated": 0,
+        "indeterminate": 0,
+        "unavailable": 4
+      }
+    },
+    {
+      "input_id": "Task06_Lung_lung_037",
+      "workflow": "identity_ct",
+      "planned": 4,
+      "completed": 4,
+      "unchanged": 4,
+      "orders": {
+        "AB": 2,
+        "BA": 2
+      },
+      "baseline_seconds": {
+        "n": 4,
+        "median": 0.030013299998245202,
+        "q1": 0.02891814999838971,
+        "q3": 0.030854899999212648
+      },
+      "audited_seconds": {
+        "n": 4,
+        "median": 0.05651749999924505,
+        "q1": 0.0553483249987039,
+        "q3": 0.05713880000075733
+      },
+      "absolute_overhead_seconds": {
+        "n": 4,
+        "median": 0.02629930000148306,
+        "q1": 0.02582027499920514,
+        "q3": 0.02668890000313695
+      },
+      "paired_log_ratio": {
+        "n": 4,
+        "median": 0.6164467108252898,
+        "q1": 0.6142228918168364,
+        "q3": 0.6343029051643768
+      },
+      "pair_lifetime_peak_bytes": {
+        "n": 4,
+        "median": 82171904.0,
+        "q1": 82013184.0,
+        "q3": 82335744.0
+      },
+      "relationship_outcomes": {
+        "satisfied": 4,
+        "violated": 0,
+        "indeterminate": 0,
+        "unavailable": 0
+      }
+    },
+    {
+      "input_id": "Task06_Lung_lung_074",
+      "workflow": "cubic_2_ct",
+      "planned": 4,
+      "completed": 4,
+      "unchanged": 4,
+      "orders": {
+        "AB": 2,
+        "BA": 2
+      },
+      "baseline_seconds": {
+        "n": 4,
+        "median": 0.2344589000022097,
+        "q1": 0.23324740000134625,
+        "q3": 0.23542537500179606
+      },
+      "audited_seconds": {
+        "n": 4,
+        "median": 30.680270450000535,
+        "q1": 29.676101024999298,
+        "q3": 32.026578275002066
+      },
+      "absolute_overhead_seconds": {
+        "n": 4,
+        "median": 30.445730600000388,
+        "q1": 29.442105124997397,
+        "q3": 31.791820450002888
+      },
+      "paired_log_ratio": {
+        "n": 4,
+        "median": 4.873470421819075,
+        "q1": 4.842676211787865,
+        "q3": 4.91525360054774
+      },
+      "pair_lifetime_peak_bytes": {
+        "n": 4,
+        "median": 276162560.0,
+        "q1": 275985408.0,
+        "q3": 276300800.0
+      },
+      "relationship_outcomes": {
+        "satisfied": 0,
+        "violated": 0,
+        "indeterminate": 0,
+        "unavailable": 4
+      }
+    },
+    {
+      "input_id": "Task06_Lung_lung_074",
+      "workflow": "identity_ct",
+      "planned": 4,
+      "completed": 4,
+      "unchanged": 4,
+      "orders": {
+        "AB": 2,
+        "BA": 2
+      },
+      "baseline_seconds": {
+        "n": 4,
+        "median": 1.0266307000001689,
+        "q1": 1.0140184749989203,
+        "q3": 1.07860622500084
+      },
+      "audited_seconds": {
+        "n": 4,
+        "median": 2.9466888000006293,
+        "q1": 2.903266774998883,
+        "q3": 3.037226275001558
+      },
+      "absolute_overhead_seconds": {
+        "n": 4,
+        "median": 1.9332293500010564,
+        "q1": 1.8843397499977073,
+        "q3": 1.9766998500035697
+      },
+      "paired_log_ratio": {
+        "n": 4,
+        "median": 1.0383859678342686,
+        "q1": 1.0111135486838942,
+        "q3": 1.0615652432332923
+      },
+      "pair_lifetime_peak_bytes": {
+        "n": 4,
+        "median": 174790656.0,
+        "q1": 174698496.0,
+        "q3": 174928896.0
+      },
+      "relationship_outcomes": {
+        "satisfied": 4,
+        "violated": 0,
+        "indeterminate": 0,
+        "unavailable": 0
+      }
+    },
+    {
+      "input_id": "Task06_Lung_lung_095",
+      "workflow": "cubic_2_ct",
+      "planned": 4,
+      "completed": 4,
+      "unchanged": 4,
+      "orders": {
+        "AB": 2,
+        "BA": 2
+      },
+      "baseline_seconds": {
+        "n": 4,
+        "median": 0.05931779999809805,
+        "q1": 0.058464399998229055,
+        "q3": 0.06025577499985957
+      },
+      "audited_seconds": {
+        "n": 4,
+        "median": 0.8372757999986788,
+        "q1": 0.8302961999988838,
+        "q3": 0.8442340749988944
+      },
+      "absolute_overhead_seconds": {
+        "n": 4,
+        "median": 0.7776972499996191,
+        "q1": 0.7718318000006548,
+        "q3": 0.7837175499980731
+      },
+      "paired_log_ratio": {
+        "n": 4,
+        "median": 2.647585950188759,
+        "q1": 2.6401208739716804,
+        "q3": 2.6533653611118466
+      },
+      "pair_lifetime_peak_bytes": {
+        "n": 4,
+        "median": 94156800.0,
+        "q1": 94021632.0,
+        "q3": 94196736.0
+      },
+      "relationship_outcomes": {
+        "satisfied": 4,
+        "violated": 0,
+        "indeterminate": 0,
+        "unavailable": 0
+      }
+    },
+    {
+      "input_id": "Task06_Lung_lung_095",
+      "workflow": "identity_ct",
+      "planned": 4,
+      "completed": 4,
+      "unchanged": 4,
+      "orders": {
+        "AB": 2,
+        "BA": 2
+      },
+      "baseline_seconds": {
+        "n": 4,
+        "median": 0.07709740000063903,
+        "q1": 0.07554067500041128,
+        "q3": 0.0792275250005332
+      },
+      "audited_seconds": {
+        "n": 4,
+        "median": 0.21464675000061106,
+        "q1": 0.20713357499971607,
+        "q3": 0.22179460000097606
+      },
+      "absolute_overhead_seconds": {
+        "n": 4,
+        "median": 0.1368059500000527,
+        "q1": 0.13200494999910006,
+        "q3": 0.14141162500072824
+      },
+      "paired_log_ratio": {
+        "n": 4,
+        "median": 1.011354097994124,
+        "q1": 1.0017302761801599,
+        "q3": 1.0243326929952898
+      },
+      "pair_lifetime_peak_bytes": {
+        "n": 4,
+        "median": 113551360.0,
+        "q1": 113408000.0,
+        "q3": 113765376.0
+      },
+      "relationship_outcomes": {
+        "satisfied": 4,
+        "violated": 0,
+        "indeterminate": 0,
+        "unavailable": 0
+      }
+    }
+  ],
+  "constructed_tasks": {
+    "recorded_tasks": 0,
+    "active_faults": 0,
+    "restored_relationships": 0,
+    "task_errors": 0,
+    "comparators": {
+      "paired_geometry": {
+        "valid_control": {
+          "satisfied": 0,
+          "violated": 0,
+          "indeterminate": 0,
+          "unavailable": 0
+        },
+        "fault": {
+          "satisfied": 0,
+          "violated": 0,
+          "indeterminate": 0,
+          "unavailable": 0
+        },
+        "correction": {
+          "satisfied": 0,
+          "violated": 0,
+          "indeterminate": 0,
+          "unavailable": 0
+        }
+      },
+      "source_aware_geometry": {
+        "valid_control": {
+          "satisfied": 0,
+          "violated": 0,
+          "indeterminate": 0,
+          "unavailable": 0
+        },
+        "fault": {
+          "satisfied": 0,
+          "violated": 0,
+          "indeterminate": 0,
+          "unavailable": 0
+        },
+        "correction": {
+          "satisfied": 0,
+          "violated": 0,
+          "indeterminate": 0,
+          "unavailable": 0
+        }
+      },
+      "radaccord": {
+        "valid_control": {
+          "satisfied": 0,
+          "violated": 0,
+          "indeterminate": 0,
+          "unavailable": 0
+        },
+        "fault": {
+          "satisfied": 0,
+          "violated": 0,
+          "indeterminate": 0,
+          "unavailable": 0
+        },
+        "correction": {
+          "satisfied": 0,
+          "violated": 0,
+          "indeterminate": 0,
+          "unavailable": 0
+        }
+      }
+    }
+  },
+  "memory_scope": "Process lifetime high-water mark including both arms and any warmup; not per-arm incremental memory.",
+  "inference_scope": "Descriptive within-volume paired timing; repeats are not independent volumes or participants."
+}

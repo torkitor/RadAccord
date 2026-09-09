@@ -1,0 +1,10 @@
+{
+  "version": "1.3.0rc1",
+  "stage": "before_prospective_execution",
+  "public_clinical_array_files": 0,
+  "retained_synthetic_nifti_files": 14,
+  "literal_personal_workspace_paths_found": [],
+  "raw_clinical_images_crops_manifests_and_logs": "Kept outside the public repository.",
+  "public_author_identity": "Public author name and ORCID are intentionally retained; no private correspondence file is included.",
+  "scope": "Automated path/array check plus separately recorded human-readable review; not a universal anonymization guarantee."
+}

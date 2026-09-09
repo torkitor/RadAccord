@@ -1,0 +1,9 @@
+{
+  "schema_version": "operational-benchmark-1",
+  "mode": "coverage",
+  "engine": "pyradiomics",
+  "planned": 72,
+  "started_utc": "2026-09-09T15:12:48.188959+00:00",
+  "plan_sha256": "5cb2e34b41c2217f8dea91ddabd411f05478702b75222d530319826f0003a983",
+  "freeze_sha256": "a6aa681e92833019bb13124d62e6094013ffd115384cc754c613a2e9afba2b37"
+}

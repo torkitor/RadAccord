@@ -1,0 +1,1745 @@
+{
+  "schema_version": "operational-benchmark-1",
+  "analysis_role": "controlled_operational_benchmark",
+  "engine": "pyradiomics",
+  "engine_version": "3.0.1",
+  "python_version": "3.10.11",
+  "numpy_version": "1.23.5",
+  "started_utc": "2026-09-09T15:12:48.188959+00:00",
+  "finished_utc": "2026-09-09T15:19:04.799538+00:00",
+  "plan_sha256": "5cb2e34b41c2217f8dea91ddabd411f05478702b75222d530319826f0003a983",
+  "freeze_sha256": "a6aa681e92833019bb13124d62e6094013ffd115384cc754c613a2e9afba2b37",
+  "records_sha256": "1e3644988aee2552e1770ec7ff65de455ee56874130799102ae6fc729e9d9833",
+  "mode": "coverage",
+  "planned": 72,
+  "completed": 72,
+  "unchanged": 72,
+  "volume_workflow_summaries": [
+    {
+      "input_id": "Task02_Heart_la_003",
+      "workflow": "cubic_2_mr",
+      "planned": 1,
+      "completed": 1,
+      "unchanged": 1,
+      "orders": {
+        "AB": 0,
+        "BA": 1
+      },
+      "pair_lifetime_peak_bytes": {
+        "n": 1,
+        "median": 140783616.0,
+        "q1": 140783616.0,
+        "q3": 140783616.0
+      },
+      "relationship_outcomes": {
+        "satisfied": 0,
+        "violated": 0,
+        "indeterminate": 0,
+        "unavailable": 1
+      }
+    },
+    {
+      "input_id": "Task02_Heart_la_003",
+      "workflow": "identity_mr",
+      "planned": 1,
+      "completed": 1,
+      "unchanged": 1,
+      "orders": {
+        "AB": 1,
+        "BA": 0
+      },
+      "pair_lifetime_peak_bytes": {
+        "n": 1,
+        "median": 119517184.0,
+        "q1": 119517184.0,
+        "q3": 119517184.0
+      },
+      "relationship_outcomes": {
+        "satisfied": 1,
+        "violated": 0,
+        "indeterminate": 0,
+        "unavailable": 0
+      }
+    },
+    {
+      "input_id": "Task02_Heart_la_003",
+      "workflow": "linear_1p5_mr",
+      "planned": 1,
+      "completed": 1,
+      "unchanged": 1,
+      "orders": {
+        "AB": 0,
+        "BA": 1
+      },
+      "pair_lifetime_peak_bytes": {
+        "n": 1,
+        "median": 135593984.0,
+        "q1": 135593984.0,
+        "q3": 135593984.0
+      },
+      "relationship_outcomes": {
+        "satisfied": 0,
+        "violated": 0,
+        "indeterminate": 0,
+        "unavailable": 1
+      }
+    },
+    {
+      "input_id": "Task02_Heart_la_007",
+      "workflow": "cubic_2_mr",
+      "planned": 1,
+      "completed": 1,
+      "unchanged": 1,
+      "orders": {
+        "AB": 1,
+        "BA": 0
+      },
+      "pair_lifetime_peak_bytes": {
+        "n": 1,
+        "median": 149929984.0,
+        "q1": 149929984.0,
+        "q3": 149929984.0
+      },
+      "relationship_outcomes": {
+        "satisfied": 0,
+        "violated": 0,
+        "indeterminate": 0,
+        "unavailable": 1
+      }
+    },
+    {
+      "input_id": "Task02_Heart_la_007",
+      "workflow": "identity_mr",
+      "planned": 1,
+      "completed": 1,
+      "unchanged": 1,
+      "orders": {
+        "AB": 0,
+        "BA": 1
+      },
+      "pair_lifetime_peak_bytes": {
+        "n": 1,
+        "median": 119312384.0,
+        "q1": 119312384.0,
+        "q3": 119312384.0
+      },
+      "relationship_outcomes": {
+        "satisfied": 1,
+        "violated": 0,
+        "indeterminate": 0,
+        "unavailable": 0
+      }
+    },
+    {
+      "input_id": "Task02_Heart_la_007",
+      "workflow": "linear_1p5_mr",
+      "planned": 1,
+      "completed": 1,
+      "unchanged": 1,
+      "orders": {
+        "AB": 0,
+        "BA": 1
+      },
+      "pair_lifetime_peak_bytes": {
+        "n": 1,
+        "median": 143622144.0,
+        "q1": 143622144.0,
+        "q3": 143622144.0
+      },
+      "relationship_outcomes": {
+        "satisfied": 0,
+        "violated": 0,
+        "indeterminate": 0,
+        "unavailable": 1
+      }
+    },
+    {
+      "input_id": "Task02_Heart_la_009",
+      "workflow": "cubic_2_mr",
+      "planned": 1,
+      "completed": 1,
+      "unchanged": 1,
+      "orders": {
+        "AB": 0,
+        "BA": 1
+      },
+      "pair_lifetime_peak_bytes": {
+        "n": 1,
+        "median": 160604160.0,
+        "q1": 160604160.0,
+        "q3": 160604160.0
+      },
+      "relationship_outcomes": {
+        "satisfied": 0,
+        "violated": 0,
+        "indeterminate": 0,
+        "unavailable": 1
+      }
+    },
+    {
+      "input_id": "Task02_Heart_la_009",
+      "workflow": "identity_mr",
+      "planned": 1,
+      "completed": 1,
+      "unchanged": 1,
+      "orders": {
+        "AB": 0,
+        "BA": 1
+      },
+      "pair_lifetime_peak_bytes": {
+        "n": 1,
+        "median": 121835520.0,
+        "q1": 121835520.0,
+        "q3": 121835520.0
+      },
+      "relationship_outcomes": {
+        "satisfied": 1,
+        "violated": 0,
+        "indeterminate": 0,
+        "unavailable": 0
+      }
+    },
+    {
+      "input_id": "Task02_Heart_la_009",
+      "workflow": "linear_1p5_mr",
+      "planned": 1,
+      "completed": 1,
+      "unchanged": 1,
+      "orders": {
+        "AB": 0,
+        "BA": 1
+      },
+      "pair_lifetime_peak_bytes": {
+        "n": 1,
+        "median": 152842240.0,
+        "q1": 152842240.0,
+        "q3": 152842240.0
+      },
+      "relationship_outcomes": {
+        "satisfied": 0,
+        "violated": 0,
+        "indeterminate": 0,
+        "unavailable": 1
+      }
+    },
+    {
+      "input_id": "Task02_Heart_la_011",
+      "workflow": "cubic_2_mr",
+      "planned": 1,
+      "completed": 1,
+      "unchanged": 1,
+      "orders": {
+        "AB": 0,
+        "BA": 1
+      },
+      "pair_lifetime_peak_bytes": {
+        "n": 1,
+        "median": 145383424.0,
+        "q1": 145383424.0,
+        "q3": 145383424.0
+      },
+      "relationship_outcomes": {
+        "satisfied": 0,
+        "violated": 0,
+        "indeterminate": 0,
+        "unavailable": 1
+      }
+    },
+    {
+      "input_id": "Task02_Heart_la_011",
+      "workflow": "identity_mr",
+      "planned": 1,
+      "completed": 1,
+      "unchanged": 1,
+      "orders": {
+        "AB": 0,
+        "BA": 1
+      },
+      "pair_lifetime_peak_bytes": {
+        "n": 1,
+        "median": 119156736.0,
+        "q1": 119156736.0,
+        "q3": 119156736.0
+      },
+      "relationship_outcomes": {
+        "satisfied": 1,
+        "violated": 0,
+        "indeterminate": 0,
+        "unavailable": 0
+      }
+    },
+    {
+      "input_id": "Task02_Heart_la_011",
+      "workflow": "linear_1p5_mr",
+      "planned": 1,
+      "completed": 1,
+      "unchanged": 1,
+      "orders": {
+        "AB": 1,
+        "BA": 0
+      },
+      "pair_lifetime_peak_bytes": {
+        "n": 1,
+        "median": 141590528.0,
+        "q1": 141590528.0,
+        "q3": 141590528.0
+      },
+      "relationship_outcomes": {
+        "satisfied": 0,
+        "violated": 0,
+        "indeterminate": 0,
+        "unavailable": 1
+      }
+    },
+    {
+      "input_id": "Task02_Heart_la_014",
+      "workflow": "cubic_2_mr",
+      "planned": 1,
+      "completed": 1,
+      "unchanged": 1,
+      "orders": {
+        "AB": 0,
+        "BA": 1
+      },
+      "pair_lifetime_peak_bytes": {
+        "n": 1,
+        "median": 149356544.0,
+        "q1": 149356544.0,
+        "q3": 149356544.0
+      },
+      "relationship_outcomes": {
+        "satisfied": 0,
+        "violated": 0,
+        "indeterminate": 0,
+        "unavailable": 1
+      }
+    },
+    {
+      "input_id": "Task02_Heart_la_014",
+      "workflow": "identity_mr",
+      "planned": 1,
+      "completed": 1,
+      "unchanged": 1,
+      "orders": {
+        "AB": 0,
+        "BA": 1
+      },
+      "pair_lifetime_peak_bytes": {
+        "n": 1,
+        "median": 120913920.0,
+        "q1": 120913920.0,
+        "q3": 120913920.0
+      },
+      "relationship_outcomes": {
+        "satisfied": 1,
+        "violated": 0,
+        "indeterminate": 0,
+        "unavailable": 0
+      }
+    },
+    {
+      "input_id": "Task02_Heart_la_014",
+      "workflow": "linear_1p5_mr",
+      "planned": 1,
+      "completed": 1,
+      "unchanged": 1,
+      "orders": {
+        "AB": 1,
+        "BA": 0
+      },
+      "pair_lifetime_peak_bytes": {
+        "n": 1,
+        "median": 145666048.0,
+        "q1": 145666048.0,
+        "q3": 145666048.0
+      },
+      "relationship_outcomes": {
+        "satisfied": 0,
+        "violated": 0,
+        "indeterminate": 0,
+        "unavailable": 1
+      }
+    },
+    {
+      "input_id": "Task02_Heart_la_017",
+      "workflow": "cubic_2_mr",
+      "planned": 1,
+      "completed": 1,
+      "unchanged": 1,
+      "orders": {
+        "AB": 1,
+        "BA": 0
+      },
+      "pair_lifetime_peak_bytes": {
+        "n": 1,
+        "median": 128569344.0,
+        "q1": 128569344.0,
+        "q3": 128569344.0
+      },
+      "relationship_outcomes": {
+        "satisfied": 0,
+        "violated": 0,
+        "indeterminate": 0,
+        "unavailable": 1
+      }
+    },
+    {
+      "input_id": "Task02_Heart_la_017",
+      "workflow": "identity_mr",
+      "planned": 1,
+      "completed": 1,
+      "unchanged": 1,
+      "orders": {
+        "AB": 0,
+        "BA": 1
+      },
+      "pair_lifetime_peak_bytes": {
+        "n": 1,
+        "median": 115859456.0,
+        "q1": 115859456.0,
+        "q3": 115859456.0
+      },
+      "relationship_outcomes": {
+        "satisfied": 1,
+        "violated": 0,
+        "indeterminate": 0,
+        "unavailable": 0
+      }
+    },
+    {
+      "input_id": "Task02_Heart_la_017",
+      "workflow": "linear_1p5_mr",
+      "planned": 1,
+      "completed": 1,
+      "unchanged": 1,
+      "orders": {
+        "AB": 1,
+        "BA": 0
+      },
+      "pair_lifetime_peak_bytes": {
+        "n": 1,
+        "median": 132399104.0,
+        "q1": 132399104.0,
+        "q3": 132399104.0
+      },
+      "relationship_outcomes": {
+        "satisfied": 0,
+        "violated": 0,
+        "indeterminate": 0,
+        "unavailable": 1
+      }
+    },
+    {
+      "input_id": "Task02_Heart_la_020",
+      "workflow": "cubic_2_mr",
+      "planned": 1,
+      "completed": 1,
+      "unchanged": 1,
+      "orders": {
+        "AB": 1,
+        "BA": 0
+      },
+      "pair_lifetime_peak_bytes": {
+        "n": 1,
+        "median": 124715008.0,
+        "q1": 124715008.0,
+        "q3": 124715008.0
+      },
+      "relationship_outcomes": {
+        "satisfied": 0,
+        "violated": 0,
+        "indeterminate": 0,
+        "unavailable": 1
+      }
+    },
+    {
+      "input_id": "Task02_Heart_la_020",
+      "workflow": "identity_mr",
+      "planned": 1,
+      "completed": 1,
+      "unchanged": 1,
+      "orders": {
+        "AB": 0,
+        "BA": 1
+      },
+      "pair_lifetime_peak_bytes": {
+        "n": 1,
+        "median": 115093504.0,
+        "q1": 115093504.0,
+        "q3": 115093504.0
+      },
+      "relationship_outcomes": {
+        "satisfied": 1,
+        "violated": 0,
+        "indeterminate": 0,
+        "unavailable": 0
+      }
+    },
+    {
+      "input_id": "Task02_Heart_la_020",
+      "workflow": "linear_1p5_mr",
+      "planned": 1,
+      "completed": 1,
+      "unchanged": 1,
+      "orders": {
+        "AB": 1,
+        "BA": 0
+      },
+      "pair_lifetime_peak_bytes": {
+        "n": 1,
+        "median": 130760704.0,
+        "q1": 130760704.0,
+        "q3": 130760704.0
+      },
+      "relationship_outcomes": {
+        "satisfied": 0,
+        "violated": 0,
+        "indeterminate": 0,
+        "unavailable": 1
+      }
+    },
+    {
+      "input_id": "Task02_Heart_la_021",
+      "workflow": "cubic_2_mr",
+      "planned": 1,
+      "completed": 1,
+      "unchanged": 1,
+      "orders": {
+        "AB": 1,
+        "BA": 0
+      },
+      "pair_lifetime_peak_bytes": {
+        "n": 1,
+        "median": 137994240.0,
+        "q1": 137994240.0,
+        "q3": 137994240.0
+      },
+      "relationship_outcomes": {
+        "satisfied": 0,
+        "violated": 0,
+        "indeterminate": 0,
+        "unavailable": 1
+      }
+    },
+    {
+      "input_id": "Task02_Heart_la_021",
+      "workflow": "identity_mr",
+      "planned": 1,
+      "completed": 1,
+      "unchanged": 1,
+      "orders": {
+        "AB": 1,
+        "BA": 0
+      },
+      "pair_lifetime_peak_bytes": {
+        "n": 1,
+        "median": 118403072.0,
+        "q1": 118403072.0,
+        "q3": 118403072.0
+      },
+      "relationship_outcomes": {
+        "satisfied": 1,
+        "violated": 0,
+        "indeterminate": 0,
+        "unavailable": 0
+      }
+    },
+    {
+      "input_id": "Task02_Heart_la_021",
+      "workflow": "linear_1p5_mr",
+      "planned": 1,
+      "completed": 1,
+      "unchanged": 1,
+      "orders": {
+        "AB": 1,
+        "BA": 0
+      },
+      "pair_lifetime_peak_bytes": {
+        "n": 1,
+        "median": 134246400.0,
+        "q1": 134246400.0,
+        "q3": 134246400.0
+      },
+      "relationship_outcomes": {
+        "satisfied": 0,
+        "violated": 0,
+        "indeterminate": 0,
+        "unavailable": 1
+      }
+    },
+    {
+      "input_id": "Task02_Heart_la_023",
+      "workflow": "cubic_2_mr",
+      "planned": 1,
+      "completed": 1,
+      "unchanged": 1,
+      "orders": {
+        "AB": 0,
+        "BA": 1
+      },
+      "pair_lifetime_peak_bytes": {
+        "n": 1,
+        "median": 130211840.0,
+        "q1": 130211840.0,
+        "q3": 130211840.0
+      },
+      "relationship_outcomes": {
+        "satisfied": 0,
+        "violated": 0,
+        "indeterminate": 0,
+        "unavailable": 1
+      }
+    },
+    {
+      "input_id": "Task02_Heart_la_023",
+      "workflow": "identity_mr",
+      "planned": 1,
+      "completed": 1,
+      "unchanged": 1,
+      "orders": {
+        "AB": 0,
+        "BA": 1
+      },
+      "pair_lifetime_peak_bytes": {
+        "n": 1,
+        "median": 116838400.0,
+        "q1": 116838400.0,
+        "q3": 116838400.0
+      },
+      "relationship_outcomes": {
+        "satisfied": 1,
+        "violated": 0,
+        "indeterminate": 0,
+        "unavailable": 0
+      }
+    },
+    {
+      "input_id": "Task02_Heart_la_023",
+      "workflow": "linear_1p5_mr",
+      "planned": 1,
+      "completed": 1,
+      "unchanged": 1,
+      "orders": {
+        "AB": 0,
+        "BA": 1
+      },
+      "pair_lifetime_peak_bytes": {
+        "n": 1,
+        "median": 132218880.0,
+        "q1": 132218880.0,
+        "q3": 132218880.0
+      },
+      "relationship_outcomes": {
+        "satisfied": 0,
+        "violated": 0,
+        "indeterminate": 0,
+        "unavailable": 1
+      }
+    },
+    {
+      "input_id": "Task02_Heart_la_026",
+      "workflow": "cubic_2_mr",
+      "planned": 1,
+      "completed": 1,
+      "unchanged": 1,
+      "orders": {
+        "AB": 1,
+        "BA": 0
+      },
+      "pair_lifetime_peak_bytes": {
+        "n": 1,
+        "median": 138297344.0,
+        "q1": 138297344.0,
+        "q3": 138297344.0
+      },
+      "relationship_outcomes": {
+        "satisfied": 0,
+        "violated": 0,
+        "indeterminate": 0,
+        "unavailable": 1
+      }
+    },
+    {
+      "input_id": "Task02_Heart_la_026",
+      "workflow": "identity_mr",
+      "planned": 1,
+      "completed": 1,
+      "unchanged": 1,
+      "orders": {
+        "AB": 1,
+        "BA": 0
+      },
+      "pair_lifetime_peak_bytes": {
+        "n": 1,
+        "median": 118177792.0,
+        "q1": 118177792.0,
+        "q3": 118177792.0
+      },
+      "relationship_outcomes": {
+        "satisfied": 1,
+        "violated": 0,
+        "indeterminate": 0,
+        "unavailable": 0
+      }
+    },
+    {
+      "input_id": "Task02_Heart_la_026",
+      "workflow": "linear_1p5_mr",
+      "planned": 1,
+      "completed": 1,
+      "unchanged": 1,
+      "orders": {
+        "AB": 1,
+        "BA": 0
+      },
+      "pair_lifetime_peak_bytes": {
+        "n": 1,
+        "median": 134029312.0,
+        "q1": 134029312.0,
+        "q3": 134029312.0
+      },
+      "relationship_outcomes": {
+        "satisfied": 0,
+        "violated": 0,
+        "indeterminate": 0,
+        "unavailable": 1
+      }
+    },
+    {
+      "input_id": "Task02_Heart_la_029",
+      "workflow": "cubic_2_mr",
+      "planned": 1,
+      "completed": 1,
+      "unchanged": 1,
+      "orders": {
+        "AB": 0,
+        "BA": 1
+      },
+      "pair_lifetime_peak_bytes": {
+        "n": 1,
+        "median": 117612544.0,
+        "q1": 117612544.0,
+        "q3": 117612544.0
+      },
+      "relationship_outcomes": {
+        "satisfied": 0,
+        "violated": 0,
+        "indeterminate": 0,
+        "unavailable": 1
+      }
+    },
+    {
+      "input_id": "Task02_Heart_la_029",
+      "workflow": "identity_mr",
+      "planned": 1,
+      "completed": 1,
+      "unchanged": 1,
+      "orders": {
+        "AB": 1,
+        "BA": 0
+      },
+      "pair_lifetime_peak_bytes": {
+        "n": 1,
+        "median": 114745344.0,
+        "q1": 114745344.0,
+        "q3": 114745344.0
+      },
+      "relationship_outcomes": {
+        "satisfied": 1,
+        "violated": 0,
+        "indeterminate": 0,
+        "unavailable": 0
+      }
+    },
+    {
+      "input_id": "Task02_Heart_la_029",
+      "workflow": "linear_1p5_mr",
+      "planned": 1,
+      "completed": 1,
+      "unchanged": 1,
+      "orders": {
+        "AB": 1,
+        "BA": 0
+      },
+      "pair_lifetime_peak_bytes": {
+        "n": 1,
+        "median": 129155072.0,
+        "q1": 129155072.0,
+        "q3": 129155072.0
+      },
+      "relationship_outcomes": {
+        "satisfied": 0,
+        "violated": 0,
+        "indeterminate": 0,
+        "unavailable": 1
+      }
+    },
+    {
+      "input_id": "Task02_Heart_la_030",
+      "workflow": "cubic_2_mr",
+      "planned": 1,
+      "completed": 1,
+      "unchanged": 1,
+      "orders": {
+        "AB": 0,
+        "BA": 1
+      },
+      "pair_lifetime_peak_bytes": {
+        "n": 1,
+        "median": 130465792.0,
+        "q1": 130465792.0,
+        "q3": 130465792.0
+      },
+      "relationship_outcomes": {
+        "satisfied": 0,
+        "violated": 0,
+        "indeterminate": 0,
+        "unavailable": 1
+      }
+    },
+    {
+      "input_id": "Task02_Heart_la_030",
+      "workflow": "identity_mr",
+      "planned": 1,
+      "completed": 1,
+      "unchanged": 1,
+      "orders": {
+        "AB": 1,
+        "BA": 0
+      },
+      "pair_lifetime_peak_bytes": {
+        "n": 1,
+        "median": 117633024.0,
+        "q1": 117633024.0,
+        "q3": 117633024.0
+      },
+      "relationship_outcomes": {
+        "satisfied": 1,
+        "violated": 0,
+        "indeterminate": 0,
+        "unavailable": 0
+      }
+    },
+    {
+      "input_id": "Task02_Heart_la_030",
+      "workflow": "linear_1p5_mr",
+      "planned": 1,
+      "completed": 1,
+      "unchanged": 1,
+      "orders": {
+        "AB": 0,
+        "BA": 1
+      },
+      "pair_lifetime_peak_bytes": {
+        "n": 1,
+        "median": 131657728.0,
+        "q1": 131657728.0,
+        "q3": 131657728.0
+      },
+      "relationship_outcomes": {
+        "satisfied": 0,
+        "violated": 0,
+        "indeterminate": 0,
+        "unavailable": 1
+      }
+    },
+    {
+      "input_id": "Task06_Lung_lung_020",
+      "workflow": "cubic_2_ct",
+      "planned": 1,
+      "completed": 1,
+      "unchanged": 1,
+      "orders": {
+        "AB": 0,
+        "BA": 1
+      },
+      "pair_lifetime_peak_bytes": {
+        "n": 1,
+        "median": 88768512.0,
+        "q1": 88768512.0,
+        "q3": 88768512.0
+      },
+      "relationship_outcomes": {
+        "satisfied": 0,
+        "violated": 0,
+        "indeterminate": 0,
+        "unavailable": 1
+      }
+    },
+    {
+      "input_id": "Task06_Lung_lung_020",
+      "workflow": "identity_ct",
+      "planned": 1,
+      "completed": 1,
+      "unchanged": 1,
+      "orders": {
+        "AB": 0,
+        "BA": 1
+      },
+      "pair_lifetime_peak_bytes": {
+        "n": 1,
+        "median": 110604288.0,
+        "q1": 110604288.0,
+        "q3": 110604288.0
+      },
+      "relationship_outcomes": {
+        "satisfied": 1,
+        "violated": 0,
+        "indeterminate": 0,
+        "unavailable": 0
+      }
+    },
+    {
+      "input_id": "Task06_Lung_lung_020",
+      "workflow": "linear_1p5_ct",
+      "planned": 1,
+      "completed": 1,
+      "unchanged": 1,
+      "orders": {
+        "AB": 0,
+        "BA": 1
+      },
+      "pair_lifetime_peak_bytes": {
+        "n": 1,
+        "median": 87891968.0,
+        "q1": 87891968.0,
+        "q3": 87891968.0
+      },
+      "relationship_outcomes": {
+        "satisfied": 1,
+        "violated": 0,
+        "indeterminate": 0,
+        "unavailable": 0
+      }
+    },
+    {
+      "input_id": "Task06_Lung_lung_025",
+      "workflow": "cubic_2_ct",
+      "planned": 1,
+      "completed": 1,
+      "unchanged": 1,
+      "orders": {
+        "AB": 0,
+        "BA": 1
+      },
+      "pair_lifetime_peak_bytes": {
+        "n": 1,
+        "median": 87429120.0,
+        "q1": 87429120.0,
+        "q3": 87429120.0
+      },
+      "relationship_outcomes": {
+        "satisfied": 1,
+        "violated": 0,
+        "indeterminate": 0,
+        "unavailable": 0
+      }
+    },
+    {
+      "input_id": "Task06_Lung_lung_025",
+      "workflow": "identity_ct",
+      "planned": 1,
+      "completed": 1,
+      "unchanged": 1,
+      "orders": {
+        "AB": 1,
+        "BA": 0
+      },
+      "pair_lifetime_peak_bytes": {
+        "n": 1,
+        "median": 112050176.0,
+        "q1": 112050176.0,
+        "q3": 112050176.0
+      },
+      "relationship_outcomes": {
+        "satisfied": 1,
+        "violated": 0,
+        "indeterminate": 0,
+        "unavailable": 0
+      }
+    },
+    {
+      "input_id": "Task06_Lung_lung_025",
+      "workflow": "linear_1p5_ct",
+      "planned": 1,
+      "completed": 1,
+      "unchanged": 1,
+      "orders": {
+        "AB": 1,
+        "BA": 0
+      },
+      "pair_lifetime_peak_bytes": {
+        "n": 1,
+        "median": 87711744.0,
+        "q1": 87711744.0,
+        "q3": 87711744.0
+      },
+      "relationship_outcomes": {
+        "satisfied": 1,
+        "violated": 0,
+        "indeterminate": 0,
+        "unavailable": 0
+      }
+    },
+    {
+      "input_id": "Task06_Lung_lung_028",
+      "workflow": "cubic_2_ct",
+      "planned": 1,
+      "completed": 1,
+      "unchanged": 1,
+      "orders": {
+        "AB": 1,
+        "BA": 0
+      },
+      "pair_lifetime_peak_bytes": {
+        "n": 1,
+        "median": 214769664.0,
+        "q1": 214769664.0,
+        "q3": 214769664.0
+      },
+      "relationship_outcomes": {
+        "satisfied": 1,
+        "violated": 0,
+        "indeterminate": 0,
+        "unavailable": 0
+      }
+    },
+    {
+      "input_id": "Task06_Lung_lung_028",
+      "workflow": "identity_ct",
+      "planned": 1,
+      "completed": 1,
+      "unchanged": 1,
+      "orders": {
+        "AB": 1,
+        "BA": 0
+      },
+      "pair_lifetime_peak_bytes": {
+        "n": 1,
+        "median": 141262848.0,
+        "q1": 141262848.0,
+        "q3": 141262848.0
+      },
+      "relationship_outcomes": {
+        "satisfied": 1,
+        "violated": 0,
+        "indeterminate": 0,
+        "unavailable": 0
+      }
+    },
+    {
+      "input_id": "Task06_Lung_lung_028",
+      "workflow": "linear_1p5_ct",
+      "planned": 1,
+      "completed": 1,
+      "unchanged": 1,
+      "orders": {
+        "AB": 1,
+        "BA": 0
+      },
+      "pair_lifetime_peak_bytes": {
+        "n": 1,
+        "median": 197201920.0,
+        "q1": 197201920.0,
+        "q3": 197201920.0
+      },
+      "relationship_outcomes": {
+        "satisfied": 1,
+        "violated": 0,
+        "indeterminate": 0,
+        "unavailable": 0
+      }
+    },
+    {
+      "input_id": "Task06_Lung_lung_029",
+      "workflow": "cubic_2_ct",
+      "planned": 1,
+      "completed": 1,
+      "unchanged": 1,
+      "orders": {
+        "AB": 0,
+        "BA": 1
+      },
+      "pair_lifetime_peak_bytes": {
+        "n": 1,
+        "median": 82927616.0,
+        "q1": 82927616.0,
+        "q3": 82927616.0
+      },
+      "relationship_outcomes": {
+        "satisfied": 1,
+        "violated": 0,
+        "indeterminate": 0,
+        "unavailable": 0
+      }
+    },
+    {
+      "input_id": "Task06_Lung_lung_029",
+      "workflow": "identity_ct",
+      "planned": 1,
+      "completed": 1,
+      "unchanged": 1,
+      "orders": {
+        "AB": 0,
+        "BA": 1
+      },
+      "pair_lifetime_peak_bytes": {
+        "n": 1,
+        "median": 98680832.0,
+        "q1": 98680832.0,
+        "q3": 98680832.0
+      },
+      "relationship_outcomes": {
+        "satisfied": 1,
+        "violated": 0,
+        "indeterminate": 0,
+        "unavailable": 0
+      }
+    },
+    {
+      "input_id": "Task06_Lung_lung_029",
+      "workflow": "linear_1p5_ct",
+      "planned": 1,
+      "completed": 1,
+      "unchanged": 1,
+      "orders": {
+        "AB": 1,
+        "BA": 0
+      },
+      "pair_lifetime_peak_bytes": {
+        "n": 1,
+        "median": 84017152.0,
+        "q1": 84017152.0,
+        "q3": 84017152.0
+      },
+      "relationship_outcomes": {
+        "satisfied": 1,
+        "violated": 0,
+        "indeterminate": 0,
+        "unavailable": 0
+      }
+    },
+    {
+      "input_id": "Task06_Lung_lung_037",
+      "workflow": "cubic_2_ct",
+      "planned": 1,
+      "completed": 1,
+      "unchanged": 1,
+      "orders": {
+        "AB": 1,
+        "BA": 0
+      },
+      "pair_lifetime_peak_bytes": {
+        "n": 1,
+        "median": 78098432.0,
+        "q1": 78098432.0,
+        "q3": 78098432.0
+      },
+      "relationship_outcomes": {
+        "satisfied": 0,
+        "violated": 0,
+        "indeterminate": 0,
+        "unavailable": 1
+      }
+    },
+    {
+      "input_id": "Task06_Lung_lung_037",
+      "workflow": "identity_ct",
+      "planned": 1,
+      "completed": 1,
+      "unchanged": 1,
+      "orders": {
+        "AB": 0,
+        "BA": 1
+      },
+      "pair_lifetime_peak_bytes": {
+        "n": 1,
+        "median": 80781312.0,
+        "q1": 80781312.0,
+        "q3": 80781312.0
+      },
+      "relationship_outcomes": {
+        "satisfied": 1,
+        "violated": 0,
+        "indeterminate": 0,
+        "unavailable": 0
+      }
+    },
+    {
+      "input_id": "Task06_Lung_lung_037",
+      "workflow": "linear_1p5_ct",
+      "planned": 1,
+      "completed": 1,
+      "unchanged": 1,
+      "orders": {
+        "AB": 1,
+        "BA": 0
+      },
+      "pair_lifetime_peak_bytes": {
+        "n": 1,
+        "median": 77975552.0,
+        "q1": 77975552.0,
+        "q3": 77975552.0
+      },
+      "relationship_outcomes": {
+        "satisfied": 0,
+        "violated": 0,
+        "indeterminate": 0,
+        "unavailable": 1
+      }
+    },
+    {
+      "input_id": "Task06_Lung_lung_038",
+      "workflow": "cubic_2_ct",
+      "planned": 1,
+      "completed": 1,
+      "unchanged": 1,
+      "orders": {
+        "AB": 0,
+        "BA": 1
+      },
+      "pair_lifetime_peak_bytes": {
+        "n": 1,
+        "median": 88387584.0,
+        "q1": 88387584.0,
+        "q3": 88387584.0
+      },
+      "relationship_outcomes": {
+        "satisfied": 0,
+        "violated": 0,
+        "indeterminate": 0,
+        "unavailable": 1
+      }
+    },
+    {
+      "input_id": "Task06_Lung_lung_038",
+      "workflow": "identity_ct",
+      "planned": 1,
+      "completed": 1,
+      "unchanged": 1,
+      "orders": {
+        "AB": 1,
+        "BA": 0
+      },
+      "pair_lifetime_peak_bytes": {
+        "n": 1,
+        "median": 103735296.0,
+        "q1": 103735296.0,
+        "q3": 103735296.0
+      },
+      "relationship_outcomes": {
+        "satisfied": 1,
+        "violated": 0,
+        "indeterminate": 0,
+        "unavailable": 0
+      }
+    },
+    {
+      "input_id": "Task06_Lung_lung_038",
+      "workflow": "linear_1p5_ct",
+      "planned": 1,
+      "completed": 1,
+      "unchanged": 1,
+      "orders": {
+        "AB": 1,
+        "BA": 0
+      },
+      "pair_lifetime_peak_bytes": {
+        "n": 1,
+        "median": 91459584.0,
+        "q1": 91459584.0,
+        "q3": 91459584.0
+      },
+      "relationship_outcomes": {
+        "satisfied": 0,
+        "violated": 0,
+        "indeterminate": 0,
+        "unavailable": 1
+      }
+    },
+    {
+      "input_id": "Task06_Lung_lung_069",
+      "workflow": "cubic_2_ct",
+      "planned": 1,
+      "completed": 1,
+      "unchanged": 1,
+      "orders": {
+        "AB": 0,
+        "BA": 1
+      },
+      "pair_lifetime_peak_bytes": {
+        "n": 1,
+        "median": 79978496.0,
+        "q1": 79978496.0,
+        "q3": 79978496.0
+      },
+      "relationship_outcomes": {
+        "satisfied": 1,
+        "violated": 0,
+        "indeterminate": 0,
+        "unavailable": 0
+      }
+    },
+    {
+      "input_id": "Task06_Lung_lung_069",
+      "workflow": "identity_ct",
+      "planned": 1,
+      "completed": 1,
+      "unchanged": 1,
+      "orders": {
+        "AB": 0,
+        "BA": 1
+      },
+      "pair_lifetime_peak_bytes": {
+        "n": 1,
+        "median": 91267072.0,
+        "q1": 91267072.0,
+        "q3": 91267072.0
+      },
+      "relationship_outcomes": {
+        "satisfied": 1,
+        "violated": 0,
+        "indeterminate": 0,
+        "unavailable": 0
+      }
+    },
+    {
+      "input_id": "Task06_Lung_lung_069",
+      "workflow": "linear_1p5_ct",
+      "planned": 1,
+      "completed": 1,
+      "unchanged": 1,
+      "orders": {
+        "AB": 0,
+        "BA": 1
+      },
+      "pair_lifetime_peak_bytes": {
+        "n": 1,
+        "median": 80084992.0,
+        "q1": 80084992.0,
+        "q3": 80084992.0
+      },
+      "relationship_outcomes": {
+        "satisfied": 1,
+        "violated": 0,
+        "indeterminate": 0,
+        "unavailable": 0
+      }
+    },
+    {
+      "input_id": "Task06_Lung_lung_070",
+      "workflow": "cubic_2_ct",
+      "planned": 1,
+      "completed": 1,
+      "unchanged": 1,
+      "orders": {
+        "AB": 1,
+        "BA": 0
+      },
+      "pair_lifetime_peak_bytes": {
+        "n": 1,
+        "median": 84586496.0,
+        "q1": 84586496.0,
+        "q3": 84586496.0
+      },
+      "relationship_outcomes": {
+        "satisfied": 1,
+        "violated": 0,
+        "indeterminate": 0,
+        "unavailable": 0
+      }
+    },
+    {
+      "input_id": "Task06_Lung_lung_070",
+      "workflow": "identity_ct",
+      "planned": 1,
+      "completed": 1,
+      "unchanged": 1,
+      "orders": {
+        "AB": 0,
+        "BA": 1
+      },
+      "pair_lifetime_peak_bytes": {
+        "n": 1,
+        "median": 99377152.0,
+        "q1": 99377152.0,
+        "q3": 99377152.0
+      },
+      "relationship_outcomes": {
+        "satisfied": 1,
+        "violated": 0,
+        "indeterminate": 0,
+        "unavailable": 0
+      }
+    },
+    {
+      "input_id": "Task06_Lung_lung_070",
+      "workflow": "linear_1p5_ct",
+      "planned": 1,
+      "completed": 1,
+      "unchanged": 1,
+      "orders": {
+        "AB": 1,
+        "BA": 0
+      },
+      "pair_lifetime_peak_bytes": {
+        "n": 1,
+        "median": 84267008.0,
+        "q1": 84267008.0,
+        "q3": 84267008.0
+      },
+      "relationship_outcomes": {
+        "satisfied": 1,
+        "violated": 0,
+        "indeterminate": 0,
+        "unavailable": 0
+      }
+    },
+    {
+      "input_id": "Task06_Lung_lung_073",
+      "workflow": "cubic_2_ct",
+      "planned": 1,
+      "completed": 1,
+      "unchanged": 1,
+      "orders": {
+        "AB": 1,
+        "BA": 0
+      },
+      "pair_lifetime_peak_bytes": {
+        "n": 1,
+        "median": 130428928.0,
+        "q1": 130428928.0,
+        "q3": 130428928.0
+      },
+      "relationship_outcomes": {
+        "satisfied": 0,
+        "violated": 0,
+        "indeterminate": 0,
+        "unavailable": 1
+      }
+    },
+    {
+      "input_id": "Task06_Lung_lung_073",
+      "workflow": "identity_ct",
+      "planned": 1,
+      "completed": 1,
+      "unchanged": 1,
+      "orders": {
+        "AB": 1,
+        "BA": 0
+      },
+      "pair_lifetime_peak_bytes": {
+        "n": 1,
+        "median": 123236352.0,
+        "q1": 123236352.0,
+        "q3": 123236352.0
+      },
+      "relationship_outcomes": {
+        "satisfied": 1,
+        "violated": 0,
+        "indeterminate": 0,
+        "unavailable": 0
+      }
+    },
+    {
+      "input_id": "Task06_Lung_lung_073",
+      "workflow": "linear_1p5_ct",
+      "planned": 1,
+      "completed": 1,
+      "unchanged": 1,
+      "orders": {
+        "AB": 1,
+        "BA": 0
+      },
+      "pair_lifetime_peak_bytes": {
+        "n": 1,
+        "median": 122880000.0,
+        "q1": 122880000.0,
+        "q3": 122880000.0
+      },
+      "relationship_outcomes": {
+        "satisfied": 0,
+        "violated": 0,
+        "indeterminate": 0,
+        "unavailable": 1
+      }
+    },
+    {
+      "input_id": "Task06_Lung_lung_074",
+      "workflow": "cubic_2_ct",
+      "planned": 1,
+      "completed": 1,
+      "unchanged": 1,
+      "orders": {
+        "AB": 0,
+        "BA": 1
+      },
+      "pair_lifetime_peak_bytes": {
+        "n": 1,
+        "median": 265555968.0,
+        "q1": 265555968.0,
+        "q3": 265555968.0
+      },
+      "relationship_outcomes": {
+        "satisfied": 0,
+        "violated": 0,
+        "indeterminate": 0,
+        "unavailable": 1
+      }
+    },
+    {
+      "input_id": "Task06_Lung_lung_074",
+      "workflow": "identity_ct",
+      "planned": 1,
+      "completed": 1,
+      "unchanged": 1,
+      "orders": {
+        "AB": 0,
+        "BA": 1
+      },
+      "pair_lifetime_peak_bytes": {
+        "n": 1,
+        "median": 164147200.0,
+        "q1": 164147200.0,
+        "q3": 164147200.0
+      },
+      "relationship_outcomes": {
+        "satisfied": 1,
+        "violated": 0,
+        "indeterminate": 0,
+        "unavailable": 0
+      }
+    },
+    {
+      "input_id": "Task06_Lung_lung_074",
+      "workflow": "linear_1p5_ct",
+      "planned": 1,
+      "completed": 1,
+      "unchanged": 1,
+      "orders": {
+        "AB": 0,
+        "BA": 1
+      },
+      "pair_lifetime_peak_bytes": {
+        "n": 1,
+        "median": 236843008.0,
+        "q1": 236843008.0,
+        "q3": 236843008.0
+      },
+      "relationship_outcomes": {
+        "satisfied": 0,
+        "violated": 0,
+        "indeterminate": 0,
+        "unavailable": 1
+      }
+    },
+    {
+      "input_id": "Task06_Lung_lung_078",
+      "workflow": "cubic_2_ct",
+      "planned": 1,
+      "completed": 1,
+      "unchanged": 1,
+      "orders": {
+        "AB": 0,
+        "BA": 1
+      },
+      "pair_lifetime_peak_bytes": {
+        "n": 1,
+        "median": 94449664.0,
+        "q1": 94449664.0,
+        "q3": 94449664.0
+      },
+      "relationship_outcomes": {
+        "satisfied": 1,
+        "violated": 0,
+        "indeterminate": 0,
+        "unavailable": 0
+      }
+    },
+    {
+      "input_id": "Task06_Lung_lung_078",
+      "workflow": "identity_ct",
+      "planned": 1,
+      "completed": 1,
+      "unchanged": 1,
+      "orders": {
+        "AB": 0,
+        "BA": 1
+      },
+      "pair_lifetime_peak_bytes": {
+        "n": 1,
+        "median": 111632384.0,
+        "q1": 111632384.0,
+        "q3": 111632384.0
+      },
+      "relationship_outcomes": {
+        "satisfied": 1,
+        "violated": 0,
+        "indeterminate": 0,
+        "unavailable": 0
+      }
+    },
+    {
+      "input_id": "Task06_Lung_lung_078",
+      "workflow": "linear_1p5_ct",
+      "planned": 1,
+      "completed": 1,
+      "unchanged": 1,
+      "orders": {
+        "AB": 1,
+        "BA": 0
+      },
+      "pair_lifetime_peak_bytes": {
+        "n": 1,
+        "median": 94568448.0,
+        "q1": 94568448.0,
+        "q3": 94568448.0
+      },
+      "relationship_outcomes": {
+        "satisfied": 1,
+        "violated": 0,
+        "indeterminate": 0,
+        "unavailable": 0
+      }
+    },
+    {
+      "input_id": "Task06_Lung_lung_095",
+      "workflow": "cubic_2_ct",
+      "planned": 1,
+      "completed": 1,
+      "unchanged": 1,
+      "orders": {
+        "AB": 0,
+        "BA": 1
+      },
+      "pair_lifetime_peak_bytes": {
+        "n": 1,
+        "median": 91308032.0,
+        "q1": 91308032.0,
+        "q3": 91308032.0
+      },
+      "relationship_outcomes": {
+        "satisfied": 1,
+        "violated": 0,
+        "indeterminate": 0,
+        "unavailable": 0
+      }
+    },
+    {
+      "input_id": "Task06_Lung_lung_095",
+      "workflow": "identity_ct",
+      "planned": 1,
+      "completed": 1,
+      "unchanged": 1,
+      "orders": {
+        "AB": 0,
+        "BA": 1
+      },
+      "pair_lifetime_peak_bytes": {
+        "n": 1,
+        "median": 111398912.0,
+        "q1": 111398912.0,
+        "q3": 111398912.0
+      },
+      "relationship_outcomes": {
+        "satisfied": 1,
+        "violated": 0,
+        "indeterminate": 0,
+        "unavailable": 0
+      }
+    },
+    {
+      "input_id": "Task06_Lung_lung_095",
+      "workflow": "linear_1p5_ct",
+      "planned": 1,
+      "completed": 1,
+      "unchanged": 1,
+      "orders": {
+        "AB": 1,
+        "BA": 0
+      },
+      "pair_lifetime_peak_bytes": {
+        "n": 1,
+        "median": 91299840.0,
+        "q1": 91299840.0,
+        "q3": 91299840.0
+      },
+      "relationship_outcomes": {
+        "satisfied": 1,
+        "violated": 0,
+        "indeterminate": 0,
+        "unavailable": 0
+      }
+    }
+  ],
+  "constructed_tasks": {
+    "recorded_tasks": 48,
+    "active_faults": 48,
+    "restored_relationships": 48,
+    "task_errors": 0,
+    "comparators": {
+      "paired_geometry": {
+        "valid_control": {
+          "satisfied": 48,
+          "violated": 0,
+          "indeterminate": 0,
+          "unavailable": 0
+        },
+        "fault": {
+          "satisfied": 48,
+          "violated": 0,
+          "indeterminate": 0,
+          "unavailable": 0
+        },
+        "correction": {
+          "satisfied": 48,
+          "violated": 0,
+          "indeterminate": 0,
+          "unavailable": 0
+        }
+      },
+      "source_aware_geometry": {
+        "valid_control": {
+          "satisfied": 48,
+          "violated": 0,
+          "indeterminate": 0,
+          "unavailable": 0
+        },
+        "fault": {
+          "satisfied": 24,
+          "violated": 24,
+          "indeterminate": 0,
+          "unavailable": 0
+        },
+        "correction": {
+          "satisfied": 48,
+          "violated": 0,
+          "indeterminate": 0,
+          "unavailable": 0
+        }
+      },
+      "radaccord": {
+        "valid_control": {
+          "satisfied": 48,
+          "violated": 0,
+          "indeterminate": 0,
+          "unavailable": 0
+        },
+        "fault": {
+          "satisfied": 0,
+          "violated": 48,
+          "indeterminate": 0,
+          "unavailable": 0
+        },
+        "correction": {
+          "satisfied": 48,
+          "violated": 0,
+          "indeterminate": 0,
+          "unavailable": 0
+        }
+      }
+    }
+  },
+  "memory_scope": "Process lifetime high-water mark including both arms and any warmup; not per-arm incremental memory.",
+  "inference_scope": "Coverage and exact-output preservation; no overhead estimate."
+}

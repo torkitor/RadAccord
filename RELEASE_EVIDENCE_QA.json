@@ -1,6 +1,6 @@
 {
   "version": "1.3.0rc1",
-  "stage": "before_prospective_execution",
+  "stage": "prospective_evidence_verified_after_execution",
   "native_integrity": {
     "status": "passed",
     "calibration": {
@@ -116,9 +116,140 @@
       "tests/test_operators.py": "f5273364f883186d79a8504a77bb5460f3c3f6a3ba6e5e59d6d606c07a6b6119",
       "tests/test_packaging.py": "5333598c672e08452b6f0e8e376659f3604d4645eb1d1a3920fd8edf7899f144"
     },
-    "scope": "Identity of the files declared in this prospective freeze. No claim of clinical validity, completed evaluation or remote CI success."
+    "scope": "Identity of the 70 files declared in the prospective freeze. Completed evaluation and replay are recorded separately in prospective_results, prospective_bundle and independent_result_audit."
   },
   "historical_receipt": "release_history/native_1_2_0rc3/RELEASE_EVIDENCE_QA.json",
-  "clinical_evaluation_completed": false,
-  "scope": "Archive, source-freeze and installed artifact integrity, not a clinical evaluation result."
+  "clinical_evaluation_completed": true,
+  "scope": "Archive and frozen-source integrity, exact replay and independent result accounting for completed author-run prospective evidence. Physical abstentions and substantial checking costs remain explicit; no external-user or clinical-benefit claim.",
+  "external_user_evaluation_completed": false,
+  "prospective_results": {
+    "documentation": "docs/PROSPECTIVE_VALIDATION.md",
+    "graphical_abstract": "docs/assets/prospective_graphical_abstract.png",
+    "aggregate": "results/prospective_aggregate.json",
+    "aggregate_sha256": "fb64e56a993c90472c60832392b47c50a9b83e42f17051c7f34fa84b3b6aaadb",
+    "source_volumes": 24,
+    "collections": {
+      "Heart_MRI": 12,
+      "Lung_CT": 12
+    },
+    "source_scope": "Previously unused public image/label pairs; prepared label-1 bounding boxes with 10 mm context. Author-run evaluation; identifiers do not establish independent patients.",
+    "selected_slots_excluded_or_replaced": 0,
+    "coverage": {
+      "intention_to_evaluate_pairs": 144,
+      "completed_pairs": 144,
+      "exact_native_output_preservation_pairs": 144,
+      "relationship_outcomes": {
+        "satisfied": 88,
+        "violated": 0,
+        "indeterminate": 23,
+        "unavailable": 33
+      },
+      "checkpoint_obligations": {
+        "unit": "Reported checkpoint fields; distinct from sampling pair outcomes and independent source volumes.",
+        "observed_checkpoints": 360,
+        "reported_roi_coverage_fields": 327,
+        "roi_coverage_field_outcomes": {
+          "satisfied": 315,
+          "violated": 12
+        },
+        "roi_coverage_fields_absent": 33,
+        "reported_reuse_fields": 327,
+        "reuse_field_outcomes": {
+          "requires_reextraction": 203,
+          "blocked": 124
+        },
+        "reuse_fields_absent": 33,
+        "interpretation": "Satisfied sampling does not override a violated selected-ROI coverage or blocked measurement-reuse obligation."
+      }
+    },
+    "timing": {
+      "intention_to_evaluate_measured_pairs": 128,
+      "completed_measured_pairs": 128,
+      "exact_measured_pairs": 128,
+      "additional_warmup_pairs": 128,
+      "completed_warmup_pairs": 128,
+      "exact_warmup_pairs": 128,
+      "independent_source_volumes": 8,
+      "repeats_per_source_workflow_engine": 4,
+      "summary_unit": "Median within each source, then median/range across four source medians per collection/engine/workflow group.",
+      "group_median_added_seconds_minimum": 0.08690119999937451,
+      "group_median_added_seconds_maximum": 13.821254425000006,
+      "largest_source_median_added_seconds": 30.445730600000388,
+      "memory_scope": "Process lifetime peak includes both arms and warmup; not incremental checking memory.",
+      "checkpoint_obligations": {
+        "unit": "Reported checkpoint fields; distinct from sampling pair outcomes and independent source volumes.",
+        "observed_checkpoints": 320,
+        "reported_roi_coverage_fields": 296,
+        "roi_coverage_field_outcomes": {
+          "satisfied": 288,
+          "violated": 8
+        },
+        "roi_coverage_fields_absent": 24,
+        "reported_reuse_fields": 296,
+        "reuse_field_outcomes": {
+          "requires_reextraction": 208,
+          "blocked": 88
+        },
+        "reuse_fields_absent": 24,
+        "interpretation": "Satisfied sampling does not override a violated selected-ROI coverage or blocked measurement-reuse obligation."
+      }
+    },
+    "constructed_restoration": {
+      "source_fault_configurations": 48,
+      "engine_observations": 96,
+      "per_engine": {
+        "active_tasks": 48,
+        "detected_by_radaccord": 48,
+        "detected_by_source_aware_geometry": 24,
+        "detected_by_paired_geometry": 0,
+        "recorded_correct_controls_satisfied": 48,
+        "recorded_restored_states_satisfied": 48
+      },
+      "scope": "Two engine observations of the same constructed source/fault configurations; not independent incidents, spontaneous defect prevalence, human repair benefit or clinical outcomes."
+    }
+  },
+  "prospective_bundle": {
+    "archive_members": 117,
+    "archive_name": "RadAccord-prospective-validation-1.zip",
+    "archive_sha256": "012f4faec2f589eba68bf23d92f6b5a9f0beaf6eca716a603166b8177bc3e850",
+    "bytes": 684587,
+    "clean_extraction_replay": {
+      "aggregate_sha256": "fb64e56a993c90472c60832392b47c50a9b83e42f17051c7f34fa84b3b6aaadb",
+      "byte_identical": true,
+      "frozen_sources": 70,
+      "payload_files": 116,
+      "status": "passed"
+    },
+    "derived_json_files_screened": 38,
+    "deterministic_double_build": true,
+    "payload_files": 116,
+    "schema_version": "prospective-bundle-verification-1",
+    "source_and_preparation_hashes_verified": 72,
+    "source_freeze_files": 70,
+    "status": "passed"
+  },
+  "independent_result_audit": {
+    "status": "passed",
+    "checks": 11734,
+    "issues": 0,
+    "warnings": 0,
+    "aggregate_compared": true,
+    "audit_sha256": "3becf715a6fa658cc4c9618cd847a956ac554763d19ab81ebf74d048b92a5ad1",
+    "audit_script_sha256": "3f816ad4542cda16f6588a06a71dfc13ac6999ad86d365af64220ed40aa89084",
+    "archive_member": "RadAccord-prospective-validation-1/qa/independent_prospective_audit.json",
+    "clean_extraction_audit_byte_identical": true,
+    "scope": "Independent implementation of JSON/JSONL record accounting and arithmetic. No independent re-extraction of private native values, image reading or external-operator validation."
+  },
+  "remote_ci": {
+    "commit": "9963d5940f5fa863b27c63932a704b822ddbfc41",
+    "required_jobs_passed": 8,
+    "native_jobs_passed": 6,
+    "core_jobs_passed": 2,
+    "native_run": "https://github.com/torkitor/RadAccord/actions/runs/34370081420",
+    "core_run": "https://github.com/torkitor/RadAccord/actions/runs/34370081417",
+    "optional_historical_writer_job": "skipped_by_design",
+    "final_publication_commit_verification": "pending",
+    "scope": "CI for the identified source commit; does not repeat the author-run clinical-source evaluation or assert verification of a later publication commit."
+  },
+  "pre_evaluation_metadata": "release_history/prospective_prefreeze_1_3_0rc1/RELEASE_EVIDENCE_QA.json"
 }

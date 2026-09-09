@@ -1,0 +1,20 @@
+{
+  "archive_members": 117,
+  "archive_name": "RadAccord-prospective-validation-1.zip",
+  "archive_sha256": "012f4faec2f589eba68bf23d92f6b5a9f0beaf6eca716a603166b8177bc3e850",
+  "bytes": 684587,
+  "clean_extraction_replay": {
+    "aggregate_sha256": "fb64e56a993c90472c60832392b47c50a9b83e42f17051c7f34fa84b3b6aaadb",
+    "byte_identical": true,
+    "frozen_sources": 70,
+    "payload_files": 116,
+    "status": "passed"
+  },
+  "derived_json_files_screened": 38,
+  "deterministic_double_build": true,
+  "payload_files": 116,
+  "schema_version": "prospective-bundle-verification-1",
+  "source_and_preparation_hashes_verified": 72,
+  "source_freeze_files": 70,
+  "status": "passed"
+}

@@ -1,10 +1,72 @@
 {
   "version": "1.3.0rc1",
-  "stage": "before_prospective_execution",
+  "stage": "after_prospective_execution",
+  "reviewed_utc": "2026-09-09T16:34:47.936035+00:00",
+  "public_files_reviewed": 402,
+  "scope": "Tracked and nonignored untracked public files, every decompressed ZIP/wheel member, and final figure content and metadata; private clinical directories were not accessed for this audit.",
   "public_clinical_array_files": 0,
   "retained_synthetic_nifti_files": 14,
+  "synthetic_inputs_byte_identical_to_baseline": true,
+  "baseline_public_commit": "09b6a15a48f87569957787db6a9fb7e0e8657ebb",
   "literal_personal_workspace_paths_found": [],
-  "raw_clinical_images_crops_manifests_and_logs": "Kept outside the public repository.",
-  "public_author_identity": "Public author name and ORCID are intentionally retained; no private correspondence file is included.",
-  "scope": "Automated path/array check plus separately recorded human-readable review; not a universal anonymization guarantee."
+  "private_credentials_or_contacts_found": false,
+  "accidental_tool_or_model_instruction_traces_found": false,
+  "raw_clinical_images_crops_manifests_and_logs": "Kept outside the public repository and all public archives.",
+  "archive_checks": [
+    {
+      "file": "data/RadAccord-1.0.0.zip",
+      "sha256": "43ff30b546e1904b1f119c6349747d3e6289b273f2b4ee18c80dc57d0b2970bd",
+      "baseline_unchanged": true,
+      "member_count": 113
+    },
+    {
+      "file": "data/RadAccord-native-calibration-1.zip",
+      "sha256": "a3e2bff93996884ca8f8c31a38dbe8f1bb75acf2e011509e4d06ca9cbfd1532f",
+      "baseline_unchanged": true,
+      "member_count": 33
+    },
+    {
+      "file": "data/RadAccord-native-refinement-2.zip",
+      "sha256": "d8780b56b63c50e75631fa63ac0cb68874c60357d9ceb8828cf3d47b27ce6bb5",
+      "baseline_unchanged": true,
+      "member_count": 46
+    },
+    {
+      "file": "data/RadAccord-prospective-validation-1.zip",
+      "sha256": "012f4faec2f589eba68bf23d92f6b5a9f0beaf6eca716a603166b8177bc3e850",
+      "baseline_unchanged": false,
+      "member_count": 117
+    },
+    {
+      "file": "data/packages/radaccord-1.2.0rc3-py3-none-any.whl",
+      "sha256": "1976dc89877a7bed5b93dbad8fbbcf33dc4bc1bb25e781ed04a7d2e6b86644a6",
+      "baseline_unchanged": true,
+      "member_count": 27
+    },
+    {
+      "file": "data/packages/radaccord-1.3.0rc1-py3-none-any.whl",
+      "sha256": "f58e91262f56890fe8b330fecf38bcc5cb43179bd95ff3d8f40ec299dea170f7",
+      "baseline_unchanged": false,
+      "member_count": 27
+    }
+  ],
+  "prospective_archive_contains_raw_clinical_images_or_logs": false,
+  "current_wheel": {
+    "version": "1.3.0rc1",
+    "sha256": "f58e91262f56890fe8b330fecf38bcc5cb43179bd95ff3d8f40ec299dea170f7",
+    "author_name": "Clemente García-Hidalgo",
+    "author_email_present": false,
+    "license": "Apache-2.0",
+    "members": 27
+  },
+  "source_licenses": {
+    "software": "Apache-2.0",
+    "Medical_Segmentation_Decathlon_data": "CC-BY-SA-4.0"
+  },
+  "public_author_identity": "Public author name and ORCID are intentionally retained; the wheel has no author email and no private correspondence file is included.",
+  "synthetic_pattern_matches": "Deliberate redaction-test paths, a path-detection regex, reserved example.invalid addresses, matrix expressions and an unchanged compressed-pixel coincidence were distinguished from private content.",
+  "substantive_assistance_disclosure": "The public instruction to disclose substantive assistance is retained; it is not an accidental execution trace.",
+  "figure_review": "Final figures contain a declared synthetic phantom, method diagrams and aggregate results. Metadata and copied public graphical-abstract assets were checked; no raw clinical imagery or identifiers were found.",
+  "previous_receipt": "release_history/prospective_prefreeze_1_3_0rc1/PRIVACY_QA.json",
+  "limitation": "Snapshot-specific pattern, payload, metadata and visual review, not a universal anonymization guarantee. Later file changes require a new check; ignored local build material is outside the publication set."
 }

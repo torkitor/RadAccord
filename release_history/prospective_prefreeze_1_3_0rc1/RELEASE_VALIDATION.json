@@ -1,0 +1,25 @@
+{
+  "software": "RadAccord",
+  "version": "1.3.0rc1",
+  "stage": "public_analysis_freeze_before_evaluation",
+  "repository": "https://github.com/torkitor/RadAccord",
+  "previous_version": "1.2.0rc3",
+  "previous_public_commit": "09b6a15a48f87569957787db6a9fb7e0e8657ebb",
+  "distribution": "Research release candidate",
+  "wheel": {
+    "file": "data/packages/radaccord-1.3.0rc1-py3-none-any.whl",
+    "sha256": "f58e91262f56890fe8b330fecf38bcc5cb43179bd95ff3d8f40ec299dea170f7",
+    "bytes": 81560
+  },
+  "local_wheel_verification": "docs/wheel-verification-1.3.0rc1.json",
+  "prospective_freeze_sha256": "176d9e8e286f6a44ff8d912b771abc11fe1d129bf4ff5e8e5ca9d8a741da5234",
+  "planned_new_source_volumes": 24,
+  "planned_coverage_pairs": 144,
+  "planned_timing_pairs": 128,
+  "planned_separate_warmup_pairs": 128,
+  "new_clinical_evaluation_completed": false,
+  "external_user_evaluation_completed": false,
+  "remote_ci_for_this_candidate": "Not asserted in this pre-evaluation receipt.",
+  "historical_validation": "release_history/native_1_2_0rc3/RELEASE_VALIDATION.json",
+  "manifest": "MANIFEST.sha256"
+}

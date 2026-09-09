@@ -5,7 +5,7 @@
 <p align="center">
   <a href="docs/INSTALL.md"><img src="https://img.shields.io/badge/install-Python%20package-5F6F9F?style=flat-square" alt="Installable Python package"></a>
   <a href="LICENSE"><img src="https://img.shields.io/badge/license-Apache%202.0-5F6F9F?style=flat-square" alt="Apache 2.0 license"></a>
-  <a href="docs/PROSPECTIVE_VALIDATION.md"><img src="https://img.shields.io/badge/evidence-prospectively%20frozen-5F6F9F?style=flat-square" alt="Prospectively frozen native evaluation"></a>
+  <a href="docs/SAMPLING_RESULTS.md"><img src="https://img.shields.io/badge/evidence-retained%20%26%20audited-5F6F9F?style=flat-square" alt="Retained and audited evidence"></a>
   <a href="https://github.com/torkitor/RadAccord/stargazers"><img src="https://img.shields.io/github/stars/torkitor/RadAccord?style=flat-square&color=EE7F6D" alt="GitHub stars for the published repository"></a>
 </p>
 
@@ -13,7 +13,7 @@
   <a href="#try-it"><strong>Try it</strong></a> ·
   <a href="#native-integrations"><strong>Native integrations</strong></a> ·
   <a href="docs/SAMPLING.md"><strong>Use your images</strong></a> ·
-  <a href="docs/PROSPECTIVE_VALIDATION.md"><strong>Inspect the evidence</strong></a> ·
+  <a href="docs/SAMPLING_RESULTS.md"><strong>Inspect the evidence</strong></a> ·
   <a href="#historical-full-grid-profile"><strong>Full-grid profile</strong></a> ·
   <a href="#cite"><strong>Cite</strong></a>
 </p>
@@ -41,68 +41,6 @@ native integrations, execution records and historical writing regression. Its ex
 version is in [CITATION.cff](CITATION.cff). Local verification and remote CI are
 distinguished in the [package verification](docs/WHEEL_VERIFICATION.md).
 The historical 1.0.0 archive and frozen sampling experiments remain identifiable.
-
-## Prospective native evaluation
-
-The code, source selection and analysis were [publicly frozen](protocol/prospective_publication.json)
-before source preparation and native evaluation. Twenty-four previously unused
-public source volumes—12 Heart MRI and 12 Lung CT—were evaluated under three
-declared workflows with PyRadiomics and MIRP. All planned slots were retained.
-This was an author-run evaluation of prepared ROI crops with 10 mm context;
-external-user effectiveness and clinical benefit remain unevaluated.
-
-| Experiment | Completed with exact native-output preservation | Physical relationship outcomes |
-| :--- | :--- | :--- |
-| Native coverage | **144/144 pairs** | **88 satisfied · 23 indeterminate · 33 unavailable** |
-| Counterbalanced timing | **128/128 measured pairs** | Recorded separately for every measured pair |
-| Additional process warmup | **128/128 pairs** | Separate from the measured timing sample |
-
-Exact output preservation means adding the observer retained the native result.
-It does not turn an indeterminate or unavailable physical check into a satisfied
-one. Read the separate ROI-coverage and measurement-reuse obligations even when
-sampling is satisfied: correct resampling can require reextraction, and lost
-selected-source support can block reuse.
-
-<details>
-<summary><strong>Checkpoint coverage and reuse obligations</strong></summary>
-
-| Experiment | Reported ROI coverage: satisfied / violated | Coverage fields absent | Reported reuse: requires reextraction / blocked |
-| :--- | :--- | ---: | :--- |
-| Native coverage | 315 / 12 | 33 | 203 / 124 |
-| Counterbalanced timing | 288 / 8 | 24 | 208 / 88 |
-
-These are checkpoint-field counts, with 327 coverage/reuse fields reported in
-the coverage experiment and 296 in timing. Missing fields remain absent; the
-timing repeats do not add independent source volumes. A satisfied sampling
-relationship does not override a violated coverage or blocked reuse obligation.
-
-</details>
-
-[![Prospective native evaluation: coverage, controlled restoration and execution cost](docs/assets/prospective_graphical_abstract.png)](docs/PROSPECTIVE_VALIDATION.md)
-
-Median added time across the eight collection/engine/workflow groups ranged
-from **0.087 to 13.821 seconds**; the largest source-level median was
-**30.446 seconds**. These summaries first take the median within each source.
-Cost depends on the workflow and can remain substantial when evidence is
-unavailable. Process peak memory includes both arms and warmup.
-
-For each engine, the checker detected **48/48 active constructed tasks**, compared
-with 24/48 for source-aware geometry and 0/48 for paired image–mask geometry.
-All recorded correct controls and restored states satisfied their checks. These
-are 48 source/fault configurations observed with both engines, not independently
-discovered defects or a measure of human repair benefit.
-
-[Results and limitations](docs/PROSPECTIVE_VALIDATION.md) ·
-[Full aggregate](results/prospective_aggregate.json) ·
-[Download the replayable evidence ZIP](data/RadAccord-prospective-validation-1.zip) ·
-[Archive verification](results/prospective_bundle_verification.json)
-
-The bundle preserves all 70 frozen sources. Independent record accounting
-passed 11,734 checks; clean-extraction replay reproduced the aggregate and
-independent audit byte for byte. Separately, all eight required CI jobs passed
-for commit [`9963d594`](https://github.com/torkitor/RadAccord/commit/9963d5940f5fa863b27c63932a704b822ddbfc41).
-That receipt identifies the tested commit; verification of the final publication
-commit is recorded separately when complete.
 
 ## Native integrations
 

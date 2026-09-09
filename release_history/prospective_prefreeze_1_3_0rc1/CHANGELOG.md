@@ -1,32 +1,6 @@
 # Changelog
 
-## 1.3.0rc1 — 2026-09-09 (completed prospective evaluation)
-
-- Complete the publicly frozen, author-run evaluation of 24 previously unused
-  Heart MRI/Lung CT sources: 144/144 paired extractions preserved native outputs
-  exactly, with 88 satisfied, 23 indeterminate and 33 unavailable physical
-  relationship outcomes. No selected slot was excluded or replaced.
-- Retain ROI-coverage and reuse obligations separately from sampling outcomes:
-  coverage reported 315 satisfied and 12 violated coverage fields, 33 absent
-  fields, and 203 reextraction-required versus 124 blocked reuse obligations.
-  Satisfied sampling does not imply permission to reuse a measurement.
-- Complete 128 counterbalanced measured pairs and 128 additional warmup pairs,
-  all exactly preserving native outputs. Group medians of added time ranged
-  from 0.087 to 13.821 seconds; the largest source-level median was 30.446 seconds.
-  Timing uses prepared source crops and does not imply negligible overhead.
-- Retain 48 active source/fault configurations, observed once per engine:
-  48/48 detected by RadAccord per engine, 24/48 by source-aware geometry and
-  0/48 by paired geometry. These constructed tasks do not estimate spontaneous
-  defect rates, external-user effectiveness or clinical benefit.
-- Publish the [results and limitations](docs/PROSPECTIVE_VALIDATION.md),
-  [graphical abstract](docs/assets/prospective_graphical_abstract.png) and
-  [derived-evidence ZIP](data/RadAccord-prospective-validation-1.zip), preserving
-  70 frozen files. Independent record accounting passed 11,734 checks;
-  clean-extraction replay reproduced both aggregate and independent audit bytes.
-- Record all eight required CI jobs passing at commit
-  `9963d5940f5fa863b27c63932a704b822ddbfc41`; this is the identified tested commit,
-  not an assertion about a later publication commit. Preserve the pre-evaluation
-  release metadata in `release_history/prospective_prefreeze_1_3_0rc1/`.
+## 1.3.0rc1 — 2026-09-09 (prospective evaluation candidate)
 
 - Observe the actual original-image/ROI arguments at MIRP feature dispatch,
   alongside its final native export, using a temporary instance-level observer.

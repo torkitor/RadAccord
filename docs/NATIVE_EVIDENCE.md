@@ -1,6 +1,21 @@
 # Reproducing the native integration evidence
 
-The two native evaluations are preserved in separate immutable archives. The first is development/calibration; the second is calibration-informed reevaluation on the same inputs. Neither is independent clinical validation. Later command-line and package-version changes do not replace either scientific snapshot.
+The two historical native evaluations are preserved in separate immutable archives. The first is development/calibration; the second is calibration-informed reevaluation on the same inputs. Neither is independent clinical validation. Later command-line and package-version changes do not replace either scientific snapshot.
+
+## Prospective evaluation on new inputs
+
+The separately frozen 1.3.0rc1 study used 24 previously unused public Heart MRI
+and Lung CT volumes. All 144 coverage pairs completed with exactly preserved
+native outputs: 88 satisfied, 23 indeterminate, 33 unavailable and zero violated
+sampling-relationship pairs. Source coverage is separate: 315 satisfied and 12
+violated fields were emitted, with 33 absent across 360 checkpoints. The 88
+satisfied sampling pairs therefore do not constitute overall reuse acceptance.
+The 128 measured timing pairs and 128 warmup pairs also completed exactly;
+they are repeat observations on eight of those sources, not additional independent
+inputs. Cubic checking incurred substantial cost in some inputs, including
+unavailable outcomes. The [prospective results and limits](PROSPECTIVE_VALIDATION.md)
+retain workflow denominators, paired costs and the separate constructed tasks.
+These author-run observations are distinct from the two historical phases below.
 
 ## Verify the historical archives and current implementation separately
 
@@ -59,9 +74,9 @@ The 22 inputs comprise eight synthetic volumes, twelve previously used public MR
 
 Refinement changes are documented in `protocol/native_refinement.md`: source-derived numerical uncertainty, compatible MIRP/pandas versions, fixed bin count 32 for MRI/synthetic PyRadiomics inputs, retained CT bin width 25, and a subprocess controller with a 300-second per-pair limit. Because the extraction configuration changes, cross-phase feature equality is not an endpoint. The numerical envelope is conditional on its stated arithmetic assumptions; it is not a formal certificate for an entire backend.
 
-The scientific evaluation is rc2. The subsequent rc3 CLI change converts file-path objects to strings at the MIRP call boundary; its interface tests are separate from the archived scientific evaluation. CLI repair and package-version metadata do not retrospectively amend rc2 results. The complete current release is verified by its own manifest and release QA receipt.
+The archived refinement evaluation described above is rc2. The subsequent rc3 CLI change converts file-path objects to strings at the MIRP call boundary; its interface tests are separate from the archived scientific evaluation. CLI repair and package-version metadata do not retrospectively amend rc2 results. The complete current release is verified by its own manifest and release QA receipt.
 
-Native-output preservation means the observer returned the producer values unchanged. It does not establish measurement correctness, feature finiteness, clinical utility, outcome prediction or cross-engine equivalence. Timing summaries are descriptive: baseline extraction precedes audited extraction, and process startup contributes to total pair time. They do not establish a causal overhead multiplier. These are local Windows checks; this document does not assert Linux or GitHub Actions success for the candidate.
+Native-output preservation means the observer returned the producer values unchanged. It does not establish measurement correctness, feature finiteness, clinical utility, outcome prediction or cross-engine equivalence. The historical timing summaries are descriptive: baseline extraction precedes audited extraction, and process startup contributes to total pair time. They do not establish a causal overhead multiplier. The newer balanced paired timing experiment is documented separately above. Historical study execution was local on Windows; current installation/unit-test platform evidence is in [WHEEL_VERIFICATION.md](WHEEL_VERIFICATION.md) and is not clinical evaluation.
 
 ## Earlier full-grid and sampling evidence
 

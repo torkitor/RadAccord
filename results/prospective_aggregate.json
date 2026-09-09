@@ -1,0 +1,6863 @@
+{
+  "constructed_tasks": [
+    {
+      "active_faults": 24,
+      "collection": "Task02_Heart",
+      "comparators": {
+        "paired_geometry": {
+          "correction": {
+            "indeterminate": 0,
+            "satisfied": 24,
+            "unavailable": 0,
+            "violated": 0
+          },
+          "fault": {
+            "indeterminate": 0,
+            "satisfied": 24,
+            "unavailable": 0,
+            "violated": 0
+          },
+          "valid_control": {
+            "indeterminate": 0,
+            "satisfied": 24,
+            "unavailable": 0,
+            "violated": 0
+          }
+        },
+        "radaccord": {
+          "correction": {
+            "indeterminate": 0,
+            "satisfied": 24,
+            "unavailable": 0,
+            "violated": 0
+          },
+          "fault": {
+            "indeterminate": 0,
+            "satisfied": 0,
+            "unavailable": 0,
+            "violated": 24
+          },
+          "valid_control": {
+            "indeterminate": 0,
+            "satisfied": 24,
+            "unavailable": 0,
+            "violated": 0
+          }
+        },
+        "source_aware_geometry": {
+          "correction": {
+            "indeterminate": 0,
+            "satisfied": 24,
+            "unavailable": 0,
+            "violated": 0
+          },
+          "fault": {
+            "indeterminate": 0,
+            "satisfied": 12,
+            "unavailable": 0,
+            "violated": 12
+          },
+          "valid_control": {
+            "indeterminate": 0,
+            "satisfied": 24,
+            "unavailable": 0,
+            "violated": 0
+          }
+        }
+      },
+      "engine": "pyradiomics",
+      "intention_to_evaluate_tasks": 24,
+      "mode": "coverage",
+      "prepared_source_tasks": 24,
+      "recorded_tasks": 24,
+      "restored_relationships": 24,
+      "task_errors": 0
+    },
+    {
+      "active_faults": 24,
+      "collection": "Task06_Lung",
+      "comparators": {
+        "paired_geometry": {
+          "correction": {
+            "indeterminate": 0,
+            "satisfied": 24,
+            "unavailable": 0,
+            "violated": 0
+          },
+          "fault": {
+            "indeterminate": 0,
+            "satisfied": 24,
+            "unavailable": 0,
+            "violated": 0
+          },
+          "valid_control": {
+            "indeterminate": 0,
+            "satisfied": 24,
+            "unavailable": 0,
+            "violated": 0
+          }
+        },
+        "radaccord": {
+          "correction": {
+            "indeterminate": 0,
+            "satisfied": 24,
+            "unavailable": 0,
+            "violated": 0
+          },
+          "fault": {
+            "indeterminate": 0,
+            "satisfied": 0,
+            "unavailable": 0,
+            "violated": 24
+          },
+          "valid_control": {
+            "indeterminate": 0,
+            "satisfied": 24,
+            "unavailable": 0,
+            "violated": 0
+          }
+        },
+        "source_aware_geometry": {
+          "correction": {
+            "indeterminate": 0,
+            "satisfied": 24,
+            "unavailable": 0,
+            "violated": 0
+          },
+          "fault": {
+            "indeterminate": 0,
+            "satisfied": 12,
+            "unavailable": 0,
+            "violated": 12
+          },
+          "valid_control": {
+            "indeterminate": 0,
+            "satisfied": 24,
+            "unavailable": 0,
+            "violated": 0
+          }
+        }
+      },
+      "engine": "pyradiomics",
+      "intention_to_evaluate_tasks": 24,
+      "mode": "coverage",
+      "prepared_source_tasks": 24,
+      "recorded_tasks": 24,
+      "restored_relationships": 24,
+      "task_errors": 0
+    },
+    {
+      "active_faults": 24,
+      "collection": "Task02_Heart",
+      "comparators": {
+        "paired_geometry": {
+          "correction": {
+            "indeterminate": 0,
+            "satisfied": 24,
+            "unavailable": 0,
+            "violated": 0
+          },
+          "fault": {
+            "indeterminate": 0,
+            "satisfied": 24,
+            "unavailable": 0,
+            "violated": 0
+          },
+          "valid_control": {
+            "indeterminate": 0,
+            "satisfied": 24,
+            "unavailable": 0,
+            "violated": 0
+          }
+        },
+        "radaccord": {
+          "correction": {
+            "indeterminate": 0,
+            "satisfied": 24,
+            "unavailable": 0,
+            "violated": 0
+          },
+          "fault": {
+            "indeterminate": 0,
+            "satisfied": 0,
+            "unavailable": 0,
+            "violated": 24
+          },
+          "valid_control": {
+            "indeterminate": 0,
+            "satisfied": 24,
+            "unavailable": 0,
+            "violated": 0
+          }
+        },
+        "source_aware_geometry": {
+          "correction": {
+            "indeterminate": 0,
+            "satisfied": 24,
+            "unavailable": 0,
+            "violated": 0
+          },
+          "fault": {
+            "indeterminate": 0,
+            "satisfied": 12,
+            "unavailable": 0,
+            "violated": 12
+          },
+          "valid_control": {
+            "indeterminate": 0,
+            "satisfied": 24,
+            "unavailable": 0,
+            "violated": 0
+          }
+        }
+      },
+      "engine": "mirp",
+      "intention_to_evaluate_tasks": 24,
+      "mode": "coverage",
+      "prepared_source_tasks": 24,
+      "recorded_tasks": 24,
+      "restored_relationships": 24,
+      "task_errors": 0
+    },
+    {
+      "active_faults": 24,
+      "collection": "Task06_Lung",
+      "comparators": {
+        "paired_geometry": {
+          "correction": {
+            "indeterminate": 0,
+            "satisfied": 24,
+            "unavailable": 0,
+            "violated": 0
+          },
+          "fault": {
+            "indeterminate": 0,
+            "satisfied": 24,
+            "unavailable": 0,
+            "violated": 0
+          },
+          "valid_control": {
+            "indeterminate": 0,
+            "satisfied": 24,
+            "unavailable": 0,
+            "violated": 0
+          }
+        },
+        "radaccord": {
+          "correction": {
+            "indeterminate": 0,
+            "satisfied": 24,
+            "unavailable": 0,
+            "violated": 0
+          },
+          "fault": {
+            "indeterminate": 0,
+            "satisfied": 0,
+            "unavailable": 0,
+            "violated": 24
+          },
+          "valid_control": {
+            "indeterminate": 0,
+            "satisfied": 24,
+            "unavailable": 0,
+            "violated": 0
+          }
+        },
+        "source_aware_geometry": {
+          "correction": {
+            "indeterminate": 0,
+            "satisfied": 24,
+            "unavailable": 0,
+            "violated": 0
+          },
+          "fault": {
+            "indeterminate": 0,
+            "satisfied": 12,
+            "unavailable": 0,
+            "violated": 12
+          },
+          "valid_control": {
+            "indeterminate": 0,
+            "satisfied": 24,
+            "unavailable": 0,
+            "violated": 0
+          }
+        }
+      },
+      "engine": "mirp",
+      "intention_to_evaluate_tasks": 24,
+      "mode": "coverage",
+      "prepared_source_tasks": 24,
+      "recorded_tasks": 24,
+      "restored_relationships": 24,
+      "task_errors": 0
+    }
+  ],
+  "groups": [
+    {
+      "attempted_pairs": 12,
+      "checkpoint_count": 36,
+      "checkpoint_outcomes": {
+        "indeterminate": 0,
+        "satisfied": 36,
+        "unavailable": 0,
+        "violated": 0
+      },
+      "collection": "Task02_Heart",
+      "completed_pairs": 12,
+      "engine": "pyradiomics",
+      "exact_preservation_pairs": 12,
+      "failed_recorded_pairs": 0,
+      "intention_to_evaluate_pairs": 12,
+      "mode": "coverage",
+      "native_planned_pairs": 12,
+      "not_native_planned_pairs": 0,
+      "prepared_volume_slots": 12,
+      "recorded_pairs": 12,
+      "relationship_outcomes": {
+        "indeterminate": 0,
+        "satisfied": 12,
+        "unavailable": 0,
+        "violated": 0
+      },
+      "reported_coverage_obligations": {
+        "satisfied": 36
+      },
+      "reported_reuse_obligations": {
+        "requires_reextraction": 36
+      },
+      "selected_volume_slots": 12,
+      "source_eligible_volume_slots": 12,
+      "source_or_preparation_outcomes": {
+        "prepared_and_verified": 12
+      },
+      "started_without_record_pairs": 0,
+      "unstarted_pairs": 0,
+      "workflow": "identity_mr"
+    },
+    {
+      "attempted_pairs": 12,
+      "checkpoint_count": 36,
+      "checkpoint_outcomes": {
+        "indeterminate": 24,
+        "satisfied": 0,
+        "unavailable": 12,
+        "violated": 0
+      },
+      "collection": "Task02_Heart",
+      "completed_pairs": 12,
+      "engine": "pyradiomics",
+      "exact_preservation_pairs": 12,
+      "failed_recorded_pairs": 0,
+      "intention_to_evaluate_pairs": 12,
+      "mode": "coverage",
+      "native_planned_pairs": 12,
+      "not_native_planned_pairs": 0,
+      "prepared_volume_slots": 12,
+      "recorded_pairs": 12,
+      "relationship_outcomes": {
+        "indeterminate": 0,
+        "satisfied": 0,
+        "unavailable": 12,
+        "violated": 0
+      },
+      "reported_coverage_obligations": {
+        "satisfied": 24
+      },
+      "reported_reuse_obligations": {
+        "blocked": 24
+      },
+      "selected_volume_slots": 12,
+      "source_eligible_volume_slots": 12,
+      "source_or_preparation_outcomes": {
+        "prepared_and_verified": 12
+      },
+      "started_without_record_pairs": 0,
+      "unstarted_pairs": 0,
+      "workflow": "linear_1p5_mr"
+    },
+    {
+      "attempted_pairs": 12,
+      "checkpoint_count": 36,
+      "checkpoint_outcomes": {
+        "indeterminate": 24,
+        "satisfied": 0,
+        "unavailable": 12,
+        "violated": 0
+      },
+      "collection": "Task02_Heart",
+      "completed_pairs": 12,
+      "engine": "pyradiomics",
+      "exact_preservation_pairs": 12,
+      "failed_recorded_pairs": 0,
+      "intention_to_evaluate_pairs": 12,
+      "mode": "coverage",
+      "native_planned_pairs": 12,
+      "not_native_planned_pairs": 0,
+      "prepared_volume_slots": 12,
+      "recorded_pairs": 12,
+      "relationship_outcomes": {
+        "indeterminate": 0,
+        "satisfied": 0,
+        "unavailable": 12,
+        "violated": 0
+      },
+      "reported_coverage_obligations": {
+        "satisfied": 24
+      },
+      "reported_reuse_obligations": {
+        "blocked": 24
+      },
+      "selected_volume_slots": 12,
+      "source_eligible_volume_slots": 12,
+      "source_or_preparation_outcomes": {
+        "prepared_and_verified": 12
+      },
+      "started_without_record_pairs": 0,
+      "unstarted_pairs": 0,
+      "workflow": "cubic_2_mr"
+    },
+    {
+      "attempted_pairs": 12,
+      "checkpoint_count": 36,
+      "checkpoint_outcomes": {
+        "indeterminate": 0,
+        "satisfied": 36,
+        "unavailable": 0,
+        "violated": 0
+      },
+      "collection": "Task06_Lung",
+      "completed_pairs": 12,
+      "engine": "pyradiomics",
+      "exact_preservation_pairs": 12,
+      "failed_recorded_pairs": 0,
+      "intention_to_evaluate_pairs": 12,
+      "mode": "coverage",
+      "native_planned_pairs": 12,
+      "not_native_planned_pairs": 0,
+      "prepared_volume_slots": 12,
+      "recorded_pairs": 12,
+      "relationship_outcomes": {
+        "indeterminate": 0,
+        "satisfied": 12,
+        "unavailable": 0,
+        "violated": 0
+      },
+      "reported_coverage_obligations": {
+        "satisfied": 36
+      },
+      "reported_reuse_obligations": {
+        "requires_reextraction": 36
+      },
+      "selected_volume_slots": 12,
+      "source_eligible_volume_slots": 12,
+      "source_or_preparation_outcomes": {
+        "prepared_and_verified": 12
+      },
+      "started_without_record_pairs": 0,
+      "unstarted_pairs": 0,
+      "workflow": "identity_ct"
+    },
+    {
+      "attempted_pairs": 12,
+      "checkpoint_count": 36,
+      "checkpoint_outcomes": {
+        "indeterminate": 8,
+        "satisfied": 24,
+        "unavailable": 4,
+        "violated": 0
+      },
+      "collection": "Task06_Lung",
+      "completed_pairs": 12,
+      "engine": "pyradiomics",
+      "exact_preservation_pairs": 12,
+      "failed_recorded_pairs": 0,
+      "intention_to_evaluate_pairs": 12,
+      "mode": "coverage",
+      "native_planned_pairs": 12,
+      "not_native_planned_pairs": 0,
+      "prepared_volume_slots": 12,
+      "recorded_pairs": 12,
+      "relationship_outcomes": {
+        "indeterminate": 0,
+        "satisfied": 8,
+        "unavailable": 4,
+        "violated": 0
+      },
+      "reported_coverage_obligations": {
+        "satisfied": 26,
+        "violated": 6
+      },
+      "reported_reuse_obligations": {
+        "blocked": 14,
+        "requires_reextraction": 18
+      },
+      "selected_volume_slots": 12,
+      "source_eligible_volume_slots": 12,
+      "source_or_preparation_outcomes": {
+        "prepared_and_verified": 12
+      },
+      "started_without_record_pairs": 0,
+      "unstarted_pairs": 0,
+      "workflow": "linear_1p5_ct"
+    },
+    {
+      "attempted_pairs": 12,
+      "checkpoint_count": 36,
+      "checkpoint_outcomes": {
+        "indeterminate": 10,
+        "satisfied": 21,
+        "unavailable": 5,
+        "violated": 0
+      },
+      "collection": "Task06_Lung",
+      "completed_pairs": 12,
+      "engine": "pyradiomics",
+      "exact_preservation_pairs": 12,
+      "failed_recorded_pairs": 0,
+      "intention_to_evaluate_pairs": 12,
+      "mode": "coverage",
+      "native_planned_pairs": 12,
+      "not_native_planned_pairs": 0,
+      "prepared_volume_slots": 12,
+      "recorded_pairs": 12,
+      "relationship_outcomes": {
+        "indeterminate": 0,
+        "satisfied": 7,
+        "unavailable": 5,
+        "violated": 0
+      },
+      "reported_coverage_obligations": {
+        "satisfied": 25,
+        "violated": 6
+      },
+      "reported_reuse_obligations": {
+        "blocked": 16,
+        "requires_reextraction": 15
+      },
+      "selected_volume_slots": 12,
+      "source_eligible_volume_slots": 12,
+      "source_or_preparation_outcomes": {
+        "prepared_and_verified": 12
+      },
+      "started_without_record_pairs": 0,
+      "unstarted_pairs": 0,
+      "workflow": "cubic_2_ct"
+    },
+    {
+      "attempted_pairs": 12,
+      "checkpoint_count": 24,
+      "checkpoint_outcomes": {
+        "indeterminate": 0,
+        "satisfied": 24,
+        "unavailable": 0,
+        "violated": 0
+      },
+      "collection": "Task02_Heart",
+      "completed_pairs": 12,
+      "engine": "mirp",
+      "exact_preservation_pairs": 12,
+      "failed_recorded_pairs": 0,
+      "intention_to_evaluate_pairs": 12,
+      "mode": "coverage",
+      "native_planned_pairs": 12,
+      "not_native_planned_pairs": 0,
+      "prepared_volume_slots": 12,
+      "recorded_pairs": 12,
+      "relationship_outcomes": {
+        "indeterminate": 0,
+        "satisfied": 12,
+        "unavailable": 0,
+        "violated": 0
+      },
+      "reported_coverage_obligations": {
+        "satisfied": 24
+      },
+      "reported_reuse_obligations": {
+        "requires_reextraction": 24
+      },
+      "selected_volume_slots": 12,
+      "source_eligible_volume_slots": 12,
+      "source_or_preparation_outcomes": {
+        "prepared_and_verified": 12
+      },
+      "started_without_record_pairs": 0,
+      "unstarted_pairs": 0,
+      "workflow": "identity_mr"
+    },
+    {
+      "attempted_pairs": 12,
+      "checkpoint_count": 24,
+      "checkpoint_outcomes": {
+        "indeterminate": 22,
+        "satisfied": 2,
+        "unavailable": 0,
+        "violated": 0
+      },
+      "collection": "Task02_Heart",
+      "completed_pairs": 12,
+      "engine": "mirp",
+      "exact_preservation_pairs": 12,
+      "failed_recorded_pairs": 0,
+      "intention_to_evaluate_pairs": 12,
+      "mode": "coverage",
+      "native_planned_pairs": 12,
+      "not_native_planned_pairs": 0,
+      "prepared_volume_slots": 12,
+      "recorded_pairs": 12,
+      "relationship_outcomes": {
+        "indeterminate": 11,
+        "satisfied": 1,
+        "unavailable": 0,
+        "violated": 0
+      },
+      "reported_coverage_obligations": {
+        "satisfied": 24
+      },
+      "reported_reuse_obligations": {
+        "blocked": 22,
+        "requires_reextraction": 2
+      },
+      "selected_volume_slots": 12,
+      "source_eligible_volume_slots": 12,
+      "source_or_preparation_outcomes": {
+        "prepared_and_verified": 12
+      },
+      "started_without_record_pairs": 0,
+      "unstarted_pairs": 0,
+      "workflow": "linear_1p5_mr"
+    },
+    {
+      "attempted_pairs": 12,
+      "checkpoint_count": 24,
+      "checkpoint_outcomes": {
+        "indeterminate": 24,
+        "satisfied": 0,
+        "unavailable": 0,
+        "violated": 0
+      },
+      "collection": "Task02_Heart",
+      "completed_pairs": 12,
+      "engine": "mirp",
+      "exact_preservation_pairs": 12,
+      "failed_recorded_pairs": 0,
+      "intention_to_evaluate_pairs": 12,
+      "mode": "coverage",
+      "native_planned_pairs": 12,
+      "not_native_planned_pairs": 0,
+      "prepared_volume_slots": 12,
+      "recorded_pairs": 12,
+      "relationship_outcomes": {
+        "indeterminate": 12,
+        "satisfied": 0,
+        "unavailable": 0,
+        "violated": 0
+      },
+      "reported_coverage_obligations": {
+        "satisfied": 24
+      },
+      "reported_reuse_obligations": {
+        "blocked": 24
+      },
+      "selected_volume_slots": 12,
+      "source_eligible_volume_slots": 12,
+      "source_or_preparation_outcomes": {
+        "prepared_and_verified": 12
+      },
+      "started_without_record_pairs": 0,
+      "unstarted_pairs": 0,
+      "workflow": "cubic_2_mr"
+    },
+    {
+      "attempted_pairs": 12,
+      "checkpoint_count": 24,
+      "checkpoint_outcomes": {
+        "indeterminate": 0,
+        "satisfied": 24,
+        "unavailable": 0,
+        "violated": 0
+      },
+      "collection": "Task06_Lung",
+      "completed_pairs": 12,
+      "engine": "mirp",
+      "exact_preservation_pairs": 12,
+      "failed_recorded_pairs": 0,
+      "intention_to_evaluate_pairs": 12,
+      "mode": "coverage",
+      "native_planned_pairs": 12,
+      "not_native_planned_pairs": 0,
+      "prepared_volume_slots": 12,
+      "recorded_pairs": 12,
+      "relationship_outcomes": {
+        "indeterminate": 0,
+        "satisfied": 12,
+        "unavailable": 0,
+        "violated": 0
+      },
+      "reported_coverage_obligations": {
+        "satisfied": 24
+      },
+      "reported_reuse_obligations": {
+        "requires_reextraction": 24
+      },
+      "selected_volume_slots": 12,
+      "source_eligible_volume_slots": 12,
+      "source_or_preparation_outcomes": {
+        "prepared_and_verified": 12
+      },
+      "started_without_record_pairs": 0,
+      "unstarted_pairs": 0,
+      "workflow": "identity_ct"
+    },
+    {
+      "attempted_pairs": 12,
+      "checkpoint_count": 24,
+      "checkpoint_outcomes": {
+        "indeterminate": 0,
+        "satisfied": 24,
+        "unavailable": 0,
+        "violated": 0
+      },
+      "collection": "Task06_Lung",
+      "completed_pairs": 12,
+      "engine": "mirp",
+      "exact_preservation_pairs": 12,
+      "failed_recorded_pairs": 0,
+      "intention_to_evaluate_pairs": 12,
+      "mode": "coverage",
+      "native_planned_pairs": 12,
+      "not_native_planned_pairs": 0,
+      "prepared_volume_slots": 12,
+      "recorded_pairs": 12,
+      "relationship_outcomes": {
+        "indeterminate": 0,
+        "satisfied": 12,
+        "unavailable": 0,
+        "violated": 0
+      },
+      "reported_coverage_obligations": {
+        "satisfied": 24
+      },
+      "reported_reuse_obligations": {
+        "requires_reextraction": 24
+      },
+      "selected_volume_slots": 12,
+      "source_eligible_volume_slots": 12,
+      "source_or_preparation_outcomes": {
+        "prepared_and_verified": 12
+      },
+      "started_without_record_pairs": 0,
+      "unstarted_pairs": 0,
+      "workflow": "linear_1p5_ct"
+    },
+    {
+      "attempted_pairs": 12,
+      "checkpoint_count": 24,
+      "checkpoint_outcomes": {
+        "indeterminate": 0,
+        "satisfied": 24,
+        "unavailable": 0,
+        "violated": 0
+      },
+      "collection": "Task06_Lung",
+      "completed_pairs": 12,
+      "engine": "mirp",
+      "exact_preservation_pairs": 12,
+      "failed_recorded_pairs": 0,
+      "intention_to_evaluate_pairs": 12,
+      "mode": "coverage",
+      "native_planned_pairs": 12,
+      "not_native_planned_pairs": 0,
+      "prepared_volume_slots": 12,
+      "recorded_pairs": 12,
+      "relationship_outcomes": {
+        "indeterminate": 0,
+        "satisfied": 12,
+        "unavailable": 0,
+        "violated": 0
+      },
+      "reported_coverage_obligations": {
+        "satisfied": 24
+      },
+      "reported_reuse_obligations": {
+        "requires_reextraction": 24
+      },
+      "selected_volume_slots": 12,
+      "source_eligible_volume_slots": 12,
+      "source_or_preparation_outcomes": {
+        "prepared_and_verified": 12
+      },
+      "started_without_record_pairs": 0,
+      "unstarted_pairs": 0,
+      "workflow": "cubic_2_ct"
+    },
+    {
+      "attempted_pairs": 16,
+      "checkpoint_count": 48,
+      "checkpoint_outcomes": {
+        "indeterminate": 0,
+        "satisfied": 48,
+        "unavailable": 0,
+        "violated": 0
+      },
+      "collection": "Task02_Heart",
+      "completed_pairs": 16,
+      "engine": "pyradiomics",
+      "exact_preservation_pairs": 16,
+      "failed_recorded_pairs": 0,
+      "intention_to_evaluate_pairs": 16,
+      "mode": "timing",
+      "native_planned_pairs": 16,
+      "not_native_planned_pairs": 0,
+      "prepared_volume_slots": 4,
+      "recorded_pairs": 16,
+      "relationship_outcomes": {
+        "indeterminate": 0,
+        "satisfied": 16,
+        "unavailable": 0,
+        "violated": 0
+      },
+      "reported_coverage_obligations": {
+        "satisfied": 48
+      },
+      "reported_reuse_obligations": {
+        "requires_reextraction": 48
+      },
+      "selected_volume_slots": 4,
+      "source_eligible_volume_slots": 4,
+      "source_or_preparation_outcomes": {
+        "prepared_and_verified": 4
+      },
+      "started_without_record_pairs": 0,
+      "unstarted_pairs": 0,
+      "volume_medians": {
+        "absolute_overhead_seconds": {
+          "maximum": 0.4532103500005178,
+          "median": 0.39001979999920877,
+          "minimum": 0.22640359999786597,
+          "n": 4,
+          "q1": 0.34606823749936666,
+          "q3": 0.40886494999904244
+        },
+        "audited_seconds": {
+          "maximum": 0.7045485500020732,
+          "median": 0.6517182249990583,
+          "minimum": 0.375614949998635,
+          "n": 4,
+          "q1": 0.5764901499992447,
+          "q3": 0.6711280624995197
+        },
+        "baseline_seconds": {
+          "maximum": 0.26590475000011793,
+          "median": 0.255028399999901,
+          "minimum": 0.14894364999963727,
+          "n": 4,
+          "q1": 0.2265462625005057,
+          "q3": 0.25970843749928463
+        },
+        "pair_lifetime_peak_bytes": {
+          "maximum": 125095936.0,
+          "median": 122835968.0,
+          "minimum": 116307968.0,
+          "n": 4,
+          "q1": 121180160.0,
+          "q3": 123424768.0
+        },
+        "paired_log_ratio": {
+          "maximum": 1.0318450955929583,
+          "median": 0.9200695441760425,
+          "minimum": 0.9104468229067297,
+          "n": 4,
+          "q1": 0.9145024367722814,
+          "q3": 0.9511748591167043
+        }
+      },
+      "warmup_exact_preservation_pairs": 16,
+      "warmup_pairs_completed": 16,
+      "workflow": "identity_mr"
+    },
+    {
+      "attempted_pairs": 16,
+      "checkpoint_count": 48,
+      "checkpoint_outcomes": {
+        "indeterminate": 32,
+        "satisfied": 0,
+        "unavailable": 16,
+        "violated": 0
+      },
+      "collection": "Task02_Heart",
+      "completed_pairs": 16,
+      "engine": "pyradiomics",
+      "exact_preservation_pairs": 16,
+      "failed_recorded_pairs": 0,
+      "intention_to_evaluate_pairs": 16,
+      "mode": "timing",
+      "native_planned_pairs": 16,
+      "not_native_planned_pairs": 0,
+      "prepared_volume_slots": 4,
+      "recorded_pairs": 16,
+      "relationship_outcomes": {
+        "indeterminate": 0,
+        "satisfied": 0,
+        "unavailable": 16,
+        "violated": 0
+      },
+      "reported_coverage_obligations": {
+        "satisfied": 32
+      },
+      "reported_reuse_obligations": {
+        "blocked": 32
+      },
+      "selected_volume_slots": 4,
+      "source_eligible_volume_slots": 4,
+      "source_or_preparation_outcomes": {
+        "prepared_and_verified": 4
+      },
+      "started_without_record_pairs": 0,
+      "unstarted_pairs": 0,
+      "volume_medians": {
+        "absolute_overhead_seconds": {
+          "maximum": 19.31570080000165,
+          "median": 13.821254425000006,
+          "minimum": 7.925776800000676,
+          "n": 4,
+          "q1": 12.178671600000143,
+          "q3": 15.363579437500448
+        },
+        "audited_seconds": {
+          "maximum": 19.473103950000223,
+          "median": 13.965092925000135,
+          "minimum": 8.018419250000079,
+          "n": 4,
+          "q1": 12.31062803750001,
+          "q3": 15.509892150000269
+        },
+        "baseline_seconds": {
+          "maximum": 0.1574031499985722,
+          "median": 0.14363792499989358,
+          "minimum": 0.09377619999941089,
+          "n": 4,
+          "q1": 0.1304059750000306,
+          "q3": 0.14784574999930555
+        },
+        "pair_lifetime_peak_bytes": {
+          "maximum": 164007936.0,
+          "median": 152269824.0,
+          "minimum": 120156160.0,
+          "n": 4,
+          "q1": 144048640.0,
+          "q3": 155397120.0
+        },
+        "paired_log_ratio": {
+          "maximum": 4.857001359137756,
+          "median": 4.575523132597652,
+          "minimum": 4.4424816295626615,
+          "n": 4,
+          "q1": 4.523914389565361,
+          "q3": 4.664241056506222
+        }
+      },
+      "warmup_exact_preservation_pairs": 16,
+      "warmup_pairs_completed": 16,
+      "workflow": "cubic_2_mr"
+    },
+    {
+      "attempted_pairs": 16,
+      "checkpoint_count": 48,
+      "checkpoint_outcomes": {
+        "indeterminate": 0,
+        "satisfied": 48,
+        "unavailable": 0,
+        "violated": 0
+      },
+      "collection": "Task06_Lung",
+      "completed_pairs": 16,
+      "engine": "pyradiomics",
+      "exact_preservation_pairs": 16,
+      "failed_recorded_pairs": 0,
+      "intention_to_evaluate_pairs": 16,
+      "mode": "timing",
+      "native_planned_pairs": 16,
+      "not_native_planned_pairs": 0,
+      "prepared_volume_slots": 4,
+      "recorded_pairs": 16,
+      "relationship_outcomes": {
+        "indeterminate": 0,
+        "satisfied": 16,
+        "unavailable": 0,
+        "violated": 0
+      },
+      "reported_coverage_obligations": {
+        "satisfied": 48
+      },
+      "reported_reuse_obligations": {
+        "requires_reextraction": 48
+      },
+      "selected_volume_slots": 4,
+      "source_eligible_volume_slots": 4,
+      "source_or_preparation_outcomes": {
+        "prepared_and_verified": 4
+      },
+      "started_without_record_pairs": 0,
+      "unstarted_pairs": 0,
+      "volume_medians": {
+        "absolute_overhead_seconds": {
+          "maximum": 1.9332293500010564,
+          "median": 0.10915877499974158,
+          "minimum": 0.02629930000148306,
+          "n": 4,
+          "q1": 0.06770852499994362,
+          "q3": 0.5859118000003036
+        },
+        "audited_seconds": {
+          "maximum": 2.9466888000006293,
+          "median": 0.17513872500057914,
+          "minimum": 0.05651749999924505,
+          "n": 4,
+          "q1": 0.11585240000022168,
+          "q3": 0.8976572625006156
+        },
+        "baseline_seconds": {
+          "maximum": 1.0266307000001689,
+          "median": 0.06544027500058291,
+          "minimum": 0.030013299998245202,
+          "n": 4,
+          "q1": 0.0478406874999564,
+          "q3": 0.3144807250005215
+        },
+        "pair_lifetime_peak_bytes": {
+          "maximum": 174790656.0,
+          "median": 107079680.0,
+          "minimum": 82171904.0,
+          "n": 4,
+          "q1": 95998976.0,
+          "q3": 128861184.0
+        },
+        "paired_log_ratio": {
+          "maximum": 1.0383859678342686,
+          "median": 0.9650509548262005,
+          "minimum": 0.6164467108252898,
+          "n": 4,
+          "q1": 0.8431725364500302,
+          "q3": 1.0181120654541602
+        }
+      },
+      "warmup_exact_preservation_pairs": 16,
+      "warmup_pairs_completed": 16,
+      "workflow": "identity_ct"
+    },
+    {
+      "attempted_pairs": 16,
+      "checkpoint_count": 48,
+      "checkpoint_outcomes": {
+        "indeterminate": 16,
+        "satisfied": 24,
+        "unavailable": 8,
+        "violated": 0
+      },
+      "collection": "Task06_Lung",
+      "completed_pairs": 16,
+      "engine": "pyradiomics",
+      "exact_preservation_pairs": 16,
+      "failed_recorded_pairs": 0,
+      "intention_to_evaluate_pairs": 16,
+      "mode": "timing",
+      "native_planned_pairs": 16,
+      "not_native_planned_pairs": 0,
+      "prepared_volume_slots": 4,
+      "recorded_pairs": 16,
+      "relationship_outcomes": {
+        "indeterminate": 0,
+        "satisfied": 8,
+        "unavailable": 8,
+        "violated": 0
+      },
+      "reported_coverage_obligations": {
+        "satisfied": 32,
+        "violated": 8
+      },
+      "reported_reuse_obligations": {
+        "blocked": 24,
+        "requires_reextraction": 16
+      },
+      "selected_volume_slots": 4,
+      "source_eligible_volume_slots": 4,
+      "source_or_preparation_outcomes": {
+        "prepared_and_verified": 4
+      },
+      "started_without_record_pairs": 0,
+      "unstarted_pairs": 0,
+      "volume_medians": {
+        "absolute_overhead_seconds": {
+          "maximum": 30.445730600000388,
+          "median": 0.6576547750000827,
+          "minimum": 0.47282554999947024,
+          "n": 4,
+          "q1": 0.5214156125002773,
+          "q3": 8.194705587499811
+        },
+        "audited_seconds": {
+          "maximum": 30.680270450000535,
+          "median": 0.7028775250000763,
+          "minimum": 0.5200070999981108,
+          "n": 4,
+          "q1": 0.556361212500633,
+          "q3": 8.298024462499143
+        },
+        "baseline_seconds": {
+          "maximum": 0.2344589000022097,
+          "median": 0.052556049999111565,
+          "minimum": 0.03020470000046771,
+          "n": 4,
+          "q1": 0.041896900000210735,
+          "q3": 0.10310307499912597
+        },
+        "pair_lifetime_peak_bytes": {
+          "maximum": 276162560.0,
+          "median": 89668608.0,
+          "minimum": 78637056.0,
+          "n": 4,
+          "q1": 83544576.0,
+          "q3": 139658240.0
+        },
+        "paired_log_ratio": {
+          "maximum": 4.873470421819075,
+          "median": 2.791427750256629,
+          "minimum": 2.423353561021551,
+          "n": 4,
+          "q1": 2.591527852896957,
+          "q3": 3.419819768198143
+        }
+      },
+      "warmup_exact_preservation_pairs": 16,
+      "warmup_pairs_completed": 16,
+      "workflow": "cubic_2_ct"
+    },
+    {
+      "attempted_pairs": 16,
+      "checkpoint_count": 32,
+      "checkpoint_outcomes": {
+        "indeterminate": 0,
+        "satisfied": 32,
+        "unavailable": 0,
+        "violated": 0
+      },
+      "collection": "Task02_Heart",
+      "completed_pairs": 16,
+      "engine": "mirp",
+      "exact_preservation_pairs": 16,
+      "failed_recorded_pairs": 0,
+      "intention_to_evaluate_pairs": 16,
+      "mode": "timing",
+      "native_planned_pairs": 16,
+      "not_native_planned_pairs": 0,
+      "prepared_volume_slots": 4,
+      "recorded_pairs": 16,
+      "relationship_outcomes": {
+        "indeterminate": 0,
+        "satisfied": 16,
+        "unavailable": 0,
+        "violated": 0
+      },
+      "reported_coverage_obligations": {
+        "satisfied": 32
+      },
+      "reported_reuse_obligations": {
+        "requires_reextraction": 32
+      },
+      "selected_volume_slots": 4,
+      "source_eligible_volume_slots": 4,
+      "source_or_preparation_outcomes": {
+        "prepared_and_verified": 4
+      },
+      "started_without_record_pairs": 0,
+      "unstarted_pairs": 0,
+      "volume_medians": {
+        "absolute_overhead_seconds": {
+          "maximum": 0.8380544000010559,
+          "median": 0.36605305000102817,
+          "minimum": 0.21374260000084178,
+          "n": 4,
+          "q1": 0.31343788750018575,
+          "q3": 0.4985909375018309
+        },
+        "audited_seconds": {
+          "maximum": 9.919439549999879,
+          "median": 6.658300125001006,
+          "minimum": 4.784640600000785,
+          "n": 4,
+          "q1": 5.663149575000261,
+          "q3": 8.000320650001413
+        },
+        "baseline_seconds": {
+          "maximum": 9.081385149998823,
+          "median": 6.371361925000201,
+          "minimum": 4.43756140000005,
+          "n": 4,
+          "q1": 5.390423500000452,
+          "q3": 7.546356024999568
+        },
+        "pair_lifetime_peak_bytes": {
+          "maximum": 237699072.0,
+          "median": 224800768.0,
+          "minimum": 197984256.0,
+          "n": 4,
+          "q1": 217978368.0,
+          "q3": 228143616.0
+        },
+        "paired_log_ratio": {
+          "maximum": 0.09710398582404081,
+          "median": 0.06422222102854211,
+          "minimum": 0.03699467578013505,
+          "n": 4,
+          "q1": 0.04959295789384078,
+          "q3": 0.08026503905001636
+        }
+      },
+      "warmup_exact_preservation_pairs": 16,
+      "warmup_pairs_completed": 16,
+      "workflow": "identity_mr"
+    },
+    {
+      "attempted_pairs": 16,
+      "checkpoint_count": 32,
+      "checkpoint_outcomes": {
+        "indeterminate": 32,
+        "satisfied": 0,
+        "unavailable": 0,
+        "violated": 0
+      },
+      "collection": "Task02_Heart",
+      "completed_pairs": 16,
+      "engine": "mirp",
+      "exact_preservation_pairs": 16,
+      "failed_recorded_pairs": 0,
+      "intention_to_evaluate_pairs": 16,
+      "mode": "timing",
+      "native_planned_pairs": 16,
+      "not_native_planned_pairs": 0,
+      "prepared_volume_slots": 4,
+      "recorded_pairs": 16,
+      "relationship_outcomes": {
+        "indeterminate": 16,
+        "satisfied": 0,
+        "unavailable": 0,
+        "violated": 0
+      },
+      "reported_coverage_obligations": {
+        "satisfied": 32
+      },
+      "reported_reuse_obligations": {
+        "blocked": 32
+      },
+      "selected_volume_slots": 4,
+      "source_eligible_volume_slots": 4,
+      "source_or_preparation_outcomes": {
+        "prepared_and_verified": 4
+      },
+      "started_without_record_pairs": 0,
+      "unstarted_pairs": 0,
+      "volume_medians": {
+        "absolute_overhead_seconds": {
+          "maximum": 11.723292300001049,
+          "median": 10.605961550000757,
+          "minimum": 5.578181000000768,
+          "n": 4,
+          "q1": 8.663224250001349,
+          "q3": 11.57108640000024
+        },
+        "audited_seconds": {
+          "maximum": 18.40170399999988,
+          "median": 14.784904000000097,
+          "minimum": 9.69602455000313,
+          "n": 4,
+          "q1": 12.702607862501281,
+          "q3": 16.499180274999617
+        },
+        "baseline_seconds": {
+          "maximum": 6.678411699998833,
+          "median": 4.230128849999346,
+          "minimum": 4.0132302999991225,
+          "n": 4,
+          "q1": 4.069123974999911,
+          "q3": 4.948979799998597
+        },
+        "pair_lifetime_peak_bytes": {
+          "maximum": 275134464.0,
+          "median": 260701184.0,
+          "minimum": 218689536.0,
+          "n": 4,
+          "q1": 250140672.0,
+          "q3": 264367104.0
+        },
+        "paired_log_ratio": {
+          "maximum": 1.2281471544521843,
+          "median": 1.113582126701314,
+          "minimum": 0.8688093480032256,
+          "n": 4,
+          "q1": 0.9773616631511782,
+          "q3": 1.2172506525146451
+        }
+      },
+      "warmup_exact_preservation_pairs": 16,
+      "warmup_pairs_completed": 16,
+      "workflow": "cubic_2_mr"
+    },
+    {
+      "attempted_pairs": 16,
+      "checkpoint_count": 32,
+      "checkpoint_outcomes": {
+        "indeterminate": 0,
+        "satisfied": 32,
+        "unavailable": 0,
+        "violated": 0
+      },
+      "collection": "Task06_Lung",
+      "completed_pairs": 16,
+      "engine": "mirp",
+      "exact_preservation_pairs": 16,
+      "failed_recorded_pairs": 0,
+      "intention_to_evaluate_pairs": 16,
+      "mode": "timing",
+      "native_planned_pairs": 16,
+      "not_native_planned_pairs": 0,
+      "prepared_volume_slots": 4,
+      "recorded_pairs": 16,
+      "relationship_outcomes": {
+        "indeterminate": 0,
+        "satisfied": 16,
+        "unavailable": 0,
+        "violated": 0
+      },
+      "reported_coverage_obligations": {
+        "satisfied": 32
+      },
+      "reported_reuse_obligations": {
+        "requires_reextraction": 32
+      },
+      "selected_volume_slots": 4,
+      "source_eligible_volume_slots": 4,
+      "source_or_preparation_outcomes": {
+        "prepared_and_verified": 4
+      },
+      "started_without_record_pairs": 0,
+      "unstarted_pairs": 0,
+      "volume_medians": {
+        "absolute_overhead_seconds": {
+          "maximum": 1.3071171999981743,
+          "median": 0.08690119999937451,
+          "minimum": 0.03651444999741216,
+          "n": 4,
+          "q1": 0.06190524999919944,
+          "q3": 0.40435446249875895
+        },
+        "audited_seconds": {
+          "maximum": 19.038721099999748,
+          "median": 3.6313972250000006,
+          "minimum": 1.1702839999979915,
+          "n": 4,
+          "q1": 1.6675798624996787,
+          "q3": 8.831767249999757
+        },
+        "baseline_seconds": {
+          "maximum": 17.209199550001358,
+          "median": 3.542098625000108,
+          "minimum": 1.130761349999375,
+          "n": 4,
+          "q1": 1.5958478249995096,
+          "q3": 8.302290337500835
+        },
+        "pair_lifetime_peak_bytes": {
+          "maximum": 471478272.0,
+          "median": 187099136.0,
+          "minimum": 174514176.0,
+          "n": 4,
+          "q1": 178882560.0,
+          "q3": 263264256.0
+        },
+        "paired_log_ratio": {
+          "maximum": 0.08072473480477649,
+          "median": 0.035616536656610825,
+          "minimum": 0.01936516757058618,
+          "n": 4,
+          "q1": 0.028618678735457172,
+          "q3": 0.049828601843299736
+        }
+      },
+      "warmup_exact_preservation_pairs": 16,
+      "warmup_pairs_completed": 16,
+      "workflow": "identity_ct"
+    },
+    {
+      "attempted_pairs": 16,
+      "checkpoint_count": 32,
+      "checkpoint_outcomes": {
+        "indeterminate": 0,
+        "satisfied": 32,
+        "unavailable": 0,
+        "violated": 0
+      },
+      "collection": "Task06_Lung",
+      "completed_pairs": 16,
+      "engine": "mirp",
+      "exact_preservation_pairs": 16,
+      "failed_recorded_pairs": 0,
+      "intention_to_evaluate_pairs": 16,
+      "mode": "timing",
+      "native_planned_pairs": 16,
+      "not_native_planned_pairs": 0,
+      "prepared_volume_slots": 4,
+      "recorded_pairs": 16,
+      "relationship_outcomes": {
+        "indeterminate": 0,
+        "satisfied": 16,
+        "unavailable": 0,
+        "violated": 0
+      },
+      "reported_coverage_obligations": {
+        "satisfied": 32
+      },
+      "reported_reuse_obligations": {
+        "requires_reextraction": 32
+      },
+      "selected_volume_slots": 4,
+      "source_eligible_volume_slots": 4,
+      "source_or_preparation_outcomes": {
+        "prepared_and_verified": 4
+      },
+      "started_without_record_pairs": 0,
+      "unstarted_pairs": 0,
+      "volume_medians": {
+        "absolute_overhead_seconds": {
+          "maximum": 18.259634500001994,
+          "median": 1.158429499999329,
+          "minimum": 0.3291607999999542,
+          "n": 4,
+          "q1": 0.5672770624996701,
+          "q3": 5.81756601249981
+        },
+        "audited_seconds": {
+          "maximum": 28.69277200000215,
+          "median": 1.8027285750004012,
+          "minimum": 0.5132383500003925,
+          "n": 4,
+          "q1": 0.9514681500018014,
+          "q3": 9.054127299999436
+        },
+        "baseline_seconds": {
+          "maximum": 10.366068649998851,
+          "median": 0.6390408000015668,
+          "minimum": 0.18286819999957515,
+          "n": 4,
+          "q1": 0.3833226125007059,
+          "q3": 3.212472800001251
+        },
+        "pair_lifetime_peak_bytes": {
+          "maximum": 582465536.0,
+          "median": 190599168.0,
+          "minimum": 166449152.0,
+          "n": 4,
+          "q1": 178198016.0,
+          "q3": 294929408.0
+        },
+        "paired_log_ratio": {
+          "maximum": 1.1049141290354687,
+          "median": 1.0213504873991757,
+          "minimum": 0.8883464845002877,
+          "n": 4,
+          "q1": 0.9807470779819064,
+          "q3": 1.0495938065007964
+        }
+      },
+      "warmup_exact_preservation_pairs": 16,
+      "warmup_pairs_completed": 16,
+      "workflow": "cubic_2_ct"
+    }
+  ],
+  "plan_sha256": {
+    "coverage": "5cb2e34b41c2217f8dea91ddabd411f05478702b75222d530319826f0003a983",
+    "timing": "23822e1bf96b23eee769fb9221ed50a7a02f5c0448d71b85e08546090f0cf756"
+  },
+  "run_provenance": [
+    {
+      "attempt_starts_sha256": "dc9874b510b7a03d798ea7db208ed7663cbc3b7dbe8426797cc95b57fde6341c",
+      "engine": "mirp",
+      "freeze_sha256": "a6aa681e92833019bb13124d62e6094013ffd115384cc754c613a2e9afba2b37",
+      "mode": "coverage",
+      "plan_sha256": "5cb2e34b41c2217f8dea91ddabd411f05478702b75222d530319826f0003a983",
+      "records_sha256": "25cd77238c73504891d3e294430b1d214f94e6854e30d9adad439ecf75ddea0e"
+    },
+    {
+      "attempt_starts_sha256": "a703c2e3ce5a41e88a3d4bc460b6204e87c8177ece9ce616c9e283a6652a8bcd",
+      "engine": "pyradiomics",
+      "freeze_sha256": "a6aa681e92833019bb13124d62e6094013ffd115384cc754c613a2e9afba2b37",
+      "mode": "coverage",
+      "plan_sha256": "5cb2e34b41c2217f8dea91ddabd411f05478702b75222d530319826f0003a983",
+      "records_sha256": "1e3644988aee2552e1770ec7ff65de455ee56874130799102ae6fc729e9d9833"
+    },
+    {
+      "attempt_starts_sha256": "d7a7caf73c9b956228f15c3c1e55e3b0521e1bdce3ebb990c51095b7644137be",
+      "engine": "mirp",
+      "freeze_sha256": "2b22246a7e951b61f32359e11f59dbc15de66fee8a00b1f60960b04e6ea12627",
+      "mode": "timing",
+      "plan_sha256": "23822e1bf96b23eee769fb9221ed50a7a02f5c0448d71b85e08546090f0cf756",
+      "records_sha256": "d6549201f0b1af236a7178fac6811330675539d632cf559461728f8c0312d351"
+    },
+    {
+      "attempt_starts_sha256": "e44980db4ade5865acb5c25fbb32d47d6d62f2902107bbc66b6c0bab0c6b23c2",
+      "engine": "pyradiomics",
+      "freeze_sha256": "2b22246a7e951b61f32359e11f59dbc15de66fee8a00b1f60960b04e6ea12627",
+      "mode": "timing",
+      "plan_sha256": "23822e1bf96b23eee769fb9221ed50a7a02f5c0448d71b85e08546090f0cf756",
+      "records_sha256": "ebf834f11f36afaf883de28787527860901a624befadd027326e8fc7a440594f"
+    }
+  ],
+  "schema_version": "prospective-aggregate-1",
+  "scope": "Author-run computational evaluation. Volume-level medians are summarized without treating repeats as independent inputs. Missing or interrupted slots and selected exclusions remain visible. Constructed tasks and engine duplicates do not establish spontaneous error prevalence or clinical benefit.",
+  "volume_summaries": [
+    {
+      "collection": "Task02_Heart",
+      "completed": 1,
+      "engine": "pyradiomics",
+      "input_id": "Task02_Heart_la_003",
+      "mode": "coverage",
+      "orders": {
+        "AB": 1,
+        "BA": 0
+      },
+      "pair_lifetime_peak_bytes": {
+        "median": 119517184.0,
+        "n": 1,
+        "q1": 119517184.0,
+        "q3": 119517184.0
+      },
+      "planned": 1,
+      "relationship_outcomes": {
+        "indeterminate": 0,
+        "satisfied": 1,
+        "unavailable": 0,
+        "violated": 0
+      },
+      "unchanged": 1,
+      "workflow": "identity_mr"
+    },
+    {
+      "collection": "Task02_Heart",
+      "completed": 1,
+      "engine": "pyradiomics",
+      "input_id": "Task02_Heart_la_007",
+      "mode": "coverage",
+      "orders": {
+        "AB": 0,
+        "BA": 1
+      },
+      "pair_lifetime_peak_bytes": {
+        "median": 119312384.0,
+        "n": 1,
+        "q1": 119312384.0,
+        "q3": 119312384.0
+      },
+      "planned": 1,
+      "relationship_outcomes": {
+        "indeterminate": 0,
+        "satisfied": 1,
+        "unavailable": 0,
+        "violated": 0
+      },
+      "unchanged": 1,
+      "workflow": "identity_mr"
+    },
+    {
+      "collection": "Task02_Heart",
+      "completed": 1,
+      "engine": "pyradiomics",
+      "input_id": "Task02_Heart_la_009",
+      "mode": "coverage",
+      "orders": {
+        "AB": 0,
+        "BA": 1
+      },
+      "pair_lifetime_peak_bytes": {
+        "median": 121835520.0,
+        "n": 1,
+        "q1": 121835520.0,
+        "q3": 121835520.0
+      },
+      "planned": 1,
+      "relationship_outcomes": {
+        "indeterminate": 0,
+        "satisfied": 1,
+        "unavailable": 0,
+        "violated": 0
+      },
+      "unchanged": 1,
+      "workflow": "identity_mr"
+    },
+    {
+      "collection": "Task02_Heart",
+      "completed": 1,
+      "engine": "pyradiomics",
+      "input_id": "Task02_Heart_la_011",
+      "mode": "coverage",
+      "orders": {
+        "AB": 0,
+        "BA": 1
+      },
+      "pair_lifetime_peak_bytes": {
+        "median": 119156736.0,
+        "n": 1,
+        "q1": 119156736.0,
+        "q3": 119156736.0
+      },
+      "planned": 1,
+      "relationship_outcomes": {
+        "indeterminate": 0,
+        "satisfied": 1,
+        "unavailable": 0,
+        "violated": 0
+      },
+      "unchanged": 1,
+      "workflow": "identity_mr"
+    },
+    {
+      "collection": "Task02_Heart",
+      "completed": 1,
+      "engine": "pyradiomics",
+      "input_id": "Task02_Heart_la_014",
+      "mode": "coverage",
+      "orders": {
+        "AB": 0,
+        "BA": 1
+      },
+      "pair_lifetime_peak_bytes": {
+        "median": 120913920.0,
+        "n": 1,
+        "q1": 120913920.0,
+        "q3": 120913920.0
+      },
+      "planned": 1,
+      "relationship_outcomes": {
+        "indeterminate": 0,
+        "satisfied": 1,
+        "unavailable": 0,
+        "violated": 0
+      },
+      "unchanged": 1,
+      "workflow": "identity_mr"
+    },
+    {
+      "collection": "Task02_Heart",
+      "completed": 1,
+      "engine": "pyradiomics",
+      "input_id": "Task02_Heart_la_017",
+      "mode": "coverage",
+      "orders": {
+        "AB": 0,
+        "BA": 1
+      },
+      "pair_lifetime_peak_bytes": {
+        "median": 115859456.0,
+        "n": 1,
+        "q1": 115859456.0,
+        "q3": 115859456.0
+      },
+      "planned": 1,
+      "relationship_outcomes": {
+        "indeterminate": 0,
+        "satisfied": 1,
+        "unavailable": 0,
+        "violated": 0
+      },
+      "unchanged": 1,
+      "workflow": "identity_mr"
+    },
+    {
+      "collection": "Task02_Heart",
+      "completed": 1,
+      "engine": "pyradiomics",
+      "input_id": "Task02_Heart_la_020",
+      "mode": "coverage",
+      "orders": {
+        "AB": 0,
+        "BA": 1
+      },
+      "pair_lifetime_peak_bytes": {
+        "median": 115093504.0,
+        "n": 1,
+        "q1": 115093504.0,
+        "q3": 115093504.0
+      },
+      "planned": 1,
+      "relationship_outcomes": {
+        "indeterminate": 0,
+        "satisfied": 1,
+        "unavailable": 0,
+        "violated": 0
+      },
+      "unchanged": 1,
+      "workflow": "identity_mr"
+    },
+    {
+      "collection": "Task02_Heart",
+      "completed": 1,
+      "engine": "pyradiomics",
+      "input_id": "Task02_Heart_la_021",
+      "mode": "coverage",
+      "orders": {
+        "AB": 1,
+        "BA": 0
+      },
+      "pair_lifetime_peak_bytes": {
+        "median": 118403072.0,
+        "n": 1,
+        "q1": 118403072.0,
+        "q3": 118403072.0
+      },
+      "planned": 1,
+      "relationship_outcomes": {
+        "indeterminate": 0,
+        "satisfied": 1,
+        "unavailable": 0,
+        "violated": 0
+      },
+      "unchanged": 1,
+      "workflow": "identity_mr"
+    },
+    {
+      "collection": "Task02_Heart",
+      "completed": 1,
+      "engine": "pyradiomics",
+      "input_id": "Task02_Heart_la_023",
+      "mode": "coverage",
+      "orders": {
+        "AB": 0,
+        "BA": 1
+      },
+      "pair_lifetime_peak_bytes": {
+        "median": 116838400.0,
+        "n": 1,
+        "q1": 116838400.0,
+        "q3": 116838400.0
+      },
+      "planned": 1,
+      "relationship_outcomes": {
+        "indeterminate": 0,
+        "satisfied": 1,
+        "unavailable": 0,
+        "violated": 0
+      },
+      "unchanged": 1,
+      "workflow": "identity_mr"
+    },
+    {
+      "collection": "Task02_Heart",
+      "completed": 1,
+      "engine": "pyradiomics",
+      "input_id": "Task02_Heart_la_026",
+      "mode": "coverage",
+      "orders": {
+        "AB": 1,
+        "BA": 0
+      },
+      "pair_lifetime_peak_bytes": {
+        "median": 118177792.0,
+        "n": 1,
+        "q1": 118177792.0,
+        "q3": 118177792.0
+      },
+      "planned": 1,
+      "relationship_outcomes": {
+        "indeterminate": 0,
+        "satisfied": 1,
+        "unavailable": 0,
+        "violated": 0
+      },
+      "unchanged": 1,
+      "workflow": "identity_mr"
+    },
+    {
+      "collection": "Task02_Heart",
+      "completed": 1,
+      "engine": "pyradiomics",
+      "input_id": "Task02_Heart_la_029",
+      "mode": "coverage",
+      "orders": {
+        "AB": 1,
+        "BA": 0
+      },
+      "pair_lifetime_peak_bytes": {
+        "median": 114745344.0,
+        "n": 1,
+        "q1": 114745344.0,
+        "q3": 114745344.0
+      },
+      "planned": 1,
+      "relationship_outcomes": {
+        "indeterminate": 0,
+        "satisfied": 1,
+        "unavailable": 0,
+        "violated": 0
+      },
+      "unchanged": 1,
+      "workflow": "identity_mr"
+    },
+    {
+      "collection": "Task02_Heart",
+      "completed": 1,
+      "engine": "pyradiomics",
+      "input_id": "Task02_Heart_la_030",
+      "mode": "coverage",
+      "orders": {
+        "AB": 1,
+        "BA": 0
+      },
+      "pair_lifetime_peak_bytes": {
+        "median": 117633024.0,
+        "n": 1,
+        "q1": 117633024.0,
+        "q3": 117633024.0
+      },
+      "planned": 1,
+      "relationship_outcomes": {
+        "indeterminate": 0,
+        "satisfied": 1,
+        "unavailable": 0,
+        "violated": 0
+      },
+      "unchanged": 1,
+      "workflow": "identity_mr"
+    },
+    {
+      "collection": "Task02_Heart",
+      "completed": 1,
+      "engine": "pyradiomics",
+      "input_id": "Task02_Heart_la_003",
+      "mode": "coverage",
+      "orders": {
+        "AB": 0,
+        "BA": 1
+      },
+      "pair_lifetime_peak_bytes": {
+        "median": 135593984.0,
+        "n": 1,
+        "q1": 135593984.0,
+        "q3": 135593984.0
+      },
+      "planned": 1,
+      "relationship_outcomes": {
+        "indeterminate": 0,
+        "satisfied": 0,
+        "unavailable": 1,
+        "violated": 0
+      },
+      "unchanged": 1,
+      "workflow": "linear_1p5_mr"
+    },
+    {
+      "collection": "Task02_Heart",
+      "completed": 1,
+      "engine": "pyradiomics",
+      "input_id": "Task02_Heart_la_007",
+      "mode": "coverage",
+      "orders": {
+        "AB": 0,
+        "BA": 1
+      },
+      "pair_lifetime_peak_bytes": {
+        "median": 143622144.0,
+        "n": 1,
+        "q1": 143622144.0,
+        "q3": 143622144.0
+      },
+      "planned": 1,
+      "relationship_outcomes": {
+        "indeterminate": 0,
+        "satisfied": 0,
+        "unavailable": 1,
+        "violated": 0
+      },
+      "unchanged": 1,
+      "workflow": "linear_1p5_mr"
+    },
+    {
+      "collection": "Task02_Heart",
+      "completed": 1,
+      "engine": "pyradiomics",
+      "input_id": "Task02_Heart_la_009",
+      "mode": "coverage",
+      "orders": {
+        "AB": 0,
+        "BA": 1
+      },
+      "pair_lifetime_peak_bytes": {
+        "median": 152842240.0,
+        "n": 1,
+        "q1": 152842240.0,
+        "q3": 152842240.0
+      },
+      "planned": 1,
+      "relationship_outcomes": {
+        "indeterminate": 0,
+        "satisfied": 0,
+        "unavailable": 1,
+        "violated": 0
+      },
+      "unchanged": 1,
+      "workflow": "linear_1p5_mr"
+    },
+    {
+      "collection": "Task02_Heart",
+      "completed": 1,
+      "engine": "pyradiomics",
+      "input_id": "Task02_Heart_la_011",
+      "mode": "coverage",
+      "orders": {
+        "AB": 1,
+        "BA": 0
+      },
+      "pair_lifetime_peak_bytes": {
+        "median": 141590528.0,
+        "n": 1,
+        "q1": 141590528.0,
+        "q3": 141590528.0
+      },
+      "planned": 1,
+      "relationship_outcomes": {
+        "indeterminate": 0,
+        "satisfied": 0,
+        "unavailable": 1,
+        "violated": 0
+      },
+      "unchanged": 1,
+      "workflow": "linear_1p5_mr"
+    },
+    {
+      "collection": "Task02_Heart",
+      "completed": 1,
+      "engine": "pyradiomics",
+      "input_id": "Task02_Heart_la_014",
+      "mode": "coverage",
+      "orders": {
+        "AB": 1,
+        "BA": 0
+      },
+      "pair_lifetime_peak_bytes": {
+        "median": 145666048.0,
+        "n": 1,
+        "q1": 145666048.0,
+        "q3": 145666048.0
+      },
+      "planned": 1,
+      "relationship_outcomes": {
+        "indeterminate": 0,
+        "satisfied": 0,
+        "unavailable": 1,
+        "violated": 0
+      },
+      "unchanged": 1,
+      "workflow": "linear_1p5_mr"
+    },
+    {
+      "collection": "Task02_Heart",
+      "completed": 1,
+      "engine": "pyradiomics",
+      "input_id": "Task02_Heart_la_017",
+      "mode": "coverage",
+      "orders": {
+        "AB": 1,
+        "BA": 0
+      },
+      "pair_lifetime_peak_bytes": {
+        "median": 132399104.0,
+        "n": 1,
+        "q1": 132399104.0,
+        "q3": 132399104.0
+      },
+      "planned": 1,
+      "relationship_outcomes": {
+        "indeterminate": 0,
+        "satisfied": 0,
+        "unavailable": 1,
+        "violated": 0
+      },
+      "unchanged": 1,
+      "workflow": "linear_1p5_mr"
+    },
+    {
+      "collection": "Task02_Heart",
+      "completed": 1,
+      "engine": "pyradiomics",
+      "input_id": "Task02_Heart_la_020",
+      "mode": "coverage",
+      "orders": {
+        "AB": 1,
+        "BA": 0
+      },
+      "pair_lifetime_peak_bytes": {
+        "median": 130760704.0,
+        "n": 1,
+        "q1": 130760704.0,
+        "q3": 130760704.0
+      },
+      "planned": 1,
+      "relationship_outcomes": {
+        "indeterminate": 0,
+        "satisfied": 0,
+        "unavailable": 1,
+        "violated": 0
+      },
+      "unchanged": 1,
+      "workflow": "linear_1p5_mr"
+    },
+    {
+      "collection": "Task02_Heart",
+      "completed": 1,
+      "engine": "pyradiomics",
+      "input_id": "Task02_Heart_la_021",
+      "mode": "coverage",
+      "orders": {
+        "AB": 1,
+        "BA": 0
+      },
+      "pair_lifetime_peak_bytes": {
+        "median": 134246400.0,
+        "n": 1,
+        "q1": 134246400.0,
+        "q3": 134246400.0
+      },
+      "planned": 1,
+      "relationship_outcomes": {
+        "indeterminate": 0,
+        "satisfied": 0,
+        "unavailable": 1,
+        "violated": 0
+      },
+      "unchanged": 1,
+      "workflow": "linear_1p5_mr"
+    },
+    {
+      "collection": "Task02_Heart",
+      "completed": 1,
+      "engine": "pyradiomics",
+      "input_id": "Task02_Heart_la_023",
+      "mode": "coverage",
+      "orders": {
+        "AB": 0,
+        "BA": 1
+      },
+      "pair_lifetime_peak_bytes": {
+        "median": 132218880.0,
+        "n": 1,
+        "q1": 132218880.0,
+        "q3": 132218880.0
+      },
+      "planned": 1,
+      "relationship_outcomes": {
+        "indeterminate": 0,
+        "satisfied": 0,
+        "unavailable": 1,
+        "violated": 0
+      },
+      "unchanged": 1,
+      "workflow": "linear_1p5_mr"
+    },
+    {
+      "collection": "Task02_Heart",
+      "completed": 1,
+      "engine": "pyradiomics",
+      "input_id": "Task02_Heart_la_026",
+      "mode": "coverage",
+      "orders": {
+        "AB": 1,
+        "BA": 0
+      },
+      "pair_lifetime_peak_bytes": {
+        "median": 134029312.0,
+        "n": 1,
+        "q1": 134029312.0,
+        "q3": 134029312.0
+      },
+      "planned": 1,
+      "relationship_outcomes": {
+        "indeterminate": 0,
+        "satisfied": 0,
+        "unavailable": 1,
+        "violated": 0
+      },
+      "unchanged": 1,
+      "workflow": "linear_1p5_mr"
+    },
+    {
+      "collection": "Task02_Heart",
+      "completed": 1,
+      "engine": "pyradiomics",
+      "input_id": "Task02_Heart_la_029",
+      "mode": "coverage",
+      "orders": {
+        "AB": 1,
+        "BA": 0
+      },
+      "pair_lifetime_peak_bytes": {
+        "median": 129155072.0,
+        "n": 1,
+        "q1": 129155072.0,
+        "q3": 129155072.0
+      },
+      "planned": 1,
+      "relationship_outcomes": {
+        "indeterminate": 0,
+        "satisfied": 0,
+        "unavailable": 1,
+        "violated": 0
+      },
+      "unchanged": 1,
+      "workflow": "linear_1p5_mr"
+    },
+    {
+      "collection": "Task02_Heart",
+      "completed": 1,
+      "engine": "pyradiomics",
+      "input_id": "Task02_Heart_la_030",
+      "mode": "coverage",
+      "orders": {
+        "AB": 0,
+        "BA": 1
+      },
+      "pair_lifetime_peak_bytes": {
+        "median": 131657728.0,
+        "n": 1,
+        "q1": 131657728.0,
+        "q3": 131657728.0
+      },
+      "planned": 1,
+      "relationship_outcomes": {
+        "indeterminate": 0,
+        "satisfied": 0,
+        "unavailable": 1,
+        "violated": 0
+      },
+      "unchanged": 1,
+      "workflow": "linear_1p5_mr"
+    },
+    {
+      "collection": "Task02_Heart",
+      "completed": 1,
+      "engine": "pyradiomics",
+      "input_id": "Task02_Heart_la_003",
+      "mode": "coverage",
+      "orders": {
+        "AB": 0,
+        "BA": 1
+      },
+      "pair_lifetime_peak_bytes": {
+        "median": 140783616.0,
+        "n": 1,
+        "q1": 140783616.0,
+        "q3": 140783616.0
+      },
+      "planned": 1,
+      "relationship_outcomes": {
+        "indeterminate": 0,
+        "satisfied": 0,
+        "unavailable": 1,
+        "violated": 0
+      },
+      "unchanged": 1,
+      "workflow": "cubic_2_mr"
+    },
+    {
+      "collection": "Task02_Heart",
+      "completed": 1,
+      "engine": "pyradiomics",
+      "input_id": "Task02_Heart_la_007",
+      "mode": "coverage",
+      "orders": {
+        "AB": 1,
+        "BA": 0
+      },
+      "pair_lifetime_peak_bytes": {
+        "median": 149929984.0,
+        "n": 1,
+        "q1": 149929984.0,
+        "q3": 149929984.0
+      },
+      "planned": 1,
+      "relationship_outcomes": {
+        "indeterminate": 0,
+        "satisfied": 0,
+        "unavailable": 1,
+        "violated": 0
+      },
+      "unchanged": 1,
+      "workflow": "cubic_2_mr"
+    },
+    {
+      "collection": "Task02_Heart",
+      "completed": 1,
+      "engine": "pyradiomics",
+      "input_id": "Task02_Heart_la_009",
+      "mode": "coverage",
+      "orders": {
+        "AB": 0,
+        "BA": 1
+      },
+      "pair_lifetime_peak_bytes": {
+        "median": 160604160.0,
+        "n": 1,
+        "q1": 160604160.0,
+        "q3": 160604160.0
+      },
+      "planned": 1,
+      "relationship_outcomes": {
+        "indeterminate": 0,
+        "satisfied": 0,
+        "unavailable": 1,
+        "violated": 0
+      },
+      "unchanged": 1,
+      "workflow": "cubic_2_mr"
+    },
+    {
+      "collection": "Task02_Heart",
+      "completed": 1,
+      "engine": "pyradiomics",
+      "input_id": "Task02_Heart_la_011",
+      "mode": "coverage",
+      "orders": {
+        "AB": 0,
+        "BA": 1
+      },
+      "pair_lifetime_peak_bytes": {
+        "median": 145383424.0,
+        "n": 1,
+        "q1": 145383424.0,
+        "q3": 145383424.0
+      },
+      "planned": 1,
+      "relationship_outcomes": {
+        "indeterminate": 0,
+        "satisfied": 0,
+        "unavailable": 1,
+        "violated": 0
+      },
+      "unchanged": 1,
+      "workflow": "cubic_2_mr"
+    },
+    {
+      "collection": "Task02_Heart",
+      "completed": 1,
+      "engine": "pyradiomics",
+      "input_id": "Task02_Heart_la_014",
+      "mode": "coverage",
+      "orders": {
+        "AB": 0,
+        "BA": 1
+      },
+      "pair_lifetime_peak_bytes": {
+        "median": 149356544.0,
+        "n": 1,
+        "q1": 149356544.0,
+        "q3": 149356544.0
+      },
+      "planned": 1,
+      "relationship_outcomes": {
+        "indeterminate": 0,
+        "satisfied": 0,
+        "unavailable": 1,
+        "violated": 0
+      },
+      "unchanged": 1,
+      "workflow": "cubic_2_mr"
+    },
+    {
+      "collection": "Task02_Heart",
+      "completed": 1,
+      "engine": "pyradiomics",
+      "input_id": "Task02_Heart_la_017",
+      "mode": "coverage",
+      "orders": {
+        "AB": 1,
+        "BA": 0
+      },
+      "pair_lifetime_peak_bytes": {
+        "median": 128569344.0,
+        "n": 1,
+        "q1": 128569344.0,
+        "q3": 128569344.0
+      },
+      "planned": 1,
+      "relationship_outcomes": {
+        "indeterminate": 0,
+        "satisfied": 0,
+        "unavailable": 1,
+        "violated": 0
+      },
+      "unchanged": 1,
+      "workflow": "cubic_2_mr"
+    },
+    {
+      "collection": "Task02_Heart",
+      "completed": 1,
+      "engine": "pyradiomics",
+      "input_id": "Task02_Heart_la_020",
+      "mode": "coverage",
+      "orders": {
+        "AB": 1,
+        "BA": 0
+      },
+      "pair_lifetime_peak_bytes": {
+        "median": 124715008.0,
+        "n": 1,
+        "q1": 124715008.0,
+        "q3": 124715008.0
+      },
+      "planned": 1,
+      "relationship_outcomes": {
+        "indeterminate": 0,
+        "satisfied": 0,
+        "unavailable": 1,
+        "violated": 0
+      },
+      "unchanged": 1,
+      "workflow": "cubic_2_mr"
+    },
+    {
+      "collection": "Task02_Heart",
+      "completed": 1,
+      "engine": "pyradiomics",
+      "input_id": "Task02_Heart_la_021",
+      "mode": "coverage",
+      "orders": {
+        "AB": 1,
+        "BA": 0
+      },
+      "pair_lifetime_peak_bytes": {
+        "median": 137994240.0,
+        "n": 1,
+        "q1": 137994240.0,
+        "q3": 137994240.0
+      },
+      "planned": 1,
+      "relationship_outcomes": {
+        "indeterminate": 0,
+        "satisfied": 0,
+        "unavailable": 1,
+        "violated": 0
+      },
+      "unchanged": 1,
+      "workflow": "cubic_2_mr"
+    },
+    {
+      "collection": "Task02_Heart",
+      "completed": 1,
+      "engine": "pyradiomics",
+      "input_id": "Task02_Heart_la_023",
+      "mode": "coverage",
+      "orders": {
+        "AB": 0,
+        "BA": 1
+      },
+      "pair_lifetime_peak_bytes": {
+        "median": 130211840.0,
+        "n": 1,
+        "q1": 130211840.0,
+        "q3": 130211840.0
+      },
+      "planned": 1,
+      "relationship_outcomes": {
+        "indeterminate": 0,
+        "satisfied": 0,
+        "unavailable": 1,
+        "violated": 0
+      },
+      "unchanged": 1,
+      "workflow": "cubic_2_mr"
+    },
+    {
+      "collection": "Task02_Heart",
+      "completed": 1,
+      "engine": "pyradiomics",
+      "input_id": "Task02_Heart_la_026",
+      "mode": "coverage",
+      "orders": {
+        "AB": 1,
+        "BA": 0
+      },
+      "pair_lifetime_peak_bytes": {
+        "median": 138297344.0,
+        "n": 1,
+        "q1": 138297344.0,
+        "q3": 138297344.0
+      },
+      "planned": 1,
+      "relationship_outcomes": {
+        "indeterminate": 0,
+        "satisfied": 0,
+        "unavailable": 1,
+        "violated": 0
+      },
+      "unchanged": 1,
+      "workflow": "cubic_2_mr"
+    },
+    {
+      "collection": "Task02_Heart",
+      "completed": 1,
+      "engine": "pyradiomics",
+      "input_id": "Task02_Heart_la_029",
+      "mode": "coverage",
+      "orders": {
+        "AB": 0,
+        "BA": 1
+      },
+      "pair_lifetime_peak_bytes": {
+        "median": 117612544.0,
+        "n": 1,
+        "q1": 117612544.0,
+        "q3": 117612544.0
+      },
+      "planned": 1,
+      "relationship_outcomes": {
+        "indeterminate": 0,
+        "satisfied": 0,
+        "unavailable": 1,
+        "violated": 0
+      },
+      "unchanged": 1,
+      "workflow": "cubic_2_mr"
+    },
+    {
+      "collection": "Task02_Heart",
+      "completed": 1,
+      "engine": "pyradiomics",
+      "input_id": "Task02_Heart_la_030",
+      "mode": "coverage",
+      "orders": {
+        "AB": 0,
+        "BA": 1
+      },
+      "pair_lifetime_peak_bytes": {
+        "median": 130465792.0,
+        "n": 1,
+        "q1": 130465792.0,
+        "q3": 130465792.0
+      },
+      "planned": 1,
+      "relationship_outcomes": {
+        "indeterminate": 0,
+        "satisfied": 0,
+        "unavailable": 1,
+        "violated": 0
+      },
+      "unchanged": 1,
+      "workflow": "cubic_2_mr"
+    },
+    {
+      "collection": "Task06_Lung",
+      "completed": 1,
+      "engine": "pyradiomics",
+      "input_id": "Task06_Lung_lung_020",
+      "mode": "coverage",
+      "orders": {
+        "AB": 0,
+        "BA": 1
+      },
+      "pair_lifetime_peak_bytes": {
+        "median": 110604288.0,
+        "n": 1,
+        "q1": 110604288.0,
+        "q3": 110604288.0
+      },
+      "planned": 1,
+      "relationship_outcomes": {
+        "indeterminate": 0,
+        "satisfied": 1,
+        "unavailable": 0,
+        "violated": 0
+      },
+      "unchanged": 1,
+      "workflow": "identity_ct"
+    },
+    {
+      "collection": "Task06_Lung",
+      "completed": 1,
+      "engine": "pyradiomics",
+      "input_id": "Task06_Lung_lung_025",
+      "mode": "coverage",
+      "orders": {
+        "AB": 1,
+        "BA": 0
+      },
+      "pair_lifetime_peak_bytes": {
+        "median": 112050176.0,
+        "n": 1,
+        "q1": 112050176.0,
+        "q3": 112050176.0
+      },
+      "planned": 1,
+      "relationship_outcomes": {
+        "indeterminate": 0,
+        "satisfied": 1,
+        "unavailable": 0,
+        "violated": 0
+      },
+      "unchanged": 1,
+      "workflow": "identity_ct"
+    },
+    {
+      "collection": "Task06_Lung",
+      "completed": 1,
+      "engine": "pyradiomics",
+      "input_id": "Task06_Lung_lung_028",
+      "mode": "coverage",
+      "orders": {
+        "AB": 1,
+        "BA": 0
+      },
+      "pair_lifetime_peak_bytes": {
+        "median": 141262848.0,
+        "n": 1,
+        "q1": 141262848.0,
+        "q3": 141262848.0
+      },
+      "planned": 1,
+      "relationship_outcomes": {
+        "indeterminate": 0,
+        "satisfied": 1,
+        "unavailable": 0,
+        "violated": 0
+      },
+      "unchanged": 1,
+      "workflow": "identity_ct"
+    },
+    {
+      "collection": "Task06_Lung",
+      "completed": 1,
+      "engine": "pyradiomics",
+      "input_id": "Task06_Lung_lung_029",
+      "mode": "coverage",
+      "orders": {
+        "AB": 0,
+        "BA": 1
+      },
+      "pair_lifetime_peak_bytes": {
+        "median": 98680832.0,
+        "n": 1,
+        "q1": 98680832.0,
+        "q3": 98680832.0
+      },
+      "planned": 1,
+      "relationship_outcomes": {
+        "indeterminate": 0,
+        "satisfied": 1,
+        "unavailable": 0,
+        "violated": 0
+      },
+      "unchanged": 1,
+      "workflow": "identity_ct"
+    },
+    {
+      "collection": "Task06_Lung",
+      "completed": 1,
+      "engine": "pyradiomics",
+      "input_id": "Task06_Lung_lung_037",
+      "mode": "coverage",
+      "orders": {
+        "AB": 0,
+        "BA": 1
+      },
+      "pair_lifetime_peak_bytes": {
+        "median": 80781312.0,
+        "n": 1,
+        "q1": 80781312.0,
+        "q3": 80781312.0
+      },
+      "planned": 1,
+      "relationship_outcomes": {
+        "indeterminate": 0,
+        "satisfied": 1,
+        "unavailable": 0,
+        "violated": 0
+      },
+      "unchanged": 1,
+      "workflow": "identity_ct"
+    },
+    {
+      "collection": "Task06_Lung",
+      "completed": 1,
+      "engine": "pyradiomics",
+      "input_id": "Task06_Lung_lung_038",
+      "mode": "coverage",
+      "orders": {
+        "AB": 1,
+        "BA": 0
+      },
+      "pair_lifetime_peak_bytes": {
+        "median": 103735296.0,
+        "n": 1,
+        "q1": 103735296.0,
+        "q3": 103735296.0
+      },
+      "planned": 1,
+      "relationship_outcomes": {
+        "indeterminate": 0,
+        "satisfied": 1,
+        "unavailable": 0,
+        "violated": 0
+      },
+      "unchanged": 1,
+      "workflow": "identity_ct"
+    },
+    {
+      "collection": "Task06_Lung",
+      "completed": 1,
+      "engine": "pyradiomics",
+      "input_id": "Task06_Lung_lung_069",
+      "mode": "coverage",
+      "orders": {
+        "AB": 0,
+        "BA": 1
+      },
+      "pair_lifetime_peak_bytes": {
+        "median": 91267072.0,
+        "n": 1,
+        "q1": 91267072.0,
+        "q3": 91267072.0
+      },
+      "planned": 1,
+      "relationship_outcomes": {
+        "indeterminate": 0,
+        "satisfied": 1,
+        "unavailable": 0,
+        "violated": 0
+      },
+      "unchanged": 1,
+      "workflow": "identity_ct"
+    },
+    {
+      "collection": "Task06_Lung",
+      "completed": 1,
+      "engine": "pyradiomics",
+      "input_id": "Task06_Lung_lung_070",
+      "mode": "coverage",
+      "orders": {
+        "AB": 0,
+        "BA": 1
+      },
+      "pair_lifetime_peak_bytes": {
+        "median": 99377152.0,
+        "n": 1,
+        "q1": 99377152.0,
+        "q3": 99377152.0
+      },
+      "planned": 1,
+      "relationship_outcomes": {
+        "indeterminate": 0,
+        "satisfied": 1,
+        "unavailable": 0,
+        "violated": 0
+      },
+      "unchanged": 1,
+      "workflow": "identity_ct"
+    },
+    {
+      "collection": "Task06_Lung",
+      "completed": 1,
+      "engine": "pyradiomics",
+      "input_id": "Task06_Lung_lung_073",
+      "mode": "coverage",
+      "orders": {
+        "AB": 1,
+        "BA": 0
+      },
+      "pair_lifetime_peak_bytes": {
+        "median": 123236352.0,
+        "n": 1,
+        "q1": 123236352.0,
+        "q3": 123236352.0
+      },
+      "planned": 1,
+      "relationship_outcomes": {
+        "indeterminate": 0,
+        "satisfied": 1,
+        "unavailable": 0,
+        "violated": 0
+      },
+      "unchanged": 1,
+      "workflow": "identity_ct"
+    },
+    {
+      "collection": "Task06_Lung",
+      "completed": 1,
+      "engine": "pyradiomics",
+      "input_id": "Task06_Lung_lung_074",
+      "mode": "coverage",
+      "orders": {
+        "AB": 0,
+        "BA": 1
+      },
+      "pair_lifetime_peak_bytes": {
+        "median": 164147200.0,
+        "n": 1,
+        "q1": 164147200.0,
+        "q3": 164147200.0
+      },
+      "planned": 1,
+      "relationship_outcomes": {
+        "indeterminate": 0,
+        "satisfied": 1,
+        "unavailable": 0,
+        "violated": 0
+      },
+      "unchanged": 1,
+      "workflow": "identity_ct"
+    },
+    {
+      "collection": "Task06_Lung",
+      "completed": 1,
+      "engine": "pyradiomics",
+      "input_id": "Task06_Lung_lung_078",
+      "mode": "coverage",
+      "orders": {
+        "AB": 0,
+        "BA": 1
+      },
+      "pair_lifetime_peak_bytes": {
+        "median": 111632384.0,
+        "n": 1,
+        "q1": 111632384.0,
+        "q3": 111632384.0
+      },
+      "planned": 1,
+      "relationship_outcomes": {
+        "indeterminate": 0,
+        "satisfied": 1,
+        "unavailable": 0,
+        "violated": 0
+      },
+      "unchanged": 1,
+      "workflow": "identity_ct"
+    },
+    {
+      "collection": "Task06_Lung",
+      "completed": 1,
+      "engine": "pyradiomics",
+      "input_id": "Task06_Lung_lung_095",
+      "mode": "coverage",
+      "orders": {
+        "AB": 0,
+        "BA": 1
+      },
+      "pair_lifetime_peak_bytes": {
+        "median": 111398912.0,
+        "n": 1,
+        "q1": 111398912.0,
+        "q3": 111398912.0
+      },
+      "planned": 1,
+      "relationship_outcomes": {
+        "indeterminate": 0,
+        "satisfied": 1,
+        "unavailable": 0,
+        "violated": 0
+      },
+      "unchanged": 1,
+      "workflow": "identity_ct"
+    },
+    {
+      "collection": "Task06_Lung",
+      "completed": 1,
+      "engine": "pyradiomics",
+      "input_id": "Task06_Lung_lung_020",
+      "mode": "coverage",
+      "orders": {
+        "AB": 0,
+        "BA": 1
+      },
+      "pair_lifetime_peak_bytes": {
+        "median": 87891968.0,
+        "n": 1,
+        "q1": 87891968.0,
+        "q3": 87891968.0
+      },
+      "planned": 1,
+      "relationship_outcomes": {
+        "indeterminate": 0,
+        "satisfied": 1,
+        "unavailable": 0,
+        "violated": 0
+      },
+      "unchanged": 1,
+      "workflow": "linear_1p5_ct"
+    },
+    {
+      "collection": "Task06_Lung",
+      "completed": 1,
+      "engine": "pyradiomics",
+      "input_id": "Task06_Lung_lung_025",
+      "mode": "coverage",
+      "orders": {
+        "AB": 1,
+        "BA": 0
+      },
+      "pair_lifetime_peak_bytes": {
+        "median": 87711744.0,
+        "n": 1,
+        "q1": 87711744.0,
+        "q3": 87711744.0
+      },
+      "planned": 1,
+      "relationship_outcomes": {
+        "indeterminate": 0,
+        "satisfied": 1,
+        "unavailable": 0,
+        "violated": 0
+      },
+      "unchanged": 1,
+      "workflow": "linear_1p5_ct"
+    },
+    {
+      "collection": "Task06_Lung",
+      "completed": 1,
+      "engine": "pyradiomics",
+      "input_id": "Task06_Lung_lung_028",
+      "mode": "coverage",
+      "orders": {
+        "AB": 1,
+        "BA": 0
+      },
+      "pair_lifetime_peak_bytes": {
+        "median": 197201920.0,
+        "n": 1,
+        "q1": 197201920.0,
+        "q3": 197201920.0
+      },
+      "planned": 1,
+      "relationship_outcomes": {
+        "indeterminate": 0,
+        "satisfied": 1,
+        "unavailable": 0,
+        "violated": 0
+      },
+      "unchanged": 1,
+      "workflow": "linear_1p5_ct"
+    },
+    {
+      "collection": "Task06_Lung",
+      "completed": 1,
+      "engine": "pyradiomics",
+      "input_id": "Task06_Lung_lung_029",
+      "mode": "coverage",
+      "orders": {
+        "AB": 1,
+        "BA": 0
+      },
+      "pair_lifetime_peak_bytes": {
+        "median": 84017152.0,
+        "n": 1,
+        "q1": 84017152.0,
+        "q3": 84017152.0
+      },
+      "planned": 1,
+      "relationship_outcomes": {
+        "indeterminate": 0,
+        "satisfied": 1,
+        "unavailable": 0,
+        "violated": 0
+      },
+      "unchanged": 1,
+      "workflow": "linear_1p5_ct"
+    },
+    {
+      "collection": "Task06_Lung",
+      "completed": 1,
+      "engine": "pyradiomics",
+      "input_id": "Task06_Lung_lung_037",
+      "mode": "coverage",
+      "orders": {
+        "AB": 1,
+        "BA": 0
+      },
+      "pair_lifetime_peak_bytes": {
+        "median": 77975552.0,
+        "n": 1,
+        "q1": 77975552.0,
+        "q3": 77975552.0
+      },
+      "planned": 1,
+      "relationship_outcomes": {
+        "indeterminate": 0,
+        "satisfied": 0,
+        "unavailable": 1,
+        "violated": 0
+      },
+      "unchanged": 1,
+      "workflow": "linear_1p5_ct"
+    },
+    {
+      "collection": "Task06_Lung",
+      "completed": 1,
+      "engine": "pyradiomics",
+      "input_id": "Task06_Lung_lung_038",
+      "mode": "coverage",
+      "orders": {
+        "AB": 1,
+        "BA": 0
+      },
+      "pair_lifetime_peak_bytes": {
+        "median": 91459584.0,
+        "n": 1,
+        "q1": 91459584.0,
+        "q3": 91459584.0
+      },
+      "planned": 1,
+      "relationship_outcomes": {
+        "indeterminate": 0,
+        "satisfied": 0,
+        "unavailable": 1,
+        "violated": 0
+      },
+      "unchanged": 1,
+      "workflow": "linear_1p5_ct"
+    },
+    {
+      "collection": "Task06_Lung",
+      "completed": 1,
+      "engine": "pyradiomics",
+      "input_id": "Task06_Lung_lung_069",
+      "mode": "coverage",
+      "orders": {
+        "AB": 0,
+        "BA": 1
+      },
+      "pair_lifetime_peak_bytes": {
+        "median": 80084992.0,
+        "n": 1,
+        "q1": 80084992.0,
+        "q3": 80084992.0
+      },
+      "planned": 1,
+      "relationship_outcomes": {
+        "indeterminate": 0,
+        "satisfied": 1,
+        "unavailable": 0,
+        "violated": 0
+      },
+      "unchanged": 1,
+      "workflow": "linear_1p5_ct"
+    },
+    {
+      "collection": "Task06_Lung",
+      "completed": 1,
+      "engine": "pyradiomics",
+      "input_id": "Task06_Lung_lung_070",
+      "mode": "coverage",
+      "orders": {
+        "AB": 1,
+        "BA": 0
+      },
+      "pair_lifetime_peak_bytes": {
+        "median": 84267008.0,
+        "n": 1,
+        "q1": 84267008.0,
+        "q3": 84267008.0
+      },
+      "planned": 1,
+      "relationship_outcomes": {
+        "indeterminate": 0,
+        "satisfied": 1,
+        "unavailable": 0,
+        "violated": 0
+      },
+      "unchanged": 1,
+      "workflow": "linear_1p5_ct"
+    },
+    {
+      "collection": "Task06_Lung",
+      "completed": 1,
+      "engine": "pyradiomics",
+      "input_id": "Task06_Lung_lung_073",
+      "mode": "coverage",
+      "orders": {
+        "AB": 1,
+        "BA": 0
+      },
+      "pair_lifetime_peak_bytes": {
+        "median": 122880000.0,
+        "n": 1,
+        "q1": 122880000.0,
+        "q3": 122880000.0
+      },
+      "planned": 1,
+      "relationship_outcomes": {
+        "indeterminate": 0,
+        "satisfied": 0,
+        "unavailable": 1,
+        "violated": 0
+      },
+      "unchanged": 1,
+      "workflow": "linear_1p5_ct"
+    },
+    {
+      "collection": "Task06_Lung",
+      "completed": 1,
+      "engine": "pyradiomics",
+      "input_id": "Task06_Lung_lung_074",
+      "mode": "coverage",
+      "orders": {
+        "AB": 0,
+        "BA": 1
+      },
+      "pair_lifetime_peak_bytes": {
+        "median": 236843008.0,
+        "n": 1,
+        "q1": 236843008.0,
+        "q3": 236843008.0
+      },
+      "planned": 1,
+      "relationship_outcomes": {
+        "indeterminate": 0,
+        "satisfied": 0,
+        "unavailable": 1,
+        "violated": 0
+      },
+      "unchanged": 1,
+      "workflow": "linear_1p5_ct"
+    },
+    {
+      "collection": "Task06_Lung",
+      "completed": 1,
+      "engine": "pyradiomics",
+      "input_id": "Task06_Lung_lung_078",
+      "mode": "coverage",
+      "orders": {
+        "AB": 1,
+        "BA": 0
+      },
+      "pair_lifetime_peak_bytes": {
+        "median": 94568448.0,
+        "n": 1,
+        "q1": 94568448.0,
+        "q3": 94568448.0
+      },
+      "planned": 1,
+      "relationship_outcomes": {
+        "indeterminate": 0,
+        "satisfied": 1,
+        "unavailable": 0,
+        "violated": 0
+      },
+      "unchanged": 1,
+      "workflow": "linear_1p5_ct"
+    },
+    {
+      "collection": "Task06_Lung",
+      "completed": 1,
+      "engine": "pyradiomics",
+      "input_id": "Task06_Lung_lung_095",
+      "mode": "coverage",
+      "orders": {
+        "AB": 1,
+        "BA": 0
+      },
+      "pair_lifetime_peak_bytes": {
+        "median": 91299840.0,
+        "n": 1,
+        "q1": 91299840.0,
+        "q3": 91299840.0
+      },
+      "planned": 1,
+      "relationship_outcomes": {
+        "indeterminate": 0,
+        "satisfied": 1,
+        "unavailable": 0,
+        "violated": 0
+      },
+      "unchanged": 1,
+      "workflow": "linear_1p5_ct"
+    },
+    {
+      "collection": "Task06_Lung",
+      "completed": 1,
+      "engine": "pyradiomics",
+      "input_id": "Task06_Lung_lung_020",
+      "mode": "coverage",
+      "orders": {
+        "AB": 0,
+        "BA": 1
+      },
+      "pair_lifetime_peak_bytes": {
+        "median": 88768512.0,
+        "n": 1,
+        "q1": 88768512.0,
+        "q3": 88768512.0
+      },
+      "planned": 1,
+      "relationship_outcomes": {
+        "indeterminate": 0,
+        "satisfied": 0,
+        "unavailable": 1,
+        "violated": 0
+      },
+      "unchanged": 1,
+      "workflow": "cubic_2_ct"
+    },
+    {
+      "collection": "Task06_Lung",
+      "completed": 1,
+      "engine": "pyradiomics",
+      "input_id": "Task06_Lung_lung_025",
+      "mode": "coverage",
+      "orders": {
+        "AB": 0,
+        "BA": 1
+      },
+      "pair_lifetime_peak_bytes": {
+        "median": 87429120.0,
+        "n": 1,
+        "q1": 87429120.0,
+        "q3": 87429120.0
+      },
+      "planned": 1,
+      "relationship_outcomes": {
+        "indeterminate": 0,
+        "satisfied": 1,
+        "unavailable": 0,
+        "violated": 0
+      },
+      "unchanged": 1,
+      "workflow": "cubic_2_ct"
+    },
+    {
+      "collection": "Task06_Lung",
+      "completed": 1,
+      "engine": "pyradiomics",
+      "input_id": "Task06_Lung_lung_028",
+      "mode": "coverage",
+      "orders": {
+        "AB": 1,
+        "BA": 0
+      },
+      "pair_lifetime_peak_bytes": {
+        "median": 214769664.0,
+        "n": 1,
+        "q1": 214769664.0,
+        "q3": 214769664.0
+      },
+      "planned": 1,
+      "relationship_outcomes": {
+        "indeterminate": 0,
+        "satisfied": 1,
+        "unavailable": 0,
+        "violated": 0
+      },
+      "unchanged": 1,
+      "workflow": "cubic_2_ct"
+    },
+    {
+      "collection": "Task06_Lung",
+      "completed": 1,
+      "engine": "pyradiomics",
+      "input_id": "Task06_Lung_lung_029",
+      "mode": "coverage",
+      "orders": {
+        "AB": 0,
+        "BA": 1
+      },
+      "pair_lifetime_peak_bytes": {
+        "median": 82927616.0,
+        "n": 1,
+        "q1": 82927616.0,
+        "q3": 82927616.0
+      },
+      "planned": 1,
+      "relationship_outcomes": {
+        "indeterminate": 0,
+        "satisfied": 1,
+        "unavailable": 0,
+        "violated": 0
+      },
+      "unchanged": 1,
+      "workflow": "cubic_2_ct"
+    },
+    {
+      "collection": "Task06_Lung",
+      "completed": 1,
+      "engine": "pyradiomics",
+      "input_id": "Task06_Lung_lung_037",
+      "mode": "coverage",
+      "orders": {
+        "AB": 1,
+        "BA": 0
+      },
+      "pair_lifetime_peak_bytes": {
+        "median": 78098432.0,
+        "n": 1,
+        "q1": 78098432.0,
+        "q3": 78098432.0
+      },
+      "planned": 1,
+      "relationship_outcomes": {
+        "indeterminate": 0,
+        "satisfied": 0,
+        "unavailable": 1,
+        "violated": 0
+      },
+      "unchanged": 1,
+      "workflow": "cubic_2_ct"
+    },
+    {
+      "collection": "Task06_Lung",
+      "completed": 1,
+      "engine": "pyradiomics",
+      "input_id": "Task06_Lung_lung_038",
+      "mode": "coverage",
+      "orders": {
+        "AB": 0,
+        "BA": 1
+      },
+      "pair_lifetime_peak_bytes": {
+        "median": 88387584.0,
+        "n": 1,
+        "q1": 88387584.0,
+        "q3": 88387584.0
+      },
+      "planned": 1,
+      "relationship_outcomes": {
+        "indeterminate": 0,
+        "satisfied": 0,
+        "unavailable": 1,
+        "violated": 0
+      },
+      "unchanged": 1,
+      "workflow": "cubic_2_ct"
+    },
+    {
+      "collection": "Task06_Lung",
+      "completed": 1,
+      "engine": "pyradiomics",
+      "input_id": "Task06_Lung_lung_069",
+      "mode": "coverage",
+      "orders": {
+        "AB": 0,
+        "BA": 1
+      },
+      "pair_lifetime_peak_bytes": {
+        "median": 79978496.0,
+        "n": 1,
+        "q1": 79978496.0,
+        "q3": 79978496.0
+      },
+      "planned": 1,
+      "relationship_outcomes": {
+        "indeterminate": 0,
+        "satisfied": 1,
+        "unavailable": 0,
+        "violated": 0
+      },
+      "unchanged": 1,
+      "workflow": "cubic_2_ct"
+    },
+    {
+      "collection": "Task06_Lung",
+      "completed": 1,
+      "engine": "pyradiomics",
+      "input_id": "Task06_Lung_lung_070",
+      "mode": "coverage",
+      "orders": {
+        "AB": 1,
+        "BA": 0
+      },
+      "pair_lifetime_peak_bytes": {
+        "median": 84586496.0,
+        "n": 1,
+        "q1": 84586496.0,
+        "q3": 84586496.0
+      },
+      "planned": 1,
+      "relationship_outcomes": {
+        "indeterminate": 0,
+        "satisfied": 1,
+        "unavailable": 0,
+        "violated": 0
+      },
+      "unchanged": 1,
+      "workflow": "cubic_2_ct"
+    },
+    {
+      "collection": "Task06_Lung",
+      "completed": 1,
+      "engine": "pyradiomics",
+      "input_id": "Task06_Lung_lung_073",
+      "mode": "coverage",
+      "orders": {
+        "AB": 1,
+        "BA": 0
+      },
+      "pair_lifetime_peak_bytes": {
+        "median": 130428928.0,
+        "n": 1,
+        "q1": 130428928.0,
+        "q3": 130428928.0
+      },
+      "planned": 1,
+      "relationship_outcomes": {
+        "indeterminate": 0,
+        "satisfied": 0,
+        "unavailable": 1,
+        "violated": 0
+      },
+      "unchanged": 1,
+      "workflow": "cubic_2_ct"
+    },
+    {
+      "collection": "Task06_Lung",
+      "completed": 1,
+      "engine": "pyradiomics",
+      "input_id": "Task06_Lung_lung_074",
+      "mode": "coverage",
+      "orders": {
+        "AB": 0,
+        "BA": 1
+      },
+      "pair_lifetime_peak_bytes": {
+        "median": 265555968.0,
+        "n": 1,
+        "q1": 265555968.0,
+        "q3": 265555968.0
+      },
+      "planned": 1,
+      "relationship_outcomes": {
+        "indeterminate": 0,
+        "satisfied": 0,
+        "unavailable": 1,
+        "violated": 0
+      },
+      "unchanged": 1,
+      "workflow": "cubic_2_ct"
+    },
+    {
+      "collection": "Task06_Lung",
+      "completed": 1,
+      "engine": "pyradiomics",
+      "input_id": "Task06_Lung_lung_078",
+      "mode": "coverage",
+      "orders": {
+        "AB": 0,
+        "BA": 1
+      },
+      "pair_lifetime_peak_bytes": {
+        "median": 94449664.0,
+        "n": 1,
+        "q1": 94449664.0,
+        "q3": 94449664.0
+      },
+      "planned": 1,
+      "relationship_outcomes": {
+        "indeterminate": 0,
+        "satisfied": 1,
+        "unavailable": 0,
+        "violated": 0
+      },
+      "unchanged": 1,
+      "workflow": "cubic_2_ct"
+    },
+    {
+      "collection": "Task06_Lung",
+      "completed": 1,
+      "engine": "pyradiomics",
+      "input_id": "Task06_Lung_lung_095",
+      "mode": "coverage",
+      "orders": {
+        "AB": 0,
+        "BA": 1
+      },
+      "pair_lifetime_peak_bytes": {
+        "median": 91308032.0,
+        "n": 1,
+        "q1": 91308032.0,
+        "q3": 91308032.0
+      },
+      "planned": 1,
+      "relationship_outcomes": {
+        "indeterminate": 0,
+        "satisfied": 1,
+        "unavailable": 0,
+        "violated": 0
+      },
+      "unchanged": 1,
+      "workflow": "cubic_2_ct"
+    },
+    {
+      "collection": "Task02_Heart",
+      "completed": 1,
+      "engine": "mirp",
+      "input_id": "Task02_Heart_la_003",
+      "mode": "coverage",
+      "orders": {
+        "AB": 1,
+        "BA": 0
+      },
+      "pair_lifetime_peak_bytes": {
+        "median": 219635712.0,
+        "n": 1,
+        "q1": 219635712.0,
+        "q3": 219635712.0
+      },
+      "planned": 1,
+      "relationship_outcomes": {
+        "indeterminate": 0,
+        "satisfied": 1,
+        "unavailable": 0,
+        "violated": 0
+      },
+      "unchanged": 1,
+      "workflow": "identity_mr"
+    },
+    {
+      "collection": "Task02_Heart",
+      "completed": 1,
+      "engine": "mirp",
+      "input_id": "Task02_Heart_la_007",
+      "mode": "coverage",
+      "orders": {
+        "AB": 0,
+        "BA": 1
+      },
+      "pair_lifetime_peak_bytes": {
+        "median": 221478912.0,
+        "n": 1,
+        "q1": 221478912.0,
+        "q3": 221478912.0
+      },
+      "planned": 1,
+      "relationship_outcomes": {
+        "indeterminate": 0,
+        "satisfied": 1,
+        "unavailable": 0,
+        "violated": 0
+      },
+      "unchanged": 1,
+      "workflow": "identity_mr"
+    },
+    {
+      "collection": "Task02_Heart",
+      "completed": 1,
+      "engine": "mirp",
+      "input_id": "Task02_Heart_la_009",
+      "mode": "coverage",
+      "orders": {
+        "AB": 0,
+        "BA": 1
+      },
+      "pair_lifetime_peak_bytes": {
+        "median": 234414080.0,
+        "n": 1,
+        "q1": 234414080.0,
+        "q3": 234414080.0
+      },
+      "planned": 1,
+      "relationship_outcomes": {
+        "indeterminate": 0,
+        "satisfied": 1,
+        "unavailable": 0,
+        "violated": 0
+      },
+      "unchanged": 1,
+      "workflow": "identity_mr"
+    },
+    {
+      "collection": "Task02_Heart",
+      "completed": 1,
+      "engine": "mirp",
+      "input_id": "Task02_Heart_la_011",
+      "mode": "coverage",
+      "orders": {
+        "AB": 0,
+        "BA": 1
+      },
+      "pair_lifetime_peak_bytes": {
+        "median": 218521600.0,
+        "n": 1,
+        "q1": 218521600.0,
+        "q3": 218521600.0
+      },
+      "planned": 1,
+      "relationship_outcomes": {
+        "indeterminate": 0,
+        "satisfied": 1,
+        "unavailable": 0,
+        "violated": 0
+      },
+      "unchanged": 1,
+      "workflow": "identity_mr"
+    },
+    {
+      "collection": "Task02_Heart",
+      "completed": 1,
+      "engine": "mirp",
+      "input_id": "Task02_Heart_la_014",
+      "mode": "coverage",
+      "orders": {
+        "AB": 0,
+        "BA": 1
+      },
+      "pair_lifetime_peak_bytes": {
+        "median": 222822400.0,
+        "n": 1,
+        "q1": 222822400.0,
+        "q3": 222822400.0
+      },
+      "planned": 1,
+      "relationship_outcomes": {
+        "indeterminate": 0,
+        "satisfied": 1,
+        "unavailable": 0,
+        "violated": 0
+      },
+      "unchanged": 1,
+      "workflow": "identity_mr"
+    },
+    {
+      "collection": "Task02_Heart",
+      "completed": 1,
+      "engine": "mirp",
+      "input_id": "Task02_Heart_la_017",
+      "mode": "coverage",
+      "orders": {
+        "AB": 0,
+        "BA": 1
+      },
+      "pair_lifetime_peak_bytes": {
+        "median": 204230656.0,
+        "n": 1,
+        "q1": 204230656.0,
+        "q3": 204230656.0
+      },
+      "planned": 1,
+      "relationship_outcomes": {
+        "indeterminate": 0,
+        "satisfied": 1,
+        "unavailable": 0,
+        "violated": 0
+      },
+      "unchanged": 1,
+      "workflow": "identity_mr"
+    },
+    {
+      "collection": "Task02_Heart",
+      "completed": 1,
+      "engine": "mirp",
+      "input_id": "Task02_Heart_la_020",
+      "mode": "coverage",
+      "orders": {
+        "AB": 0,
+        "BA": 1
+      },
+      "pair_lifetime_peak_bytes": {
+        "median": 198488064.0,
+        "n": 1,
+        "q1": 198488064.0,
+        "q3": 198488064.0
+      },
+      "planned": 1,
+      "relationship_outcomes": {
+        "indeterminate": 0,
+        "satisfied": 1,
+        "unavailable": 0,
+        "violated": 0
+      },
+      "unchanged": 1,
+      "workflow": "identity_mr"
+    },
+    {
+      "collection": "Task02_Heart",
+      "completed": 1,
+      "engine": "mirp",
+      "input_id": "Task02_Heart_la_021",
+      "mode": "coverage",
+      "orders": {
+        "AB": 1,
+        "BA": 0
+      },
+      "pair_lifetime_peak_bytes": {
+        "median": 212811776.0,
+        "n": 1,
+        "q1": 212811776.0,
+        "q3": 212811776.0
+      },
+      "planned": 1,
+      "relationship_outcomes": {
+        "indeterminate": 0,
+        "satisfied": 1,
+        "unavailable": 0,
+        "violated": 0
+      },
+      "unchanged": 1,
+      "workflow": "identity_mr"
+    },
+    {
+      "collection": "Task02_Heart",
+      "completed": 1,
+      "engine": "mirp",
+      "input_id": "Task02_Heart_la_023",
+      "mode": "coverage",
+      "orders": {
+        "AB": 0,
+        "BA": 1
+      },
+      "pair_lifetime_peak_bytes": {
+        "median": 206520320.0,
+        "n": 1,
+        "q1": 206520320.0,
+        "q3": 206520320.0
+      },
+      "planned": 1,
+      "relationship_outcomes": {
+        "indeterminate": 0,
+        "satisfied": 1,
+        "unavailable": 0,
+        "violated": 0
+      },
+      "unchanged": 1,
+      "workflow": "identity_mr"
+    },
+    {
+      "collection": "Task02_Heart",
+      "completed": 1,
+      "engine": "mirp",
+      "input_id": "Task02_Heart_la_026",
+      "mode": "coverage",
+      "orders": {
+        "AB": 1,
+        "BA": 0
+      },
+      "pair_lifetime_peak_bytes": {
+        "median": 214917120.0,
+        "n": 1,
+        "q1": 214917120.0,
+        "q3": 214917120.0
+      },
+      "planned": 1,
+      "relationship_outcomes": {
+        "indeterminate": 0,
+        "satisfied": 1,
+        "unavailable": 0,
+        "violated": 0
+      },
+      "unchanged": 1,
+      "workflow": "identity_mr"
+    },
+    {
+      "collection": "Task02_Heart",
+      "completed": 1,
+      "engine": "mirp",
+      "input_id": "Task02_Heart_la_029",
+      "mode": "coverage",
+      "orders": {
+        "AB": 1,
+        "BA": 0
+      },
+      "pair_lifetime_peak_bytes": {
+        "median": 196972544.0,
+        "n": 1,
+        "q1": 196972544.0,
+        "q3": 196972544.0
+      },
+      "planned": 1,
+      "relationship_outcomes": {
+        "indeterminate": 0,
+        "satisfied": 1,
+        "unavailable": 0,
+        "violated": 0
+      },
+      "unchanged": 1,
+      "workflow": "identity_mr"
+    },
+    {
+      "collection": "Task02_Heart",
+      "completed": 1,
+      "engine": "mirp",
+      "input_id": "Task02_Heart_la_030",
+      "mode": "coverage",
+      "orders": {
+        "AB": 1,
+        "BA": 0
+      },
+      "pair_lifetime_peak_bytes": {
+        "median": 208023552.0,
+        "n": 1,
+        "q1": 208023552.0,
+        "q3": 208023552.0
+      },
+      "planned": 1,
+      "relationship_outcomes": {
+        "indeterminate": 0,
+        "satisfied": 1,
+        "unavailable": 0,
+        "violated": 0
+      },
+      "unchanged": 1,
+      "workflow": "identity_mr"
+    },
+    {
+      "collection": "Task02_Heart",
+      "completed": 1,
+      "engine": "mirp",
+      "input_id": "Task02_Heart_la_003",
+      "mode": "coverage",
+      "orders": {
+        "AB": 0,
+        "BA": 1
+      },
+      "pair_lifetime_peak_bytes": {
+        "median": 232292352.0,
+        "n": 1,
+        "q1": 232292352.0,
+        "q3": 232292352.0
+      },
+      "planned": 1,
+      "relationship_outcomes": {
+        "indeterminate": 1,
+        "satisfied": 0,
+        "unavailable": 0,
+        "violated": 0
+      },
+      "unchanged": 1,
+      "workflow": "linear_1p5_mr"
+    },
+    {
+      "collection": "Task02_Heart",
+      "completed": 1,
+      "engine": "mirp",
+      "input_id": "Task02_Heart_la_007",
+      "mode": "coverage",
+      "orders": {
+        "AB": 0,
+        "BA": 1
+      },
+      "pair_lifetime_peak_bytes": {
+        "median": 240873472.0,
+        "n": 1,
+        "q1": 240873472.0,
+        "q3": 240873472.0
+      },
+      "planned": 1,
+      "relationship_outcomes": {
+        "indeterminate": 1,
+        "satisfied": 0,
+        "unavailable": 0,
+        "violated": 0
+      },
+      "unchanged": 1,
+      "workflow": "linear_1p5_mr"
+    },
+    {
+      "collection": "Task02_Heart",
+      "completed": 1,
+      "engine": "mirp",
+      "input_id": "Task02_Heart_la_009",
+      "mode": "coverage",
+      "orders": {
+        "AB": 0,
+        "BA": 1
+      },
+      "pair_lifetime_peak_bytes": {
+        "median": 248221696.0,
+        "n": 1,
+        "q1": 248221696.0,
+        "q3": 248221696.0
+      },
+      "planned": 1,
+      "relationship_outcomes": {
+        "indeterminate": 1,
+        "satisfied": 0,
+        "unavailable": 0,
+        "violated": 0
+      },
+      "unchanged": 1,
+      "workflow": "linear_1p5_mr"
+    },
+    {
+      "collection": "Task02_Heart",
+      "completed": 1,
+      "engine": "mirp",
+      "input_id": "Task02_Heart_la_011",
+      "mode": "coverage",
+      "orders": {
+        "AB": 1,
+        "BA": 0
+      },
+      "pair_lifetime_peak_bytes": {
+        "median": 243326976.0,
+        "n": 1,
+        "q1": 243326976.0,
+        "q3": 243326976.0
+      },
+      "planned": 1,
+      "relationship_outcomes": {
+        "indeterminate": 1,
+        "satisfied": 0,
+        "unavailable": 0,
+        "violated": 0
+      },
+      "unchanged": 1,
+      "workflow": "linear_1p5_mr"
+    },
+    {
+      "collection": "Task02_Heart",
+      "completed": 1,
+      "engine": "mirp",
+      "input_id": "Task02_Heart_la_014",
+      "mode": "coverage",
+      "orders": {
+        "AB": 1,
+        "BA": 0
+      },
+      "pair_lifetime_peak_bytes": {
+        "median": 245637120.0,
+        "n": 1,
+        "q1": 245637120.0,
+        "q3": 245637120.0
+      },
+      "planned": 1,
+      "relationship_outcomes": {
+        "indeterminate": 1,
+        "satisfied": 0,
+        "unavailable": 0,
+        "violated": 0
+      },
+      "unchanged": 1,
+      "workflow": "linear_1p5_mr"
+    },
+    {
+      "collection": "Task02_Heart",
+      "completed": 1,
+      "engine": "mirp",
+      "input_id": "Task02_Heart_la_017",
+      "mode": "coverage",
+      "orders": {
+        "AB": 1,
+        "BA": 0
+      },
+      "pair_lifetime_peak_bytes": {
+        "median": 223105024.0,
+        "n": 1,
+        "q1": 223105024.0,
+        "q3": 223105024.0
+      },
+      "planned": 1,
+      "relationship_outcomes": {
+        "indeterminate": 1,
+        "satisfied": 0,
+        "unavailable": 0,
+        "violated": 0
+      },
+      "unchanged": 1,
+      "workflow": "linear_1p5_mr"
+    },
+    {
+      "collection": "Task02_Heart",
+      "completed": 1,
+      "engine": "mirp",
+      "input_id": "Task02_Heart_la_020",
+      "mode": "coverage",
+      "orders": {
+        "AB": 1,
+        "BA": 0
+      },
+      "pair_lifetime_peak_bytes": {
+        "median": 221122560.0,
+        "n": 1,
+        "q1": 221122560.0,
+        "q3": 221122560.0
+      },
+      "planned": 1,
+      "relationship_outcomes": {
+        "indeterminate": 1,
+        "satisfied": 0,
+        "unavailable": 0,
+        "violated": 0
+      },
+      "unchanged": 1,
+      "workflow": "linear_1p5_mr"
+    },
+    {
+      "collection": "Task02_Heart",
+      "completed": 1,
+      "engine": "mirp",
+      "input_id": "Task02_Heart_la_021",
+      "mode": "coverage",
+      "orders": {
+        "AB": 1,
+        "BA": 0
+      },
+      "pair_lifetime_peak_bytes": {
+        "median": 230178816.0,
+        "n": 1,
+        "q1": 230178816.0,
+        "q3": 230178816.0
+      },
+      "planned": 1,
+      "relationship_outcomes": {
+        "indeterminate": 1,
+        "satisfied": 0,
+        "unavailable": 0,
+        "violated": 0
+      },
+      "unchanged": 1,
+      "workflow": "linear_1p5_mr"
+    },
+    {
+      "collection": "Task02_Heart",
+      "completed": 1,
+      "engine": "mirp",
+      "input_id": "Task02_Heart_la_023",
+      "mode": "coverage",
+      "orders": {
+        "AB": 0,
+        "BA": 1
+      },
+      "pair_lifetime_peak_bytes": {
+        "median": 222998528.0,
+        "n": 1,
+        "q1": 222998528.0,
+        "q3": 222998528.0
+      },
+      "planned": 1,
+      "relationship_outcomes": {
+        "indeterminate": 0,
+        "satisfied": 1,
+        "unavailable": 0,
+        "violated": 0
+      },
+      "unchanged": 1,
+      "workflow": "linear_1p5_mr"
+    },
+    {
+      "collection": "Task02_Heart",
+      "completed": 1,
+      "engine": "mirp",
+      "input_id": "Task02_Heart_la_026",
+      "mode": "coverage",
+      "orders": {
+        "AB": 1,
+        "BA": 0
+      },
+      "pair_lifetime_peak_bytes": {
+        "median": 229519360.0,
+        "n": 1,
+        "q1": 229519360.0,
+        "q3": 229519360.0
+      },
+      "planned": 1,
+      "relationship_outcomes": {
+        "indeterminate": 1,
+        "satisfied": 0,
+        "unavailable": 0,
+        "violated": 0
+      },
+      "unchanged": 1,
+      "workflow": "linear_1p5_mr"
+    },
+    {
+      "collection": "Task02_Heart",
+      "completed": 1,
+      "engine": "mirp",
+      "input_id": "Task02_Heart_la_029",
+      "mode": "coverage",
+      "orders": {
+        "AB": 1,
+        "BA": 0
+      },
+      "pair_lifetime_peak_bytes": {
+        "median": 218185728.0,
+        "n": 1,
+        "q1": 218185728.0,
+        "q3": 218185728.0
+      },
+      "planned": 1,
+      "relationship_outcomes": {
+        "indeterminate": 1,
+        "satisfied": 0,
+        "unavailable": 0,
+        "violated": 0
+      },
+      "unchanged": 1,
+      "workflow": "linear_1p5_mr"
+    },
+    {
+      "collection": "Task02_Heart",
+      "completed": 1,
+      "engine": "mirp",
+      "input_id": "Task02_Heart_la_030",
+      "mode": "coverage",
+      "orders": {
+        "AB": 0,
+        "BA": 1
+      },
+      "pair_lifetime_peak_bytes": {
+        "median": 222584832.0,
+        "n": 1,
+        "q1": 222584832.0,
+        "q3": 222584832.0
+      },
+      "planned": 1,
+      "relationship_outcomes": {
+        "indeterminate": 1,
+        "satisfied": 0,
+        "unavailable": 0,
+        "violated": 0
+      },
+      "unchanged": 1,
+      "workflow": "linear_1p5_mr"
+    },
+    {
+      "collection": "Task02_Heart",
+      "completed": 1,
+      "engine": "mirp",
+      "input_id": "Task02_Heart_la_003",
+      "mode": "coverage",
+      "orders": {
+        "AB": 0,
+        "BA": 1
+      },
+      "pair_lifetime_peak_bytes": {
+        "median": 246525952.0,
+        "n": 1,
+        "q1": 246525952.0,
+        "q3": 246525952.0
+      },
+      "planned": 1,
+      "relationship_outcomes": {
+        "indeterminate": 1,
+        "satisfied": 0,
+        "unavailable": 0,
+        "violated": 0
+      },
+      "unchanged": 1,
+      "workflow": "cubic_2_mr"
+    },
+    {
+      "collection": "Task02_Heart",
+      "completed": 1,
+      "engine": "mirp",
+      "input_id": "Task02_Heart_la_007",
+      "mode": "coverage",
+      "orders": {
+        "AB": 1,
+        "BA": 0
+      },
+      "pair_lifetime_peak_bytes": {
+        "median": 259948544.0,
+        "n": 1,
+        "q1": 259948544.0,
+        "q3": 259948544.0
+      },
+      "planned": 1,
+      "relationship_outcomes": {
+        "indeterminate": 1,
+        "satisfied": 0,
+        "unavailable": 0,
+        "violated": 0
+      },
+      "unchanged": 1,
+      "workflow": "cubic_2_mr"
+    },
+    {
+      "collection": "Task02_Heart",
+      "completed": 1,
+      "engine": "mirp",
+      "input_id": "Task02_Heart_la_009",
+      "mode": "coverage",
+      "orders": {
+        "AB": 0,
+        "BA": 1
+      },
+      "pair_lifetime_peak_bytes": {
+        "median": 270028800.0,
+        "n": 1,
+        "q1": 270028800.0,
+        "q3": 270028800.0
+      },
+      "planned": 1,
+      "relationship_outcomes": {
+        "indeterminate": 1,
+        "satisfied": 0,
+        "unavailable": 0,
+        "violated": 0
+      },
+      "unchanged": 1,
+      "workflow": "cubic_2_mr"
+    },
+    {
+      "collection": "Task02_Heart",
+      "completed": 1,
+      "engine": "mirp",
+      "input_id": "Task02_Heart_la_011",
+      "mode": "coverage",
+      "orders": {
+        "AB": 0,
+        "BA": 1
+      },
+      "pair_lifetime_peak_bytes": {
+        "median": 251219968.0,
+        "n": 1,
+        "q1": 251219968.0,
+        "q3": 251219968.0
+      },
+      "planned": 1,
+      "relationship_outcomes": {
+        "indeterminate": 1,
+        "satisfied": 0,
+        "unavailable": 0,
+        "violated": 0
+      },
+      "unchanged": 1,
+      "workflow": "cubic_2_mr"
+    },
+    {
+      "collection": "Task02_Heart",
+      "completed": 1,
+      "engine": "mirp",
+      "input_id": "Task02_Heart_la_014",
+      "mode": "coverage",
+      "orders": {
+        "AB": 0,
+        "BA": 1
+      },
+      "pair_lifetime_peak_bytes": {
+        "median": 256942080.0,
+        "n": 1,
+        "q1": 256942080.0,
+        "q3": 256942080.0
+      },
+      "planned": 1,
+      "relationship_outcomes": {
+        "indeterminate": 1,
+        "satisfied": 0,
+        "unavailable": 0,
+        "violated": 0
+      },
+      "unchanged": 1,
+      "workflow": "cubic_2_mr"
+    },
+    {
+      "collection": "Task02_Heart",
+      "completed": 1,
+      "engine": "mirp",
+      "input_id": "Task02_Heart_la_017",
+      "mode": "coverage",
+      "orders": {
+        "AB": 1,
+        "BA": 0
+      },
+      "pair_lifetime_peak_bytes": {
+        "median": 232177664.0,
+        "n": 1,
+        "q1": 232177664.0,
+        "q3": 232177664.0
+      },
+      "planned": 1,
+      "relationship_outcomes": {
+        "indeterminate": 1,
+        "satisfied": 0,
+        "unavailable": 0,
+        "violated": 0
+      },
+      "unchanged": 1,
+      "workflow": "cubic_2_mr"
+    },
+    {
+      "collection": "Task02_Heart",
+      "completed": 1,
+      "engine": "mirp",
+      "input_id": "Task02_Heart_la_020",
+      "mode": "coverage",
+      "orders": {
+        "AB": 1,
+        "BA": 0
+      },
+      "pair_lifetime_peak_bytes": {
+        "median": 225370112.0,
+        "n": 1,
+        "q1": 225370112.0,
+        "q3": 225370112.0
+      },
+      "planned": 1,
+      "relationship_outcomes": {
+        "indeterminate": 1,
+        "satisfied": 0,
+        "unavailable": 0,
+        "violated": 0
+      },
+      "unchanged": 1,
+      "workflow": "cubic_2_mr"
+    },
+    {
+      "collection": "Task02_Heart",
+      "completed": 1,
+      "engine": "mirp",
+      "input_id": "Task02_Heart_la_021",
+      "mode": "coverage",
+      "orders": {
+        "AB": 1,
+        "BA": 0
+      },
+      "pair_lifetime_peak_bytes": {
+        "median": 244203520.0,
+        "n": 1,
+        "q1": 244203520.0,
+        "q3": 244203520.0
+      },
+      "planned": 1,
+      "relationship_outcomes": {
+        "indeterminate": 1,
+        "satisfied": 0,
+        "unavailable": 0,
+        "violated": 0
+      },
+      "unchanged": 1,
+      "workflow": "cubic_2_mr"
+    },
+    {
+      "collection": "Task02_Heart",
+      "completed": 1,
+      "engine": "mirp",
+      "input_id": "Task02_Heart_la_023",
+      "mode": "coverage",
+      "orders": {
+        "AB": 0,
+        "BA": 1
+      },
+      "pair_lifetime_peak_bytes": {
+        "median": 232046592.0,
+        "n": 1,
+        "q1": 232046592.0,
+        "q3": 232046592.0
+      },
+      "planned": 1,
+      "relationship_outcomes": {
+        "indeterminate": 1,
+        "satisfied": 0,
+        "unavailable": 0,
+        "violated": 0
+      },
+      "unchanged": 1,
+      "workflow": "cubic_2_mr"
+    },
+    {
+      "collection": "Task02_Heart",
+      "completed": 1,
+      "engine": "mirp",
+      "input_id": "Task02_Heart_la_026",
+      "mode": "coverage",
+      "orders": {
+        "AB": 1,
+        "BA": 0
+      },
+      "pair_lifetime_peak_bytes": {
+        "median": 244162560.0,
+        "n": 1,
+        "q1": 244162560.0,
+        "q3": 244162560.0
+      },
+      "planned": 1,
+      "relationship_outcomes": {
+        "indeterminate": 1,
+        "satisfied": 0,
+        "unavailable": 0,
+        "violated": 0
+      },
+      "unchanged": 1,
+      "workflow": "cubic_2_mr"
+    },
+    {
+      "collection": "Task02_Heart",
+      "completed": 1,
+      "engine": "mirp",
+      "input_id": "Task02_Heart_la_029",
+      "mode": "coverage",
+      "orders": {
+        "AB": 0,
+        "BA": 1
+      },
+      "pair_lifetime_peak_bytes": {
+        "median": 216940544.0,
+        "n": 1,
+        "q1": 216940544.0,
+        "q3": 216940544.0
+      },
+      "planned": 1,
+      "relationship_outcomes": {
+        "indeterminate": 1,
+        "satisfied": 0,
+        "unavailable": 0,
+        "violated": 0
+      },
+      "unchanged": 1,
+      "workflow": "cubic_2_mr"
+    },
+    {
+      "collection": "Task02_Heart",
+      "completed": 1,
+      "engine": "mirp",
+      "input_id": "Task02_Heart_la_030",
+      "mode": "coverage",
+      "orders": {
+        "AB": 0,
+        "BA": 1
+      },
+      "pair_lifetime_peak_bytes": {
+        "median": 232710144.0,
+        "n": 1,
+        "q1": 232710144.0,
+        "q3": 232710144.0
+      },
+      "planned": 1,
+      "relationship_outcomes": {
+        "indeterminate": 1,
+        "satisfied": 0,
+        "unavailable": 0,
+        "violated": 0
+      },
+      "unchanged": 1,
+      "workflow": "cubic_2_mr"
+    },
+    {
+      "collection": "Task06_Lung",
+      "completed": 1,
+      "engine": "mirp",
+      "input_id": "Task06_Lung_lung_020",
+      "mode": "coverage",
+      "orders": {
+        "AB": 0,
+        "BA": 1
+      },
+      "pair_lifetime_peak_bytes": {
+        "median": 239194112.0,
+        "n": 1,
+        "q1": 239194112.0,
+        "q3": 239194112.0
+      },
+      "planned": 1,
+      "relationship_outcomes": {
+        "indeterminate": 0,
+        "satisfied": 1,
+        "unavailable": 0,
+        "violated": 0
+      },
+      "unchanged": 1,
+      "workflow": "identity_ct"
+    },
+    {
+      "collection": "Task06_Lung",
+      "completed": 1,
+      "engine": "mirp",
+      "input_id": "Task06_Lung_lung_025",
+      "mode": "coverage",
+      "orders": {
+        "AB": 1,
+        "BA": 0
+      },
+      "pair_lifetime_peak_bytes": {
+        "median": 195887104.0,
+        "n": 1,
+        "q1": 195887104.0,
+        "q3": 195887104.0
+      },
+      "planned": 1,
+      "relationship_outcomes": {
+        "indeterminate": 0,
+        "satisfied": 1,
+        "unavailable": 0,
+        "violated": 0
+      },
+      "unchanged": 1,
+      "workflow": "identity_ct"
+    },
+    {
+      "collection": "Task06_Lung",
+      "completed": 1,
+      "engine": "mirp",
+      "input_id": "Task06_Lung_lung_028",
+      "mode": "coverage",
+      "orders": {
+        "AB": 1,
+        "BA": 0
+      },
+      "pair_lifetime_peak_bytes": {
+        "median": 358256640.0,
+        "n": 1,
+        "q1": 358256640.0,
+        "q3": 358256640.0
+      },
+      "planned": 1,
+      "relationship_outcomes": {
+        "indeterminate": 0,
+        "satisfied": 1,
+        "unavailable": 0,
+        "violated": 0
+      },
+      "unchanged": 1,
+      "workflow": "identity_ct"
+    },
+    {
+      "collection": "Task06_Lung",
+      "completed": 1,
+      "engine": "mirp",
+      "input_id": "Task06_Lung_lung_029",
+      "mode": "coverage",
+      "orders": {
+        "AB": 0,
+        "BA": 1
+      },
+      "pair_lifetime_peak_bytes": {
+        "median": 179167232.0,
+        "n": 1,
+        "q1": 179167232.0,
+        "q3": 179167232.0
+      },
+      "planned": 1,
+      "relationship_outcomes": {
+        "indeterminate": 0,
+        "satisfied": 1,
+        "unavailable": 0,
+        "violated": 0
+      },
+      "unchanged": 1,
+      "workflow": "identity_ct"
+    },
+    {
+      "collection": "Task06_Lung",
+      "completed": 1,
+      "engine": "mirp",
+      "input_id": "Task06_Lung_lung_037",
+      "mode": "coverage",
+      "orders": {
+        "AB": 0,
+        "BA": 1
+      },
+      "pair_lifetime_peak_bytes": {
+        "median": 173662208.0,
+        "n": 1,
+        "q1": 173662208.0,
+        "q3": 173662208.0
+      },
+      "planned": 1,
+      "relationship_outcomes": {
+        "indeterminate": 0,
+        "satisfied": 1,
+        "unavailable": 0,
+        "violated": 0
+      },
+      "unchanged": 1,
+      "workflow": "identity_ct"
+    },
+    {
+      "collection": "Task06_Lung",
+      "completed": 1,
+      "engine": "mirp",
+      "input_id": "Task06_Lung_lung_038",
+      "mode": "coverage",
+      "orders": {
+        "AB": 1,
+        "BA": 0
+      },
+      "pair_lifetime_peak_bytes": {
+        "median": 183021568.0,
+        "n": 1,
+        "q1": 183021568.0,
+        "q3": 183021568.0
+      },
+      "planned": 1,
+      "relationship_outcomes": {
+        "indeterminate": 0,
+        "satisfied": 1,
+        "unavailable": 0,
+        "violated": 0
+      },
+      "unchanged": 1,
+      "workflow": "identity_ct"
+    },
+    {
+      "collection": "Task06_Lung",
+      "completed": 1,
+      "engine": "mirp",
+      "input_id": "Task06_Lung_lung_069",
+      "mode": "coverage",
+      "orders": {
+        "AB": 0,
+        "BA": 1
+      },
+      "pair_lifetime_peak_bytes": {
+        "median": 175153152.0,
+        "n": 1,
+        "q1": 175153152.0,
+        "q3": 175153152.0
+      },
+      "planned": 1,
+      "relationship_outcomes": {
+        "indeterminate": 0,
+        "satisfied": 1,
+        "unavailable": 0,
+        "violated": 0
+      },
+      "unchanged": 1,
+      "workflow": "identity_ct"
+    },
+    {
+      "collection": "Task06_Lung",
+      "completed": 1,
+      "engine": "mirp",
+      "input_id": "Task06_Lung_lung_070",
+      "mode": "coverage",
+      "orders": {
+        "AB": 0,
+        "BA": 1
+      },
+      "pair_lifetime_peak_bytes": {
+        "median": 184639488.0,
+        "n": 1,
+        "q1": 184639488.0,
+        "q3": 184639488.0
+      },
+      "planned": 1,
+      "relationship_outcomes": {
+        "indeterminate": 0,
+        "satisfied": 1,
+        "unavailable": 0,
+        "violated": 0
+      },
+      "unchanged": 1,
+      "workflow": "identity_ct"
+    },
+    {
+      "collection": "Task06_Lung",
+      "completed": 1,
+      "engine": "mirp",
+      "input_id": "Task06_Lung_lung_073",
+      "mode": "coverage",
+      "orders": {
+        "AB": 1,
+        "BA": 0
+      },
+      "pair_lifetime_peak_bytes": {
+        "median": 265658368.0,
+        "n": 1,
+        "q1": 265658368.0,
+        "q3": 265658368.0
+      },
+      "planned": 1,
+      "relationship_outcomes": {
+        "indeterminate": 0,
+        "satisfied": 1,
+        "unavailable": 0,
+        "violated": 0
+      },
+      "unchanged": 1,
+      "workflow": "identity_ct"
+    },
+    {
+      "collection": "Task06_Lung",
+      "completed": 1,
+      "engine": "mirp",
+      "input_id": "Task06_Lung_lung_074",
+      "mode": "coverage",
+      "orders": {
+        "AB": 0,
+        "BA": 1
+      },
+      "pair_lifetime_peak_bytes": {
+        "median": 469213184.0,
+        "n": 1,
+        "q1": 469213184.0,
+        "q3": 469213184.0
+      },
+      "planned": 1,
+      "relationship_outcomes": {
+        "indeterminate": 0,
+        "satisfied": 1,
+        "unavailable": 0,
+        "violated": 0
+      },
+      "unchanged": 1,
+      "workflow": "identity_ct"
+    },
+    {
+      "collection": "Task06_Lung",
+      "completed": 1,
+      "engine": "mirp",
+      "input_id": "Task06_Lung_lung_078",
+      "mode": "coverage",
+      "orders": {
+        "AB": 0,
+        "BA": 1
+      },
+      "pair_lifetime_peak_bytes": {
+        "median": 192851968.0,
+        "n": 1,
+        "q1": 192851968.0,
+        "q3": 192851968.0
+      },
+      "planned": 1,
+      "relationship_outcomes": {
+        "indeterminate": 0,
+        "satisfied": 1,
+        "unavailable": 0,
+        "violated": 0
+      },
+      "unchanged": 1,
+      "workflow": "identity_ct"
+    },
+    {
+      "collection": "Task06_Lung",
+      "completed": 1,
+      "engine": "mirp",
+      "input_id": "Task06_Lung_lung_095",
+      "mode": "coverage",
+      "orders": {
+        "AB": 0,
+        "BA": 1
+      },
+      "pair_lifetime_peak_bytes": {
+        "median": 191729664.0,
+        "n": 1,
+        "q1": 191729664.0,
+        "q3": 191729664.0
+      },
+      "planned": 1,
+      "relationship_outcomes": {
+        "indeterminate": 0,
+        "satisfied": 1,
+        "unavailable": 0,
+        "violated": 0
+      },
+      "unchanged": 1,
+      "workflow": "identity_ct"
+    },
+    {
+      "collection": "Task06_Lung",
+      "completed": 1,
+      "engine": "mirp",
+      "input_id": "Task06_Lung_lung_020",
+      "mode": "coverage",
+      "orders": {
+        "AB": 0,
+        "BA": 1
+      },
+      "pair_lifetime_peak_bytes": {
+        "median": 180809728.0,
+        "n": 1,
+        "q1": 180809728.0,
+        "q3": 180809728.0
+      },
+      "planned": 1,
+      "relationship_outcomes": {
+        "indeterminate": 0,
+        "satisfied": 1,
+        "unavailable": 0,
+        "violated": 0
+      },
+      "unchanged": 1,
+      "workflow": "linear_1p5_ct"
+    },
+    {
+      "collection": "Task06_Lung",
+      "completed": 1,
+      "engine": "mirp",
+      "input_id": "Task06_Lung_lung_025",
+      "mode": "coverage",
+      "orders": {
+        "AB": 1,
+        "BA": 0
+      },
+      "pair_lifetime_peak_bytes": {
+        "median": 178483200.0,
+        "n": 1,
+        "q1": 178483200.0,
+        "q3": 178483200.0
+      },
+      "planned": 1,
+      "relationship_outcomes": {
+        "indeterminate": 0,
+        "satisfied": 1,
+        "unavailable": 0,
+        "violated": 0
+      },
+      "unchanged": 1,
+      "workflow": "linear_1p5_ct"
+    },
+    {
+      "collection": "Task06_Lung",
+      "completed": 1,
+      "engine": "mirp",
+      "input_id": "Task06_Lung_lung_028",
+      "mode": "coverage",
+      "orders": {
+        "AB": 1,
+        "BA": 0
+      },
+      "pair_lifetime_peak_bytes": {
+        "median": 395071488.0,
+        "n": 1,
+        "q1": 395071488.0,
+        "q3": 395071488.0
+      },
+      "planned": 1,
+      "relationship_outcomes": {
+        "indeterminate": 0,
+        "satisfied": 1,
+        "unavailable": 0,
+        "violated": 0
+      },
+      "unchanged": 1,
+      "workflow": "linear_1p5_ct"
+    },
+    {
+      "collection": "Task06_Lung",
+      "completed": 1,
+      "engine": "mirp",
+      "input_id": "Task06_Lung_lung_029",
+      "mode": "coverage",
+      "orders": {
+        "AB": 1,
+        "BA": 0
+      },
+      "pair_lifetime_peak_bytes": {
+        "median": 169074688.0,
+        "n": 1,
+        "q1": 169074688.0,
+        "q3": 169074688.0
+      },
+      "planned": 1,
+      "relationship_outcomes": {
+        "indeterminate": 0,
+        "satisfied": 1,
+        "unavailable": 0,
+        "violated": 0
+      },
+      "unchanged": 1,
+      "workflow": "linear_1p5_ct"
+    },
+    {
+      "collection": "Task06_Lung",
+      "completed": 1,
+      "engine": "mirp",
+      "input_id": "Task06_Lung_lung_037",
+      "mode": "coverage",
+      "orders": {
+        "AB": 1,
+        "BA": 0
+      },
+      "pair_lifetime_peak_bytes": {
+        "median": 159158272.0,
+        "n": 1,
+        "q1": 159158272.0,
+        "q3": 159158272.0
+      },
+      "planned": 1,
+      "relationship_outcomes": {
+        "indeterminate": 0,
+        "satisfied": 1,
+        "unavailable": 0,
+        "violated": 0
+      },
+      "unchanged": 1,
+      "workflow": "linear_1p5_ct"
+    },
+    {
+      "collection": "Task06_Lung",
+      "completed": 1,
+      "engine": "mirp",
+      "input_id": "Task06_Lung_lung_038",
+      "mode": "coverage",
+      "orders": {
+        "AB": 1,
+        "BA": 0
+      },
+      "pair_lifetime_peak_bytes": {
+        "median": 177577984.0,
+        "n": 1,
+        "q1": 177577984.0,
+        "q3": 177577984.0
+      },
+      "planned": 1,
+      "relationship_outcomes": {
+        "indeterminate": 0,
+        "satisfied": 1,
+        "unavailable": 0,
+        "violated": 0
+      },
+      "unchanged": 1,
+      "workflow": "linear_1p5_ct"
+    },
+    {
+      "collection": "Task06_Lung",
+      "completed": 1,
+      "engine": "mirp",
+      "input_id": "Task06_Lung_lung_069",
+      "mode": "coverage",
+      "orders": {
+        "AB": 0,
+        "BA": 1
+      },
+      "pair_lifetime_peak_bytes": {
+        "median": 163946496.0,
+        "n": 1,
+        "q1": 163946496.0,
+        "q3": 163946496.0
+      },
+      "planned": 1,
+      "relationship_outcomes": {
+        "indeterminate": 0,
+        "satisfied": 1,
+        "unavailable": 0,
+        "violated": 0
+      },
+      "unchanged": 1,
+      "workflow": "linear_1p5_ct"
+    },
+    {
+      "collection": "Task06_Lung",
+      "completed": 1,
+      "engine": "mirp",
+      "input_id": "Task06_Lung_lung_070",
+      "mode": "coverage",
+      "orders": {
+        "AB": 1,
+        "BA": 0
+      },
+      "pair_lifetime_peak_bytes": {
+        "median": 171667456.0,
+        "n": 1,
+        "q1": 171667456.0,
+        "q3": 171667456.0
+      },
+      "planned": 1,
+      "relationship_outcomes": {
+        "indeterminate": 0,
+        "satisfied": 1,
+        "unavailable": 0,
+        "violated": 0
+      },
+      "unchanged": 1,
+      "workflow": "linear_1p5_ct"
+    },
+    {
+      "collection": "Task06_Lung",
+      "completed": 1,
+      "engine": "mirp",
+      "input_id": "Task06_Lung_lung_073",
+      "mode": "coverage",
+      "orders": {
+        "AB": 1,
+        "BA": 0
+      },
+      "pair_lifetime_peak_bytes": {
+        "median": 261001216.0,
+        "n": 1,
+        "q1": 261001216.0,
+        "q3": 261001216.0
+      },
+      "planned": 1,
+      "relationship_outcomes": {
+        "indeterminate": 0,
+        "satisfied": 1,
+        "unavailable": 0,
+        "violated": 0
+      },
+      "unchanged": 1,
+      "workflow": "linear_1p5_ct"
+    },
+    {
+      "collection": "Task06_Lung",
+      "completed": 1,
+      "engine": "mirp",
+      "input_id": "Task06_Lung_lung_074",
+      "mode": "coverage",
+      "orders": {
+        "AB": 0,
+        "BA": 1
+      },
+      "pair_lifetime_peak_bytes": {
+        "median": 522403840.0,
+        "n": 1,
+        "q1": 522403840.0,
+        "q3": 522403840.0
+      },
+      "planned": 1,
+      "relationship_outcomes": {
+        "indeterminate": 0,
+        "satisfied": 1,
+        "unavailable": 0,
+        "violated": 0
+      },
+      "unchanged": 1,
+      "workflow": "linear_1p5_ct"
+    },
+    {
+      "collection": "Task06_Lung",
+      "completed": 1,
+      "engine": "mirp",
+      "input_id": "Task06_Lung_lung_078",
+      "mode": "coverage",
+      "orders": {
+        "AB": 1,
+        "BA": 0
+      },
+      "pair_lifetime_peak_bytes": {
+        "median": 188981248.0,
+        "n": 1,
+        "q1": 188981248.0,
+        "q3": 188981248.0
+      },
+      "planned": 1,
+      "relationship_outcomes": {
+        "indeterminate": 0,
+        "satisfied": 1,
+        "unavailable": 0,
+        "violated": 0
+      },
+      "unchanged": 1,
+      "workflow": "linear_1p5_ct"
+    },
+    {
+      "collection": "Task06_Lung",
+      "completed": 1,
+      "engine": "mirp",
+      "input_id": "Task06_Lung_lung_095",
+      "mode": "coverage",
+      "orders": {
+        "AB": 1,
+        "BA": 0
+      },
+      "pair_lifetime_peak_bytes": {
+        "median": 184623104.0,
+        "n": 1,
+        "q1": 184623104.0,
+        "q3": 184623104.0
+      },
+      "planned": 1,
+      "relationship_outcomes": {
+        "indeterminate": 0,
+        "satisfied": 1,
+        "unavailable": 0,
+        "violated": 0
+      },
+      "unchanged": 1,
+      "workflow": "linear_1p5_ct"
+    },
+    {
+      "collection": "Task06_Lung",
+      "completed": 1,
+      "engine": "mirp",
+      "input_id": "Task06_Lung_lung_020",
+      "mode": "coverage",
+      "orders": {
+        "AB": 0,
+        "BA": 1
+      },
+      "pair_lifetime_peak_bytes": {
+        "median": 193875968.0,
+        "n": 1,
+        "q1": 193875968.0,
+        "q3": 193875968.0
+      },
+      "planned": 1,
+      "relationship_outcomes": {
+        "indeterminate": 0,
+        "satisfied": 1,
+        "unavailable": 0,
+        "violated": 0
+      },
+      "unchanged": 1,
+      "workflow": "cubic_2_ct"
+    },
+    {
+      "collection": "Task06_Lung",
+      "completed": 1,
+      "engine": "mirp",
+      "input_id": "Task06_Lung_lung_025",
+      "mode": "coverage",
+      "orders": {
+        "AB": 0,
+        "BA": 1
+      },
+      "pair_lifetime_peak_bytes": {
+        "median": 190304256.0,
+        "n": 1,
+        "q1": 190304256.0,
+        "q3": 190304256.0
+      },
+      "planned": 1,
+      "relationship_outcomes": {
+        "indeterminate": 0,
+        "satisfied": 1,
+        "unavailable": 0,
+        "violated": 0
+      },
+      "unchanged": 1,
+      "workflow": "cubic_2_ct"
+    },
+    {
+      "collection": "Task06_Lung",
+      "completed": 1,
+      "engine": "mirp",
+      "input_id": "Task06_Lung_lung_028",
+      "mode": "coverage",
+      "orders": {
+        "AB": 1,
+        "BA": 0
+      },
+      "pair_lifetime_peak_bytes": {
+        "median": 429248512.0,
+        "n": 1,
+        "q1": 429248512.0,
+        "q3": 429248512.0
+      },
+      "planned": 1,
+      "relationship_outcomes": {
+        "indeterminate": 0,
+        "satisfied": 1,
+        "unavailable": 0,
+        "violated": 0
+      },
+      "unchanged": 1,
+      "workflow": "cubic_2_ct"
+    },
+    {
+      "collection": "Task06_Lung",
+      "completed": 1,
+      "engine": "mirp",
+      "input_id": "Task06_Lung_lung_029",
+      "mode": "coverage",
+      "orders": {
+        "AB": 0,
+        "BA": 1
+      },
+      "pair_lifetime_peak_bytes": {
+        "median": 180994048.0,
+        "n": 1,
+        "q1": 180994048.0,
+        "q3": 180994048.0
+      },
+      "planned": 1,
+      "relationship_outcomes": {
+        "indeterminate": 0,
+        "satisfied": 1,
+        "unavailable": 0,
+        "violated": 0
+      },
+      "unchanged": 1,
+      "workflow": "cubic_2_ct"
+    },
+    {
+      "collection": "Task06_Lung",
+      "completed": 1,
+      "engine": "mirp",
+      "input_id": "Task06_Lung_lung_037",
+      "mode": "coverage",
+      "orders": {
+        "AB": 1,
+        "BA": 0
+      },
+      "pair_lifetime_peak_bytes": {
+        "median": 166105088.0,
+        "n": 1,
+        "q1": 166105088.0,
+        "q3": 166105088.0
+      },
+      "planned": 1,
+      "relationship_outcomes": {
+        "indeterminate": 0,
+        "satisfied": 1,
+        "unavailable": 0,
+        "violated": 0
+      },
+      "unchanged": 1,
+      "workflow": "cubic_2_ct"
+    },
+    {
+      "collection": "Task06_Lung",
+      "completed": 1,
+      "engine": "mirp",
+      "input_id": "Task06_Lung_lung_038",
+      "mode": "coverage",
+      "orders": {
+        "AB": 0,
+        "BA": 1
+      },
+      "pair_lifetime_peak_bytes": {
+        "median": 188514304.0,
+        "n": 1,
+        "q1": 188514304.0,
+        "q3": 188514304.0
+      },
+      "planned": 1,
+      "relationship_outcomes": {
+        "indeterminate": 0,
+        "satisfied": 1,
+        "unavailable": 0,
+        "violated": 0
+      },
+      "unchanged": 1,
+      "workflow": "cubic_2_ct"
+    },
+    {
+      "collection": "Task06_Lung",
+      "completed": 1,
+      "engine": "mirp",
+      "input_id": "Task06_Lung_lung_069",
+      "mode": "coverage",
+      "orders": {
+        "AB": 0,
+        "BA": 1
+      },
+      "pair_lifetime_peak_bytes": {
+        "median": 172896256.0,
+        "n": 1,
+        "q1": 172896256.0,
+        "q3": 172896256.0
+      },
+      "planned": 1,
+      "relationship_outcomes": {
+        "indeterminate": 0,
+        "satisfied": 1,
+        "unavailable": 0,
+        "violated": 0
+      },
+      "unchanged": 1,
+      "workflow": "cubic_2_ct"
+    },
+    {
+      "collection": "Task06_Lung",
+      "completed": 1,
+      "engine": "mirp",
+      "input_id": "Task06_Lung_lung_070",
+      "mode": "coverage",
+      "orders": {
+        "AB": 1,
+        "BA": 0
+      },
+      "pair_lifetime_peak_bytes": {
+        "median": 182673408.0,
+        "n": 1,
+        "q1": 182673408.0,
+        "q3": 182673408.0
+      },
+      "planned": 1,
+      "relationship_outcomes": {
+        "indeterminate": 0,
+        "satisfied": 1,
+        "unavailable": 0,
+        "violated": 0
+      },
+      "unchanged": 1,
+      "workflow": "cubic_2_ct"
+    },
+    {
+      "collection": "Task06_Lung",
+      "completed": 1,
+      "engine": "mirp",
+      "input_id": "Task06_Lung_lung_073",
+      "mode": "coverage",
+      "orders": {
+        "AB": 1,
+        "BA": 0
+      },
+      "pair_lifetime_peak_bytes": {
+        "median": 280723456.0,
+        "n": 1,
+        "q1": 280723456.0,
+        "q3": 280723456.0
+      },
+      "planned": 1,
+      "relationship_outcomes": {
+        "indeterminate": 0,
+        "satisfied": 1,
+        "unavailable": 0,
+        "violated": 0
+      },
+      "unchanged": 1,
+      "workflow": "cubic_2_ct"
+    },
+    {
+      "collection": "Task06_Lung",
+      "completed": 1,
+      "engine": "mirp",
+      "input_id": "Task06_Lung_lung_074",
+      "mode": "coverage",
+      "orders": {
+        "AB": 0,
+        "BA": 1
+      },
+      "pair_lifetime_peak_bytes": {
+        "median": 572563456.0,
+        "n": 1,
+        "q1": 572563456.0,
+        "q3": 572563456.0
+      },
+      "planned": 1,
+      "relationship_outcomes": {
+        "indeterminate": 0,
+        "satisfied": 1,
+        "unavailable": 0,
+        "violated": 0
+      },
+      "unchanged": 1,
+      "workflow": "cubic_2_ct"
+    },
+    {
+      "collection": "Task06_Lung",
+      "completed": 1,
+      "engine": "mirp",
+      "input_id": "Task06_Lung_lung_078",
+      "mode": "coverage",
+      "orders": {
+        "AB": 0,
+        "BA": 1
+      },
+      "pair_lifetime_peak_bytes": {
+        "median": 205492224.0,
+        "n": 1,
+        "q1": 205492224.0,
+        "q3": 205492224.0
+      },
+      "planned": 1,
+      "relationship_outcomes": {
+        "indeterminate": 0,
+        "satisfied": 1,
+        "unavailable": 0,
+        "violated": 0
+      },
+      "unchanged": 1,
+      "workflow": "cubic_2_ct"
+    },
+    {
+      "collection": "Task06_Lung",
+      "completed": 1,
+      "engine": "mirp",
+      "input_id": "Task06_Lung_lung_095",
+      "mode": "coverage",
+      "orders": {
+        "AB": 0,
+        "BA": 1
+      },
+      "pair_lifetime_peak_bytes": {
+        "median": 197054464.0,
+        "n": 1,
+        "q1": 197054464.0,
+        "q3": 197054464.0
+      },
+      "planned": 1,
+      "relationship_outcomes": {
+        "indeterminate": 0,
+        "satisfied": 1,
+        "unavailable": 0,
+        "violated": 0
+      },
+      "unchanged": 1,
+      "workflow": "cubic_2_ct"
+    },
+    {
+      "absolute_overhead_seconds": {
+        "median": 0.3859564499998669,
+        "n": 4,
+        "q1": 0.38405710000370163,
+        "q3": 0.3870855999975902
+      },
+      "audited_seconds": {
+        "median": 0.643448549999448,
+        "n": 4,
+        "q1": 0.6417674249978518,
+        "q3": 0.6444799750024686
+      },
+      "baseline_seconds": {
+        "median": 0.25764299999900686,
+        "n": 4,
+        "q1": 0.25730174999989686,
+        "q3": 0.2579538499985574
+      },
+      "collection": "Task02_Heart",
+      "completed": 4,
+      "engine": "pyradiomics",
+      "input_id": "Task02_Heart_la_007",
+      "mode": "timing",
+      "orders": {
+        "AB": 2,
+        "BA": 2
+      },
+      "pair_lifetime_peak_bytes": {
+        "median": 122867712.0,
+        "n": 4,
+        "q1": 122705920.0,
+        "q3": 122943488.0
+      },
+      "paired_log_ratio": {
+        "median": 0.9158543080607986,
+        "n": 4,
+        "q1": 0.911815365478204,
+        "q3": 0.9183998114481129
+      },
+      "planned": 4,
+      "relationship_outcomes": {
+        "indeterminate": 0,
+        "satisfied": 4,
+        "unavailable": 0,
+        "violated": 0
+      },
+      "unchanged": 4,
+      "workflow": "identity_mr"
+    },
+    {
+      "absolute_overhead_seconds": {
+        "median": 0.4532103500005178,
+        "n": 4,
+        "q1": 0.45244552500116697,
+        "q3": 0.4597735000006651
+      },
+      "audited_seconds": {
+        "median": 0.7045485500020732,
+        "n": 4,
+        "q1": 0.7033664250011498,
+        "q3": 0.7125467000023491
+      },
+      "baseline_seconds": {
+        "median": 0.25241380000079516,
+        "n": 4,
+        "q1": 0.2513154250000298,
+        "q3": 0.2534542750008768
+      },
+      "collection": "Task02_Heart",
+      "completed": 4,
+      "engine": "pyradiomics",
+      "input_id": "Task02_Heart_la_009",
+      "mode": "timing",
+      "orders": {
+        "AB": 2,
+        "BA": 2
+      },
+      "pair_lifetime_peak_bytes": {
+        "median": 125095936.0,
+        "n": 4,
+        "q1": 124940288.0,
+        "q3": 125242368.0
+      },
+      "paired_log_ratio": {
+        "median": 1.0318450955929583,
+        "n": 4,
+        "q1": 1.0265032544473165,
+        "q3": 1.041565618813432
+      },
+      "planned": 4,
+      "relationship_outcomes": {
+        "indeterminate": 0,
+        "satisfied": 4,
+        "unavailable": 0,
+        "violated": 0
+      },
+      "unchanged": 4,
+      "workflow": "identity_mr"
+    },
+    {
+      "absolute_overhead_seconds": {
+        "median": 0.39408314999855065,
+        "n": 4,
+        "q1": 0.392837174998931,
+        "q3": 0.39585334999901534
+      },
+      "audited_seconds": {
+        "median": 0.6599878999986686,
+        "n": 4,
+        "q1": 0.6575112000000445,
+        "q3": 0.6628172999980961
+      },
+      "baseline_seconds": {
+        "median": 0.26590475000011793,
+        "n": 4,
+        "q1": 0.2646740250011135,
+        "q3": 0.2669639499990808
+      },
+      "collection": "Task02_Heart",
+      "completed": 4,
+      "engine": "pyradiomics",
+      "input_id": "Task02_Heart_la_014",
+      "mode": "timing",
+      "orders": {
+        "AB": 2,
+        "BA": 2
+      },
+      "pair_lifetime_peak_bytes": {
+        "median": 122804224.0,
+        "n": 4,
+        "q1": 122738688.0,
+        "q3": 122905600.0
+      },
+      "paired_log_ratio": {
+        "median": 0.9104468229067297,
+        "n": 4,
+        "q1": 0.9092837964226665,
+        "q3": 0.9114263626334287
+      },
+      "planned": 4,
+      "relationship_outcomes": {
+        "indeterminate": 0,
+        "satisfied": 4,
+        "unavailable": 0,
+        "violated": 0
+      },
+      "unchanged": 4,
+      "workflow": "identity_mr"
+    },
+    {
+      "absolute_overhead_seconds": {
+        "median": 0.22640359999786597,
+        "n": 4,
+        "q1": 0.22549492500002088,
+        "q3": 0.22683867499654298
+      },
+      "audited_seconds": {
+        "median": 0.375614949998635,
+        "n": 4,
+        "q1": 0.3753157499995723,
+        "q3": 0.3758466999970551
+      },
+      "baseline_seconds": {
+        "median": 0.14894364999963727,
+        "n": 4,
+        "q1": 0.14857309999842983,
+        "q3": 0.14998805000050197
+      },
+      "collection": "Task02_Heart",
+      "completed": 4,
+      "engine": "pyradiomics",
+      "input_id": "Task02_Heart_la_029",
+      "mode": "timing",
+      "orders": {
+        "AB": 2,
+        "BA": 2
+      },
+      "pair_lifetime_peak_bytes": {
+        "median": 116307968.0,
+        "n": 4,
+        "q1": 116263936.0,
+        "q3": 116362240.0
+      },
+      "paired_log_ratio": {
+        "median": 0.9242847802912862,
+        "n": 4,
+        "q1": 0.9182666352550577,
+        "q3": 0.9263740512022365
+      },
+      "planned": 4,
+      "relationship_outcomes": {
+        "indeterminate": 0,
+        "satisfied": 4,
+        "unavailable": 0,
+        "violated": 0
+      },
+      "unchanged": 4,
+      "workflow": "identity_mr"
+    },
+    {
+      "absolute_overhead_seconds": {
+        "median": 13.596303199999966,
+        "n": 4,
+        "q1": 13.549175574999026,
+        "q3": 13.635988375001034
+      },
+      "audited_seconds": {
+        "median": 13.741364299999987,
+        "n": 4,
+        "q1": 13.695459399998981,
+        "q3": 13.77958105000107
+      },
+      "baseline_seconds": {
+        "median": 0.14465994999955,
+        "n": 4,
+        "q1": 0.14359267500003625,
+        "q3": 0.14588267499948415
+      },
+      "collection": "Task02_Heart",
+      "completed": 4,
+      "engine": "pyradiomics",
+      "input_id": "Task02_Heart_la_007",
+      "mode": "timing",
+      "orders": {
+        "AB": 2,
+        "BA": 2
+      },
+      "pair_lifetime_peak_bytes": {
+        "median": 152012800.0,
+        "n": 4,
+        "q1": 151966720.0,
+        "q3": 152068096.0
+      },
+      "paired_log_ratio": {
+        "median": 4.551058642899594,
+        "n": 4,
+        "q1": 4.5392638937681165,
+        "q3": 4.563956777332531
+      },
+      "planned": 4,
+      "relationship_outcomes": {
+        "indeterminate": 0,
+        "satisfied": 0,
+        "unavailable": 4,
+        "violated": 0
+      },
+      "unchanged": 4,
+      "workflow": "cubic_2_mr"
+    },
+    {
+      "absolute_overhead_seconds": {
+        "median": 19.31570080000165,
+        "n": 4,
+        "q1": 19.257719500002167,
+        "q3": 20.178471174998776
+      },
+      "audited_seconds": {
+        "median": 19.473103950000223,
+        "n": 4,
+        "q1": 19.408882175001963,
+        "q3": 20.341994049997993
+      },
+      "baseline_seconds": {
+        "median": 0.1574031499985722,
+        "n": 4,
+        "q1": 0.15116267499979585,
+        "q3": 0.16352287499921658
+      },
+      "collection": "Task02_Heart",
+      "completed": 4,
+      "engine": "pyradiomics",
+      "input_id": "Task02_Heart_la_009",
+      "mode": "timing",
+      "orders": {
+        "AB": 2,
+        "BA": 2
+      },
+      "pair_lifetime_peak_bytes": {
+        "median": 164007936.0,
+        "n": 4,
+        "q1": 163896320.0,
+        "q3": 164174848.0
+      },
+      "paired_log_ratio": {
+        "median": 4.857001359137756,
+        "n": 4,
+        "q1": 4.835966048711341,
+        "q3": 4.8786561777671285
+      },
+      "planned": 4,
+      "relationship_outcomes": {
+        "indeterminate": 0,
+        "satisfied": 0,
+        "unavailable": 4,
+        "violated": 0
+      },
+      "unchanged": 4,
+      "workflow": "cubic_2_mr"
+    },
+    {
+      "absolute_overhead_seconds": {
+        "median": 14.046205650000047,
+        "n": 4,
+        "q1": 13.795047725000586,
+        "q3": 14.657720000000154
+      },
+      "audited_seconds": {
+        "median": 14.188821550000284,
+        "n": 4,
+        "q1": 13.939733100000922,
+        "q3": 14.798885500000324
+      },
+      "baseline_seconds": {
+        "median": 0.14261590000023716,
+        "n": 4,
+        "q1": 0.14116550000017014,
+        "q3": 0.14468537500033563
+      },
+      "collection": "Task02_Heart",
+      "completed": 4,
+      "engine": "pyradiomics",
+      "input_id": "Task02_Heart_la_014",
+      "mode": "timing",
+      "orders": {
+        "AB": 2,
+        "BA": 2
+      },
+      "pair_lifetime_peak_bytes": {
+        "median": 152526848.0,
+        "n": 4,
+        "q1": 152437760.0,
+        "q3": 152629248.0
+      },
+      "paired_log_ratio": {
+        "median": 4.59998762229571,
+        "n": 4,
+        "q1": 4.567971973914769,
+        "q3": 4.651291762109178
+      },
+      "planned": 4,
+      "relationship_outcomes": {
+        "indeterminate": 0,
+        "satisfied": 0,
+        "unavailable": 4,
+        "violated": 0
+      },
+      "unchanged": 4,
+      "workflow": "cubic_2_mr"
+    },
+    {
+      "absolute_overhead_seconds": {
+        "median": 7.925776800000676,
+        "n": 4,
+        "q1": 7.75589994999973,
+        "q3": 8.058803200001421
+      },
+      "audited_seconds": {
+        "median": 8.018419250000079,
+        "n": 4,
+        "q1": 7.847796424999615,
+        "q3": 8.153842475000602
+      },
+      "baseline_seconds": {
+        "median": 0.09377619999941089,
+        "n": 4,
+        "q1": 0.09303022499989311,
+        "q3": 0.09503927499918063
+      },
+      "collection": "Task02_Heart",
+      "completed": 4,
+      "engine": "pyradiomics",
+      "input_id": "Task02_Heart_la_029",
+      "mode": "timing",
+      "orders": {
+        "AB": 2,
+        "BA": 2
+      },
+      "pair_lifetime_peak_bytes": {
+        "median": 120156160.0,
+        "n": 4,
+        "q1": 120047616.0,
+        "q3": 120256512.0
+      },
+      "paired_log_ratio": {
+        "median": 4.4424816295626615,
+        "n": 4,
+        "q1": 4.420715920165876,
+        "q3": 4.460477454490573
+      },
+      "planned": 4,
+      "relationship_outcomes": {
+        "indeterminate": 0,
+        "satisfied": 0,
+        "unavailable": 4,
+        "violated": 0
+      },
+      "unchanged": 4,
+      "workflow": "cubic_2_mr"
+    },
+    {
+      "absolute_overhead_seconds": {
+        "median": 0.08151159999943047,
+        "n": 4,
+        "q1": 0.08102802500070538,
+        "q3": 0.08273342499887804
+      },
+      "audited_seconds": {
+        "median": 0.13563070000054722,
+        "n": 4,
+        "q1": 0.13490295000156038,
+        "q3": 0.13681604999965202
+      },
+      "baseline_seconds": {
+        "median": 0.0537831500005268,
+        "n": 4,
+        "q1": 0.05357869999988907,
+        "q3": 0.054042900001149974
+      },
+      "collection": "Task06_Lung",
+      "completed": 4,
+      "engine": "pyradiomics",
+      "input_id": "Task06_Lung_lung_029",
+      "mode": "timing",
+      "orders": {
+        "AB": 2,
+        "BA": 2
+      },
+      "pair_lifetime_peak_bytes": {
+        "median": 100608000.0,
+        "n": 4,
+        "q1": 100541440.0,
+        "q3": 100695040.0
+      },
+      "paired_log_ratio": {
+        "median": 0.918747811658277,
+        "n": 4,
+        "q1": 0.9178868638926976,
+        "q3": 0.9280957990965573
+      },
+      "planned": 4,
+      "relationship_outcomes": {
+        "indeterminate": 0,
+        "satisfied": 4,
+        "unavailable": 0,
+        "violated": 0
+      },
+      "unchanged": 4,
+      "workflow": "identity_ct"
+    },
+    {
+      "absolute_overhead_seconds": {
+        "median": 0.02629930000148306,
+        "n": 4,
+        "q1": 0.02582027499920514,
+        "q3": 0.02668890000313695
+      },
+      "audited_seconds": {
+        "median": 0.05651749999924505,
+        "n": 4,
+        "q1": 0.0553483249987039,
+        "q3": 0.05713880000075733
+      },
+      "baseline_seconds": {
+        "median": 0.030013299998245202,
+        "n": 4,
+        "q1": 0.02891814999838971,
+        "q3": 0.030854899999212648
+      },
+      "collection": "Task06_Lung",
+      "completed": 4,
+      "engine": "pyradiomics",
+      "input_id": "Task06_Lung_lung_037",
+      "mode": "timing",
+      "orders": {
+        "AB": 2,
+        "BA": 2
+      },
+      "pair_lifetime_peak_bytes": {
+        "median": 82171904.0,
+        "n": 4,
+        "q1": 82013184.0,
+        "q3": 82335744.0
+      },
+      "paired_log_ratio": {
+        "median": 0.6164467108252898,
+        "n": 4,
+        "q1": 0.6142228918168364,
+        "q3": 0.6343029051643768
+      },
+      "planned": 4,
+      "relationship_outcomes": {
+        "indeterminate": 0,
+        "satisfied": 4,
+        "unavailable": 0,
+        "violated": 0
+      },
+      "unchanged": 4,
+      "workflow": "identity_ct"
+    },
+    {
+      "absolute_overhead_seconds": {
+        "median": 1.9332293500010564,
+        "n": 4,
+        "q1": 1.8843397499977073,
+        "q3": 1.9766998500035697
+      },
+      "audited_seconds": {
+        "median": 2.9466888000006293,
+        "n": 4,
+        "q1": 2.903266774998883,
+        "q3": 3.037226275001558
+      },
+      "baseline_seconds": {
+        "median": 1.0266307000001689,
+        "n": 4,
+        "q1": 1.0140184749989203,
+        "q3": 1.07860622500084
+      },
+      "collection": "Task06_Lung",
+      "completed": 4,
+      "engine": "pyradiomics",
+      "input_id": "Task06_Lung_lung_074",
+      "mode": "timing",
+      "orders": {
+        "AB": 2,
+        "BA": 2
+      },
+      "pair_lifetime_peak_bytes": {
+        "median": 174790656.0,
+        "n": 4,
+        "q1": 174698496.0,
+        "q3": 174928896.0
+      },
+      "paired_log_ratio": {
+        "median": 1.0383859678342686,
+        "n": 4,
+        "q1": 1.0111135486838942,
+        "q3": 1.0615652432332923
+      },
+      "planned": 4,
+      "relationship_outcomes": {
+        "indeterminate": 0,
+        "satisfied": 4,
+        "unavailable": 0,
+        "violated": 0
+      },
+      "unchanged": 4,
+      "workflow": "identity_ct"
+    },
+    {
+      "absolute_overhead_seconds": {
+        "median": 0.1368059500000527,
+        "n": 4,
+        "q1": 0.13200494999910006,
+        "q3": 0.14141162500072824
+      },
+      "audited_seconds": {
+        "median": 0.21464675000061106,
+        "n": 4,
+        "q1": 0.20713357499971607,
+        "q3": 0.22179460000097606
+      },
+      "baseline_seconds": {
+        "median": 0.07709740000063903,
+        "n": 4,
+        "q1": 0.07554067500041128,
+        "q3": 0.0792275250005332
+      },
+      "collection": "Task06_Lung",
+      "completed": 4,
+      "engine": "pyradiomics",
+      "input_id": "Task06_Lung_lung_095",
+      "mode": "timing",
+      "orders": {
+        "AB": 2,
+        "BA": 2
+      },
+      "pair_lifetime_peak_bytes": {
+        "median": 113551360.0,
+        "n": 4,
+        "q1": 113408000.0,
+        "q3": 113765376.0
+      },
+      "paired_log_ratio": {
+        "median": 1.011354097994124,
+        "n": 4,
+        "q1": 1.0017302761801599,
+        "q3": 1.0243326929952898
+      },
+      "planned": 4,
+      "relationship_outcomes": {
+        "indeterminate": 0,
+        "satisfied": 4,
+        "unavailable": 0,
+        "violated": 0
+      },
+      "unchanged": 4,
+      "workflow": "identity_ct"
+    },
+    {
+      "absolute_overhead_seconds": {
+        "median": 0.47282554999947024,
+        "n": 4,
+        "q1": 0.47021604999827105,
+        "q3": 0.47375654999905237
+      },
+      "audited_seconds": {
+        "median": 0.5200070999981108,
+        "n": 4,
+        "q1": 0.5165966499980641,
+        "q3": 0.5205795499987289
+      },
+      "baseline_seconds": {
+        "median": 0.04579430000012508,
+        "n": 4,
+        "q1": 0.04429972500201984,
+        "q3": 0.047516624998934276
+      },
+      "collection": "Task06_Lung",
+      "completed": 4,
+      "engine": "pyradiomics",
+      "input_id": "Task06_Lung_lung_029",
+      "mode": "timing",
+      "orders": {
+        "AB": 2,
+        "BA": 2
+      },
+      "pair_lifetime_peak_bytes": {
+        "median": 85180416.0,
+        "n": 4,
+        "q1": 85120000.0,
+        "q3": 85239808.0
+      },
+      "paired_log_ratio": {
+        "median": 2.423353561021551,
+        "n": 4,
+        "q1": 2.3939346277602755,
+        "q3": 2.449451899324711
+      },
+      "planned": 4,
+      "relationship_outcomes": {
+        "indeterminate": 0,
+        "satisfied": 4,
+        "unavailable": 0,
+        "violated": 0
+      },
+      "unchanged": 4,
+      "workflow": "cubic_2_ct"
+    },
+    {
+      "absolute_overhead_seconds": {
+        "median": 0.5376123000005464,
+        "n": 4,
+        "q1": 0.5373077750018638,
+        "q3": 0.5381233999996766
+      },
+      "audited_seconds": {
+        "median": 0.5684792500014737,
+        "n": 4,
+        "q1": 0.5674281750016235,
+        "q3": 0.5693396750011743
+      },
+      "baseline_seconds": {
+        "median": 0.03020470000046771,
+        "n": 4,
+        "q1": 0.030120399999759684,
+        "q3": 0.0305540250010381
+      },
+      "collection": "Task06_Lung",
+      "completed": 4,
+      "engine": "pyradiomics",
+      "input_id": "Task06_Lung_lung_037",
+      "mode": "timing",
+      "orders": {
+        "AB": 2,
+        "BA": 2
+      },
+      "pair_lifetime_peak_bytes": {
+        "median": 78637056.0,
+        "n": 4,
+        "q1": 78576640.0,
+        "q3": 78653440.0
+      },
+      "paired_log_ratio": {
+        "median": 2.9352695503244988,
+        "n": 4,
+        "q1": 2.9238640921196524,
+        "q3": 2.937511773810722
+      },
+      "planned": 4,
+      "relationship_outcomes": {
+        "indeterminate": 0,
+        "satisfied": 0,
+        "unavailable": 4,
+        "violated": 0
+      },
+      "unchanged": 4,
+      "workflow": "cubic_2_ct"
+    },
+    {
+      "absolute_overhead_seconds": {
+        "median": 30.445730600000388,
+        "n": 4,
+        "q1": 29.442105124997397,
+        "q3": 31.791820450002888
+      },
+      "audited_seconds": {
+        "median": 30.680270450000535,
+        "n": 4,
+        "q1": 29.676101024999298,
+        "q3": 32.026578275002066
+      },
+      "baseline_seconds": {
+        "median": 0.2344589000022097,
+        "n": 4,
+        "q1": 0.23324740000134625,
+        "q3": 0.23542537500179606
+      },
+      "collection": "Task06_Lung",
+      "completed": 4,
+      "engine": "pyradiomics",
+      "input_id": "Task06_Lung_lung_074",
+      "mode": "timing",
+      "orders": {
+        "AB": 2,
+        "BA": 2
+      },
+      "pair_lifetime_peak_bytes": {
+        "median": 276162560.0,
+        "n": 4,
+        "q1": 275985408.0,
+        "q3": 276300800.0
+      },
+      "paired_log_ratio": {
+        "median": 4.873470421819075,
+        "n": 4,
+        "q1": 4.842676211787865,
+        "q3": 4.91525360054774
+      },
+      "planned": 4,
+      "relationship_outcomes": {
+        "indeterminate": 0,
+        "satisfied": 0,
+        "unavailable": 4,
+        "violated": 0
+      },
+      "unchanged": 4,
+      "workflow": "cubic_2_ct"
+    },
+    {
+      "absolute_overhead_seconds": {
+        "median": 0.7776972499996191,
+        "n": 4,
+        "q1": 0.7718318000006548,
+        "q3": 0.7837175499980731
+      },
+      "audited_seconds": {
+        "median": 0.8372757999986788,
+        "n": 4,
+        "q1": 0.8302961999988838,
+        "q3": 0.8442340749988944
+      },
+      "baseline_seconds": {
+        "median": 0.05931779999809805,
+        "n": 4,
+        "q1": 0.058464399998229055,
+        "q3": 0.06025577499985957
+      },
+      "collection": "Task06_Lung",
+      "completed": 4,
+      "engine": "pyradiomics",
+      "input_id": "Task06_Lung_lung_095",
+      "mode": "timing",
+      "orders": {
+        "AB": 2,
+        "BA": 2
+      },
+      "pair_lifetime_peak_bytes": {
+        "median": 94156800.0,
+        "n": 4,
+        "q1": 94021632.0,
+        "q3": 94196736.0
+      },
+      "paired_log_ratio": {
+        "median": 2.647585950188759,
+        "n": 4,
+        "q1": 2.6401208739716804,
+        "q3": 2.6533653611118466
+      },
+      "planned": 4,
+      "relationship_outcomes": {
+        "indeterminate": 0,
+        "satisfied": 4,
+        "unavailable": 0,
+        "violated": 0
+      },
+      "unchanged": 4,
+      "workflow": "cubic_2_ct"
+    },
+    {
+      "absolute_overhead_seconds": {
+        "median": 0.21374260000084178,
+        "n": 4,
+        "q1": -0.07231587500155001,
+        "q3": 0.29699115000221354
+      },
+      "audited_seconds": {
+        "median": 5.955985900000087,
+        "n": 4,
+        "q1": 5.907529450000766,
+        "q3": 5.993444374998944
+      },
+      "baseline_seconds": {
+        "median": 5.708044200000586,
+        "n": 4,
+        "q1": 5.576339199999893,
+        "q3": 6.065760250000494
+      },
+      "collection": "Task02_Heart",
+      "completed": 4,
+      "engine": "mirp",
+      "input_id": "Task02_Heart_la_007",
+      "mode": "timing",
+      "orders": {
+        "AB": 2,
+        "BA": 2
+      },
+      "pair_lifetime_peak_bytes": {
+        "median": 224643072.0,
+        "n": 4,
+        "q1": 224194560.0,
+        "q3": 225338368.0
+      },
+      "paired_log_ratio": {
+        "median": 0.03699467578013505,
+        "n": 4,
+        "q1": -0.009975715362832937,
+        "q3": 0.05190770501034011
+      },
+      "planned": 4,
+      "relationship_outcomes": {
+        "indeterminate": 0,
+        "satisfied": 4,
+        "unavailable": 0,
+        "violated": 0
+      },
+      "unchanged": 4,
+      "workflow": "identity_mr"
+    },
+    {
+      "absolute_overhead_seconds": {
+        "median": 0.38543645000208926,
+        "n": 4,
+        "q1": 0.34339470000122674,
+        "q3": 0.41780375000234926
+      },
+      "audited_seconds": {
+        "median": 7.360614350001924,
+        "n": 4,
+        "q1": 7.163989675001176,
+        "q3": 7.590484225002001
+      },
+      "baseline_seconds": {
+        "median": 7.034679649999816,
+        "n": 4,
+        "q1": 6.88009672499993,
+        "q3": 7.172680474999652
+      },
+      "collection": "Task02_Heart",
+      "completed": 4,
+      "engine": "mirp",
+      "input_id": "Task02_Heart_la_009",
+      "mode": "timing",
+      "orders": {
+        "AB": 2,
+        "BA": 2
+      },
+      "pair_lifetime_peak_bytes": {
+        "median": 237699072.0,
+        "n": 4,
+        "q1": 237467648.0,
+        "q3": 238136320.0
+      },
+      "paired_log_ratio": {
+        "median": 0.05379238526507602,
+        "n": 4,
+        "q1": 0.04875938478143538,
+        "q3": 0.05697395069060901
+      },
+      "planned": 4,
+      "relationship_outcomes": {
+        "indeterminate": 0,
+        "satisfied": 4,
+        "unavailable": 0,
+        "violated": 0
+      },
+      "unchanged": 4,
+      "workflow": "identity_mr"
+    },
+    {
+      "absolute_overhead_seconds": {
+        "median": 0.3466696499999671,
+        "n": 4,
+        "q1": 0.3206270999980916,
+        "q3": 0.3825070750017403
+      },
+      "audited_seconds": {
+        "median": 4.784640600000785,
+        "n": 4,
+        "q1": 4.75257162500111,
+        "q3": 4.833197099999779
+      },
+      "baseline_seconds": {
+        "median": 4.43756140000005,
+        "n": 4,
+        "q1": 4.38726882499941,
+        "q3": 4.49495617500088
+      },
+      "collection": "Task02_Heart",
+      "completed": 4,
+      "engine": "mirp",
+      "input_id": "Task02_Heart_la_014",
+      "mode": "timing",
+      "orders": {
+        "AB": 2,
+        "BA": 2
+      },
+      "pair_lifetime_peak_bytes": {
+        "median": 224958464.0,
+        "n": 4,
+        "q1": 224786432.0,
+        "q3": 225133568.0
+      },
+      "paired_log_ratio": {
+        "median": 0.0746520567920082,
+        "n": 4,
+        "q1": 0.06828511107082832,
+        "q3": 0.08358904773044779
+      },
+      "planned": 4,
+      "relationship_outcomes": {
+        "indeterminate": 0,
+        "satisfied": 4,
+        "unavailable": 0,
+        "violated": 0
+      },
+      "unchanged": 4,
+      "workflow": "identity_mr"
+    },
+    {
+      "absolute_overhead_seconds": {
+        "median": 0.8380544000010559,
+        "n": 4,
+        "q1": 0.5886701000017638,
+        "q3": 1.0851404499990167
+      },
+      "audited_seconds": {
+        "median": 9.919439549999879,
+        "n": 4,
+        "q1": 8.814596699999129,
+        "q3": 10.363873125000282
+      },
+      "baseline_seconds": {
+        "median": 9.081385149998823,
+        "n": 4,
+        "q1": 7.912632100000337,
+        "q3": 9.592027174998293
+      },
+      "collection": "Task02_Heart",
+      "completed": 4,
+      "engine": "mirp",
+      "input_id": "Task02_Heart_la_029",
+      "mode": "timing",
+      "orders": {
+        "AB": 2,
+        "BA": 2
+      },
+      "pair_lifetime_peak_bytes": {
+        "median": 197984256.0,
+        "n": 4,
+        "q1": 197856256.0,
+        "q3": 198325248.0
+      },
+      "paired_log_ratio": {
+        "median": 0.09710398582404081,
+        "n": 4,
+        "q1": 0.07644644817168575,
+        "q3": 0.11373354576969724
+      },
+      "planned": 4,
+      "relationship_outcomes": {
+        "indeterminate": 0,
+        "satisfied": 4,
+        "unavailable": 0,
+        "violated": 0
+      },
+      "unchanged": 4,
+      "workflow": "identity_mr"
+    },
+    {
+      "absolute_overhead_seconds": {
+        "median": 11.52035109999997,
+        "n": 4,
+        "q1": 9.908538124998813,
+        "q3": 13.57600585000182
+      },
+      "audited_seconds": {
+        "median": 15.865005699999529,
+        "n": 4,
+        "q1": 14.167523874998551,
+        "q3": 18.524493600000824
+      },
+      "baseline_seconds": {
+        "median": 4.372502499998518,
+        "n": 4,
+        "q1": 4.286833649998698,
+        "q3": 4.948487749999003
+      },
+      "collection": "Task02_Heart",
+      "completed": 4,
+      "engine": "mirp",
+      "input_id": "Task02_Heart_la_007",
+      "mode": "timing",
+      "orders": {
+        "AB": 2,
+        "BA": 2
+      },
+      "pair_lifetime_peak_bytes": {
+        "median": 260624384.0,
+        "n": 4,
+        "q1": 260505600.0,
+        "q3": 260728832.0
+      },
+      "paired_log_ratio": {
+        "median": 1.2136184852021321,
+        "n": 4,
+        "q1": 1.2018380762360497,
+        "q3": 1.2523940151067405
+      },
+      "planned": 4,
+      "relationship_outcomes": {
+        "indeterminate": 4,
+        "satisfied": 0,
+        "unavailable": 0,
+        "violated": 0
+      },
+      "unchanged": 4,
+      "workflow": "cubic_2_mr"
+    },
+    {
+      "absolute_overhead_seconds": {
+        "median": 11.723292300001049,
+        "n": 4,
+        "q1": 11.487591725003767,
+        "q3": 12.546556474999306
+      },
+      "audited_seconds": {
+        "median": 18.40170399999988,
+        "n": 4,
+        "q1": 18.21142185000099,
+        "q3": 19.17912342499949
+      },
+      "baseline_seconds": {
+        "median": 6.678411699998833,
+        "n": 4,
+        "q1": 6.632566950000182,
+        "q3": 6.723830124997221
+      },
+      "collection": "Task02_Heart",
+      "completed": 4,
+      "engine": "mirp",
+      "input_id": "Task02_Heart_la_009",
+      "mode": "timing",
+      "orders": {
+        "AB": 2,
+        "BA": 2
+      },
+      "pair_lifetime_peak_bytes": {
+        "median": 275134464.0,
+        "n": 4,
+        "q1": 274688000.0,
+        "q3": 275625984.0
+      },
+      "paired_log_ratio": {
+        "median": 1.0135457682004958,
+        "n": 4,
+        "q1": 0.9963974961236265,
+        "q3": 1.0601515375566581
+      },
+      "planned": 4,
+      "relationship_outcomes": {
+        "indeterminate": 4,
+        "satisfied": 0,
+        "unavailable": 0,
+        "violated": 0
+      },
+      "unchanged": 4,
+      "workflow": "cubic_2_mr"
+    },
+    {
+      "absolute_overhead_seconds": {
+        "median": 9.691572000001543,
+        "n": 4,
+        "q1": 9.543518425001821,
+        "q3": 10.006288449999374
+      },
+      "audited_seconds": {
+        "median": 13.704802300000665,
+        "n": 4,
+        "q1": 13.504086675000508,
+        "q3": 14.144846524999593
+      },
+      "baseline_seconds": {
+        "median": 4.0132302999991225,
+        "n": 4,
+        "q1": 3.960568249998687,
+        "q3": 4.138558075000219
+      },
+      "collection": "Task02_Heart",
+      "completed": 4,
+      "engine": "mirp",
+      "input_id": "Task02_Heart_la_014",
+      "mode": "timing",
+      "orders": {
+        "AB": 2,
+        "BA": 2
+      },
+      "pair_lifetime_peak_bytes": {
+        "median": 260777984.0,
+        "n": 4,
+        "q1": 260523008.0,
+        "q3": 260933632.0
+      },
+      "paired_log_ratio": {
+        "median": 1.2281471544521843,
+        "n": 4,
+        "q1": 1.2265854746112224,
+        "q3": 1.228968469021119
+      },
+      "planned": 4,
+      "relationship_outcomes": {
+        "indeterminate": 4,
+        "satisfied": 0,
+        "unavailable": 0,
+        "violated": 0
+      },
+      "unchanged": 4,
+      "workflow": "cubic_2_mr"
+    },
+    {
+      "absolute_overhead_seconds": {
+        "median": 5.578181000000768,
+        "n": 4,
+        "q1": 5.467083725000521,
+        "q3": 5.814532900001723
+      },
+      "audited_seconds": {
+        "median": 9.69602455000313,
+        "n": 4,
+        "q1": 9.586179350002567,
+        "q3": 9.896607350002341
+      },
+      "baseline_seconds": {
+        "median": 4.087755200000174,
+        "n": 4,
+        "q1": 4.05311947500104,
+        "q3": 4.117962249999437
+      },
+      "collection": "Task02_Heart",
+      "completed": 4,
+      "engine": "mirp",
+      "input_id": "Task02_Heart_la_029",
+      "mode": "timing",
+      "orders": {
+        "AB": 2,
+        "BA": 2
+      },
+      "pair_lifetime_peak_bytes": {
+        "median": 218689536.0,
+        "n": 4,
+        "q1": 218444800.0,
+        "q3": 219088896.0
+      },
+      "paired_log_ratio": {
+        "median": 0.8688093480032256,
+        "n": 4,
+        "q1": 0.8572373745289479,
+        "q3": 0.8853164458677868
+      },
+      "planned": 4,
+      "relationship_outcomes": {
+        "indeterminate": 4,
+        "satisfied": 0,
+        "unavailable": 0,
+        "violated": 0
+      },
+      "unchanged": 4,
+      "workflow": "cubic_2_mr"
+    },
+    {
+      "absolute_overhead_seconds": {
+        "median": 0.0703688499997952,
+        "n": 4,
+        "q1": 0.05814170000121521,
+        "q3": 0.0892011249989082
+      },
+      "audited_seconds": {
+        "median": 1.8333451500002411,
+        "n": 4,
+        "q1": 1.8204951750003602,
+        "q3": 1.845780399999967
+      },
+      "baseline_seconds": {
+        "median": 1.7508766499995545,
+        "n": 4,
+        "q1": 1.7364405250000345,
+        "q3": 1.7703925749992777
+      },
+      "collection": "Task06_Lung",
+      "completed": 4,
+      "engine": "mirp",
+      "input_id": "Task06_Lung_lung_029",
+      "mode": "timing",
+      "orders": {
+        "AB": 2,
+        "BA": 2
+      },
+      "pair_lifetime_peak_bytes": {
+        "median": 180338688.0,
+        "n": 4,
+        "q1": 180291584.0,
+        "q3": 180423680.0
+      },
+      "paired_log_ratio": {
+        "median": 0.03952989085614082,
+        "n": 4,
+        "q1": 0.032326829832327444,
+        "q3": 0.05015552414742455
+      },
+      "planned": 4,
+      "relationship_outcomes": {
+        "indeterminate": 0,
+        "satisfied": 4,
+        "unavailable": 0,
+        "violated": 0
+      },
+      "unchanged": 4,
+      "workflow": "identity_ct"
+    },
+    {
+      "absolute_overhead_seconds": {
+        "median": 0.03651444999741216,
+        "n": 4,
+        "q1": 0.03201397499833547,
+        "q3": 0.0736767249982222
+      },
+      "audited_seconds": {
+        "median": 1.1702839999979915,
+        "n": 4,
+        "q1": 1.1661694749982416,
+        "q3": 1.2050183499986815
+      },
+      "baseline_seconds": {
+        "median": 1.130761349999375,
+        "n": 4,
+        "q1": 1.1297163250010271,
+        "q3": 1.132772599998134
+      },
+      "collection": "Task06_Lung",
+      "completed": 4,
+      "engine": "mirp",
+      "input_id": "Task06_Lung_lung_037",
+      "mode": "timing",
+      "orders": {
+        "AB": 2,
+        "BA": 2
+      },
+      "pair_lifetime_peak_bytes": {
+        "median": 174514176.0,
+        "n": 4,
+        "q1": 174186496.0,
+        "q3": 174976000.0
+      },
+      "paired_log_ratio": {
+        "median": 0.031703182457080835,
+        "n": 4,
+        "q1": 0.02780580383057991,
+        "q3": 0.06195117843748023
+      },
+      "planned": 4,
+      "relationship_outcomes": {
+        "indeterminate": 0,
+        "satisfied": 4,
+        "unavailable": 0,
+        "violated": 0
+      },
+      "unchanged": 4,
+      "workflow": "identity_ct"
+    },
+    {
+      "absolute_overhead_seconds": {
+        "median": 1.3071171999981743,
+        "n": 4,
+        "q1": 1.0206912249977904,
+        "q3": 1.6236348999991606
+      },
+      "audited_seconds": {
+        "median": 19.038721099999748,
+        "n": 4,
+        "q1": 17.39302774999942,
+        "q3": 19.79598577500019
+      },
+      "baseline_seconds": {
+        "median": 17.209199550001358,
+        "n": 4,
+        "q1": 15.166926700000658,
+        "q3": 18.855356350001784
+      },
+      "collection": "Task06_Lung",
+      "completed": 4,
+      "engine": "mirp",
+      "input_id": "Task06_Lung_lung_074",
+      "mode": "timing",
+      "orders": {
+        "AB": 2,
+        "BA": 2
+      },
+      "pair_lifetime_peak_bytes": {
+        "median": 471478272.0,
+        "n": 4,
+        "q1": 471445504.0,
+        "q3": 471534592.0
+      },
+      "paired_log_ratio": {
+        "median": 0.08072473480477649,
+        "n": 4,
+        "q1": 0.05385328749248999,
+        "q3": 0.106988222723302
+      },
+      "planned": 4,
+      "relationship_outcomes": {
+        "indeterminate": 0,
+        "satisfied": 4,
+        "unavailable": 0,
+        "violated": 0
+      },
+      "unchanged": 4,
+      "workflow": "identity_ct"
+    },
+    {
+      "absolute_overhead_seconds": {
+        "median": 0.10343354999895382,
+        "n": 4,
+        "q1": -0.020698275001450384,
+        "q3": 0.24410782500035566
+      },
+      "audited_seconds": {
+        "median": 5.42944929999976,
+        "n": 4,
+        "q1": 5.394925575000343,
+        "q3": 5.493302249999942
+      },
+      "baseline_seconds": {
+        "median": 5.333320600000661,
+        "n": 4,
+        "q1": 5.250719175000086,
+        "q3": 5.4214039500011495
+      },
+      "collection": "Task06_Lung",
+      "completed": 4,
+      "engine": "mirp",
+      "input_id": "Task06_Lung_lung_095",
+      "mode": "timing",
+      "orders": {
+        "AB": 2,
+        "BA": 2
+      },
+      "pair_lifetime_peak_bytes": {
+        "median": 193859584.0,
+        "n": 4,
+        "q1": 193688576.0,
+        "q3": 193907712.0
+      },
+      "paired_log_ratio": {
+        "median": 0.01936516757058618,
+        "n": 4,
+        "q1": -0.0038760303256076428,
+        "q3": 0.04531643421462951
+      },
+      "planned": 4,
+      "relationship_outcomes": {
+        "indeterminate": 0,
+        "satisfied": 4,
+        "unavailable": 0,
+        "violated": 0
+      },
+      "unchanged": 4,
+      "workflow": "identity_ct"
+    },
+    {
+      "absolute_overhead_seconds": {
+        "median": 0.6466491499995755,
+        "n": 4,
+        "q1": 0.644365375000234,
+        "q3": 0.6491217749999123
+      },
+      "audited_seconds": {
+        "median": 1.097544750002271,
+        "n": 4,
+        "q1": 1.095093200001429,
+        "q3": 1.0986299750020407
+      },
+      "baseline_seconds": {
+        "median": 0.4501407500010828,
+        "n": 4,
+        "q1": 0.44789755000056175,
+        "q3": 0.4515836250011489
+      },
+      "collection": "Task06_Lung",
+      "completed": 4,
+      "engine": "mirp",
+      "input_id": "Task06_Lung_lung_029",
+      "mode": "timing",
+      "orders": {
+        "AB": 2,
+        "BA": 2
+      },
+      "pair_lifetime_peak_bytes": {
+        "median": 182114304.0,
+        "n": 4,
+        "q1": 182035456.0,
+        "q3": 182322176.0
+      },
+      "paired_log_ratio": {
+        "median": 0.8883464845002877,
+        "n": 4,
+        "q1": 0.8877293709211386,
+        "q3": 0.8924366739777201
+      },
+      "planned": 4,
+      "relationship_outcomes": {
+        "indeterminate": 0,
+        "satisfied": 4,
+        "unavailable": 0,
+        "violated": 0
+      },
+      "unchanged": 4,
+      "workflow": "cubic_2_ct"
+    },
+    {
+      "absolute_overhead_seconds": {
+        "median": 0.3291607999999542,
+        "n": 4,
+        "q1": 0.3261913750011445,
+        "q3": 0.33106984999903943
+      },
+      "audited_seconds": {
+        "median": 0.5132383500003925,
+        "n": 4,
+        "q1": 0.512060725000083,
+        "q3": 0.5150433750004595
+      },
+      "baseline_seconds": {
+        "median": 0.18286819999957515,
+        "n": 4,
+        "q1": 0.18194362500071293,
+        "q3": 0.1866898999987825
+      },
+      "collection": "Task06_Lung",
+      "completed": 4,
+      "engine": "mirp",
+      "input_id": "Task06_Lung_lung_037",
+      "mode": "timing",
+      "orders": {
+        "AB": 2,
+        "BA": 2
+      },
+      "pair_lifetime_peak_bytes": {
+        "median": 166449152.0,
+        "n": 4,
+        "q1": 166339584.0,
+        "q3": 166550528.0
+      },
+      "paired_log_ratio": {
+        "median": 1.031153698989239,
+        "n": 4,
+        "q1": 1.0110028949540388,
+        "q3": 1.038120445869875
+      },
+      "planned": 4,
+      "relationship_outcomes": {
+        "indeterminate": 0,
+        "satisfied": 4,
+        "unavailable": 0,
+        "violated": 0
+      },
+      "unchanged": 4,
+      "workflow": "cubic_2_ct"
+    },
+    {
+      "absolute_overhead_seconds": {
+        "median": 18.259634500001994,
+        "n": 4,
+        "q1": 17.554733875001148,
+        "q3": 18.708374275001916
+      },
+      "audited_seconds": {
+        "median": 28.69277200000215,
+        "n": 4,
+        "q1": 27.93093930000032,
+        "q3": 29.143766275002235
+      },
+      "baseline_seconds": {
+        "median": 10.366068649998851,
+        "n": 4,
+        "q1": 10.334788724998361,
+        "q3": 10.409739849999823
+      },
+      "collection": "Task06_Lung",
+      "completed": 4,
+      "engine": "mirp",
+      "input_id": "Task06_Lung_lung_074",
+      "mode": "timing",
+      "orders": {
+        "AB": 2,
+        "BA": 2
+      },
+      "pair_lifetime_peak_bytes": {
+        "median": 582465536.0,
+        "n": 4,
+        "q1": 582392832.0,
+        "q3": 582982656.0
+      },
+      "paired_log_ratio": {
+        "median": 1.0115472758091126,
+        "n": 4,
+        "q1": 0.9900268062834088,
+        "q3": 1.0270653796490878
+      },
+      "planned": 4,
+      "relationship_outcomes": {
+        "indeterminate": 0,
+        "satisfied": 4,
+        "unavailable": 0,
+        "violated": 0
+      },
+      "unchanged": 4,
+      "workflow": "cubic_2_ct"
+    },
+    {
+      "absolute_overhead_seconds": {
+        "median": 1.6702098499990825,
+        "n": 4,
+        "q1": 1.6016353500008336,
+        "q3": 1.7388841999982105
+      },
+      "audited_seconds": {
+        "median": 2.5079123999985313,
+        "n": 4,
+        "q1": 2.48714094999832,
+        "q3": 2.5314279000003808
+      },
+      "baseline_seconds": {
+        "median": 0.8279408500020509,
+        "n": 4,
+        "q1": 0.7925437000021702,
+        "q3": 0.8757439000000886
+      },
+      "collection": "Task06_Lung",
+      "completed": 4,
+      "engine": "mirp",
+      "input_id": "Task06_Lung_lung_095",
+      "mode": "timing",
+      "orders": {
+        "AB": 2,
+        "BA": 2
+      },
+      "pair_lifetime_peak_bytes": {
+        "median": 199084032.0,
+        "n": 4,
+        "q1": 199041024.0,
+        "q3": 199227392.0
+      },
+      "paired_log_ratio": {
+        "median": 1.1049141290354687,
+        "n": 4,
+        "q1": 1.0405687795530736,
+        "q3": 1.1613848820303212
+      },
+      "planned": 4,
+      "relationship_outcomes": {
+        "indeterminate": 0,
+        "satisfied": 4,
+        "unavailable": 0,
+        "violated": 0
+      },
+      "unchanged": 4,
+      "workflow": "cubic_2_ct"
+    }
+  ]
+}

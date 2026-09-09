@@ -9,8 +9,22 @@ The final wheel updates installation prose in METADATA and RECORD only; every
 Python payload is byte-identical to the fully tested wheel. It was reinstalled
 in all three environments, with installed payload identity and pip check passing.
 The [machine-readable receipt](wheel-verification-1.3.0rc1.json) retains both hashes.
-Remote CI is a separate verification and must be checked for the particular commit.
-Clinical evaluation is separate from installation and unit-test success.
+The final local wheel SHA-256 is
+`f58e91262f56890fe8b330fecf38bcc5cb43179bd95ff3d8f40ec299dea170f7`.
+
+Remote verification completed for commit
+`9963d5940f5fa863b27c63932a704b822ddbfc41`: all eight mandatory jobs passed.
+The [native workflow](https://github.com/torkitor/RadAccord/actions/runs/34370081420)
+passed its PyRadiomics, MIRP and oracle jobs on both Ubuntu and Windows. Its
+optional historical-writer job was skipped by design and is not counted as an
+executed regression. The [core workflow](https://github.com/torkitor/RadAccord/actions/runs/34370081417)
+passed on both platforms. This identifies source-commit CI evidence; it does not
+assert that platform-built wheel archives have the local wheel's byte hash or
+that a later documentation commit has been retested remotely.
+
+The [prospective native results](PROSPECTIVE_VALIDATION.md) are separate from
+installation and unit-test success. The clinical-source execution was author-run
+on its recorded Windows host; passing CI does not repeat that experiment.
 
 ## Historical verification records
 
@@ -101,8 +115,9 @@ modules and the final wheel are unchanged. This adds a fifth current difference
 from the historical rc2 freeze, `tests/test_native_pyradiomics.py`.
 All eleven current PyRadiomics tests were repeated on Windows and passed without
 skips; they are a repeat of that group, not eleven additional distinct tests.
-The original 65-test record above remains intact. Completion of all eight jobs
-on the corrected PR commit still requires the corresponding remote run.
+The original 65-test record above remains intact. At the time of that historical
+local record, completion of the corrected PR jobs remained pending. The current
+1.3.0rc1 remote verification is identified separately at the top of this document.
 
 | Retained artifact | SHA-256 |
 |---|---|
